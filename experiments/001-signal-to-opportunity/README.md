@@ -1,67 +1,91 @@
-# Experimento 001 — Signal to Opportunity
+# Experimento 001 — Source acquisition to versioned release
 
 ## Objetivo
 
-Testar se o Lux Radar consegue transformar sinais reais em oportunidades verificadas e acionáveis com menos ambiguidade do que o simples encaminhamento de links.
+Provar que o Lux Radar consegue observar três perfis de fontes públicas estruturalmente diferentes e produzir observações e um release versionado compatíveis com os contratos públicos.
 
-## Amostra
-
-Selecionar de 10 a 20 casos reais recebidos pela rede. A amostra deve ser sanitizada antes de entrar no repositório público e pode incluir editais, chamadas públicas, grants, eventos, pesquisa, parcerias, financiamento e oportunidades de sustentabilidade.
+A reconstrução manual de oportunidades continua como experimento posterior. Nesta etapa, o foco é a máquina que antecede o registro canônico.
 
 ## Unidade de análise
 
-Cada caso deve conter, quando possível:
+A unidade primária é uma **observação de fonte**. Cada observação deve conter:
 
 ```text
-case_id
-signal
-source_discovery
-primary_source
-evidence
-canonical_opportunity
-secondary_manifestations
-status
-context
-match
-next_action
-outcome
+observation_id
+source_id
+source_url
+observed_at
+source_profile
+fetch.status
+fetch.method
+content metadata
+claims
+limitations
+collector version
 ```
+
+O release agrega as observações e registra:
+
+```text
+release_id
+observation window
+source_ids
+record counts
+producer
+schema versions
+artifacts
+limitations
+```
+
+## Fontes do piloto
+
+| Fonte | Perfil | Pergunta |
+|---|---|---|
+| Transferegov | API/JSON/CSV | O contrato registra resposta estruturada, paginação e bloqueio sem inventar sucesso? |
+| FAPESB | HTML + PDF + errata | O contrato preserva listagem, documentos, links, mudança e limitações? |
+| BNDES/Floresta Viva | Programa + parceiro + chamada territorial | O contrato preserva relações entre programa, parceiro, chamada, bioma e território? |
 
 ## Procedimento
 
-1. Registrar o sinal original em versão pública e sanitizada.
-2. Identificar o que o sinal afirma e o que ele não informa.
-3. Procurar a fonte primária sem assumir que o link inicial é suficiente.
-4. Registrar páginas, PDFs ou respostas de API que sustentem os atributos.
-5. Criar o registro canônico da oportunidade.
-6. Relacionar manifestações secundárias sem apagar suas diferenças.
-7. Classificar status, incertezas e limitações.
-8. Registrar por que a oportunidade pode ser relevante para um perfil ou território.
-9. Registrar a ação possível e, quando disponível, o resultado observado.
+1. Ler a configuração declarativa da fonte.
+2. Fazer uma requisição pública sem credencial.
+3. Registrar status HTTP, tipo de conteúdo, timestamp, hash e tamanho limitado.
+4. Extrair somente claims mínimos e auditáveis.
+5. Preservar limitações e falhas.
+6. Escrever a observação local.
+7. Agregar as observações em um manifest de release.
+8. Validar JSON e testes sem rede.
+9. Revisar dados e termos antes de qualquer publicação.
 
-## Saída esperada
+## Critérios de sucesso
 
-O experimento deve produzir:
+O experimento será considerado tecnicamente bem-sucedido se:
 
-- fixtures sanitizadas de sinais, evidências e oportunidades;
-- um relatório de reconstrução por caso;
-- uma tabela de campos recorrentes e exceções;
-- uma lista de decisões de schema;
-- uma medição inicial de latência, duplicação, verificação e ação;
-- uma conclusão sobre o menor componente que vale automatizar.
+- os três collectors produzirem uma observação válida;
+- pelo menos dois perfis HTML/portal retornarem claims observáveis;
+- um bloqueio ou falha for representado explicitamente;
+- o manifest registrar contagens, janela e produtor;
+- nenhum token, cookie, dado pessoal ou documento integral entrar no Git;
+- o mesmo núcleo puder ser testado com fixtures sem rede.
 
-## Resultados negativos
+A ausência de uma oportunidade canônica não é falha desta etapa. O release pode conter zero oportunidades e ainda provar a camada de aquisição.
 
-Registrar também quando:
+## Resultado inicial
 
-- a fonte primária não for encontrada;
-- o sinal estiver errado ou incompleto;
-- a oportunidade estiver encerrada;
-- houver evidência insuficiente;
-- várias manifestações forem a mesma oportunidade;
-- o matching não gerar interesse;
-- nenhuma ação ocorrer.
+Na primeira execução local de 25 de agosto de 2026:
 
-## Critério de sucesso
+| Fonte | Status | Claims |
+|---|---:|---:|
+| BNDES/Floresta Viva | HTTP 200 / success | 9 |
+| FAPESB | HTTP 200 / success | 8 |
+| Transferegov | HTTP 403 / blocked | 0 |
 
-O experimento será considerado útil se produzir uma representação mais confiável e acionável do que o sinal original e se revelar quais etapas exigem automação, revisão humana ou apenas documentação.
+O bloqueio do Transferegov é preservado como observação operacional. Ele exige investigação posterior de acesso, endpoint, política de borda ou alternativa de release; não autoriza bypass nem classificação da fonte como inexistente.
+
+## Saídas
+
+- observações locais em `Lux-Radar-Acquisition/releases/local/`;
+- manifest local de release;
+- schemas públicos em `Lux-Radar/schemas/`;
+- documentação de fonte em `Lux-Radar/docs/SOURCE_INVENTORY.md`;
+- integração futura com TraceFoundry depois de estabilizar o contrato.

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/source-observation.schema.json",
+  "title": "Lux Radar Source Observation",
+  "description": "A timestamped observation of a public source or signal, captured by a declared method and suitable for a versioned release.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observation_id",
+    "source_id",
+    "source_url",
+    "observed_at",
+    "source_profile",
+    "fetch"
+  ],
+  "properties": {
+    "observation_id": {"type": "string", "minLength": 1},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_url": {"type": "string", "format": "uri"},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "source_profile": {
+      "type": "string",
+      "enum": [
+        "api",
+        "csv",
+        "html",
+        "pdf",
+        "feed",
+        "sitemap",
+        "newsletter",
+        "social",
+        "event_page",
+        "portal",
+        "human_signal",
+        "unknown"
+      ]
+    },
+    "fetch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "method"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["success", "partial", "not_modified", "blocked", "failed"]
+        },
+        "method": {
+          "type": "string",
+          "enum": ["http_get", "rest_api", "manual", "feed_reader", "sitemap_reader", "browser", "email", "other"]
+        },
+        "http_status": {"type": "integer", "minimum": 100, "maximum": 599},
+        "content_type": {"type": "string"},
+        "etag": {"type": "string"},
+        "last_modified": {"type": "string"},
+        "request_parameters": {"type": "object"},
+        "pagination": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "page": {"type": "integer", "minimum": 1},
+            "page_size": {"type": "integer", "minimum": 1},
+            "next_cursor": {"type": "string"},
+            "has_more": {"type": "boolean"}
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {"type": "string"},
+        "language": {"type": "string"},
+        "media_type": {"type": "string"},
+        "content_hash": {"type": "string"},
+        "byte_size": {"type": "integer", "minimum": 0},
+        "external_artifact_ref": {"type": "string"}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "value"],
+        "properties": {
+          "path": {"type": "string", "minLength": 1},
+          "value": {},
+          "evidence_id": {"type": "string"},
+          "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+          "epistemic_status": {
+            "type": "string",
+            "enum": ["observed", "inferred", "hypothesis", "unknown"]
+          }
+        }
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "collector": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string"},
+        "version": {"type": "string"},
+        "repository": {"type": "string", "format": "uri"}
+      }
+    },
+    "release_id": {"type": "string"},
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "license_or_terms_note": {"type": "string"}
+  }
+}

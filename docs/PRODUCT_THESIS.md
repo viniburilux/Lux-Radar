@@ -1,93 +1,124 @@
-# Tese de Produto
+# Tese de produto
 
 ## 1. Problema
 
-O ecossistema de sustentabilidade produz e compartilha oportunidades em múltiplos formatos e canais. Uma oportunidade pode nascer em uma fonte institucional, circular por newsletter, rede social, comunidade, evento, mensagem ou indicação pessoal e chegar ao interessado com informação incompleta, duplicada, atrasada ou sem a fonte primária.
+O ecossistema de sustentabilidade, território, pesquisa e inovação publica informação em múltiplas superfícies: APIs, CSVs, páginas institucionais, PDFs, feeds, sitemaps, newsletters, redes sociais, páginas de eventos e sinais humanos. O mesmo fato pode ser publicado mais de uma vez, com alterações, prazos diferentes, documentos complementares ou pouca estrutura.
 
-O problema central não é apenas localizar links. É transformar um **sinal de oportunidade** em um **registro de oportunidade verificado**, preservando a relação entre a fonte, as evidências, as versões, os atributos extraídos e a decisão de relevância.
+O problema inicial não é apenas localizar links ou listar editais. É **observar fontes heterogêneas de maneira reproduzível**, preservar o que foi visto, identificar mudanças e produzir releases versionados que possam alimentar registros confiáveis.
 
-## 2. Distinção central
+A partir desses releases, o sistema pode transformar um sinal ou uma observação em uma oportunidade canônica contextualizada e acionável.
 
-### Signal
+## 2. Tese central
 
-Um sinal é uma observação que indica que uma oportunidade pode existir. Pode ser uma mensagem, um áudio transcrito, um print, uma newsletter, um post, um link, uma notícia, um PDF ou uma indicação humana. O sinal é útil para descoberta, mas não autoriza automaticamente uma ação.
+O Lux Radar deve começar como uma **máquina de aquisição, observação, evidência e inteligência de oportunidades**. O dashboard ou radar é uma aplicação da máquina, não a definição completa do produto.
+
+```text
+SOURCE REGISTRY
+  → SOURCE OBSERVATION
+  → EVIDENCE
+  → VERSIONED RELEASE
+  → CANONICAL OPPORTUNITY
+  → CONTEXT
+  → ACTION
+```
+
+A primeira prova de produto não é cobrir todas as oportunidades. É demonstrar que o mesmo pipeline consegue lidar com perfis radicalmente diferentes, declarar suas limitações e produzir uma saída auditável.
+
+## 3. Conceitos
+
+### Source
+
+Uma fonte é uma superfície observável — como uma API, página, PDF, CSV, feed, sitemap, portal ou canal editorial — com identidade, URL, perfil técnico, frequência esperada, termos e estratégia de coleta registrados no catálogo de fontes.
+
+### Observation
+
+Uma observação é o registro timestamped do que foi acessado em uma fonte, por qual método, com qual status, tipo de conteúdo, hash quando possível e quais claims foram extraídos. A observação não é automaticamente uma oportunidade.
 
 ### Evidence
 
-Uma evidência é um artefato observável que sustenta uma afirmação sobre a oportunidade. Pode ser uma página oficial, um PDF, um registro de API, um comunicado institucional ou outra fonte identificável. Toda evidência deve carregar origem, data de observação e limitações conhecidas.
+Uma evidência é um artefato observável que sustenta uma afirmação. Pode ser uma página, PDF, resposta de API, arquivo CSV, comunicado ou documento vinculado. Toda evidência deve carregar origem, data de observação e limitações conhecidas.
+
+### Release
+
+Um release é um conjunto versionado e reproduzível de observações e registros normalizados, identificado por uma janela temporal, produtor, schemas, contagens e referências de artefatos.
+
+### Signal
+
+Um sinal indica que uma oportunidade pode existir. Pode ser mensagem, áudio transcrito, print, newsletter, post, link, notícia, PDF ou indicação humana. O sinal é útil para resolução de fonte, mas não autoriza automaticamente uma ação.
 
 ### Canonical opportunity
 
-Uma oportunidade canônica é a entidade estruturada que reúne atributos confirmados e manifestações relacionadas. Ela não é simplesmente um documento. É uma representação versionada sustentada por evidências.
+Uma oportunidade canônica é a entidade estruturada que reúne atributos confirmados e manifestações relacionadas. Não é simplesmente um documento; é uma representação versionada sustentada por evidências.
 
-```text
-SIGNAL → CANDIDATE → SOURCE DISCOVERY → VERIFICATION → EVIDENCE → CANONICAL OPPORTUNITY
-```
-
-## 3. Valor proposto
+## 4. Valor proposto
 
 O valor do Lux Radar será testado por quatro capacidades:
 
 | Capacidade | Pergunta respondida |
 |---|---|
-| Descoberta | O que pode existir e onde devemos verificar? |
-| Verificação | Qual é a fonte primária e o que ela realmente confirma? |
-| Contexto | Para quem, onde e em que condições isso é relevante? |
-| Ação | Qual é o próximo passo possível e qual é o prazo? |
+| Aquisição | Conseguimos observar fontes diferentes com método e limites declarados? |
+| Proveniência | Conseguimos explicar o que foi visto, quando e de onde veio? |
+| Normalização | Conseguimos transformar observações em registros comparáveis sem apagar incertezas? |
+| Ação | Conseguimos contextualizar um registro e indicar um próximo passo útil? |
 
-A proposta não é prometer cobertura universal. É reduzir o custo de confiar e agir sobre oportunidades relevantes.
+A proposta não é prometer cobertura universal. É reduzir o custo de **observar, confiar e agir** sobre informação relevante.
 
-## 4. Usuários iniciais
+## 5. Laboratório inicial
 
-O primeiro laboratório considera pessoas e organizações que atuam em sustentabilidade, território, turismo, conservação, pesquisa, inovação, cultura, financiamento e políticas públicas. O recorte inicial será conectado a sinais e oportunidades reais da rede do LUXVERSO, incluindo contextos relacionados a Bahia, Blue Bahia e Eco Global.
+O primeiro domínio considera fontes de sustentabilidade, território, pesquisa, turismo, conservação, inovação e financiamento, com atenção especial à Bahia e às redes relacionadas a Blue Bahia, Eco Global e parceiros do LUXVERSO.
 
-## 5. Hipóteses a testar
+O laboratório inicial tem duas unidades complementares:
 
-As hipóteses abaixo não são fatos. Devem ser testadas com casos reais e registradas com método:
+1. **Experimento de aquisição:** mapear 20 fontes e implementar três collectors de perfis diferentes.
+2. **Experimento de sinal para oportunidade:** reconstruir 10–20 casos reais depois que o contrato de observação e release estiver provado.
+
+Essa ordem é deliberada. Primeiro provamos a máquina de aquisição; depois medimos o valor de transformar sinais em oportunidades.
+
+## 6. Hipóteses a testar
 
 | Hipótese | Como testar |
 |---|---|
-| Um sinal humano pode acelerar a descoberta de uma oportunidade relevante. | Comparar data do sinal com data da descoberta em fontes oficiais. |
-| A mesma oportunidade aparece em várias manifestações. | Reconstruir 10–20 casos e contar agrupamentos canônicos. |
-| Proveniência explícita aumenta a confiança para agir. | Entrevistar ou observar usuários antes e depois da apresentação de evidências. |
-| Matching contextual é mais útil que uma lista genérica. | Comparar recomendações filtradas com encaminhamentos sem contexto. |
-| O valor está na verificação e na ação, não no volume coletado. | Medir taxa de ação, precisão percebida e tempo economizado. |
+| Um contrato comum consegue representar API, HTML/PDF e programa com parceiro sem apagar diferenças. | Implementar três collectors e comparar os releases. |
+| Observações versionadas reduzem ambiguidades de prazo, status e documento. | Recoletar fontes com retificações e comparar versões. |
+| Proveniência por campo aumenta a confiança para agir. | Apresentar registros com e sem evidência a usuários reais. |
+| A mesma oportunidade aparece em várias manifestações. | Reconstruir casos e contar agrupamentos canônicos. |
+| Matching contextual é mais útil do que uma lista genérica. | Comparar recomendações contextualizadas com encaminhamentos simples. |
+| O valor está na verificação e na ação, não no volume coletado. | Medir precisão percebida, tempo economizado e taxa de ação. |
 
-Não usar percentuais estimados por modelos como metas ou evidências sem uma medição definida.
+Estimativas produzidas por modelos não devem ser tratadas como fatos ou metas sem método de medição.
 
-## 6. Métricas iniciais
+## 7. Primeiro experimento de aquisição
 
-O primeiro experimento deve medir, quando possível:
-
-- **Discovery latency:** tempo entre a publicação e a descoberta pelo sistema ou pela rede.
-- **Verification latency:** tempo entre o recebimento do sinal e a confirmação da fonte primária.
-- **False signal rate:** proporção de sinais que não se convertem em oportunidade verificável.
-- **Duplicate rate:** proporção de observações agrupadas como a mesma oportunidade.
-- **Match precision:** proporção de recomendações consideradas relevantes pelo destinatário.
-- **Action rate:** proporção de oportunidades que geram inscrição, contato, parceria, participação ou outra ação definida.
-
-## 7. Primeiro experimento
-
-Reconstruir de 10 a 20 oportunidades reais já recebidas pela rede. O conjunto deve conter casos variados, como editais, chamadas, eventos, bolsas, oportunidades de pesquisa, parcerias e financiamento. Cada caso deve percorrer o mesmo roteiro:
+Mapear 20 fontes primárias ou portais oficiais e selecionar três perfis diferentes:
 
 ```text
-sinal original
-  → busca da fonte primária
-  → captura das evidências
-  → extração dos atributos
-  → registro canônico
-  → agrupamento das manifestações
-  → classificação de status
-  → avaliação de relevância
-  → ação observada
+API/JSON/CSV
+  + HTML/PDF/errata
+  + programa institucional com parceiro e chamada territorial
 ```
 
-O experimento deve aceitar resultados negativos: sinal falso, fonte não encontrada, evidência insuficiente, oportunidade encerrada, duplicata ou baixa relevância. Esses resultados são parte do produto e não devem ser apagados.
+Para cada fonte, registrar identidade, URL, perfil, mecanismo real de publicação, frequência observada ou esperada, campos, documentos, atualização, evidência, limitações, termos e estratégia de coleta.
 
-## 8. Critérios de não construção
+O primeiro release deve preservar sucesso, parcialidade, bloqueio, falha e ausência de resultado. Um collector não deve esconder uma fonte porque não conseguiu obter o conteúdo completo.
 
-Não construir ainda uma solução quando o problema puder ser resolvido diretamente por uma fonte existente, um adapter do TraceFoundry, um release do pipeline PNCP, uma consulta simples ou um componente visual já disponível. A construção só é justificada quando houver uma lacuna observada no experimento, com entrada, saída e critério de sucesso claros.
+## 8. Segundo experimento: sinal para oportunidade
 
-## 9. Direção de longo prazo
+Depois do release inicial, reconstruir de 10 a 20 oportunidades reais que cruzaram a rede. Cada caso deve registrar sinal, resolução de fonte, observações, evidências, oportunidade canônica, manifestações, status, contexto, ação e resultado.
 
-O radar de sustentabilidade é a primeira aplicação. A infraestrutura poderá futuramente atender pesquisa, inovação, turismo, cultura, educação, clima, financiamento, eventos e procurement. Essa expansão só deve ocorrer depois de validar o núcleo comum: sinal, evidência, proveniência, registro canônico, atualização, matching e ação.
+Resultados negativos — sinal falso, fonte não encontrada, evidência insuficiente, oportunidade encerrada, duplicata ou baixa relevância — fazem parte da medição.
+
+## 9. Métricas
+
+Na aquisição: taxa de sucesso por fonte, cobertura observada, latência de coleta, taxa de alteração detectada, tamanho do release, proporção de falhas e estabilidade do schema.
+
+Na inteligência: latência de descoberta, latência de verificação, taxa de falsos sinais, taxa de duplicação, precisão do matching, taxa de ação e tempo economizado.
+
+## 10. Critérios de não construção
+
+Não construir quando uma capacidade puder ser resolvida por uma fonte existente, um adapter do TraceFoundry, uma interface do `pncp-data-pipeline`, um release já disponível ou um componente visual existente. A construção só se justifica quando houver uma lacuna observada, com entrada, saída e critério de sucesso claros.
+
+Não iniciar ainda crawler universal, banco de dados nacional, grafo dedicado, mensageria de produção, matching autônomo de alto risco ou redistribuição de conteúdo de terceiros.
+
+## 11. Direção de longo prazo
+
+O radar de sustentabilidade é a primeira aplicação. A máquina poderá atender pesquisa, inovação, turismo, cultura, educação, clima, financiamento, eventos e procurement. A expansão deve reutilizar aquisição, observação, evidência, proveniência, release e registro canônico, alterando somente adapters, taxonomias e regras de contexto quando possível.
