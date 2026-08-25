@@ -1,0 +1,14 @@
+{
+  "release_id": "2026-08-25-pilot-safe",
+  "changes": [
+    {
+      "source_id": "bndes-floresta-viva",
+      "field": "deadline_and_status",
+      "before": {"deadline": ["29.06.2026"], "status": "program_page"},
+      "after": {"deadline": ["15 de junho de 2026", "29 de junho de 2026"], "status": "expired"},
+      "status": "cross_surface_drift_detected",
+      "observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:bndes-program", "fixture:evidence:funbio-call"]
+    }
+  ]
+}

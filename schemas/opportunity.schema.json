@@ -148,6 +148,33 @@
       "type": "string",
       "format": "uri"
     },
+    "publication_date": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "verification_state": {
+      "type": "string",
+      "enum": ["verified", "candidate", "insufficient_evidence", "not_observed", "blocked", "expired", "superseded"]
+    },
+    "observation_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "field_provenance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["observation_ids", "evidence_ids", "status"],
+        "properties": {
+          "observation_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "status": {"type": "string", "enum": ["observed", "inferred", "unknown", "insufficient_evidence", "not_observed"]},
+          "transformation": {"type": "string"}
+        }
+      }
+    },
     "manifestation_urls": {
       "type": "array",
       "items": {"type": "string", "format": "uri"},

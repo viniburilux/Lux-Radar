@@ -1,0 +1,20 @@
+{
+  "observation_id": "fixture:funbio-call",
+  "source_id": "bndes-floresta-viva",
+  "source_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+  "observed_at": "2026-08-25T17:51:04Z",
+  "parent_observation_id": "fixture:bndes-program",
+  "source_profile": "portal",
+  "fetch": {"status": "success", "method": "http_get", "http_status": 200, "content_type": "text/html"},
+  "content": {"media_type": "text/html", "content_hash": "sha256:fixture-funbio-call"},
+  "claims": [
+    {"path": "opportunity.title", "value": "Floresta Viva — Bacia do Rio Parnaíba — Piauí", "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "opportunity.status", "value": "expired", "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "opportunity.amount_brl", "value": 70500000, "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "opportunity.deadline_candidates", "value": ["15 de junho de 2026", "29 de junho de 2026"], "epistemic_status": "observed", "confidence": 1.0}
+  ],
+  "evidence_ids": ["fixture:evidence:funbio-call"],
+  "collector": {"name": "sanitized-fixture", "version": "0.1.0", "repository": "https://github.com/viniburilux/Lux-Radar"},
+  "limitations": ["The page contains conflicting deadline statements; no canonical deadline is selected."],
+  "license_or_terms_note": "Reference URL only; review source terms before redistribution."
+}

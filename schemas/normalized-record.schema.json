@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/normalized-record.schema.json",
+  "title": "Lux Radar Normalized Record",
+  "description": "A claim-preserving intermediate record between source observations and a canonical opportunity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["normalized_id", "record_type", "normalized_at", "source_observation_ids", "evidence_ids", "fields", "provenance"],
+  "properties": {
+    "normalized_id": {"type": "string", "minLength": 1},
+    "record_type": {"type": "string", "enum": ["opportunity_candidate", "source_record", "unknown"]},
+    "opportunity_id": {"type": "string"},
+    "normalized_at": {"type": "string", "format": "date-time"},
+    "source_observation_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "source_observation_ids", "evidence_ids", "status", "transformation"],
+        "properties": {
+          "value": {},
+          "source_observation_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "status": {"type": "string", "enum": ["observed", "inferred", "unknown", "insufficient_evidence", "not_observed"]},
+          "transformation": {"type": "string"}
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "limitations"],
+      "properties": {
+        "method": {"type": "string"},
+        "limitations": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    }
+  }
+}

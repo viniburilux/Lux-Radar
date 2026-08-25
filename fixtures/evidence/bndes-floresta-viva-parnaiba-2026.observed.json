@@ -1,0 +1,13 @@
+{
+  "evidence_id": "fixture:evidence:funbio-call",
+  "evidence_type": "official_page",
+  "source_name": "FUNBIO / BNDES Floresta Viva",
+  "source_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+  "source_role": "primary",
+  "observed_at": "2026-08-25T17:51:04Z",
+  "observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+  "supports_claims": ["opportunity.title", "opportunity.status", "opportunity.amount_brl", "opportunity.geography", "opportunity.eligibility_text"],
+  "reliability": "verified_primary",
+  "limitations": ["The public page contains conflicting deadline statements; deadline is intentionally not normalized."],
+  "license_notes": "Reference URL only; review source terms before redistributing content."
+}

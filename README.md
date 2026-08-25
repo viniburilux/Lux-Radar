@@ -77,9 +77,18 @@ Os contratos iniciais estão em `schemas/`:
 |---|---|
 | `source-observation.schema.json` | Registrar uma observação timestamped de uma fonte, método, status, conteúdo, claims e limitações. |
 | `release-manifest.schema.json` | Registrar a identidade, janela, contagens, artefatos, produtor e limitações de um release. |
+| `normalized-record.schema.json` | Preservar claims e referências no estágio entre observação e oportunidade canônica. |
 | `signal.schema.json` | Representar um sinal de oportunidade antes da verificação. |
 | `evidence.schema.json` | Ligar afirmações e atributos a artefatos observáveis. |
 | `opportunity.schema.json` | Representar a oportunidade canônica sustentada por evidências. |
+
+## Documentos de execução
+
+- [Inventário de fontes](docs/SOURCE_INVENTORY.md)
+- [Matriz TraceFoundry](docs/TRACEFOUNDRY_COMPATIBILITY.md)
+- [Interface futura com PNCP](docs/PNCP_INTERFACE.md)
+- [Tarefas para colaboradores](docs/JHOEL_TASKS.md)
+- [Experimento 001](experiments/001-signal-to-opportunity/README.md)
 
 ## O que não vamos fazer agora
 
@@ -113,10 +122,14 @@ Lux-Radar/
 │   ├── ROADMAP.md
 │   ├── SOURCE_INVENTORY.md
 │   ├── research-2026-08-25.md
+│   ├── TRACEFOUNDRY_COMPATIBILITY.md
+│   ├── PNCP_INTERFACE.md
+│   ├── JHOEL_TASKS.md
 │   └── decisions/
 ├── schemas/
 │   ├── source-observation.schema.json
 │   ├── release-manifest.schema.json
+│   ├── normalized-record.schema.json
 │   ├── signal.schema.json
 │   ├── evidence.schema.json
 │   └── opportunity.schema.json

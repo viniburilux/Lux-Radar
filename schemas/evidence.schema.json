@@ -40,6 +40,11 @@
       "type": "string",
       "format": "date-time"
     },
+    "observation_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
     "published_at": {
       "type": "string",
       "format": "date-time"

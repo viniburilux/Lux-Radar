@@ -1,0 +1,35 @@
+{
+  "normalized_id": "fixture:normalized:fapesb-ramp-2026-2027",
+  "record_type": "opportunity_candidate",
+  "opportunity_id": "fapesb-ramp-2026-2027",
+  "normalized_at": "2026-08-25T17:51:04Z",
+  "source_observation_ids": ["fixture:fapesb-listing", "fixture:fapesb-detail", "fixture:fapesb-pdf"],
+  "evidence_ids": ["fixture:evidence:fapesb-detail", "fixture:evidence:fapesb-pdf"],
+  "fields": {
+    "title": {
+      "value": "DIRETRIZES ESPECÍFICAS DA FAPESB — 1ª Chamada RAMP 2026-2027",
+      "source_observation_ids": ["fixture:fapesb-detail"],
+      "evidence_ids": ["fixture:evidence:fapesb-detail"],
+      "status": "observed",
+      "transformation": "selected from public detail page title"
+    },
+    "deadline": {
+      "value": "2027-02-15T23:59:59Z",
+      "source_observation_ids": ["fixture:fapesb-pdf"],
+      "evidence_ids": ["fixture:evidence:fapesb-pdf"],
+      "status": "observed",
+      "transformation": "date parsed from official PDF cronograma"
+    },
+    "eligibility": {
+      "value": "Researchers with doctorate linked to eligible public or nonprofit ICTs in Bahia.",
+      "source_observation_ids": ["fixture:fapesb-pdf"],
+      "evidence_ids": ["fixture:evidence:fapesb-pdf"],
+      "status": "observed",
+      "transformation": "sanitized summary of official eligibility section"
+    }
+  },
+  "provenance": {
+    "method": "claim-preserving normalization",
+    "limitations": ["Sanitized fixture; verify official page and linked call before action."]
+  }
+}

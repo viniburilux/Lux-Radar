@@ -1,0 +1,20 @@
+{
+  "observation_id": "fixture:fapesb-pdf",
+  "source_id": "fapesb-editais",
+  "source_url": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/DIRETRIZES_COOPINTER_RAMP_2026.pdf",
+  "observed_at": "2026-08-25T17:51:04Z",
+  "parent_observation_id": "fixture:fapesb-detail",
+  "source_profile": "pdf",
+  "fetch": {"status": "success", "method": "http_get", "http_status": 200, "content_type": "application/pdf"},
+  "content": {"media_type": "application/pdf", "content_hash": "sha256:fixture-ramp-pdf"},
+  "claims": [
+    {"path": "document.guidelines_date", "value": "20/07/2026", "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "document.full_proposal_deadline", "value": "15/02/2027", "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "document.global_funding", "value": "150.000,00 €", "epistemic_status": "observed", "confidence": 1.0},
+    {"path": "document.per_proposal_funding", "value": "50.000,00 €", "epistemic_status": "observed", "confidence": 1.0}
+  ],
+  "evidence_ids": ["fixture:evidence:fapesb-pdf"],
+  "collector": {"name": "sanitized-fixture", "version": "0.1.0", "repository": "https://github.com/viniburilux/Lux-Radar"},
+  "limitations": ["Sanitized example; binary PDF is not included."],
+  "license_or_terms_note": "Reference URL only; review source terms before redistribution."
+}

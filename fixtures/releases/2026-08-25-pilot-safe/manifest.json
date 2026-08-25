@@ -1,0 +1,51 @@
+{
+  "release_id": "2026-08-25-pilot-safe",
+  "created_at": "2026-08-25T17:52:00Z",
+  "source_ids": ["fapesb-editais", "bndes-floresta-viva", "transferegov-parcerias"],
+  "observation_window": {
+    "started_at": "2026-08-25T17:50:00Z",
+    "ended_at": "2026-08-25T17:52:00Z"
+  },
+  "record_counts": {
+    "observations": 7,
+    "evidence": 5,
+    "normalized": 2,
+    "opportunities": 2,
+    "failed": 1
+  },
+  "artifacts": [
+    {"kind": "observation", "ref": "fixtures/observations/fapesb-pdf.observed.json", "media_type": "application/json"},
+    {"kind": "observation", "ref": "fixtures/observations/bndes-funbio.observed.json", "media_type": "application/json"},
+    {"kind": "evidence", "ref": "fixtures/evidence/fapesb-ramp-2026-2027-pdf.observed.json", "media_type": "application/json"},
+    {"kind": "normalized", "ref": "fixtures/normalized/fapesb-ramp-2026-2027.observed.json", "media_type": "application/json"},
+    {"kind": "normalized", "ref": "fixtures/normalized/bndes-floresta-viva-parnaiba-2026.observed.json", "media_type": "application/json"},
+    {"kind": "opportunity", "ref": "fixtures/opportunities/fapesb-ramp-2026-2027.observed.json", "media_type": "application/json"},
+    {"kind": "opportunity", "ref": "fixtures/opportunities/bndes-floresta-viva-parnaiba-2026.observed.json", "media_type": "application/json"},
+    {"kind": "temporal_diff", "ref": "fixtures/temporal/bndes-deadline-drift.json", "media_type": "application/json"}
+  ],
+  "producer": {
+    "name": "lux-radar-acquisition",
+    "version": "0.2.0",
+    "repository": "https://github.com/viniburilux/Lux-Radar-Acquisition"
+  },
+  "schema_versions": {
+    "source_observation": "0.1.0",
+    "release_manifest": "0.1.0",
+    "normalized_record": "0.1.0",
+    "evidence": "0.1.0",
+    "opportunity": "0.1.0"
+  },
+  "temporal_changes": [
+    {
+      "source_id": "bndes-floresta-viva",
+      "field": "deadline_and_status",
+      "before": {"deadline": ["29.06.2026"], "status": "program_page"},
+      "after": {"deadline": ["15 de junho de 2026", "29 de junho de 2026"], "status": "expired"},
+      "status": "cross_surface_drift_detected",
+      "observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:bndes-program", "fixture:evidence:funbio-call"]
+    }
+  ],
+  "limitations": ["Sanitized manifest; operational bundle remains private.", "Temporal change is a cross-surface drift in this fixture; same-URL history is tested in the private acquisition layer."],
+  "license_or_terms_note": "Metadata and references only; third-party content remains governed by source terms."
+}

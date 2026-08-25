@@ -1,0 +1,13 @@
+{
+  "evidence_id": "fixture:evidence:bndes-program",
+  "evidence_type": "official_page",
+  "source_name": "BNDES — Floresta Viva",
+  "source_url": "http://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
+  "source_role": "primary",
+  "observed_at": "2026-08-25T17:51:04Z",
+  "observation_ids": ["fixture:bndes-program"],
+  "supports_claims": ["program.name", "program.partner_reference", "program.call_reference", "program.territorial_scope"],
+  "reliability": "verified_primary",
+  "limitations": ["Institutional page is not the complete operational call record."],
+  "license_notes": "Reference URL only; review source terms before redistribution."
+}

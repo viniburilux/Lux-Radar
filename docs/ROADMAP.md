@@ -32,7 +32,7 @@ Antes do código definitivo, criar uma ficha para cada uma com URL, método, fre
 
 ## Fase 3 — Collectors mínimos
 
-**Estado: próxima execução.**
+**Estado: concluída como prova inicial; operação recorrente ainda não iniciada.**
 
 Implementar três collectors isolados, um por perfil. Cada collector deve:
 
@@ -48,7 +48,7 @@ O código operacional deve viver no repositório privado de aquisição. O repos
 
 ## Fase 4 — Primeiro release
 
-**Estado: ainda não iniciada.**
+**Estado: concluída como release privado de prova (`2026-08-25-pilot-007`).**
 
 Gerar um release pequeno e versionado com `release-manifest.schema.json`, contendo:
 
@@ -60,7 +60,7 @@ Gerar um release pequeno e versionado com `release-manifest.schema.json`, conten
 - hashes e limitações quando disponíveis;
 - versão dos schemas usados.
 
-O release precisa ser reproduzível a partir do commit, da configuração pública e das entradas permitidas. Dados brutos grandes ou sensíveis não devem entrar no Git público.
+O release `2026-08-25-pilot-007` produziu 7 observações, 5 evidências, 2 registros normalizados, 2 oportunidades e 1 falha explícita, além de um diff temporal cross-surface. Ele é reproduzível a partir do commit, da configuração e das entradas permitidas; dados brutos grandes ou sensíveis não entram no Git público.
 
 ## Fase 5 — Normalização e ponte para o TraceFoundry
 

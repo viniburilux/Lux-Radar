@@ -1,0 +1,46 @@
+{
+  "opportunity_id": "bndes-floresta-viva-parnaiba-2026",
+  "canonical_key": "bndes-floresta-viva|bndes-floresta-viva-parnaiba-2026",
+  "title": "Floresta Viva — Bacia do Rio Parnaíba — Piauí",
+  "summary": "Chamada para restauração ecológica e revitalização de recursos hídricos na Bacia do Rio Parnaíba.",
+  "opportunity_type": "public_call",
+  "issuer": {
+    "name": "FUNBIO / BNDES Floresta Viva",
+    "country": "BR",
+    "organization_type": "nonprofit"
+  },
+  "domains": ["sustainability", "ecological restoration", "water resources"],
+  "geography": {
+    "country": "BR",
+    "state": "Piauí",
+    "territories": ["Bacia do Rio Parnaíba", "UHE Boa Esperança"],
+    "scope": "territorial"
+  },
+  "eligibility": {
+    "target_types": ["nonprofit institutions", "civil associations", "private foundations", "cooperatives"],
+    "requirements": ["Legally constituted for at least 2 years."],
+    "unknown_fields": ["full technical eligibility criteria", "submission documentation"]
+  },
+  "themes": ["ecological restoration", "water resources", "sustainable development"],
+  "funding": {"maximum": 70500000, "currency": "BRL", "kind": "total_call"},
+  "deadlines": {},
+  "status": "expired",
+  "verification_state": "verified",
+  "official_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+  "publication_date": null,
+  "observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+  "evidence_ids": ["fixture:evidence:bndes-program", "fixture:evidence:funbio-call"],
+  "provenance": {
+    "discovered_at": "2026-08-25T17:51:04Z",
+    "last_verified_at": "2026-08-25T17:51:04Z",
+    "method": "sanitized fixture derived from public-source acquisition pilot",
+    "source_system": "bndes-floresta-viva",
+    "limitations": ["The page contains conflicting deadline statements: 15 June and 29 June 2026. No deadline is normalized."]
+  },
+  "context": {
+    "relevance_notes": "Example of a territorial sustainability call with institutional and operational partner evidence.",
+    "matched_profiles": [],
+    "territorial_fit": "observed",
+    "confidence": 0.8
+  }
+}

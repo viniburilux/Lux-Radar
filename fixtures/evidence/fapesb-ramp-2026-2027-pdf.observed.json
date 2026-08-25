@@ -1,0 +1,13 @@
+{
+  "evidence_id": "fixture:evidence:fapesb-pdf",
+  "evidence_type": "official_pdf",
+  "source_name": "FAPESB",
+  "source_url": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/DIRETRIZES_COOPINTER_RAMP_2026.pdf",
+  "source_role": "primary",
+  "observed_at": "2026-08-25T17:51:04Z",
+  "observation_ids": ["fixture:fapesb-pdf"],
+  "supports_claims": ["document.guidelines_date", "document.full_proposal_deadline", "document.global_funding", "document.per_proposal_funding", "document.eligibility"],
+  "reliability": "verified_primary",
+  "limitations": ["Text extracted for a sanitized example; binary PDF is not redistributed by this fixture."],
+  "license_notes": "Reference URL only; review source terms before redistributing content."
+}

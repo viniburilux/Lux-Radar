@@ -1,0 +1,42 @@
+{
+  "normalized_id": "fixture:normalized:bndes-floresta-viva-parnaiba-2026",
+  "record_type": "opportunity_candidate",
+  "opportunity_id": "bndes-floresta-viva-parnaiba-2026",
+  "normalized_at": "2026-08-25T17:51:04Z",
+  "source_observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+  "evidence_ids": ["fixture:evidence:bndes-program", "fixture:evidence:funbio-call"],
+  "fields": {
+    "title": {
+      "value": "Floresta Viva — Bacia do Rio Parnaíba — Piauí",
+      "source_observation_ids": ["fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:funbio-call"],
+      "status": "observed",
+      "transformation": "selected from public call page title"
+    },
+    "status": {
+      "value": "expired",
+      "source_observation_ids": ["fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:funbio-call"],
+      "status": "observed",
+      "transformation": "copied from explicit Chamada Encerrada label"
+    },
+    "deadline": {
+      "value": null,
+      "source_observation_ids": ["fixture:bndes-program", "fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:bndes-program", "fixture:evidence:funbio-call"],
+      "status": "insufficient_evidence",
+      "transformation": "two conflicting dates retained outside the canonical deadline field"
+    },
+    "geography": {
+      "value": ["Piauí", "Bacia do Rio Parnaíba", "UHE Boa Esperança"],
+      "source_observation_ids": ["fixture:funbio-call"],
+      "evidence_ids": ["fixture:evidence:funbio-call"],
+      "status": "observed",
+      "transformation": "territorial terms normalized into list"
+    }
+  },
+  "provenance": {
+    "method": "claim-preserving normalization",
+    "limitations": ["The source page contains conflicting deadline statements; no deadline is normalized."]
+  }
+}
