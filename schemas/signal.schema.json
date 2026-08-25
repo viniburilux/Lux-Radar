@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/signal.schema.json",
+  "title": "Lux Radar Signal",
+  "description": "A raw or lightly processed observation that may point to an opportunity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["signal_id", "signal_type", "content", "received_at", "status"],
+  "properties": {
+    "signal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "signal_type": {
+      "type": "string",
+      "enum": [
+        "text",
+        "link",
+        "document",
+        "pdf",
+        "image",
+        "audio_transcript",
+        "newsletter",
+        "social_post",
+        "event_reference",
+        "human_referral",
+        "api_observation"
+      ]
+    },
+    "content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_channel": {
+      "type": "string",
+      "enum": [
+        "whatsapp",
+        "telegram",
+        "email",
+        "linkedin",
+        "instagram",
+        "website",
+        "newsletter",
+        "event",
+        "direct_message",
+        "api",
+        "unknown"
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "received_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "observed_by": {
+      "type": "string"
+    },
+    "related_signal_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "received_signal",
+        "candidate",
+        "source_found",
+        "verified_primary",
+        "insufficient_evidence",
+        "source_not_found",
+        "expired",
+        "duplicate",
+        "rejected"
+      ]
+    },
+    "privacy": {
+      "type": "string",
+      "enum": ["public", "sanitized", "private_not_publishable"]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

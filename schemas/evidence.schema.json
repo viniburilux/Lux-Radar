@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/evidence.schema.json",
+  "title": "Lux Radar Evidence",
+  "description": "An observable artifact that supports or limits a claim about an opportunity.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["evidence_id", "evidence_type", "source_url", "observed_at", "reliability"],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_type": {
+      "type": "string",
+      "enum": [
+        "official_page",
+        "official_pdf",
+        "api_response",
+        "official_announcement",
+        "secondary_page",
+        "newsletter",
+        "social_post",
+        "human_signal",
+        "document_snapshot"
+      ]
+    },
+    "source_name": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_role": {
+      "type": "string",
+      "enum": ["primary", "secondary", "signal", "context"]
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "content_hash": {
+      "type": "string"
+    },
+    "supports_claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "reliability": {
+      "type": "string",
+      "enum": [
+        "unverified_signal",
+        "secondary_reference",
+        "verified_primary",
+        "expired_or_superseded",
+        "insufficient_evidence"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "access_notes": {
+      "type": "string"
+    },
+    "license_notes": {
+      "type": "string"
+    }
+  }
+}

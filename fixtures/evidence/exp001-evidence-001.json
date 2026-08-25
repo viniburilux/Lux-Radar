@@ -1,0 +1,18 @@
+{
+  "evidence_id": "ev-exp001-001",
+  "evidence_type": "official_page",
+  "source_name": "Synthetic Demonstration Source",
+  "source_url": "https://example.org/oportunidade-demonstrativa",
+  "source_role": "primary",
+  "observed_at": "2026-08-25T12:20:00Z",
+  "published_at": "2026-08-24T09:00:00Z",
+  "updated_at": "2026-08-25T10:00:00Z",
+  "content_hash": "synthetic-content-hash",
+  "supports_claims": ["claim-exp001-title", "claim-exp001-deadline"],
+  "reliability": "verified_primary",
+  "limitations": [
+    "Synthetic fixture; no real-world verification was performed."
+  ],
+  "access_notes": "Example URL used only to validate the public schema.",
+  "license_notes": "Synthetic content created for this repository."
+}

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+
+# Local data and secrets
+*.parquet
+*.csv
+*.sqlite
+*.db
+*.jsonl
+*.pkl
+*.pickle
+*.nwb
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.gz
+secrets/
+private/
+raw/
+cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local reports
+reports/local/
+.tmp/

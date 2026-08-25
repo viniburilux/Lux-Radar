@@ -1,0 +1,63 @@
+{
+  "opportunity_id": "opp-exp001-001",
+  "canonical_key": "synthetic-demonstration-tourism-sustainability-2026",
+  "title": "Chamada Demonstrativa de Turismo Territorial e Sustentabilidade",
+  "summary": "Fixture sintética para testar o registro canônico de uma oportunidade.",
+  "opportunity_type": "public_call",
+  "issuer": {
+    "name": "Synthetic Demonstration Source",
+    "country": "BR",
+    "organization_type": "unknown",
+    "identifier": "synthetic-issuer"
+  },
+  "domains": ["sustainability", "territory", "sustainable tourism"],
+  "geography": {
+    "country": "BR",
+    "state": "BA",
+    "territories": ["synthetic-territory"],
+    "scope": "territorial"
+  },
+  "eligibility": {
+    "target_types": ["organization", "community_project"],
+    "requirements": ["Synthetic requirement for schema testing"],
+    "unknown_fields": []
+  },
+  "themes": ["community tourism", "territorial development"],
+  "funding": {
+    "minimum": 0,
+    "maximum": 0,
+    "currency": "BRL",
+    "kind": "not_specified"
+  },
+  "deadlines": {
+    "submission": "2026-09-08T17:00:00-03:00",
+    "timezone": "America/Sao_Paulo"
+  },
+  "status": "verified_primary",
+  "official_url": "https://example.org/oportunidade-demonstrativa",
+  "manifestation_urls": [
+    "https://example.org/sinal-demonstrativo"
+  ],
+  "signal_ids": ["sig-exp001-001"],
+  "evidence_ids": ["ev-exp001-001"],
+  "provenance": {
+    "discovered_at": "2026-08-25T12:00:00Z",
+    "last_verified_at": "2026-08-25T12:20:00Z",
+    "method": "synthetic_fixture",
+    "source_system": "Lux Radar",
+    "limitations": [
+      "Synthetic fixture; status and deadline are not real-world claims."
+    ]
+  },
+  "context": {
+    "relevance_notes": "Fixture demonstrates how territorial and thematic context can be stored.",
+    "matched_profiles": ["sustainability_network"],
+    "territorial_fit": "synthetic",
+    "confidence": 1
+  },
+  "next_action": {
+    "action_type": "review",
+    "description": "Use this record to test validation and evidence linkage.",
+    "due_at": "2026-08-26T12:00:00Z"
+  }
+}

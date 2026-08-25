@@ -1,0 +1,13 @@
+{
+  "signal_id": "sig-exp001-001",
+  "signal_type": "human_referral",
+  "content": "Foi compartilhado um aviso sobre uma chamada demonstrativa para projetos de turismo territorial e sustentabilidade.",
+  "source_channel": "direct_message",
+  "source_url": "https://example.org/sinal-demonstrativo",
+  "received_at": "2026-08-25T12:00:00Z",
+  "observed_by": "synthetic_fixture",
+  "related_signal_ids": [],
+  "status": "candidate",
+  "privacy": "sanitized",
+  "notes": "Fixture sintética criada para testar a passagem de sinal para oportunidade; não representa uma chamada real."
+}

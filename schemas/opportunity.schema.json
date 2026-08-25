@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/opportunity.schema.json",
+  "title": "Lux Radar Canonical Opportunity",
+  "description": "A versioned opportunity record supported by linked evidence and provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "opportunity_id",
+    "title",
+    "opportunity_type",
+    "status",
+    "provenance",
+    "evidence_ids"
+  ],
+  "properties": {
+    "opportunity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string"
+    },
+    "opportunity_type": {
+      "type": "string",
+      "enum": [
+        "call",
+        "public_call",
+        "grant",
+        "scholarship",
+        "funding",
+        "sponsorship",
+        "partnership",
+        "research_call",
+        "innovation_program",
+        "acceleration",
+        "challenge",
+        "competition",
+        "award",
+        "event",
+        "workshop",
+        "business_roundtable",
+        "procurement",
+        "other"
+      ]
+    },
+    "issuer": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {"type": "string"},
+        "country": {"type": "string"},
+        "organization_type": {
+          "type": "string",
+          "enum": ["government", "company", "foundation", "university", "nonprofit", "international", "community", "unknown"]
+        },
+        "identifier": {"type": "string"}
+      }
+    },
+    "domains": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "geography": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "country": {"type": "string"},
+        "state": {"type": "string"},
+        "municipality": {"type": "string"},
+        "territories": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "scope": {
+          "type": "string",
+          "enum": ["local", "territorial", "state", "national", "international", "unknown"]
+        }
+      }
+    },
+    "eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "target_types": {
+          "type": "array",
+          "items": {"type": "string"},
+          "uniqueItems": true
+        },
+        "requirements": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "unknown_fields": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "themes": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "funding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minimum": {"type": "number"},
+        "maximum": {"type": "number"},
+        "currency": {"type": "string"},
+        "kind": {"type": "string"}
+      }
+    },
+    "deadlines": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "submission": {"type": "string", "format": "date-time"},
+        "start": {"type": "string", "format": "date-time"},
+        "end": {"type": "string", "format": "date-time"},
+        "timezone": {"type": "string"}
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "candidate",
+        "verification_pending",
+        "verified_primary",
+        "ready_for_action",
+        "expired",
+        "superseded",
+        "insufficient_evidence",
+        "rejected"
+      ]
+    },
+    "official_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "manifestation_urls": {
+      "type": "array",
+      "items": {"type": "string", "format": "uri"},
+      "uniqueItems": true
+    },
+    "signal_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {"type": "string"},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["discovered_at", "last_verified_at", "method"],
+      "properties": {
+        "discovered_at": {"type": "string", "format": "date-time"},
+        "last_verified_at": {"type": "string", "format": "date-time"},
+        "method": {"type": "string"},
+        "dataset_release": {"type": "string"},
+        "source_system": {"type": "string"},
+        "limitations": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "relevance_notes": {"type": "string"},
+        "matched_profiles": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "territorial_fit": {"type": "string"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "next_action": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "action_type": {"type": "string"},
+        "description": {"type": "string"},
+        "due_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}
