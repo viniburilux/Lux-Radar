@@ -1,6 +1,6 @@
 {
-  "release_id": "funnel-diagnosis-final-20260826",
-  "created_at": "2026-08-26T06:12:31Z",
+  "release_id": "weekly-32937689928",
+  "created_at": "2026-08-26T06:20:07Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -37,126 +37,126 @@
     "ingesto-editais"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T06:12:31Z",
-    "ended_at": "2026-08-26T06:17:36Z"
+    "started_at": "2026-08-26T06:20:07Z",
+    "ended_at": "2026-08-26T06:22:02Z"
   },
   "record_counts": {
     "observations": 223,
-    "evidence": 219,
-    "normalized": 819,
-    "opportunities": 565,
-    "current_opportunities": 13,
-    "signals_history": 552,
-    "moved_to_history_or_signals": 552,
+    "evidence": 221,
+    "normalized": 821,
+    "opportunities": 566,
+    "current_opportunities": 12,
+    "signals_history": 554,
+    "moved_to_history_or_signals": 554,
     "closing_soon": 8,
     "new_current": 0,
-    "deduplicated": 144,
-    "collected": 664,
-    "new": 2,
-    "updated": 49,
+    "deduplicated": 146,
+    "collected": 666,
+    "new": 1,
+    "updated": 50,
     "closed": 0,
-    "unchanged": 514,
-    "failed": 8,
-    "total_candidates": 409,
+    "unchanged": 515,
+    "failed": 9,
+    "total_candidates": 412,
     "total_verified": 0,
     "total_closed": 58,
-    "total_unknown": 46,
-    "total_insufficient_evidence": 39,
+    "total_unknown": 47,
+    "total_insufficient_evidence": 37,
     "sustainability_records": 44,
     "sustainability_lens_records": 92,
-    "non_sustainability_records": 521,
-    "unclassified_records": 261,
+    "non_sustainability_records": 522,
+    "unclassified_records": 263,
     "domain_counts": {
       "biodiversity": 11,
       "circular_economy": 8,
       "climate": 21,
       "culture": 21,
       "economy": 27,
-      "education": 84,
+      "education": 83,
       "energy": 17,
       "financing": 103,
       "innovation": 62,
       "public_policy": 2,
-      "research": 101,
+      "research": 100,
       "social_impact": 22,
-      "sport": 8,
+      "sport": 9,
       "sustainability": 44,
       "technology": 36,
       "territorial_development": 4,
-      "territory": 24,
+      "territory": 23,
       "tourism": 4,
-      "water": 8
+      "water": 9
     }
   },
   "funnel": {
-    "normalized_records": 819,
-    "canonical_records": 565,
-    "potential_opportunities": 403,
-    "with_temporal_evidence": 76,
-    "verifiable_records": 13,
+    "normalized_records": 821,
+    "canonical_records": 566,
+    "potential_opportunities": 400,
+    "with_temporal_evidence": 75,
+    "verifiable_records": 12,
     "active": 2,
     "closing_soon": 8,
-    "upcoming": 3,
-    "remaining_outside_current": 552
+    "upcoming": 2,
+    "remaining_outside_current": 554
   },
   "reason_codes": {
-    "not_opportunity": 116,
-    "missing_deadline": 323,
+    "not_opportunity": 119,
+    "missing_deadline": 321,
     "status_explicitly_closed": 30,
     "deadline_expired": 28,
-    "current_opportunity": 13,
+    "current_opportunity": 12,
     "primary_source_not_verified": 1,
     "aggregator_only": 8,
-    "not_seen_in_release": 46
+    "not_seen_in_release": 47
   },
   "lifecycle_counts": {
-    "SIGNAL": 494,
+    "SIGNAL": 496,
     "HISTORICAL": 58,
+    "UPCOMING": 2,
     "CLOSING_SOON": 8,
-    "UPCOMING": 3,
     "ACTIVE": 2
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:a13234836b2149b38d65e4f1c3bb0fc57c4ff13ddae76ed9ea09f5bf7d3c3f6d",
+      "content_hash": "sha256:4ca9dc565fe174329f3688ace6035e6dae76da0c89c7463c5a7a4c6252eba198",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:d1248afb98b40c2e2567f9d39640970b015601efbf4fadf8e001bb6378aa3b5b",
+      "content_hash": "sha256:0000971de8fb20708336422c2ce1fdbb5268e766b8097d0f4656593ed2018525",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:a9645845bf009a2bf891e9258f86d94666f560e0c8cac62c297db29c70c3f320",
+      "content_hash": "sha256:7896dbf5b236ee3d5ffd4ca6d4cc7a8172d9af869c9ac7770b3cc7eb80417f56",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:932095ff89aed91cd0d5f04e1c6bacf473bc5a87dbeb9c72eae18f5ea94096c4",
+      "content_hash": "sha256:013b4eafbadf0a9307352649890c163d50f14f7ac82582df1be2a3d219ca1ada",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:896f4fd6342f89d8611b4c5b73deb89a730e3ba086fc68a18fc2c14687f735e0",
+      "content_hash": "sha256:40352f1fb80ac27e2b45f06534f23c9335042b73e4384b32b332e478a2bd610b",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:f003f24d19c578c8ff68639c7c71e511f3984b0e2fbe709a18196f685db9b849",
+      "content_hash": "sha256:4f561a0f0714add102663b4421f89c143bd17b9aec4939495449fa8b7673f137",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:eefb76454f1341ef894034299abf52892336cae4b324256298a427a4165d65db",
+      "content_hash": "sha256:7734437f6e29cdfdc77800d457e3e3a3480bbaf13151874b8f74d459e1ad4b1b",
       "media_type": "text/csv"
     }
   ],
@@ -189,8 +189,8 @@
     "fapesp-oportunidades": "success",
     "faperj-editais": "success",
     "facepe-editais": "success",
-    "minc-cultbr-editais": "failed",
-    "pncp-editais": "failed",
+    "minc-cultbr-editais": "success",
+    "pncp-editais": "success",
     "observatorio-3setor-editais": "success",
     "ingesto-editais": "success"
   },
@@ -198,7 +198,7 @@
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 404,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
@@ -211,25 +211,6 @@
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
-      ]
-    },
-    {
-      "source_id": "minc-cultbr-editais",
-      "status": "failed",
-      "http_status": 403,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "HTTP failure was preserved; no retry or access bypass was attempted."
-      ]
-    },
-    {
-      "source_id": "pncp-editais",
-      "status": "failed",
-      "http_status": null,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Network failure: ReadTimeout.",
-        "No retry or access bypass was attempted."
       ]
     },
     {
@@ -251,6 +232,24 @@
       ]
     },
     {
+      "source_id": "sudene-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail network failure: ConnectionError."
+      ]
+    },
+    {
+      "source_id": "sudene-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail network failure: ConnectionError."
+      ]
+    },
+    {
       "source_id": "capta-editais",
       "status": "failed",
       "http_status": 403,
@@ -262,10 +261,19 @@
     {
       "source_id": "capta-editais",
       "status": "failed",
-      "http_status": null,
+      "http_status": 403,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail fetch returned HTTP 403."
+      ]
+    },
+    {
+      "source_id": "capta-editais",
+      "status": "failed",
+      "http_status": 522,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail fetch returned HTTP 522."
       ]
     }
   ],
