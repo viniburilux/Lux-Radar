@@ -175,7 +175,13 @@ def infer_territories(text: str, country: str) -> list[str]:
     return list(dict.fromkeys(found or ([country] if country else [])))
 
 
-def quality_state(text: str, *, deadline: str | None, eligibility: list[str], organization: str, pdf_url: str | None) -> tuple[str, str]:
+def quality_state(text: str, *, deadline: str | None, eligibility: list[str], organization: str, pdf_url: str | None, title: str | None = None) -> tuple[str, str]:
+    """Classify existence, temporal activity and enrichment separately.
+
+    A future deadline or an explicit open status is enough to establish temporal
+    activity. Missing enrichment remains visible as unknown/insufficient rather
+    than hiding an opportunity that is clearly open.
+    """
     haystack = text.lower()
     deadline_dt = None
     if deadline:
@@ -183,18 +189,24 @@ def quality_state(text: str, *, deadline: str | None, eligibility: list[str], or
             deadline_dt = datetime.fromisoformat(deadline.replace("Z", "+00:00"))
         except ValueError:
             deadline_dt = None
-    closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado", "resultado final", "publicação final do resultado", "seleção concluída", "selecao concluida", "call closed"])
-    open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "open call", "open for", "submissions open", "chamada aberta"])
-    critical_count = sum(bool(item) for item in [deadline, eligibility, organization])
-    if closed and critical_count >= 2:
-        return "CLOSED", "Detail page identifies the opportunity and indicates a closed or expired state."
+    closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado", "resultado final", "publicação final do resultado", "seleção concluída", "selecao concluida", "call closed", "inscrições encerradas", "inscricoes encerradas"])
+    open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "inscrições abertas até", "inscricoes abertas ate", "status: aberto", "status aberto", "situação: aberta", "situacao aberta", "currently open", "open call", "open for", "submissions open", "chamada aberta", "prazo para submissão", "prazo para submissao"])
+    title_text = clean_text(title, 500).lower()
+    title_signal = bool(re.search(r"(?:edital|chamada|call|programa|oportunidade|grant|prêmio|premio|bolsa|fellowship|concurso|seleção|selecao|apoio|projeto|fundo|financiamento|award|challenge)", title_text))
+    status_identity = bool(re.search(r"(?:resultado final|inscrições encerradas|inscricoes encerradas|prazo encerrado|call closed|finalizado)", haystack))
+    has_identity = bool(pdf_url or title_signal or status_identity)
+    if closed and has_identity:
+        return "CLOSED", "The official detail identifies a closed, completed or expired opportunity; it remains outside the current view."
     if deadline_dt and deadline_dt < datetime.now(timezone.utc):
         return "CLOSED", "The observed official deadline has already passed; the record is retained outside the current opportunity view."
-    if critical_count == 3 and (open_signal or deadline):
-        return "VERIFIED", "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved."
+    if deadline_dt or open_signal:
+        if has_identity:
+            return "OPEN", "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown."
+        return "INSUFFICIENT_EVIDENCE", "Temporal evidence exists, but the detail does not identify a specific opportunity title."
+    critical_count = sum(bool(item) for item in [deadline, eligibility, organization])
     if critical_count >= 2:
-        return "INSUFFICIENT_EVIDENCE", "Official detail page is accessible, but one or more critical fields remain unobserved."
-    return "CANDIDATE", "The source page yielded a candidate, but the detail evidence is not sufficient for verification."
+        return "INSUFFICIENT_EVIDENCE", "Official detail page is accessible, but temporal activity remains unobserved."
+    return "CANDIDATE", "The source page yielded a candidate, but the detail evidence is not sufficient to establish current activity."
 
 
 def enforce_source_quality(source: dict[str, Any], detail_url: str, status: str, reason: str, pdf_url: str | None) -> tuple[str, str]:
@@ -202,7 +214,7 @@ def enforce_source_quality(source: dict[str, Any], detail_url: str, status: str,
         source_host = urlparse(source.get("url", "")).netloc.lower()
         detail_host = urlparse(detail_url).netloc.lower()
         is_same_curator_surface = bool(source_host and detail_host.endswith(source_host))
-        if status == "VERIFIED" and is_same_curator_surface and not pdf_url:
+        if status in {"VERIFIED", "OPEN"} and is_same_curator_surface and not pdf_url:
             return "INSUFFICIENT_EVIDENCE", "Curator detail is accessible, but no primary official URL or PDF was exposed; the record remains outside current opportunities."
     return status, reason
 
@@ -234,7 +246,7 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
                     eligibility.append(clean_text(match.group(0), 500))
             eligibility = list(dict.fromkeys(eligibility))
             organization = source.get("organization", source.get("name", source["id"]))
-            status, reason = quality_state(pdf_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=response.url)
+            status, reason = quality_state(pdf_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=response.url, title=candidate.get("title") or source.get("name"))
             status, reason = enforce_source_quality(source, response.url, status, reason, response.url)
             limitations = ["Official PDF was fetched directly and claims were extracted without republishing the complete document."]
             if pdf_error:
@@ -267,7 +279,7 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
                 eligibility.append(clean_text(match.group(0), 500))
         eligibility = list(dict.fromkeys(eligibility))
         organization = source.get("organization", source.get("name", source["id"]))
-        status, reason = quality_state(combined_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=pdf_url)
+        status, reason = quality_state(combined_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=pdf_url, title=title)
         status, reason = enforce_source_quality(source, response.url, status, reason, pdf_url)
         return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": title, "description": description, "text": text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": headings[:30], "pdf_url": pdf_url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(combined_text), "source_domains": source.get("domain", []), "territories": infer_territories(combined_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
     except requests.RequestException as exc:

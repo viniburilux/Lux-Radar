@@ -155,7 +155,15 @@
         "expired",
         "superseded",
         "insufficient_evidence",
-        "rejected"
+        "rejected",
+        "CANDIDATE",
+        "VERIFIED",
+        "OPEN",
+        "CLOSED",
+        "UNKNOWN",
+        "INSUFFICIENT_EVIDENCE",
+        "EXTENDED",
+        "ACTIVE"
       ]
     },
     "official_url": {

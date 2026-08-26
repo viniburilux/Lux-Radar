@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32931001460",
-  "created_at": "2026-08-26T04:38:59Z",
+  "release_id": "temporal-expansion-20260826-final-v2",
+  "created_at": "2026-08-26T05:26:28Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -22,101 +22,113 @@
     "embratur-editais",
     "prosas-editais",
     "capta-editais",
-    "capitaai-meio-ambiente"
+    "capitaai-meio-ambiente",
+    "ics-chamadas",
+    "gife-editais",
+    "fundo-brasil-editais",
+    "sos-mata-atlantica-editais",
+    "caixa-fsa-chamadas",
+    "fapesp-oportunidades",
+    "faperj-editais",
+    "facepe-editais",
+    "minc-cultbr-editais",
+    "pncp-editais",
+    "observatorio-3setor-editais",
+    "ingesto-editais"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T04:38:59Z",
-    "ended_at": "2026-08-26T04:40:00Z"
+    "started_at": "2026-08-26T05:26:28Z",
+    "ended_at": "2026-08-26T05:33:34Z"
   },
   "record_counts": {
-    "observations": 150,
-    "evidence": 149,
-    "normalized": 542,
-    "opportunities": 393,
-    "current_opportunities": 8,
-    "signals_history": 385,
-    "moved_to_history_or_signals": 385,
-    "closing_soon": 6,
+    "observations": 223,
+    "evidence": 219,
+    "normalized": 818,
+    "opportunities": 564,
+    "current_opportunities": 13,
+    "signals_history": 551,
+    "moved_to_history_or_signals": 551,
+    "closing_soon": 8,
     "new_current": 0,
-    "deduplicated": 85,
-    "collected": 434,
+    "deduplicated": 144,
+    "collected": 663,
     "new": 0,
-    "updated": 45,
+    "updated": 57,
     "closed": 0,
-    "unchanged": 348,
+    "unchanged": 507,
     "failed": 8,
-    "total_candidates": 277,
-    "total_verified": 8,
-    "total_closed": 35,
-    "total_unknown": 44,
-    "total_insufficient_evidence": 29,
-    "sustainability_records": 39,
-    "sustainability_lens_records": 79,
-    "non_sustainability_records": 354,
-    "unclassified_records": 203,
+    "total_candidates": 408,
+    "total_verified": 0,
+    "total_closed": 58,
+    "total_unknown": 46,
+    "total_insufficient_evidence": 39,
+    "sustainability_records": 44,
+    "sustainability_lens_records": 92,
+    "non_sustainability_records": 520,
+    "unclassified_records": 261,
     "domain_counts": {
       "biodiversity": 11,
-      "circular_economy": 4,
-      "climate": 19,
-      "culture": 9,
-      "economy": 23,
-      "education": 34,
-      "energy": 15,
-      "financing": 81,
-      "innovation": 37,
-      "public_policy": 1,
-      "research": 52,
-      "social_impact": 6,
-      "sport": 3,
-      "sustainability": 39,
-      "technology": 11,
+      "circular_economy": 8,
+      "climate": 21,
+      "culture": 20,
+      "economy": 27,
+      "education": 82,
+      "energy": 17,
+      "financing": 104,
+      "innovation": 61,
+      "public_policy": 2,
+      "research": 99,
+      "social_impact": 22,
+      "sport": 7,
+      "sustainability": 44,
+      "technology": 37,
       "territorial_development": 4,
-      "territory": 16,
+      "territory": 23,
       "tourism": 4,
-      "water": 5
+      "water": 9
     }
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:027e03cbd8bfcaffe9201434fb222383bc17a2b5be865bace9be9c2c81e407bf",
+      "content_hash": "sha256:dfe5480ac470232bfd2d3aeca1870f75272d0825f44cb94151be1a108c308f91",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:b6fd8eab37f46ffbb432cbda54925c59b2ae83914f7b298f77c4e4334fe4803f",
+      "content_hash": "sha256:452d7981845df7fcfa6141b76952daba8032b1440169c93027805e99b1b725a4",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:c5e4ff577b860e1d5e2cc14a438fe1d4b63d0a31d3d42d99c0ce00a609b54afa",
+      "content_hash": "sha256:1067d97861b1d87a01203101a99b93ba09dd2b0f1e557fb8e9535ba08c7744b1",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:07207215e3b58e5d6ab0294432f7b842b548204b6d35eecfa6d73497303f0f5f",
+      "content_hash": "sha256:03d3113000d315b2d43d0675cd1b20699b3d6ff651fe6e1e5658ea6c6b628e55",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:994bfd75fa448f72da55a5f89a25bcdd0543e87c604220e49c0f51e2dcb54c7c",
+      "content_hash": "sha256:0d4b8c42c1cb8b69fd65bf4345a5456f9b9e5a9731abc34678ba13935e8b36e4",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:cb682eab6f4f304641d7275936c809dbe854301969539541084e1339ba376c4f",
+      "content_hash": "sha256:4f8ac6b5d0f15dfebe3b69808b86d98f7a0721029a660394ec76e12f898ed950",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:95a3c01b73ad06601708d46019a3be4b1496973f95fa25a0ef51bb81be47832b",
+      "content_hash": "sha256:3dcc569118f157685de24d3424cc63958674eadce63bf67749da2532621b5e1d",
       "media_type": "text/csv"
     }
   ],
@@ -140,15 +152,52 @@
     "embratur-editais": "success",
     "prosas-editais": "success",
     "capta-editais": "failed",
-    "capitaai-meio-ambiente": "success"
+    "capitaai-meio-ambiente": "success",
+    "ics-chamadas": "success",
+    "gife-editais": "failed",
+    "fundo-brasil-editais": "success",
+    "sos-mata-atlantica-editais": "success",
+    "caixa-fsa-chamadas": "success",
+    "fapesp-oportunidades": "success",
+    "faperj-editais": "success",
+    "facepe-editais": "success",
+    "minc-cultbr-editais": "failed",
+    "pncp-editais": "failed",
+    "observatorio-3setor-editais": "success",
+    "ingesto-editais": "success"
   },
   "errors": [
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 403,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "gife-editais",
+      "status": "failed",
+      "http_status": 403,
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "minc-cultbr-editais",
+      "status": "failed",
+      "http_status": 403,
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "pncp-editais",
+      "status": "failed",
+      "http_status": null,
+      "limitations": [
+        "Network failure: ReadTimeout.",
+        "No retry or access bypass was attempted."
       ]
     },
     {
@@ -165,30 +214,6 @@
       "http_status": 401,
       "limitations": [
         "Detail fetch returned HTTP 401."
-      ]
-    },
-    {
-      "source_id": "sudene-editais",
-      "status": "failed",
-      "http_status": null,
-      "limitations": [
-        "Detail network failure: ConnectionError."
-      ]
-    },
-    {
-      "source_id": "sudene-editais",
-      "status": "failed",
-      "http_status": null,
-      "limitations": [
-        "Detail network failure: ConnectionError."
-      ]
-    },
-    {
-      "source_id": "capta-editais",
-      "status": "failed",
-      "http_status": 403,
-      "limitations": [
-        "Detail fetch returned HTTP 403."
       ]
     },
     {

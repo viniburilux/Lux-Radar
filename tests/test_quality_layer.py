@@ -16,11 +16,17 @@ class QualityLayerTests(unittest.TestCase):
         self.assertEqual(MODULE.extract_deadline("Inscrições até 30/09/2026"), "2026-09-30T23:59:59Z")
         self.assertEqual(MODULE.extract_deadline("deadline: 2026-10-05"), "2026-10-05T23:59:59Z")
 
-    def test_quality_requires_eligibility(self):
-        status, _ = MODULE.quality_state("call aberta", deadline="2026-10-05T23:59:59Z", eligibility=[], organization="Foundation", pdf_url=None)
+    def test_future_deadline_allows_open_with_partial_enrichment(self):
+        status, _ = MODULE.quality_state("call", deadline="2026-10-05T23:59:59Z", eligibility=[], organization="Foundation", pdf_url=None, title="Chamada de apoio")
+        self.assertEqual(status, "OPEN")
+
+    def test_explicit_open_status_allows_open_without_deadline(self):
+        status, _ = MODULE.quality_state("status: aberto para inscrições", deadline=None, eligibility=[], organization="Foundation", pdf_url=None, title="Edital aberto para inscrições")
+        self.assertEqual(status, "OPEN")
+
+    def test_temporal_signal_without_opportunity_identity_is_not_open(self):
+        status, _ = MODULE.quality_state("inscrições abertas", deadline="2026-10-05T23:59:59Z", eligibility=[], organization="Foundation", pdf_url=None, title="Resultados")
         self.assertEqual(status, "INSUFFICIENT_EVIDENCE")
-        status, _ = MODULE.quality_state("call aberta", deadline="2026-10-05T23:59:59Z", eligibility=["Organizações sem fins lucrativos"], organization="Foundation", pdf_url=None)
-        self.assertEqual(status, "VERIFIED")
 
     def test_final_result_signal_blocks_future_irrelevant_date(self):
         status, _ = MODULE.quality_state("resultado final publicado; inscrições encerradas", deadline="2026-12-31T23:59:59Z", eligibility=["Organizações elegíveis"], organization="Foundation", pdf_url=None)
