@@ -16,6 +16,29 @@ class QualityLayerTests(unittest.TestCase):
         self.assertEqual(MODULE.extract_deadline("Inscrições até 30/09/2026"), "2026-09-30T23:59:59Z")
         self.assertEqual(MODULE.extract_deadline("deadline: 2026-10-05"), "2026-10-05T23:59:59Z")
 
+    def test_deadline_parses_portuguese_month_name(self):
+        self.assertEqual(MODULE.extract_deadline("As inscrições podem ser realizadas até 31 de agosto de 2026, às 18h"), "2026-08-31T23:59:59Z")
+
+    def test_deadline_prefers_submission_window_over_registration_date(self):
+        text = "Cadastro da instituição proponente até 19 de novembro de 2026. Período de submissão das propostas de cursos novos de 24 de agosto de 2026 até 18 de dezembro de 2026."
+        self.assertEqual(MODULE.extract_deadline(text), "2026-12-18T23:59:59Z")
+
+    def test_explicit_continuous_window_allows_open_with_identity(self):
+        status, _ = MODULE.quality_state("Projetos podem ser apresentados a qualquer momento", deadline=None, eligibility=[], organization="Fundo", pdf_url=None, title="Chamada de projetos")
+        self.assertEqual(status, "OPEN")
+
+    def test_manifestacao_de_interesse_is_opportunity_identity(self):
+        status, _ = MODULE.quality_state("Inscrições até 04/09/2026", deadline="2026-09-04T23:59:59Z", eligibility=[], organization="FUNBIO", pdf_url=None, title="Manifestação de Interesse 04/2026")
+        self.assertEqual(status, "OPEN")
+
+    def test_navigation_title_with_temporal_text_is_not_open(self):
+        status, _ = MODULE.quality_state("Projetos podem ser apresentados a qualquer momento", deadline=None, eligibility=[], organization="Fundo", pdf_url=None, title="Como apresentar projetos")
+        self.assertEqual(status, "INSUFFICIENT_EVIDENCE")
+
+    def test_generic_media_kit_is_not_official_pdf(self):
+        soup = MODULE.BeautifulSoup('<a href="/midia-kit.pdf">Midia Kit</a>', "html.parser")
+        self.assertIsNone(MODULE.extract_pdf_url("https://example.org/page", soup))
+
     def test_future_deadline_allows_open_with_partial_enrichment(self):
         status, _ = MODULE.quality_state("call", deadline="2026-10-05T23:59:59Z", eligibility=[], organization="Foundation", pdf_url=None, title="Chamada de apoio")
         self.assertEqual(status, "OPEN")

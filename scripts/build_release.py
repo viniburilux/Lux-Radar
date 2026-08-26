@@ -187,8 +187,8 @@ def classify_experience(record: dict[str, Any], reference_time: datetime | None 
     return "ONGOING", "OPPORTUNITY", True
 
 
-NOT_OPPORTUNITY_TITLE = re.compile(r"^(?:clique|leia mais|saiba mais|home|in[ií]cio|login|contato|contact|sobre n[oó]s|todos os programas|programas|not[ií]cias|institucional|acesse|resultados?)$", re.I)
-OPPORTUNITY_TITLE = re.compile(r"(?:edital|chamada|call|programa|oportunidade|grant|funding|financiamento|pr[eê]mio|bolsa|fellowship|concurso|sele[cç][aã]o|apoio|projeto|fundo|award|challenge|procurement|contrata[cç][aã]o)", re.I)
+NOT_OPPORTUNITY_TITLE = re.compile(r"^(?:clique|leia mais|saiba mais|home|in[ií]cio|login|contato|contact|sobre n[oó]s|todos os programas|programas|not[ií]cias|institucional|acesse|resultados?|a[cç][oõ]es e programas|projetos e parcerias|como apresentar projetos|chamadas e editais \d{4}|bolsa fam[ií]lia)$", re.I)
+OPPORTUNITY_TITLE = re.compile(r"(?:edital|chamada|call|programa|oportunidade|grant|funding|financiamento|pr[eê]mio|bolsa|fellowship|concurso|sele[cç][aã]o|apoio|projeto|fundo|award|challenge|procurement|contrata[cç][aã]o|manifesta[cç][aã]o de interesse)", re.I)
 
 
 def derive_reason_code(record: dict[str, Any], lifecycle_state: str, reference_time: datetime) -> str:

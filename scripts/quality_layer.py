@@ -15,9 +15,16 @@ from bs4 import BeautifulSoup
 USER_AGENT = "Lux-Radar-Quality-Layer/0.2 (+https://github.com/viniburilux/Lux-Radar)"
 MAX_DETAILS_PER_SOURCE = 8
 QUALITY_EXCLUDED_IDS = {"petrobras-socioambiental", "transferegov-parcerias"}
+NON_OPPORTUNITY_TITLE = re.compile(r"^(?:clique|leia mais|saiba mais|home|in[ií]cio|login|contato|contact|sobre n[oó]s|todos os programas|programas|not[ií]cias|institucional|acesse|resultados?|a[cç][oõ]es e programas|projetos e parcerias|como apresentar projetos|chamadas e editais \d{4}|bolsa fam[ií]lia)$", re.I)
+MONTHS_PT = {
+    "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3,
+    "abril": 4, "maio": 5, "junho": 6, "julho": 7,
+    "agosto": 8, "setembro": 9, "outubro": 10, "novembro": 11, "dezembro": 12,
+}
 DATE_PATTERNS = [
     re.compile(r"(?P<day>\d{1,2})[/.](?P<month>\d{1,2})[/.](?P<year>20\d{2})"),
     re.compile(r"(?P<year>20\d{2})-(?P<month>\d{2})-(?P<day>\d{2})"),
+    re.compile(r"(?P<day>\d{1,2})\s+de\s+(?P<month_name>janeiro|fevereiro|março|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:de\s+)?(?P<year>20\d{2})", re.I),
 ]
 
 
@@ -41,39 +48,50 @@ def clean_text(value: str | None, limit: int = 1200) -> str:
 def parse_dates(text: str) -> list[str]:
     found: list[str] = []
     for pattern in DATE_PATTERNS:
-        for match in pattern.finditer(text):
+        for match in pattern.finditer(text or ""):
             try:
-                day = int(match.group("day"))
-                month = int(match.group("month"))
-                year = int(match.group("year"))
+                groups = match.groupdict()
+                day = int(groups["day"])
+                year = int(groups["year"])
+                month = int(groups["month"]) if groups.get("month") else MONTHS_PT[groups["month_name"].lower()]
                 if 1 <= day <= 31 and 1 <= month <= 12:
                     found.append(f"{year:04d}-{month:02d}-{day:02d}T23:59:59Z")
-            except ValueError:
+            except (KeyError, TypeError, ValueError):
                 continue
     return list(dict.fromkeys(found))
 
 
 def extract_deadline(text: str) -> str | None:
-    date = r"((?:\d{1,2}[/.]\d{1,2}[/.]20\d{2})|(?:20\d{2}-\d{2}-\d{2}))"
+    date_token = r"(?:\d{1,2}[/.]\d{1,2}[/.]20\d{2}|20\d{2}-\d{2}-\d{2}|\d{1,2}\s+de\s+(?:janeiro|fevereiro|março|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+(?:de\s+)?20\d{2})"
+    date = rf"({date_token})"
+    time_before_date = r"(?:\s+(?:[àa]s?)\s+\d{1,2}(?::\d{2})?\s*h?)?(?:\s+de)?\s*"
+    range_pattern = rf"(?:inscri(?:ção|ções)|submiss(?:ão|ões)|application(?:s)?)[^.!?\n]{{0,80}}?{date_token}[^.!?\n]{{0,80}}?(?:a|até|to)\s*{date_token}"
     patterns = [
-        rf"(?:até|until|by|no later than|deadline\s*[:\-]?|prazo(?: final| limite)?\s*[:\-]?)[^.!?]{{0,80}}?{date}",
-        rf"(?:inscri(?:ção|ções)|submiss(?:ão|ões)|application(?:s)?)\s*(?:até|until|by)\s*{date}",
-        rf"{date}[^.\n!?]{{0,50}}?(?:é o prazo|is the deadline|deadline|prazo final)",
+        (range_pattern, 6),
+        (rf"(?:per[ií]odo|period)[^.!?\n]{{0,180}}?(?:at[eé]|until|by){time_before_date}{date}", 5),
+        (rf"(?:inscri(?:ção|ções)|submiss(?:ão|ões)|application(?:s)?)\s*(?:at[eé]|until|by){time_before_date}{date}", 5),
+        (rf"(?:at[eé]|until|by|no later than|deadline\s*[:\-]?|prazo(?: final| limite)?\s*[:\-]?)[^.!?]{{0,40}}?{date}", 2),
+        (rf"{date}[^.\n!?]{{0,50}}?(?:é o prazo|is the deadline|deadline|prazo final)", 4),
     ]
-    candidates: list[tuple[datetime, str]] = []
-    for pattern in patterns:
-        for match in re.finditer(pattern, text, flags=re.I):
-            value = match.group(1)
+    candidates: list[tuple[int, datetime, str]] = []
+    for pattern, score in patterns:
+        for match in re.finditer(pattern, text or "", flags=re.I):
+            matched_dates = parse_dates(match.group(0))
+            if not matched_dates:
+                continue
+            value = matched_dates[-1] if score == 6 else match.group(1)
             dates = parse_dates(value)
             if not dates:
                 continue
             parsed = datetime.fromisoformat(dates[0].replace("Z", "+00:00"))
-            candidates.append((parsed, dates[0]))
+            candidates.append((score, parsed, dates[0]))
     if not candidates:
         return None
+    best_score = max(candidate[0] for candidate in candidates)
+    scored = [candidate for candidate in candidates if candidate[0] == best_score]
     now_utc = datetime.now(timezone.utc)
-    future = [candidate for candidate in candidates if candidate[0] >= now_utc]
-    return min(future or candidates, key=lambda candidate: candidate[0])[1]
+    future = [candidate for candidate in scored if candidate[1] >= now_utc]
+    return min(future or scored, key=lambda candidate: candidate[1])[2]
 
 
 def extract_amount(text: str) -> dict[str, Any]:
@@ -95,7 +113,7 @@ def extract_pdf_url(url: str, soup: BeautifulSoup) -> str | None:
         label = (anchor.get_text(" ", strip=True) + " " + candidate).lower()
         if not re.search(r"\.pdf(?:$|[?#])", candidate, flags=re.I) or not candidate.startswith(("http://", "https://")):
             continue
-        if any(term in label for term in ["privacidade", "política de privacidade", "privacy", "termos de uso", "cookies"]):
+        if any(term in label for term in ["privacidade", "política de privacidade", "privacy", "termos de uso", "cookies", "midia kit", "mídia kit", "media kit", "press kit", "logo"]):
             continue
         score = 1
         if any(term in label for term in ["edital", "regulamento", "chamada", "call", "manual", "seleção", "selecao"]):
@@ -190,9 +208,9 @@ def quality_state(text: str, *, deadline: str | None, eligibility: list[str], or
         except ValueError:
             deadline_dt = None
     closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado", "resultado final", "publicação final do resultado", "seleção concluída", "selecao concluida", "call closed", "inscrições encerradas", "inscricoes encerradas"])
-    open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "inscrições abertas até", "inscricoes abertas ate", "status: aberto", "status aberto", "situação: aberta", "situacao aberta", "currently open", "open call", "open for", "submissions open", "chamada aberta", "prazo para submissão", "prazo para submissao"])
+    open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "inscrições abertas até", "inscricoes abertas ate", "status: aberto", "status aberto", "situação: aberta", "situacao aberta", "currently open", "open call", "open for", "submissions open", "chamada aberta", "prazo para submissão", "prazo para submissao", "a qualquer momento", "a qualquer tempo", "fluxo contínuo", "fluxo continuo", "chamada contínua", "chamada continua", "rolling basis", "rolling"])
     title_text = clean_text(title, 500).lower()
-    title_signal = bool(re.search(r"(?:edital|chamada|call|programa|oportunidade|grant|prêmio|premio|bolsa|fellowship|concurso|seleção|selecao|apoio|projeto|fundo|financiamento|award|challenge)", title_text))
+    title_signal = not NON_OPPORTUNITY_TITLE.fullmatch(title_text) and bool(re.search(r"(?:edital|chamada|call|programa|oportunidade|grant|prêmio|premio|bolsa|fellowship|concurso|seleção|selecao|apoio|projeto|fundo|financiamento|award|challenge|manifestação de interesse|manifestacao de interesse)", title_text))
     status_identity = bool(re.search(r"(?:resultado final|inscrições encerradas|inscricoes encerradas|prazo encerrado|call closed|finalizado)", haystack))
     has_identity = bool(pdf_url or title_signal or status_identity)
     if closed and has_identity:
@@ -257,6 +275,8 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
         soup = BeautifulSoup(body, "html.parser")
         title_node = soup.find("h1") or soup.find("title")
         title = clean_text(title_node.get_text(" ", strip=True) if title_node else candidate.get("title"), 500)
+        if not title:
+            title = clean_text(candidate.get("title"), 500)
         description_node = soup.find("meta", attrs={"name": re.compile("description", re.I)})
         description = clean_text(description_node.get("content") if description_node else "", 1600)
         if not description:
@@ -366,6 +386,7 @@ def extract_quality_records(observations: list[dict[str, Any]], registry: list[d
                 or root["fetch"]["status"] != "success"):
             continue
         candidates = next((claim["value"] for claim in root.get("claims", []) if claim["path"] == "page.candidate_links"), []) or []
+        candidates = [item for item in candidates if not re.fullmatch(r"(?:clique|leia mais|saiba mais|home|in[ií]cio|login|contato|contact|sobre n[oó]s|todos os programas|programas|not[ií]cias|institucional|acesse|resultados?|a[cç][oõ]es e programas|projetos e parcerias|como apresentar projetos|chamadas e editais \d{4}|bolsa fam[ií]lia)", str(item.get("title") or "").strip(), flags=re.I)]
         seed_candidates = []
         for seed in source.get("detail_seeds", []):
             if isinstance(seed, str) and seed:

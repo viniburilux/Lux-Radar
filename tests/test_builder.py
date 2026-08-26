@@ -38,6 +38,11 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(set(merged[0]["evidence"]), {"evidence-1", "evidence-2"})
         self.assertEqual(set(merged[0]["provenance"]["observation_ids"]), {"observation-1", "observation-2"})
 
+    def test_opportunity_identity_and_navigation_filters_are_distinct(self):
+        self.assertIsNotNone(MODULE.OPPORTUNITY_TITLE.search("Manifestação de Interesse 04/2026"))
+        self.assertIsNotNone(MODULE.NOT_OPPORTUNITY_TITLE.fullmatch("Ações e Programas"))
+        self.assertIsNotNone(MODULE.NOT_OPPORTUNITY_TITLE.fullmatch("Projetos e Parcerias"))
+
     def test_non_sustainability_record_is_retained_and_classified_from_content(self):
         record = self.record(status="CANDIDATE", title="Edital de cultura e educação comunitária")
         record["source_domains"] = ["sustainability"]
