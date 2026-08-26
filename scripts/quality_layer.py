@@ -89,13 +89,19 @@ def extract_amount(text: str) -> dict[str, Any]:
 
 
 def extract_pdf_url(url: str, soup: BeautifulSoup) -> str | None:
+    scored: list[tuple[int, str]] = []
     for anchor in soup.find_all("a", href=True):
         candidate = urljoin(url, anchor["href"].strip())
         label = (anchor.get_text(" ", strip=True) + " " + candidate).lower()
-        if re.search(r"\.pdf(?:$|[?#])", candidate, flags=re.I):
-            if candidate.startswith(("http://", "https://")):
-                return candidate
-    return None
+        if not re.search(r"\.pdf(?:$|[?#])", candidate, flags=re.I) or not candidate.startswith(("http://", "https://")):
+            continue
+        if any(term in label for term in ["privacidade", "política de privacidade", "privacy", "termos de uso", "cookies"]):
+            continue
+        score = 1
+        if any(term in label for term in ["edital", "regulamento", "chamada", "call", "manual", "seleção", "selecao"]):
+            score += 3
+        scored.append((score, candidate))
+    return max(scored, key=lambda item: item[0])[1] if scored else None
 
 
 def extract_pdf_text(pdf_url: str) -> tuple[str, str | None, str | None]:
@@ -170,7 +176,7 @@ def quality_state(text: str, *, deadline: str | None, eligibility: list[str], or
             deadline_dt = datetime.fromisoformat(deadline.replace("Z", "+00:00"))
         except ValueError:
             deadline_dt = None
-    closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado"])
+    closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado", "resultado final", "publicação final do resultado", "seleção concluída", "selecao concluida", "call closed"])
     open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "open call", "open for", "submissions open", "chamada aberta"])
     critical_count = sum(bool(item) for item in [deadline, eligibility, organization])
     if closed and critical_count >= 2:
@@ -182,6 +188,16 @@ def quality_state(text: str, *, deadline: str | None, eligibility: list[str], or
     if critical_count >= 2:
         return "INSUFFICIENT_EVIDENCE", "Official detail page is accessible, but one or more critical fields remain unobserved."
     return "CANDIDATE", "The source page yielded a candidate, but the detail evidence is not sufficient for verification."
+
+
+def enforce_source_quality(source: dict[str, Any], detail_url: str, status: str, reason: str, pdf_url: str | None) -> tuple[str, str]:
+    if source.get("source_role") == "curator":
+        source_host = urlparse(source.get("url", "")).netloc.lower()
+        detail_host = urlparse(detail_url).netloc.lower()
+        is_same_curator_surface = bool(source_host and detail_host.endswith(source_host))
+        if status == "VERIFIED" and is_same_curator_surface and not pdf_url:
+            return "INSUFFICIENT_EVIDENCE", "Curator detail is accessible, but no primary official URL or PDF was exposed; the record remains outside current opportunities."
+    return status, reason
 
 
 def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_observation: dict[str, Any]) -> dict[str, Any]:
@@ -198,8 +214,27 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
         if not response.ok:
             return {**base, "status": "failed", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": b"", "limitations": [f"Detail fetch returned HTTP {response.status_code}."]}
         content_type = response.headers.get("content-type", "")
+        is_pdf = "pdf" in content_type.lower() or body.startswith(b"%PDF")
+        if is_pdf:
+            pdf_text, pdf_hash, pdf_error = extract_pdf_text(response.url)
+            pdf_text = clean_text(pdf_text, 24000)
+            amount = extract_amount(pdf_text)
+            deadline = extract_deadline(pdf_text)
+            eligibility = []
+            for pattern in [r"(?:público[- ]alvo|elegibilidade|eligible|eligibility|quem pode participar)[^.!?]{0,300}", r"(?:podem participar|destinado a)[^.!?]{0,300}"]:
+                match = re.search(pattern, pdf_text, flags=re.I)
+                if match:
+                    eligibility.append(clean_text(match.group(0), 500))
+            eligibility = list(dict.fromkeys(eligibility))
+            organization = source.get("organization", source.get("name", source["id"]))
+            status, reason = quality_state(pdf_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=response.url)
+            status, reason = enforce_source_quality(source, response.url, status, reason, response.url)
+            limitations = ["Official PDF was fetched directly and claims were extracted without republishing the complete document."]
+            if pdf_error:
+                limitations.append(pdf_error)
+            return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": candidate.get("title") or source.get("name"), "description": clean_text(pdf_text, 1600), "text": pdf_text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": [], "pdf_url": response.url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(pdf_text, source.get("domain", [])), "territories": infer_territories(pdf_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
         if "html" not in content_type.lower():
-            return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "limitations": ["Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."]}
+            return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "limitations": ["Detail response was not HTML or PDF; metadata was retained and no field extraction was attempted."]}
         soup = BeautifulSoup(body, "html.parser")
         title_node = soup.find("h1") or soup.find("title")
         title = clean_text(title_node.get_text(" ", strip=True) if title_node else candidate.get("title"), 500)
@@ -226,6 +261,7 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
         eligibility = list(dict.fromkeys(eligibility))
         organization = source.get("organization", source.get("name", source["id"]))
         status, reason = quality_state(combined_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=pdf_url)
+        status, reason = enforce_source_quality(source, response.url, status, reason, pdf_url)
         return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": title, "description": description, "text": text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": headings[:30], "pdf_url": pdf_url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(combined_text, source.get("domain", [])), "territories": infer_territories(combined_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
     except requests.RequestException as exc:
         return {**base, "status": "failed", "http_status": None, "observed_at": timestamp, "url": url, "body": b"", "limitations": [f"Detail network failure: {type(exc).__name__}."]}
@@ -308,8 +344,12 @@ def extract_quality_records(observations: list[dict[str, Any]], registry: list[d
                 or root["fetch"]["status"] != "success"):
             continue
         candidates = next((claim["value"] for claim in root.get("claims", []) if claim["path"] == "page.candidate_links"), []) or []
-        seed_urls = [url for url in source.get("detail_seeds", []) if isinstance(url, str) and url]
-        seed_candidates = [{"title": source.get("name", source["id"]), "url": url, "term_hits": 100} for url in seed_urls]
+        seed_candidates = []
+        for seed in source.get("detail_seeds", []):
+            if isinstance(seed, str) and seed:
+                seed_candidates.append({"title": source.get("name", source["id"]), "url": seed, "term_hits": 100})
+            elif isinstance(seed, dict) and seed.get("url"):
+                seed_candidates.append({"title": seed.get("title") or source.get("name", source["id"]), "url": seed["url"], "term_hits": seed.get("term_hits", 100)})
         seen_urls = {norm_url(item.get("url", "")) for item in seed_candidates}
         ordered_candidates = seed_candidates + [item for item in candidates if norm_url(item.get("url", "")) not in seen_urls]
         for candidate in ordered_candidates[:MAX_DETAILS_PER_SOURCE]:

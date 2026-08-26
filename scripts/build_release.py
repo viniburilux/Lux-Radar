@@ -16,8 +16,10 @@ from bs4 import BeautifulSoup
 
 try:
     from quality_layer import extract_quality_records, norm_url
+    from wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
 except ModuleNotFoundError:
     from scripts.quality_layer import extract_quality_records, norm_url
+    from scripts.wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,6 +71,8 @@ def save_json(path: Path, payload: Any) -> str:
 
 
 def fetch_source(source: dict[str, Any]) -> dict[str, Any]:
+    if source.get("collector") in WAVE2_COLLECTOR_IDS:
+        return fetch_wave2_source(source)
     observed_at = now()
     try:
         response = requests.get(

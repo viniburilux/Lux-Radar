@@ -22,6 +22,15 @@ class QualityLayerTests(unittest.TestCase):
         status, _ = MODULE.quality_state("call aberta", deadline="2026-10-05T23:59:59Z", eligibility=["Organizações sem fins lucrativos"], organization="Foundation", pdf_url=None)
         self.assertEqual(status, "VERIFIED")
 
+    def test_final_result_signal_blocks_future_irrelevant_date(self):
+        status, _ = MODULE.quality_state("resultado final publicado; inscrições encerradas", deadline="2026-12-31T23:59:59Z", eligibility=["Organizações elegíveis"], organization="Foundation", pdf_url=None)
+        self.assertEqual(status, "CLOSED")
+
+    def test_curator_internal_detail_without_primary_evidence_is_not_verified(self):
+        source = {"source_role": "curator", "url": "https://capitaai.com.br/editais-abertos/meio-ambiente"}
+        state, _ = MODULE.enforce_source_quality(source, "https://capitaai.com.br/captacao/example", "VERIFIED", "ok", None)
+        self.assertEqual(state, "INSUFFICIENT_EVIDENCE")
+
     def test_amount_parses_brl(self):
         self.assertEqual(MODULE.extract_amount("Apoio de R$ 1.250.000,00"), {"amount": 1250000.0, "currency": "BRL", "raw": "R$ 1.250.000,00"})
 
