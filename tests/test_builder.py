@@ -38,6 +38,16 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(set(merged[0]["evidence"]), {"evidence-1", "evidence-2"})
         self.assertEqual(set(merged[0]["provenance"]["observation_ids"]), {"observation-1", "observation-2"})
 
+    def test_non_sustainability_record_is_retained_and_classified_from_content(self):
+        record = self.record(status="CANDIDATE", title="Edital de cultura e educação comunitária")
+        record["source_domains"] = ["sustainability"]
+        classified = MODULE.reclassify_domains([record], [{"id": "source-a", "domain": ["sustainability"]}])[0]
+        self.assertIn("culture", classified["domains"])
+        self.assertIn("education", classified["domains"])
+        self.assertNotIn("sustainability", classified["domains"])
+        self.assertNotIn("sustainability", classified["lens_matches"])
+        self.assertIn("sustainability", classified["source_domains"])
+
     def test_unknown_is_not_current(self):
         lifecycle, experience, current = MODULE.classify_experience(self.record(status="UNKNOWN"), datetime(2026, 8, 26, tzinfo=timezone.utc))
         self.assertEqual((lifecycle, experience, current), ("SIGNAL", "SIGNAL", False))

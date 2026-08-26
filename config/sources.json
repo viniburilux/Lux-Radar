@@ -1,6 +1,8 @@
 {
-  "schema_version": "0.2.0",
-  "domain": "sustainability",
+  "schema_version": "0.3.0",
+  "domain": "opportunity_intelligence",
+  "default_lens": "sustainability",
+  "available_domains": ["sustainability", "culture", "education", "technology", "tourism", "economy", "sport", "social_impact", "research", "territorial_development", "financing", "public_policy"],
   "sources": [
     {
       "id": "fapesb-editais",

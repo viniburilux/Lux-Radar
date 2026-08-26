@@ -15,10 +15,10 @@ import requests
 from bs4 import BeautifulSoup
 
 try:
-    from quality_layer import extract_quality_records, norm_url
+    from quality_layer import extract_quality_records, norm_url, infer_domains
     from wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
 except ModuleNotFoundError:
-    from scripts.quality_layer import extract_quality_records, norm_url
+    from scripts.quality_layer import extract_quality_records, norm_url, infer_domains
     from scripts.wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
 
 
@@ -252,7 +252,9 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
                 "description": "Candidate observed on an official source page; detail verification pending.",
                 "organization": source.get("organization", source.get("name", observation["source_id"])),
                 "type": "opportunity_candidate",
-                "domains": source.get("domain", []),
+                "domains": infer_domains(f"{title} {candidate.get('description', '')}"),
+                "source_domains": source.get("domain", []),
+                "lens_matches": [],
                 "territories": [],
                 "eligibility": [],
                 "funding": {},
@@ -307,6 +309,8 @@ def merge_record_metadata(target: dict[str, Any], record: dict[str, Any]) -> Non
     target["provenance"]["observation_ids"] = sorted(set(target["provenance"].get("observation_ids", [])) | set(record.get("provenance", {}).get("observation_ids", [])))
     target["provenance"]["limitations"] = sorted(set(target["provenance"].get("limitations", [])) | set(record.get("provenance", {}).get("limitations", [])))
     target["sources"] = sorted({source for source in (set(target.get("sources", [])) | set(record.get("sources", [])) | {target.get("source_id", ""), record.get("source_id", "")}) if source})
+    target["source_domains"] = sorted(set(target.get("source_domains", [])) | set(record.get("source_domains", [])))
+    target["lens_matches"] = sorted(set(target.get("lens_matches", [])) | set(record.get("lens_matches", [])))
     if record.get("status") in {"VERIFIED", "CLOSED", "INSUFFICIENT_EVIDENCE"} or target.get("status") in {"UNKNOWN", "CANDIDATE"}:
         for field in ["title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "verification", "official_url", "official_pdf_url", "updated_at", "last_seen_at", "confidence"]:
             if field in record and record[field] not in (None, "", [], {}):
@@ -366,6 +370,35 @@ def merge_history(incoming: list[dict[str, Any]], previous: list[dict[str, Any]]
     return output, stats
 
 
+def derive_lens_matches(domains: list[str], source_domains: list[str] | None = None) -> list[str]:
+    """Return lightweight presentation lenses from observed record domains only."""
+    matches = set(domains)
+    environmental = {"sustainability", "climate", "biodiversity", "water", "circular_economy", "energy"}
+    if set(domains) & environmental:
+        matches.add("sustainability")
+    return sorted(matches)
+
+
+def reclassify_domains(records: list[dict[str, Any]], registry: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep source coverage metadata separate from record-level thematic classification."""
+    source_by_id = {source["id"]: source for source in registry}
+    for record in records:
+        source_ids = set(record.get("sources", [])) | {record.get("source_id", "")}
+        source_domains = set(record.get("source_domains", []))
+        for source_id in source_ids:
+            source_domains.update(source_by_id.get(source_id, {}).get("domain", []))
+        observed_text = " ".join([
+            str(record.get("title") or ""),
+            str(record.get("description") or ""),
+            " ".join(str(value) for value in record.get("eligibility", []) if value),
+            str(record.get("type") or ""),
+        ])
+        record["domains"] = infer_domains(observed_text)
+        record["source_domains"] = sorted(source_domains)
+        record["lens_matches"] = derive_lens_matches(record["domains"], record["source_domains"])
+    return records
+
+
 def csv_value(value: Any) -> str:
     if isinstance(value, (list, dict)):
         return json.dumps(value, ensure_ascii=False)
@@ -373,7 +406,7 @@ def csv_value(value: Any) -> str:
 
 
 def write_csv(path: Path, records: list[dict[str, Any]]) -> str:
-    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "lifecycle_state", "experience_type", "current_view", "change_type", "official_url", "official_pdf_url", "sources", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
+    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "source_domains", "territories", "eligibility", "funding", "deadline", "status", "lifecycle_state", "experience_type", "current_view", "change_type", "official_url", "official_pdf_url", "sources", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
@@ -404,6 +437,7 @@ def run(args: argparse.Namespace) -> int:
     deduped_incoming = dedupe(incoming)
     duplicate_consolidated = max(collected_count - len(deduped_incoming), 0)
     database, stats = merge_history(deduped_incoming, previous, observed_at)
+    database = reclassify_domains(database, registry)
     database = decorate_experience(database, observed_at)
     current_records = [item for item in database if item.get("current_view") is True]
     signals_history = [item for item in database if item.get("current_view") is not True]
@@ -432,9 +466,10 @@ def run(args: argparse.Namespace) -> int:
     manifest = {
         "release_id": release_id,
         "created_at": observed_at,
+        "default_lens": registry_payload.get("default_lens", "sustainability"),
         "source_ids": [source["id"] for source in registry],
         "observation_window": {"started_at": min((item["observed_at"] for item in observations), default=observed_at), "ended_at": max((item["observed_at"] for item in observations), default=observed_at)},
-        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "current_opportunities": len(current_records), "signals_history": len(signals_history), "moved_to_history_or_signals": len(signals_history), "closing_soon": sum(item.get("lifecycle_state") == "CLOSING_SOON" for item in database), "new_current": sum(item.get("current_view") is True and item.get("change_type") == "NEW" for item in database), "deduplicated": duplicate_consolidated, "collected": collected_count, "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database)},
+        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "current_opportunities": len(current_records), "signals_history": len(signals_history), "moved_to_history_or_signals": len(signals_history), "closing_soon": sum(item.get("lifecycle_state") == "CLOSING_SOON" for item in database), "new_current": sum(item.get("current_view") is True and item.get("change_type") == "NEW" for item in database), "deduplicated": duplicate_consolidated, "collected": collected_count, "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database), "sustainability_records": sum("sustainability" in item.get("domains", []) for item in database), "sustainability_lens_records": sum("sustainability" in item.get("lens_matches", []) for item in database), "non_sustainability_records": sum("sustainability" not in item.get("domains", []) for item in database), "unclassified_records": sum(not item.get("domains") for item in database), "domain_counts": {domain: sum(domain in item.get("domains", []) for item in database) for domain in sorted({domain for item in database for domain in item.get("domains", [])})}},
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
         "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "limitations": item.get("limitations", [])} for item in failed],

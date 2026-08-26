@@ -9,7 +9,7 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
-const CACHE_VERSION = "product-layer-20260826";
+const CACHE_VERSION = "opportunity-intelligence-20260826";
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#039;", '"':"&quot;"}[char]));
 const listValue = (value) => Array.isArray(value) ? value : (value ? [value] : []);
@@ -48,6 +48,7 @@ function relativeDate(value) {
 }
 
 function getDomains(item) { return listValue(item.domains || item.themes); }
+function getLensMatches(item) { return listValue(item.lens_matches || getDomains(item)); }
 function getTerritories(item) { return [...new Set(listValue(item.territories).concat(listValue(item.geography?.territories)).concat(item.geography?.state ? [item.geography.state] : []))]; }
 function getType(item) { return item.type || item.opportunity_type || "opportunity_candidate"; }
 function getStatus(item) { return item.status || "UNKNOWN"; }
@@ -64,7 +65,7 @@ function getFunding(item) {
 function getSources(item) { return [...new Set(listValue(item.sources).concat(item.source_id || []).filter(Boolean))]; }
 function getId(item) { return item.opportunity_id || item.id || item.official_url; }
 function searchable(item) {
-  return [item.title, item.description, getOrganization(item), item.source_id, item.experience_type, item.lifecycle_state, ...getDomains(item), ...getTerritories(item), ...getSources(item)].join(" ").toLowerCase();
+  return [item.title, item.description, getOrganization(item), item.source_id, item.experience_type, item.lifecycle_state, ...getDomains(item), ...getLensMatches(item), ...getTerritories(item), ...getSources(item)].join(" ").toLowerCase();
 }
 function statusClass(value) {
   if (["HISTORICAL", "CLOSED", "EXPIRED"].includes(value)) return "closed";
@@ -94,6 +95,7 @@ function filterRecords(records) {
   const territory = $("territory").value;
   const organization = $("organization").value;
   const deadlineFilter = $("deadline").value;
+  const lens = $("lens").value;
   const filtered = records.filter((item) => {
     const deadline = Boolean(getDeadline(item));
     return (!query || searchable(item).includes(query))
@@ -101,6 +103,7 @@ function filterRecords(records) {
       && (!domain || getDomains(item).includes(domain))
       && (!territory || getTerritories(item).includes(territory))
       && (!organization || getOrganization(item) === organization)
+      && (!lens || getLensMatches(item).includes(lens))
       && (!deadlineFilter || (deadlineFilter === "with_deadline" ? deadline : !deadline));
   });
   const sort = $("sort").value;
@@ -119,15 +122,15 @@ function render() {
   const closing = state.filteredCurrent.filter((item) => getLifecycle(item) === "CLOSING_SOON");
   const newItems = state.filteredCurrent.filter((item) => item.change_type === "NEW");
 
-  $("current-count").textContent = state.current.length;
-  $("hero-current-count").textContent = state.current.length;
+  $("current-count").textContent = state.filteredCurrent.length;
+  $("hero-current-count").textContent = state.filteredCurrent.length;
   $("closing-count").textContent = closing.length;
-  $("new-count").textContent = state.current.filter((item) => item.change_type === "NEW").length;
-  $("secondary-count").textContent = state.secondary.length;
+  $("new-count").textContent = newItems.length;
+  $("secondary-count").textContent = state.filteredSecondary.length;
   $("current-caption").textContent = `${state.filteredCurrent.length} exibidas`;
   $("closing-caption").textContent = `${closing.length} ${closing.length === 1 ? "oportunidade" : "oportunidades"}`;
   $("new-caption").textContent = `${newItems.length} ${newItems.length === 1 ? "oportunidade" : "oportunidades"}`;
-  $("secondary-caption").textContent = `${state.secondary.length} registros`;
+  $("secondary-caption").textContent = `${state.filteredSecondary.length} registros na lente atual`;
 
   $("current-empty").hidden = state.filteredCurrent.length > 0;
   $("closing-empty").hidden = closing.length > 0;
@@ -241,6 +244,7 @@ async function load() {
     $("hero-release").textContent = `Release ${manifest.release_id}`;
     $("source-label").textContent = `${manifest.source_ids?.length || 0} fontes observadas`;
     $("updated-label").textContent = `Atualizado em ${dateLabel(manifest.created_at)}`;
+    $("lens").value = manifest.default_lens || "sustainability";
     render();
   } catch (error) {
     $("error").textContent = error.message;
@@ -248,7 +252,7 @@ async function load() {
   }
 }
 
-["search", "type", "domain", "territory", "organization", "deadline", "sort"].forEach((id) => $(id).addEventListener("input", render));
+["search", "lens", "type", "domain", "territory", "organization", "deadline", "sort"].forEach((id) => $(id).addEventListener("input", render));
 $("show-more-secondary").addEventListener("click", () => { state.secondaryLimit += 12; renderSecondary(); });
 $("close-detail").addEventListener("click", () => $("detail-dialog").close());
 $("detail-dialog").addEventListener("click", (event) => { if (event.target === $("detail-dialog")) $("detail-dialog").close(); });

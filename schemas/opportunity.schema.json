@@ -73,6 +73,16 @@
       "items": {"type": "string"},
       "uniqueItems": true
     },
+    "source_domains": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "lens_matches": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
     "geography": {
       "type": "object",
       "additionalProperties": false,

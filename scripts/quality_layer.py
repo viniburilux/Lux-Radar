@@ -142,24 +142,31 @@ def infer_type(text: str, label: str) -> str:
     return "call"
 
 
-def infer_domains(text: str, configured: list[str]) -> list[str]:
+def infer_domains(text: str, configured: list[str] | None = None) -> list[str]:
+    """Classify a record from observed content; configured source tags are not record facts."""
     haystack = text.lower()
     aliases = {
-        "climate": ["climate", "clima", "carbono", "emission"],
-        "biodiversity": ["biodiversidade", "biodiversity", "fauna", "flora"],
-        "water": ["água", "water", "bacia", "hídrica"],
-        "circular_economy": ["economia circular", "circular economy", "resíduos", "waste"],
-        "energy": ["energia", "energy", "renewable", "renovável"],
-        "sustainability": ["sustentabilidade", "sustainability", "sustainable"],
-        "research": ["pesquisa", "research", "ciência", "science"],
-        "innovation": ["inovação", "innovation", "tecnologia", "technology"],
-        "territory": ["território", "territory", "comunidade", "community"],
+        "sustainability": ["sustentabilidade", "sustainability", "sustainable", "socioambiental", "meio ambiente", "ambiental", "conservação", "natureza", "florestal"],
+        "climate": ["climate", "clima", "carbono", "emission", "emissão", "adaptação climática", "resiliência climática"],
+        "biodiversity": ["biodiversidade", "biodiversity", "fauna", "flora", "espécies", "rppn", "unidade de conservação", "ecossistema"],
+        "water": ["água", "water", "bacia", "hídrica", "saneamento"],
+        "circular_economy": ["economia circular", "circular economy", "resíduos", "waste", "reciclagem"],
+        "energy": ["energia", "energy", "renewable", "renovável", "transição energética"],
+        "research": ["pesquisa", "research", "ciência", "science", "científica"],
+        "innovation": ["inovação", "innovation", "tecnologia", "technology", "tecnológica", "startup"],
+        "technology": ["tecnologia", "technology", "digital", "software", "inteligência artificial"],
+        "territory": ["território", "territory", "comunidade", "community", "territorial"],
+        "culture": ["cultura", "cultural", "arte", "artes", "audiovisual", "patrimônio"],
+        "education": ["educação", "educacional", "ensino", "aprendizagem", "escola", "universidade"],
+        "tourism": ["turismo", "turística", "turístico", "tourism", "destino turístico"],
+        "economy": ["economia", "econômico", "econômica", "empreendedorismo", "negócios"],
+        "sport": ["esporte", "esportivo", "esportiva", "sport", "atletismo"],
+        "social_impact": ["impacto social", "direitos", "inclusão", "inclusivo", "justiça social"],
+        "territorial_development": ["desenvolvimento territorial", "desenvolvimento regional", "desenvolvimento local"],
+        "financing": ["financiamento", "funding", "grant", "subvenção", "recursos financeiros"],
+        "public_policy": ["política pública", "políticas públicas", "public policy"],
     }
-    result = set(configured)
-    for domain, terms in aliases.items():
-        if any(term in haystack for term in terms):
-            result.add(domain)
-    return sorted(result)
+    return sorted({domain for domain, terms in aliases.items() if any(term in haystack for term in terms)})
 
 
 def infer_territories(text: str, country: str) -> list[str]:
@@ -232,7 +239,7 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
             limitations = ["Official PDF was fetched directly and claims were extracted without republishing the complete document."]
             if pdf_error:
                 limitations.append(pdf_error)
-            return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": candidate.get("title") or source.get("name"), "description": clean_text(pdf_text, 1600), "text": pdf_text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": [], "pdf_url": response.url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(pdf_text, source.get("domain", [])), "territories": infer_territories(pdf_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
+            return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": candidate.get("title") or source.get("name"), "description": clean_text(pdf_text, 1600), "text": pdf_text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": [], "pdf_url": response.url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(pdf_text), "source_domains": source.get("domain", []), "territories": infer_territories(pdf_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
         if "html" not in content_type.lower():
             return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "limitations": ["Detail response was not HTML or PDF; metadata was retained and no field extraction was attempted."]}
         soup = BeautifulSoup(body, "html.parser")
@@ -262,7 +269,7 @@ def _detail_request(candidate: dict[str, Any], source: dict[str, Any], root_obse
         organization = source.get("organization", source.get("name", source["id"]))
         status, reason = quality_state(combined_text, deadline=deadline, eligibility=eligibility, organization=organization, pdf_url=pdf_url)
         status, reason = enforce_source_quality(source, response.url, status, reason, pdf_url)
-        return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": title, "description": description, "text": text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": headings[:30], "pdf_url": pdf_url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(combined_text, source.get("domain", [])), "territories": infer_territories(combined_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
+        return {**base, "status": "success", "http_status": response.status_code, "observed_at": timestamp, "url": response.url, "body": body, "content_type": content_type, "title": title, "description": description, "text": text, "pdf_text": pdf_text, "pdf_hash": pdf_hash, "headings": headings[:30], "pdf_url": pdf_url, "amount": amount, "deadline": deadline, "eligibility": eligibility, "organization": organization, "domains": infer_domains(combined_text), "source_domains": source.get("domain", []), "territories": infer_territories(combined_text, source.get("country", "")), "quality_status": status, "quality_reason": reason, "limitations": limitations}
     except requests.RequestException as exc:
         return {**base, "status": "failed", "http_status": None, "observed_at": timestamp, "url": url, "body": b"", "limitations": [f"Detail network failure: {type(exc).__name__}."]}
 
@@ -300,7 +307,8 @@ def _make_record(detail: dict[str, Any], source: dict[str, Any], root: dict[str,
         "description": detail.get("description") or "Candidate observed on an official source page; detail verification pending.",
         "organization": detail.get("organization") or source.get("organization", source.get("name", source["id"])),
         "type": infer_type(f"{title} {detail.get('text', '')}", candidate.get("title", "")),
-        "domains": detail.get("domains") or source.get("domain", []),
+        "domains": detail.get("domains") or [],
+        "source_domains": detail.get("source_domains") or source.get("domain", []),
         "territories": detail.get("territories", []),
         "eligibility": detail.get("eligibility", []),
         "funding": detail.get("amount", {}),
