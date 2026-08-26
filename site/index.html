@@ -4,55 +4,105 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lux Radar — Oportunidades de Sustentabilidade</title>
-  <meta name="description" content="Oportunidades de sustentabilidade observadas pelo Lux Radar, com fonte e atualização visíveis.">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Descubra oportunidades atuais de sustentabilidade com fonte oficial, prazo e contexto visíveis.">
+  <link rel="stylesheet" href="styles.css?v=product-layer-20260826">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <p class="eyebrow">LUX RADAR · DATA LAYER</p>
-      <h1>Oportunidades de sustentabilidade, com origem visível.</h1>
-      <p class="hero-copy">Uma primeira camada pública de oportunidades observadas em fontes oficiais. Cada registro preserva fonte, atualização, status e limitações.</p>
-      <div class="hero-meta"><span id="release-label">Carregando release…</span><span id="source-label">Carregando fontes…</span></div>
+      <div class="hero-nav"><span class="brand-mark">LUX RADAR</span><span class="nav-label">OPPORTUNITY INTELLIGENCE · SUSTENTABILIDADE</span></div>
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow">DESCUBRIR · VERIFICAR · AGIR</p>
+          <h1>O que existe agora que pode ser relevante para você?</h1>
+          <p class="hero-copy">O radar organiza oportunidades atuais de sustentabilidade por tema, território, prazo e organização — sempre apontando para a fonte oficial.</p>
+        </div>
+        <aside class="hero-now" aria-label="Resumo atual">
+          <span class="hero-now-label">RADAR AGORA</span>
+          <strong id="hero-current-count">—</strong>
+          <span>oportunidades atuais</span>
+          <small id="hero-release">Carregando release…</small>
+        </aside>
+      </div>
+      <div class="hero-meta"><span id="source-label">Carregando fontes…</span><span id="updated-label">Atualização: —</span><a href="https://github.com/viniburilux/Lux-Radar">Ver código e proveniência</a></div>
     </div>
   </header>
 
   <main class="container">
-    <section class="controls" aria-label="Filtros de oportunidades">
-      <label class="search-label">Pesquisar
-        <input id="search" type="search" placeholder="Título, organização ou fonte…" autocomplete="off">
+    <section class="radar-intro">
+      <div>
+        <p class="section-kicker">VISÃO TEMPORAL</p>
+        <h2>O radar do momento</h2>
+        <p class="section-copy">A página principal mostra somente registros com evidência suficiente para uma ação. Sinais e histórico continuam disponíveis, mas não são confundidos com oportunidades abertas.</p>
+      </div>
+      <div class="trust-note"><span class="trust-dot"></span><span>Fonte oficial preservada em cada registro</span></div>
+    </section>
+
+    <section class="pulse" aria-label="Resumo temporal">
+      <button class="pulse-card pulse-primary" data-scroll="current-section"><span class="pulse-label">Agora</span><strong id="current-count">—</strong><span>oportunidades atuais</span></button>
+      <button class="pulse-card" data-scroll="closing-section"><span class="pulse-label">Fechando</span><strong id="closing-count">—</strong><span>nos próximos 30 dias</span></button>
+      <button class="pulse-card" data-scroll="new-section"><span class="pulse-label">Novas</span><strong id="new-count">—</strong><span>neste release</span></button>
+      <button class="pulse-card pulse-secondary" data-scroll="secondary-section"><span class="pulse-label">Sinais e histórico</span><strong id="secondary-count">—</strong><span>fora da lista atual</span></button>
+    </section>
+
+    <section class="controls" aria-label="Filtrar oportunidades">
+      <label class="search-label">Buscar oportunidades
+        <input id="search" type="search" placeholder="Tema, organização, território ou título…" autocomplete="off">
       </label>
-      <label>Domínio
+      <label>Tipo
+        <select id="type"><option value="">Todos</option></select>
+      </label>
+      <label>Tema
         <select id="domain"><option value="">Todos</option></select>
       </label>
       <label>Território
         <select id="territory"><option value="">Todos</option></select>
       </label>
-      <label>Tipo
-        <select id="type"><option value="">Todos</option></select>
-      </label>
-      <label>Status
-        <select id="status"><option value="">Todos</option></select>
+      <label>Organização
+        <select id="organization"><option value="">Todas</option></select>
       </label>
       <label>Prazo
         <select id="deadline"><option value="">Todos</option><option value="with_deadline">Com prazo</option><option value="without_deadline">Sem prazo observado</option></select>
       </label>
       <label>Ordenar
-        <select id="sort"><option value="updated_desc">Atualização recente</option><option value="deadline_asc">Prazo mais próximo</option><option value="title_asc">Título A–Z</option></select>
+        <select id="sort"><option value="deadline_asc">Prazo mais próximo</option><option value="updated_desc">Atualização recente</option><option value="title_asc">Título A–Z</option></select>
       </label>
     </section>
 
-    <section class="summary" aria-live="polite">
-      <div><strong id="visible-count">—</strong><span>oportunidades visíveis</span></div>
-      <div><strong id="verified-count">—</strong><span>verificadas</span></div>
-      <div><strong id="candidate-count">—</strong><span>candidatas</span></div>
-      <div><strong id="unknown-count">—</strong><span>sem evidência suficiente</span></div>
-      <div><strong id="updated-at">—</strong><span>última atualização</span></div>
+    <section id="error" class="notice error" hidden></section>
+
+    <section id="current-section" class="radar-section">
+      <div class="section-heading">
+        <div><p class="section-kicker">OPORTUNIDADES</p><h2>Oportunidades agora</h2></div>
+        <span id="current-caption" class="section-count">—</span>
+      </div>
+      <div id="current-empty" class="empty-state" hidden>
+        <strong>Nenhuma oportunidade foi confirmada como atual neste release.</strong>
+        <p>Isso é intencional: registros sem evidência suficiente não são promovidos para a lista principal. Consulte os sinais abaixo para acompanhar o que ainda precisa de verificação.</p>
+      </div>
+      <div id="current-cards" class="cards" aria-live="polite"></div>
     </section>
 
-    <section id="error" class="notice error" hidden></section>
-    <section id="empty" class="notice" hidden>Nenhuma oportunidade corresponde aos filtros atuais.</section>
-    <section id="cards" class="cards" aria-live="polite"></section>
+    <section id="closing-section" class="radar-section compact-section">
+      <div class="section-heading"><div><p class="section-kicker">ATENÇÃO AO PRAZO</p><h2>Fechando em breve</h2></div><span id="closing-caption" class="section-count">—</span></div>
+      <div id="closing-cards" class="cards compact-cards" aria-live="polite"></div>
+      <div id="closing-empty" class="empty-state compact-empty" hidden>Nenhuma oportunidade atual está fechando nos próximos 30 dias.</div>
+    </section>
+
+    <section id="new-section" class="radar-section compact-section">
+      <div class="section-heading"><div><p class="section-kicker">MOVIMENTO DO RELEASE</p><h2>Novas oportunidades</h2></div><span id="new-caption" class="section-count">—</span></div>
+      <div id="new-cards" class="cards compact-cards" aria-live="polite"></div>
+      <div id="new-empty" class="empty-state compact-empty" hidden>Nenhuma oportunidade atual foi registrada pela primeira vez neste release.</div>
+    </section>
+
+    <section id="secondary-section" class="secondary-section">
+      <div class="section-heading">
+        <div><p class="section-kicker">CAMADA DE CONTEXTO</p><h2>Outros sinais / histórico</h2><p class="section-copy">Registros observados, mas ainda não promovidos a oportunidades atuais, além de oportunidades encerradas ou históricas.</p></div>
+        <span id="secondary-caption" class="section-count">—</span>
+      </div>
+      <div id="secondary-cards" class="cards compact-cards" aria-live="polite"></div>
+      <button id="show-more-secondary" class="secondary-more" hidden>Mostrar mais sinais e histórico</button>
+    </section>
   </main>
 
   <dialog id="detail-dialog" class="detail-dialog">
@@ -64,6 +114,6 @@
     <p>Lux Radar observa fontes públicas. Verifique a fonte oficial antes de agir.</p>
     <a href="https://github.com/viniburilux/Lux-Radar">Código, contratos e fixtures no GitHub</a>
   </footer>
-  <script src="app.js?v=quality-layer-20260826"></script>
+  <script src="app.js?v=product-layer-20260826"></script>
 </body>
 </html>

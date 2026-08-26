@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import hashlib
 import json
 from pathlib import Path
@@ -34,6 +34,10 @@ TERMS = [
 
 def now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+CURRENT_QUALITY_STATES = {"VERIFIED", "OPEN", "UPCOMING", "EXTENDED", "ready_for_action", "verified_primary"}
+CLOSED_STATES = {"CLOSED", "CANCELLED", "EXPIRED", "HISTORICAL", "expired", "superseded"}
 
 
 def hash_bytes(body: bytes) -> str:
@@ -147,6 +151,52 @@ def fetch_source(source: dict[str, Any]) -> dict[str, Any]:
             "limitations": [f"Network failure: {type(exc).__name__}.", "No retry or access bypass was attempted."],
             "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms.",
         }
+
+
+def parse_iso_datetime(value: Any) -> datetime | None:
+    if not value or not isinstance(value, str):
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def classify_experience(record: dict[str, Any], reference_time: datetime | None = None) -> tuple[str, str, bool]:
+    """Return (lifecycle_state, experience_type, current_view) without promoting uncertainty."""
+    reference_time = reference_time or datetime.now(timezone.utc)
+    status = str(record.get("status") or "UNKNOWN")
+    deadline = parse_iso_datetime(record.get("deadline"))
+    if status in CLOSED_STATES:
+        return "HISTORICAL", "HISTORICAL", False
+    if status not in CURRENT_QUALITY_STATES:
+        return "SIGNAL", "SIGNAL", False
+    if deadline and deadline < reference_time:
+        return "HISTORICAL", "HISTORICAL", False
+    if deadline and deadline <= reference_time + timedelta(days=30):
+        return "CLOSING_SOON", "OPPORTUNITY", True
+    if deadline and deadline > reference_time + timedelta(days=30):
+        return "UPCOMING", "OPPORTUNITY", True
+    if status in {"OPEN", "ready_for_action"}:
+        return "ACTIVE", "OPPORTUNITY", True
+    return "ONGOING", "OPPORTUNITY", True
+
+
+def decorate_experience(records: list[dict[str, Any]], observed_at: str) -> list[dict[str, Any]]:
+    reference_time = parse_iso_datetime(observed_at) or datetime.now(timezone.utc)
+    for record in records:
+        lifecycle_state, experience_type, current_view = classify_experience(record, reference_time)
+        record["lifecycle_state"] = lifecycle_state
+        record["experience_type"] = experience_type
+        record["current_view"] = current_view
+        events = [event for event in record.get("history", []) if event.get("at") == observed_at]
+        if any(event.get("event") == "first_seen" for event in events):
+            record["change_type"] = "NEW"
+        elif any(event.get("event") in {"updated", "not_seen_in_release"} for event in events):
+            record["change_type"] = "UPDATED"
+        else:
+            record["change_type"] = "UNCHANGED"
+    return records
 
 
 def claim_map(observation: dict[str, Any]) -> dict[str, Any]:
@@ -319,7 +369,7 @@ def csv_value(value: Any) -> str:
 
 
 def write_csv(path: Path, records: list[dict[str, Any]]) -> str:
-    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "official_url", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
+    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "lifecycle_state", "experience_type", "current_view", "change_type", "official_url", "official_pdf_url", "sources", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
@@ -346,25 +396,33 @@ def run(args: argparse.Namespace) -> int:
     observations = quality_observations
     previous_payload = load_json(DATA_DIR / "opportunities.json", {"opportunities": []})
     previous = previous_payload.get("opportunities", []) if isinstance(previous_payload, dict) else previous_payload
-    database, stats = merge_history(incoming, previous, observed_at)
+    collected_count = len(incoming)
+    deduped_incoming = dedupe(incoming)
+    duplicate_consolidated = max(collected_count - len(deduped_incoming), 0)
+    database, stats = merge_history(deduped_incoming, previous, observed_at)
+    database = decorate_experience(database, observed_at)
+    current_records = [item for item in database if item.get("current_view") is True]
+    signals_history = [item for item in database if item.get("current_view") is not True]
     failed = [item for item in observations if item["fetch"]["status"] in {"failed", "blocked"}]
     release_id = args.release_id or f"weekly-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}"
     artifact_specs = [
-        ("observations", observations, "application/json"),
-        ("evidence", evidences, "application/json"),
-        ("normalized", normalized, "application/json"),
-        ("opportunities", database, "application/json"),
+        ("observations", "observations", observations, "application/json"),
+        ("evidence", "evidence", evidences, "application/json"),
+        ("normalized", "normalized", normalized, "application/json"),
+        ("opportunities", "opportunities", database, "application/json"),
+        ("current-opportunities", "opportunities", current_records, "application/json"),
+        ("signals-history", "signals", signals_history, "application/json"),
     ]
     artifacts: list[dict[str, Any]] = []
-    for name, payload, media_type in artifact_specs:
+    for name, payload_key, payload, media_type in artifact_specs:
         ref = f"data/{name}.json"
-        digest = save_json(DATA_DIR / f"{name}.json", {"release_id": release_id, name: payload})
+        digest = save_json(DATA_DIR / f"{name}.json", {"release_id": release_id, payload_key: payload})
         artifacts.append({"kind": name, "ref": ref, "content_hash": digest, "media_type": media_type})
     csv_digest = write_csv(DATA_DIR / "opportunities.csv", database)
     artifacts.append({"kind": "opportunities_csv", "ref": "data/opportunities.csv", "content_hash": csv_digest, "media_type": "text/csv"})
     site_data = SITE_DATA_DIR
     site_data.mkdir(parents=True, exist_ok=True)
-    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json"]:
+    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json", "current-opportunities.json", "signals-history.json"]:
         (site_data / filename).write_text((DATA_DIR / filename).read_text(encoding="utf-8"), encoding="utf-8")
     (site_data / "opportunities.csv").write_bytes((DATA_DIR / "opportunities.csv").read_bytes())
     manifest = {
@@ -372,12 +430,12 @@ def run(args: argparse.Namespace) -> int:
         "created_at": observed_at,
         "source_ids": [source["id"] for source in registry],
         "observation_window": {"started_at": min((item["observed_at"] for item in observations), default=observed_at), "ended_at": max((item["observed_at"] for item in observations), default=observed_at)},
-        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "collected": len(incoming), "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database)},
+        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "current_opportunities": len(current_records), "signals_history": len(signals_history), "moved_to_history_or_signals": len(signals_history), "closing_soon": sum(item.get("lifecycle_state") == "CLOSING_SOON" for item in database), "new_current": sum(item.get("current_view") is True and item.get("change_type") == "NEW" for item in database), "deduplicated": duplicate_consolidated, "collected": collected_count, "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database)},
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
         "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "limitations": item.get("limitations", [])} for item in failed],
         "producer": {"name": "lux-radar-public-builder", "version": "0.1.0", "repository": "https://github.com/viniburilux/Lux-Radar"},
-        "limitations": ["Generic HTML extraction is candidate-level; detail verification remains source-specific.", "External content is referenced, not redistributed by default.", "A source failure does not imply absence of opportunities."],
+        "limitations": ["The current opportunity view requires a quality state and temporal evidence; UNKNOWN, CANDIDATE and INSUFFICIENT_EVIDENCE remain outside it.", "Generic HTML extraction is candidate-level; detail verification remains source-specific.", "External content is referenced, not redistributed by default.", "A source failure does not imply absence of opportunities."],
     }
     save_json(DATA_DIR / "release-manifest.json", manifest)
     (site_data / "release-manifest.json").write_text((DATA_DIR / "release-manifest.json").read_text(encoding="utf-8"), encoding="utf-8")

@@ -60,15 +60,20 @@ def extract_deadline(text: str) -> str | None:
         rf"(?:inscri(?:ção|ções)|submiss(?:ão|ões)|application(?:s)?)\s*(?:até|until|by)\s*{date}",
         rf"{date}[^.\n!?]{{0,50}}?(?:é o prazo|is the deadline|deadline|prazo final)",
     ]
+    candidates: list[tuple[datetime, str]] = []
     for pattern in patterns:
-        match = re.search(pattern, text, flags=re.I)
-        if not match:
-            continue
-        value = match.group(1)
-        dates = parse_dates(value)
-        if dates:
-            return dates[0]
-    return None
+        for match in re.finditer(pattern, text, flags=re.I):
+            value = match.group(1)
+            dates = parse_dates(value)
+            if not dates:
+                continue
+            parsed = datetime.fromisoformat(dates[0].replace("Z", "+00:00"))
+            candidates.append((parsed, dates[0]))
+    if not candidates:
+        return None
+    now_utc = datetime.now(timezone.utc)
+    future = [candidate for candidate in candidates if candidate[0] >= now_utc]
+    return min(future or candidates, key=lambda candidate: candidate[0])[1]
 
 
 def extract_amount(text: str) -> dict[str, Any]:
@@ -159,11 +164,19 @@ def infer_territories(text: str, country: str) -> list[str]:
 
 def quality_state(text: str, *, deadline: str | None, eligibility: list[str], organization: str, pdf_url: str | None) -> tuple[str, str]:
     haystack = text.lower()
+    deadline_dt = None
+    if deadline:
+        try:
+            deadline_dt = datetime.fromisoformat(deadline.replace("Z", "+00:00"))
+        except ValueError:
+            deadline_dt = None
     closed = any(term in haystack for term in ["encerrad", "closed", "deadline passed", "prazo encerrado", "concluded", "finalizado"])
     open_signal = any(term in haystack for term in ["inscrições abertas", "inscricao aberta", "open call", "open for", "submissions open", "chamada aberta"])
     critical_count = sum(bool(item) for item in [deadline, eligibility, organization])
     if closed and critical_count >= 2:
         return "CLOSED", "Detail page identifies the opportunity and indicates a closed or expired state."
+    if deadline_dt and deadline_dt < datetime.now(timezone.utc):
+        return "CLOSED", "The observed official deadline has already passed; the record is retained outside the current opportunity view."
     if critical_count == 3 and (open_signal or deadline):
         return "VERIFIED", "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved."
     if critical_count >= 2:

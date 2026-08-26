@@ -165,6 +165,19 @@
       "type": "string",
       "enum": ["verified", "candidate", "insufficient_evidence", "not_observed", "blocked", "expired", "superseded"]
     },
+    "lifecycle_state": {
+      "type": "string",
+      "enum": ["ACTIVE", "CLOSING_SOON", "UPCOMING", "ONGOING", "SIGNAL", "HISTORICAL"]
+    },
+    "experience_type": {
+      "type": "string",
+      "enum": ["OPPORTUNITY", "SIGNAL", "HISTORICAL"]
+    },
+    "current_view": {"type": "boolean"},
+    "change_type": {
+      "type": "string",
+      "enum": ["NEW", "UPDATED", "UNCHANGED"]
+    },
     "observation_ids": {
       "type": "array",
       "items": {"type": "string"},

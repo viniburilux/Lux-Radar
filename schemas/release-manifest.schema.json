@@ -40,7 +40,23 @@
         "evidence": {"type": "integer", "minimum": 0},
         "normalized": {"type": "integer", "minimum": 0},
         "opportunities": {"type": "integer", "minimum": 0},
-        "failed": {"type": "integer", "minimum": 0}
+        "current_opportunities": {"type": "integer", "minimum": 0},
+        "signals_history": {"type": "integer", "minimum": 0},
+        "moved_to_history_or_signals": {"type": "integer", "minimum": 0},
+        "closing_soon": {"type": "integer", "minimum": 0},
+        "new_current": {"type": "integer", "minimum": 0},
+        "deduplicated": {"type": "integer", "minimum": 0},
+        "collected": {"type": "integer", "minimum": 0},
+        "new": {"type": "integer", "minimum": 0},
+        "updated": {"type": "integer", "minimum": 0},
+        "closed": {"type": "integer", "minimum": 0},
+        "unchanged": {"type": "integer", "minimum": 0},
+        "failed": {"type": "integer", "minimum": 0},
+        "total_candidates": {"type": "integer", "minimum": 0},
+        "total_verified": {"type": "integer", "minimum": 0},
+        "total_closed": {"type": "integer", "minimum": 0},
+        "total_unknown": {"type": "integer", "minimum": 0},
+        "total_insufficient_evidence": {"type": "integer", "minimum": 0}
       }
     },
     "artifacts": {

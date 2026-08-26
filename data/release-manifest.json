@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32920289962",
-  "created_at": "2026-08-26T01:47:36Z",
+  "release_id": "product-layer-final-20260826",
+  "created_at": "2026-08-26T03:08:42Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,55 +15,73 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T01:47:36Z",
-    "ended_at": "2026-08-26T01:48:22Z"
+    "started_at": "2026-08-26T03:08:42Z",
+    "ended_at": "2026-08-26T03:10:15Z"
   },
   "record_counts": {
     "observations": 77,
     "evidence": 76,
     "normalized": 326,
     "opportunities": 237,
+    "current_opportunities": 0,
+    "signals_history": 237,
+    "moved_to_history_or_signals": 237,
+    "closing_soon": 0,
+    "new_current": 0,
+    "deduplicated": 86,
     "collected": 272,
     "new": 0,
-    "updated": 51,
+    "updated": 53,
     "closed": 0,
-    "unchanged": 186,
+    "unchanged": 184,
     "failed": 3,
     "total_candidates": 162,
-    "total_verified": 6,
-    "total_closed": 4,
+    "total_verified": 0,
+    "total_closed": 13,
     "total_unknown": 51,
-    "total_insufficient_evidence": 14
+    "total_insufficient_evidence": 11
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:833062eeaaeed4657a8eb0a4d6c0ba088ab8cca85fcf7fd2ab75b85c7aac38f9",
+      "content_hash": "sha256:b314ea9cda5922d4c23b0c1985a1903bd25a3192c20906c5c18691a8f2a851e7",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:9bcc8acd81b142a28499cc0d46ab540acd4aecc68992f18b6b1606a86e6085a7",
+      "content_hash": "sha256:aa4f6913be893aca5086657096b32272b73ad4b96dc7ed056ff8a7554c87081e",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:3bbb5ed4c85ea986e1ab6214d73c2ce276b0ff6bf3705f231fb37ade9782ef08",
+      "content_hash": "sha256:7c065c98d1a7edbb56d98ec8076c89683fdaf2c17ab0d155df3065f7a26b3fc9",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:233f4024e04cf540f758e605311e4be1b76e6787b68ec4db8e1f14fbb3480a06",
+      "content_hash": "sha256:7107903bd4ef0760921d185b8b30b90a589c81f4727186ad6e65e4903b0255ad",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "current-opportunities",
+      "ref": "data/current-opportunities.json",
+      "content_hash": "sha256:1055676e442edd13a2ad91d19e9b3e69cce318b7b301e04da855ae05807a2d5b",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "signals-history",
+      "ref": "data/signals-history.json",
+      "content_hash": "sha256:2dc730b2867dfaa69460ab9328b768c874b6b4d405851338bfa6af6246af33ad",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:769d591718ec6267742c659f901e2c8a6042cb35ddd230bd0433230b3729922a",
+      "content_hash": "sha256:cc8f5e865005504b755496832fa38659300dc45d2214e3fb06933eb176fecf74",
       "media_type": "text/csv"
     }
   ],
@@ -84,7 +102,7 @@
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 403,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
       ]
@@ -112,6 +130,7 @@
     "repository": "https://github.com/viniburilux/Lux-Radar"
   },
   "limitations": [
+    "The current opportunity view requires a quality state and temporal evidence; UNKNOWN, CANDIDATE and INSUFFICIENT_EVIDENCE remain outside it.",
     "Generic HTML extraction is candidate-level; detail verification remains source-specific.",
     "External content is referenced, not redistributed by default.",
     "A source failure does not imply absence of opportunities."
