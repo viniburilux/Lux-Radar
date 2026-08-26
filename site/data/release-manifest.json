@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-20260825-final",
-  "created_at": "2026-08-26T00:14:44Z",
+  "release_id": "weekly-32914372494",
+  "created_at": "2026-08-26T00:16:25Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,49 +15,49 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T00:14:44Z",
-    "ended_at": "2026-08-26T00:15:34Z"
+    "started_at": "2026-08-26T00:16:25Z",
+    "ended_at": "2026-08-26T00:16:39Z"
   },
   "record_counts": {
     "observations": 11,
-    "evidence": 9,
-    "normalized": 238,
-    "opportunities": 204,
-    "collected": 238,
-    "new": 0,
+    "evidence": 10,
+    "normalized": 260,
+    "opportunities": 226,
+    "collected": 260,
+    "new": 22,
     "updated": 0,
     "closed": 0,
-    "failed": 2
+    "failed": 1
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:1409355a3832479fb8e3c64ebc6088c7e060034c93f407c46db2051ab02d3aac",
+      "content_hash": "sha256:b9bc8851970e32bfcd7a09014114f6b392aa87092e988af832f0fc5203ddab79",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:98a5cd35ccfadcd041a39c3130771a65d7eb2e356137ba438ae9dc8d36d74cf6",
+      "content_hash": "sha256:02b3aa6932cc438764484892dafd4c4ac70df4f63563d70a4a81fa031ed58752",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:d4f78440d9d3bf5d0d6e5a943b6d802f3dec7f86941da9ee05d0003799ff45ce",
+      "content_hash": "sha256:5f9938ea677550143752d5aa69e78fd2938e8c312e899b87bbeb978eacc8c685",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:de463ad1fb50e6d95bfdc3af6135fa52d1b8e6eb01bf2eb882f3d94cc89ba672",
+      "content_hash": "sha256:21f3429de15292c5c5e84993e09a2aada205780e8d2eead1e76aa2a158fddd22",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:51a504ca604a88aecd6af6548dfcb214e8ea81757cb6010adc452ca3d554690e",
+      "content_hash": "sha256:0812651d4ac3cf29c0013a9452a0aa20de57e10a924617c73f8432ce5fa92151",
       "media_type": "text/csv"
     }
   ],
@@ -70,23 +70,15 @@
     "capes-editais": "success",
     "fundo-amazonia": "success",
     "finep-chamadas": "success",
-    "petrobras-socioambiental": "failed",
+    "petrobras-socioambiental": "success",
     "cinea-life": "success",
     "transferegov-parcerias": "failed"
   },
   "errors": [
     {
-      "source_id": "petrobras-socioambiental",
-      "status": "failed",
-      "http_status": 403,
-      "limitations": [
-        "HTTP failure was preserved; no retry or access bypass was attempted."
-      ]
-    },
-    {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 404,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
       ]
