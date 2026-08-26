@@ -1,5 +1,5 @@
 {
-  "release_id": "opportunity-intelligence-20260826-v2",
+  "release_id": "weekly-32931001460",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -48,9 +48,9 @@
       "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
       "source_id": "cnpq-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
       ],
@@ -137,9 +137,9 @@
       "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada_18_2026_avaliacoes_de_politicas__programas__projetos_e_acoes_em_saude.pdf",
       "source_id": "cnpq-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:bb86d93e5ab16360"
       ],
@@ -305,19 +305,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:fd791c5a34c871f7"
+        "evidence:funbio-chamadas:detail:f90189dc987463bc"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:fd791c5a34c871f7"
+        "evidence:funbio-chamadas:detail:f90189dc987463bc"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:fd791c5a34c871f7"
+          "funbio-chamadas:detail:f90189dc987463bc"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -392,19 +392,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:10cf880119d40328"
+        "evidence:funbio-chamadas:detail:757ef038c941caf5"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:10cf880119d40328"
+        "evidence:funbio-chamadas:detail:757ef038c941caf5"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:10cf880119d40328"
+          "funbio-chamadas:detail:757ef038c941caf5"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -476,19 +476,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:1da06e66b8aae0bd"
+        "evidence:funbio-chamadas:detail:5d324e2e2311ab44"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:1da06e66b8aae0bd"
+        "evidence:funbio-chamadas:detail:5d324e2e2311ab44"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:1da06e66b8aae0bd"
+          "funbio-chamadas:detail:5d324e2e2311ab44"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -558,19 +558,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:de07ee49273e95b1"
+        "evidence:funbio-chamadas:detail:58ac630c8707657b"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:de07ee49273e95b1"
+        "evidence:funbio-chamadas:detail:58ac630c8707657b"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:de07ee49273e95b1"
+          "funbio-chamadas:detail:58ac630c8707657b"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -643,19 +643,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:14a92b63186a1494"
+        "evidence:funbio-chamadas:detail:04cb1135d684c67a"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:14a92b63186a1494"
+        "evidence:funbio-chamadas:detail:04cb1135d684c67a"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:14a92b63186a1494"
+          "funbio-chamadas:detail:04cb1135d684c67a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -730,9 +730,9 @@
       "official_pdf_url": null,
       "source_id": "capta-editais",
       "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
+      "updated_at": "2026-08-26T04:38:59Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
+      "last_seen_at": "2026-08-26T04:38:59Z",
       "evidence": [
         "evidence:capta-editais:detail:1dfeef126b6ddb26"
       ],
@@ -762,95 +762,6 @@
       ],
       "lens_matches": [
         "innovation"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-a0514411806aa7b7",
-      "canonical_key": "pdf:https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
-      "title": "Prêmio iCS-Anpec de Economia e Clima - Hub de Economia e Clima",
-      "description": "Reconhecer estudos que analisem os impactos das mudanças climáticas na economia brasileira.",
-      "organization": "Capta / ISPN",
-      "type": "research_call",
-      "domains": [
-        "climate",
-        "economy",
-        "research"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "communities",
-        "financing",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "Quem pode participar Pesquisadores(as) brasileiros(as) com título de doutor e estudos publicados em periódicos nacionais ou internacionais de destaque, focados na interseção entre economia e clima"
-      ],
-      "funding": {
-        "amount": 20000.0,
-        "currency": "BRL",
-        "raw": "R$ 20.000,00"
-      },
-      "deadline": "2026-11-23T23:59:59Z",
-      "status": "VERIFIED",
-      "verification": {
-        "state": "VERIFIED",
-        "reason": "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://hubdeeconomiaeclima.org.br/premio-ics-anpec-de-economia-e-clima/",
-      "official_pdf_url": "https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
-      "source_id": "capta-editais",
-      "published_at": null,
-      "updated_at": "2026-08-26T04:34:45Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T04:34:45Z",
-      "evidence": [
-        "evidence:capta-editais:detail:34569ebef5070acb"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:34569ebef5070acb"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:34569ebef5070acb"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.92,
-      "sources": [
-        "capta-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        }
-      ],
-      "lens_matches": [
-        "climate",
-        "economy",
-        "research",
-        "sustainability"
       ],
       "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
