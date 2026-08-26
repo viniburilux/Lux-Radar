@@ -1,0 +1,105 @@
+{
+  "release_id": "weekly-20260825-final",
+  "created_at": "2026-08-26T00:14:44Z",
+  "source_ids": [
+    "fapesb-editais",
+    "bndes-floresta-viva",
+    "mma-fnma",
+    "mma-fundo-clima",
+    "cnpq-chamadas",
+    "capes-editais",
+    "fundo-amazonia",
+    "finep-chamadas",
+    "petrobras-socioambiental",
+    "cinea-life",
+    "transferegov-parcerias"
+  ],
+  "observation_window": {
+    "started_at": "2026-08-26T00:14:44Z",
+    "ended_at": "2026-08-26T00:15:34Z"
+  },
+  "record_counts": {
+    "observations": 11,
+    "evidence": 9,
+    "normalized": 238,
+    "opportunities": 204,
+    "collected": 238,
+    "new": 0,
+    "updated": 0,
+    "closed": 0,
+    "failed": 2
+  },
+  "artifacts": [
+    {
+      "kind": "observations",
+      "ref": "data/observations.json",
+      "content_hash": "sha256:1409355a3832479fb8e3c64ebc6088c7e060034c93f407c46db2051ab02d3aac",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "evidence",
+      "ref": "data/evidence.json",
+      "content_hash": "sha256:98a5cd35ccfadcd041a39c3130771a65d7eb2e356137ba438ae9dc8d36d74cf6",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "normalized",
+      "ref": "data/normalized.json",
+      "content_hash": "sha256:d4f78440d9d3bf5d0d6e5a943b6d802f3dec7f86941da9ee05d0003799ff45ce",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "opportunities",
+      "ref": "data/opportunities.json",
+      "content_hash": "sha256:de463ad1fb50e6d95bfdc3af6135fa52d1b8e6eb01bf2eb882f3d94cc89ba672",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "opportunities_csv",
+      "ref": "data/opportunities.csv",
+      "content_hash": "sha256:51a504ca604a88aecd6af6548dfcb214e8ea81757cb6010adc452ca3d554690e",
+      "media_type": "text/csv"
+    }
+  ],
+  "source_status": {
+    "fapesb-editais": "success",
+    "bndes-floresta-viva": "success",
+    "mma-fnma": "success",
+    "mma-fundo-clima": "success",
+    "cnpq-chamadas": "success",
+    "capes-editais": "success",
+    "fundo-amazonia": "success",
+    "finep-chamadas": "success",
+    "petrobras-socioambiental": "failed",
+    "cinea-life": "success",
+    "transferegov-parcerias": "failed"
+  },
+  "errors": [
+    {
+      "source_id": "petrobras-socioambiental",
+      "status": "failed",
+      "http_status": 403,
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "transferegov-parcerias",
+      "status": "failed",
+      "http_status": 403,
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    }
+  ],
+  "producer": {
+    "name": "lux-radar-public-builder",
+    "version": "0.1.0",
+    "repository": "https://github.com/viniburilux/Lux-Radar"
+  },
+  "limitations": [
+    "Generic HTML extraction is candidate-level; detail verification remains source-specific.",
+    "External content is referenced, not redistributed by default.",
+    "A source failure does not imply absence of opportunities."
+  ]
+}

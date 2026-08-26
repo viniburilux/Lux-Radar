@@ -42,3 +42,12 @@ Thumbs.db
 # Local reports
 reports/local/
 .tmp/
+
+# Published release artifacts are intentional
+!data/
+!data/*.json
+!data/*.csv
+!site/
+!site/data/
+!site/data/*.json
+!site/data/*.csv

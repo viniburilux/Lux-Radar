@@ -1,0 +1,1859 @@
+{
+  "release_id": "weekly-20260825-final",
+  "observations": [
+    {
+      "observation_id": "fapesb-editais:success:200",
+      "source_id": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/category/edital/",
+      "observed_at": "2026-08-26T00:14:44Z",
+      "source_profile": "institutional",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:56a8b8b0632ef03bdd31130bcfdd48ed568355e0be26dd018ebf8bcf74cf1c19",
+        "byte_size": 117322
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "FAPESB — Editais",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "FAPESB",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "sustainability",
+            "research",
+            "innovation"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Editais",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "DIRETRIZES ESPECÍFICAS DA FAPESB – Chamada para submissão de propostas do programa de Intercâmbio de Pessoal (MSCA SE) em coordenação com o Horizonte Europa -",
+              "url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-chamada-para-submissao-de-propostas-do-programa-de-intercambio-de-pessoal-msca-se-em-coordenacao-com-o-horizonte-europa-2/",
+              "term_hits": 4
+            },
+            {
+              "title": "CHAMADA 2026- PROGRAMA DE AUXILIO PARA DOUTORANDOS COM BOLSA NACIONAL – DAAD -",
+              "url": "https://www.fapesb.ba.gov.br/chamada-2026-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-daad/",
+              "term_hits": 3
+            },
+            {
+              "title": "CHAMADA CONFAP/ERC 2026 – CALL RESEARCH OPPORTUNITIES IN EUROPE FOR ACTIVE PHD RESEARCHERS FROM BRAZIL -",
+              "url": "https://www.fapesb.ba.gov.br/chamada-confaperc-2026-call-research-opportunities-in-europe-for-active-phd-researchers-from-brazil/",
+              "term_hits": 3
+            },
+            {
+              "title": "CHAMADA GCUB – MOB Nº 2026/2027 – PROGRAMA DE MOBILIDADE INTERNACIONAL DO GCUB (GCUB-MOB) -",
+              "url": "https://www.fapesb.ba.gov.br/chamada-gcub-mob-no-20262027-programa-de-mobilidade-internacional-do-gcub-gcub-mob/",
+              "term_hits": 3
+            },
+            {
+              "title": "EDITAL DE SELEÇÃO PÚBLICA Nº 017/ 2026 Subvenção Econômica à Pesquisa,Desenvolvimento e Inovação (P,D&I) Soluções de Sistemas Inteligentes para a Administração Estadual – Rodada 2 -",
+              "url": "https://www.fapesb.ba.gov.br/edital-de-selecao-publica-no-017-2026-subvencao-economica-a-pesquisadesenvolvimento-e-inovacao-pdi-solucoes-de-sistemas-inteligentes-para-a-administracao-estadual-rodada-2/",
+              "term_hits": 2
+            },
+            {
+              "title": "EDITAL FAPESB/SECTI/IEL nº 004/2026 – Chamada Estratégica FAPESB/SECTI/IEL -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesbsectiiel-no-0042026-chamada-estrategica-fapesbsectiiel/",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Bolsas",
+              "url": "https://www.fapesb.ba.gov.br/programa-de-bolsas",
+              "term_hits": 2
+            },
+            {
+              "title": "• Programa de Bolsas",
+              "url": "https://www.fapesb.ba.gov.br/programa-de-bolsas/",
+              "term_hits": 2
+            },
+            {
+              "title": "A FAPESB",
+              "url": "https://www.fapesb.ba.gov.br/category/edital/",
+              "term_hits": 1
+            },
+            {
+              "title": "CHAMADA CDTI ESPANHA (2026-2027) – DIRETRIZES ESPECÍFICAS DA FAPESB -",
+              "url": "https://www.fapesb.ba.gov.br/chamada-cdti-espanha-2026-2027-diretrizes-especificas-da-fapesb/",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamada Fundação de Amparo à Pesquisa da Bahia/SECTI/SEMA/FGB nº 01/2026 -",
+              "url": "https://www.fapesb.ba.gov.br/chamada-fundacao-de-amparo-a-pesquisa-da-bahiasectisemafgb-no-012026/",
+              "term_hits": 1
+            },
+            {
+              "title": "Clique aqui.",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesbsectisdr-no-152023",
+              "term_hits": 1
+            },
+            {
+              "title": "DIRETRIZES ESPECÍFICAS DA FAPESB – 1ª CHAMADA DA PARCERIA DE MATÉRIAS- PRIMAS PARA A TRANSIÇÃO VERDE E DIGITAL (RAMP) 2026-2027 -",
+              "url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-1a-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-2026-2027/",
+              "term_hits": 1
+            },
+            {
+              "title": "DIRETRIZES ESPECÍFICAS DA FAPESB – CHAMADA 2026 CONFAP – BRASILLINOIS -",
+              "url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-chamada-2026-confap-brasillinois/",
+              "term_hits": 1
+            },
+            {
+              "title": "DIRETRIZES ESPECÍFICAS DA FAPESB – CHAMADA MOBILITY CONFAP ITALY 2026 -",
+              "url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-chamada-mobility-confap-italy-2026/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL FAPESB No 018/2026 – APOIO À PUBLICAÇÃO CIENTÍFICA, TECNOLÓGICA OU DE POPULARIZAÇÃO DAS CIÊNCIAS -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesb-no-0182026-apoio-a-publicacao-cientifica-tecnologica-ou-de-popularizacao-das-ciencias/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL FAPESB N° 05/2026 MOVE 2026 – PARTICIPAÇÃO DE PESQUISADORES EM EVENTOS NO EXTERIOR -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesb-n-052026-move-2026-participacao-de-pesquisadores-em-eventos-no-exterior/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL FAPESB/SECTI nº 003/2026 – Apoio a Pesquisas e Inovações para a Defesa Nacional e a Segurança Pública -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesbsecti-no-0032026-apoio-a-pesquisas-e-inovacoes-para-a-defesa-nacional-e-a-seguranca-publica/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL FAPESB/SECTI – Nº 010/2026 – UNIVERSAL -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesbsecti-no-0102026-universal/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL FAPESB/SECTI/CNPq/CAPES – No 11/2026 – PROFIX-CB -",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesbsecticnpqcapes-no-112026-profix-cb/",
+              "term_hits": 1
+            },
+            {
+              "title": "EDITAL Nº 019/2026 – CIÊNCIA NA MESA 5: BASE DE DADOS E SISTEMAS DE INFORMAÇÕES PARA TOMADA DE DECISÃO EM SOBERANIA ALIMENTAR E NUTRICIONAL -",
+              "url": "https://www.fapesb.ba.gov.br/edital-no-0192026-ciencia-na-mesa-5-base-de-dados-e-sistemas-de-informacoes-para-tomada-de-decisao-em-soberania-alimentar-e-nutricional/",
+              "term_hits": 1
+            },
+            {
+              "title": "Edital 009/2026 – Apoio a Organização de Eventos -",
+              "url": "https://www.fapesb.ba.gov.br/edital-0092026-apoio-a-organizacao-de-eventos/",
+              "term_hits": 1
+            },
+            {
+              "title": "Fechados",
+              "url": "https://www.fapesb.ba.gov.br/category/edital/#tab2",
+              "term_hits": 1
+            },
+            {
+              "title": "Formulário Online",
+              "url": "http://siga.fapesb.ba.gov.br/edital_19_2026/login.wsp",
+              "term_hits": 1
+            },
+            {
+              "title": "Formulário Online",
+              "url": "http://siga.fapesb.ba.gov.br/edital_10_2026/login.wsp",
+              "term_hits": 1
+            },
+            {
+              "title": "Formulário Online",
+              "url": "http://siga.fapesb.ba.gov.br/edital_9_2026/login.wsp",
+              "term_hits": 1
+            },
+            {
+              "title": "Pular para o conteúdo",
+              "url": "https://www.fapesb.ba.gov.br/category/edital/#content",
+              "term_hits": 1
+            },
+            {
+              "title": "Resultados",
+              "url": "https://www.fapesb.ba.gov.br/category/edital/#tab3",
+              "term_hits": 1
+            },
+            {
+              "title": "clique Aqui.",
+              "url": "https://www.fapesb.ba.gov.br/edital-fapesb-no-0042023-ppp/",
+              "term_hits": 1
+            },
+            {
+              "title": "clique aqui.",
+              "url": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/ERRATA_1__Edital_IEL-04.2026.pdf",
+              "term_hits": 1
+            },
+            {
+              "title": "clique aqui.",
+              "url": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/ERRATA_06___EDITAL_FAPESB_027_2025__1_-1.pdf",
+              "term_hits": 1
+            },
+            {
+              "title": "clique aqui.",
+              "url": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/PROJETO-COMPLEMENTAR-OBRIGATORIO.docx",
+              "term_hits": 1
+            },
+            {
+              "title": "clique aqui.",
+              "url": "https://www.fapesb.ba.gov.br/edital-no-0202023-ciencia-na-mesa-2-incubadoras-para-cooperativas-e-associacoes-populares-e-empreendimentos-economicos-solidarios-de-base-tecnologica/",
+              "term_hits": 1
+            },
+            {
+              "title": "• Bolsas Projeto",
+              "url": "https://www.fapesb.ba.gov.br/category/bolsa/",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 34,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fapesb-editais:8ebf8bcf74cf1c19"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "bndes-floresta-viva:success:200",
+      "source_id": "bndes-floresta-viva",
+      "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
+      "observed_at": "2026-08-26T00:15:00Z",
+      "source_profile": "institutional_partner",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:31dd0032ff57400f8160957ed5b04e65515003f252f48845bba1d7c255f20f5b",
+        "byte_size": 91481
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "BNDES — Floresta Viva",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "BNDES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "sustainability",
+            "biodiversity",
+            "water"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Floresta Viva",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://www.funbio.org.br/programas_e_projetos/florestaviva/eneva-edital-amazonas/?id=44248&subproject=1",
+              "term_hits": 6
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://www.funbio.org.br/programas_e_projetos/manguezaisdobrasil",
+              "term_hits": 4
+            },
+            {
+              "title": "Chamada Pública",
+              "url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva/floresta-viva/!ut/p/z1/xVVNl5owFP0rblzGhBAgdEc9VsePY52xVdl4AgRJK4SBiNN_3-hMW4eOOLadUzYkeTeX93LvC9CHS-hnrBIbpoTM2FbPV769dmb97sAjxphO5xay6fBjj1ILkxmGn6EP_TBTuUrgKsgiXq5FViqhduGRoY0SmfI20gGeVXJbiZRnSoJyVyo9YBXXkJwVIS8EK1t6xFqyVUO3nqHjrSx4qVirEhX7NQWH6SGbPBQRXDksciNsE8AJiwBxqA0YdRkIuRHHdmBwzjBc1MqjExvNbm0DWdhBtGtD_zTc_2ASHZ7334-m2KDYedqPzjweet3-BoDffPqLS_L4zektDud1oYIjYOyOegMyRePpjdlD3qA7tkhvZPRd8wnQcIYrnaRzFnBnw0Ul-B5-ymSRasvdnWgYcBySiADCQ0triEPgGowBy7VMMwpwZBICBwgOL6WgbSy-3N_7nvaqzBR_UHD5p2atBdcnwcN3cDHpTja6AqYSILJYwmXTDp36ZiuDx1bzssCkem_BY17worMr9HKiVF6-a6M22u_3nWPWnY2sOkGhV_JSd48s1CH3Uij-WMFLXIksddF1iro4NQfeOOfFITjAjCICzCAwAMFuDGioR5zREMWIRUbo1JX53eD_UpnrrpFr0GeEvYqi3ga1XjUb2uA1V1kzvY3flt56U_oJ-Uv64aWL9P_ZsPFv9rLtnmPyNKXmNyEE-HpL9_M42VbjeKKswNqk65_vnvnjpcPedzYOzGg!/dz/d5/L2dBISEvZ0FBIS9nQSEh/?1dmy&urile=wcm%3apath%3a%2Fbndes_institucional%2Fhome%2Fdesenvolvimento-sustentavel%2Fparcerias%2Bpara%2Bo%2Bdesenvolvimento%2Bsustentavel%2Ffloresta%2Bviva%2Ffloresta-viva-selecao-publica",
+              "term_hits": 1
+            },
+            {
+              "title": "Floresta Viva – Bacia do Rio Xingu 2",
+              "url": "https://chamadas.funbio.org.br/bacia-do-rio-xingu-2",
+              "term_hits": 1
+            },
+            {
+              "title": "a página da chamada pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+              "term_hits": 1
+            },
+            {
+              "title": "https://chamadas.funbio.org.br/floresta-viva-beberibe",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-beberibe",
+              "term_hits": 1
+            },
+            {
+              "title": "https://chamadas.funbio.org.br/floresta-viva-pantanal",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-pantanal",
+              "term_hits": 1
+            },
+            {
+              "title": "https://chamadas.funbio.org.br/floresta-viva-paranaiba",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-paranaiba",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-terras-indigenas",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/florestas-do-rio-2",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/conectando-paisagens-2",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/florestas-do-rio",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-caatinga",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/restauracao-ecologica-no-sudeste-paranaense",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-conectando-paisagens",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-corredores-de-biodiversidade",
+              "term_hits": 1
+            },
+            {
+              "title": "página da Chamada Pública no site do Funbio",
+              "url": "https://chamadas.funbio.org.br/floresta-viva-restauracao-bacia-do-rio-xingu",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 17,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:bndes-floresta-viva:bba1d7c255f20f5b"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "mma-fnma:success:200",
+      "source_id": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1",
+      "observed_at": "2026-08-26T00:15:03Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:35220c98454afc0f8162544c987256166adfcb2d87289e602843ea9b4a7c0dc4",
+        "byte_size": 189167
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "MMA — Fundo Nacional do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "sustainability",
+            "conservation",
+            "biodiversity"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Editais e Termos de Referência",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "12.2 Disponibilização das Bases de Dados Programadas para Abertura no PDA do Órgão",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
+              "term_hits": 2
+            },
+            {
+              "title": "2. Ações e Programas",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
+              "term_hits": 2
+            },
+            {
+              "title": "2.2 Carta de Serviços",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+              "term_hits": 2
+            },
+            {
+              "title": "2.3. Concessões de Recurso Financeiros ou Renúncias de Receitas",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
+              "term_hits": 2
+            },
+            {
+              "title": "2.4 Governança",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
+              "term_hits": 2
+            },
+            {
+              "title": "2.5 Unidades Responsáveis",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
+              "term_hits": 2
+            },
+            {
+              "title": "Acompanhamento do Programa de Gestão e Desempenho no MMA",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
+              "term_hits": 2
+            },
+            {
+              "title": "Conheça o Programa de Gestão e Desempenho do MMA",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
+              "term_hits": 2
+            },
+            {
+              "title": "Normativos",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/normativos",
+              "term_hits": 2
+            },
+            {
+              "title": "O que temos para você",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/o-que-temos-para-voce",
+              "term_hits": 2
+            },
+            {
+              "title": "Painel PGD",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/painel-pgd",
+              "term_hits": 2
+            },
+            {
+              "title": "Perguntas Frequentes",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/perguntas-frequentes",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Gestão e Desempenho (PGD)",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd",
+              "term_hits": 2
+            },
+            {
+              "title": "Comitê Gestor do Fundo Nacional sobre Mudança do Clima",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/apoio-a-projetos/fundo-nacional-sobre-mudanca-do-clima",
+              "term_hits": 1
+            },
+            {
+              "title": "Conselho Nacional dos Povos e Comunidades Tradicionais - CNPCT",
+              "url": "https://www.gov.br/mma/pt-br/composicao/snpct/dpct/edital-de-eleicoes-do-conselho-nacional-de-povos-e-comunidades-tradicionais",
+              "term_hits": 1
+            },
+            {
+              "title": "Edital FNMA 1/2026 – Iniciativa ArborizaCidades",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1/edital-fnma-1-de-2026-iniciativa-arborizacidades.pdf",
+              "term_hits": 1
+            },
+            {
+              "title": "Fundo Nacional do Meio Ambiente",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/apoio-a-projetos/fundo-nacional-do-meio-ambiente/conselho-deliberativo",
+              "term_hits": 1
+            },
+            {
+              "title": "Oportunidades de Estágio",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/oportunidades-de-estagio",
+              "term_hits": 1
+            },
+            {
+              "title": "Oportunidades de estágio 2026",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/oportunidades-de-estagio/oportunidade-de-estagio-2026",
+              "term_hits": 1
+            },
+            {
+              "title": "Retificação",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1/RetificaodoEditaln01de2026IniciativaArborizaCidades.pdf",
+              "term_hits": 1
+            },
+            {
+              "title": "Serviços para Imigrantes",
+              "url": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 21,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fnma:2843ea9b4a7c0dc4"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "mma-fundo-clima:success:200",
+      "source_id": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
+      "observed_at": "2026-08-26T00:15:07Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:e83cd4162497192e748258243cc9d5ce9534041b1a235086fc58854ff9bd3bd7",
+        "byte_size": 190140
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "MMA — Fundo Clima",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "sustainability",
+            "climate",
+            "financing"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Chamadas e Editais",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "12.2 Disponibilização das Bases de Dados Programadas para Abertura no PDA do Órgão",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
+              "term_hits": 2
+            },
+            {
+              "title": "2. Ações e Programas",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
+              "term_hits": 2
+            },
+            {
+              "title": "2.2 Carta de Serviços",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos",
+              "term_hits": 2
+            },
+            {
+              "title": "2.3. Concessões de Recurso Financeiros ou Renúncias de Receitas",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
+              "term_hits": 2
+            },
+            {
+              "title": "2.4 Governança",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
+              "term_hits": 2
+            },
+            {
+              "title": "2.5 Unidades Responsáveis",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
+              "term_hits": 2
+            },
+            {
+              "title": "Acompanhamento do Programa de Gestão e Desempenho no MMA",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
+              "term_hits": 2
+            },
+            {
+              "title": "Conheça o Programa de Gestão e Desempenho do MMA",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
+              "term_hits": 2
+            },
+            {
+              "title": "Edital 2015",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/edital-2015",
+              "term_hits": 2
+            },
+            {
+              "title": "Edital 2018",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/edital-2018",
+              "term_hits": 2
+            },
+            {
+              "title": "Edital 2022",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/edital-2022",
+              "term_hits": 2
+            },
+            {
+              "title": "Edital 2023",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/edital-2023",
+              "term_hits": 2
+            },
+            {
+              "title": "Edital 2025",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/edital-2024",
+              "term_hits": 2
+            },
+            {
+              "title": "Normativos",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/normativos",
+              "term_hits": 2
+            },
+            {
+              "title": "O que temos para você",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/o-que-temos-para-voce",
+              "term_hits": 2
+            },
+            {
+              "title": "Painel PGD",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/painel-pgd",
+              "term_hits": 2
+            },
+            {
+              "title": "Perguntas Frequentes",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/perguntas-frequentes",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Gestão e Desempenho (PGD)",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd",
+              "term_hits": 2
+            },
+            {
+              "title": "Abrir menu principal de navegação",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamadas e editais 2013",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/chamadas-e-editais-2013",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamadas e editais 2014",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1/chamadas-e-editais-2014",
+              "term_hits": 1
+            },
+            {
+              "title": "Comitê Gestor do Fundo Nacional sobre Mudança do Clima",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/apoio-a-projetos/fundo-nacional-sobre-mudanca-do-clima",
+              "term_hits": 1
+            },
+            {
+              "title": "Conselho Nacional dos Povos e Comunidades Tradicionais - CNPCT",
+              "url": "https://www.gov.br/mma/pt-br/composicao/snpct/dpct/edital-de-eleicoes-do-conselho-nacional-de-povos-e-comunidades-tradicionais",
+              "term_hits": 1
+            },
+            {
+              "title": "Fundo Nacional do Meio Ambiente",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/apoio-a-projetos/fundo-nacional-do-meio-ambiente/conselho-deliberativo",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para a Busca 4",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1#govbr-busca-input",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o Conteúdo 1",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1#wrapper",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o Mapa do site 5",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1#portal-footer",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o menu de Navegação 3",
+              "url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1#main-navigation",
+              "term_hits": 1
+            },
+            {
+              "title": "Oportunidades de Estágio",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/oportunidades-de-estagio",
+              "term_hits": 1
+            },
+            {
+              "title": "Oportunidades de estágio 2026",
+              "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/oportunidades-de-estagio/oportunidade-de-estagio-2026",
+              "term_hits": 1
+            },
+            {
+              "title": "Serviços para Imigrantes",
+              "url": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 31,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fundo-clima:fc58854ff9bd3bd7"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "cnpq-chamadas:success:200",
+      "source_id": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
+      "observed_at": "2026-08-26T00:15:11Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:6e64de6f75bc44547073e15b0c5840f067d52d42d0b3b7b72f9d2b12d2a263c4",
+        "byte_size": 139402
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "CNPq — Chamadas abertas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "CNPq",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "research",
+            "innovation",
+            "sustainability"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Veja as chamadas públicas do CNPq com prazo aberto à submissão de propostas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "Chamada CNPq/Decit-SCTIE-MS Nº 18/2026 - Avaliações de Políticas, Programas, Projetos e Ações em Saúde",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada-publica-cnpq-N-18-2026",
+              "term_hits": 4
+            },
+            {
+              "title": "Chamada Pública CNPq N° 07/2026 - Programa Institucional de Bolsas de Pós-Graduação (PIBPG)",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-07-2026/chamada-publica-cnpq-N-07-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Chamada Pública CNPq/CAPES/MRE N° 16/2026 - Programa de Estudantes-Convênio de Pós-Graduação (PEC-PG)",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-16-2026/chamada-publica-cnpq-N-16-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Chamada Pública CNPq/MCTI nº 15/2026 - Programa de Cooperação Afro-Brasileira em Ciência e Tecnologia - PROAFRICA",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Chamada Pública CNPq/MMULHERES Nº 19/2026 PROGRAMA ASAS PARA O FUTURO",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-19-2026/chamada-publica-cnpq-N-19-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Chamamento Público CNPq/FNDCT/MCTI Nº 01/2026 Para Participação no Programa de Apoio à Popularização da Ciência nas Unidades da Federação",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamamento-no-01-2026/chamamento-publico-01-2026",
+              "term_hits": 3
+            },
+            {
+              "title": "Ações e Programas",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas",
+              "term_hits": 2
+            },
+            {
+              "title": "Carta de Serviços",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
+              "term_hits": 2
+            },
+            {
+              "title": "Compartilhe por LinkedIn",
+              "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq&title=Veja%20as%20chamadas%20p%C3%BAblicas%20do%20CNPq%20com%20prazo%20aberto%20%C3%A0%20submiss%C3%A3o%20de%20propostas",
+              "term_hits": 2
+            },
+            {
+              "title": "Compartilhe por Twitter",
+              "url": "https://twitter.com/share?text=Veja%20as%20chamadas%20p%C3%BAblicas%20do%20CNPq%20com%20prazo%20aberto%20%C3%A0%20submiss%C3%A3o%20de%20propostas&url=https://www.gov.br/cnpq/resolveuid/c22d2c691d024c60bd605255a204f050",
+              "term_hits": 2
+            },
+            {
+              "title": "Governança",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
+              "term_hits": 2
+            },
+            {
+              "title": "Parcerias",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/parcerias",
+              "term_hits": 2
+            },
+            {
+              "title": "Pioneiras da Ciência",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/mulher-e-ciencia/pioneiras-da-ciencia-1",
+              "term_hits": 2
+            },
+            {
+              "title": "Plataforma Lattes",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/plataforma-lattes",
+              "term_hits": 2
+            },
+            {
+              "title": "Programas",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas",
+              "term_hits": 2
+            },
+            {
+              "title": "Programas de Editorial",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/popularizacao-da-ciencia/programa-editorial",
+              "term_hits": 2
+            },
+            {
+              "title": "Programas financiados pelo Fundo de Amparo ao Trabalhador",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas-financiados-pelo-fundo-de-amparo-ao-trabalhador",
+              "term_hits": 2
+            },
+            {
+              "title": "Serviços",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/servicos",
+              "term_hits": 2
+            },
+            {
+              "title": "7ª Chamada pública MCTI/CNPq/BRICS-STI Nº 14/2026",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-14-2026/chamada-publica-cnpq-N-14-2026",
+              "term_hits": 1
+            },
+            {
+              "title": "Abrir menu principal de navegação",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamada CNPq/FNDCT nº 06/2026 – UNIVERSAL",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-06-2026/chamada-publica-cnpq-N-06-2026",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamada CNPq/MinC nº 17/2026 - Apoio ao funcionamento de incubadoras voltadas à Economia Criativa",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-17-2026/chamada-publica-cnpq-N-17-2026",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamadas Abertas",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/abertas-para-submissao",
+              "term_hits": 1
+            },
+            {
+              "title": "Chamadas em Análise",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/analise-em-andamento",
+              "term_hits": 1
+            },
+            {
+              "title": "Compartilhe por Facebook",
+              "url": "http://www.facebook.com/sharer.php?u=https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
+              "term_hits": 1
+            },
+            {
+              "title": "Compartilhe por WhatsApp",
+              "url": "https://api.whatsapp.com/send?text=https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para a Busca 4",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq#govbr-busca-input",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o Conteúdo 1",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq#wrapper",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o Mapa do site 5",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq#portal-footer",
+              "term_hits": 1
+            },
+            {
+              "title": "Ir para o menu de Navegação 3",
+              "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq#main-navigation",
+              "term_hits": 1
+            },
+            {
+              "title": "Mapa de Fomento em Ciência, Tecnologia e Inovação - Bolsas e Projetos Vigentes",
+              "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/mapa-de-fomento-em-ciencia-tecnologia-e-inovacao",
+              "term_hits": 1
+            },
+            {
+              "title": "Resultados",
+              "url": "https://www.gov.br/cnpq/pt-br/chamadas/resultados-publicados",
+              "term_hits": 1
+            },
+            {
+              "title": "Serviços para Imigrantes",
+              "url": "https://www.gov.br/pt-br/temas/servicos-para-imigrantes",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 34,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:2f9d2b12d2a263c4"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "capes-editais:success:200",
+      "source_id": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
+      "observed_at": "2026-08-26T00:15:14Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:4c76c3ad0d028fe7dd47a24392a0ec5889d84b03f3767317c6d981ccd77b72b3",
+        "byte_size": 311402
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "CAPES — Editais e resultados",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "CAPES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "research",
+            "education",
+            "innovation"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Editais e resultados CAPES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
+              "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+              "term_hits": 3
+            },
+            {
+              "title": "Programa CAPES/Purdue para Projetos Conjuntos de Pesquisa",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+              "term_hits": 3
+            },
+            {
+              "title": "Programa Capes/MES-Cuba - Projetos",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+              "term_hits": 3
+            },
+            {
+              "title": "Programas, Projetos, Ações, Obras e Atividades",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/programas-projetos-acoes-obras-e-atividades",
+              "term_hits": 3
+            },
+            {
+              "title": "Projetos de Cooperação entre Instituições para Qualificação de Profissionais de Nível Superior (PCI)",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sistema-nacional-de-pos-graduacao-snpg/pci",
+              "term_hits": 3
+            },
+            {
+              "title": "Ações e Programas",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas",
+              "term_hits": 2
+            },
+            {
+              "title": "CAPES/CNJ - Apoio a Pesquisas Judiciárias Constitucionais",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais",
+              "term_hits": 2
+            },
+            {
+              "title": "Plano Nacional de Formação de Professores da Educação Básica (Parfor)",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/parfor/parfor",
+              "term_hits": 2
+            },
+            {
+              "title": "Política de Novação para Bolsistas e Ex-bolsistas no Exterior",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/politica-de-novacao-para-bolsistas-e-ex-bolsistas-no-exterior",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa AURORA - Continuidade da Trajetória de Mães Cientistas",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/programa-aurora",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Bolsas para Pesquisa CAPES/Humboldt",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/alemanha/programa-bolsas-para-pesquisa-capeshumboldt",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/AUGM",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-capes-augm",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/Brafitec",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/programa-capes-brafitec",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/CLIMAT-AMSUD",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-climat-amsud",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/Cofecub",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/cofecub",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/MATH-AMSUD",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-math-amsud",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/MES-CUBA - Docentes",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-docentes",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/STIC-AMSUD",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-stic-amsud-capes",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa CAPES/Universidade em Buffalo (CAPES/UB) - Professor Visitante",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-universidade-em-buffalo-capes-ub-professor-visitante",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Caminhos Amefricanos",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-caminhos-amefricanos",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Cátedra Jorge Amado",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/programa-catedra-jorge-amado",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Cátedra Maison du Brésil",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/programa-catedra-maison-du-bresil",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa OBEDUC-EI - Observatório da Educação Especial Inclusiva",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/observatorio-da-educacao-especial-inclusiva-obeduc-ei",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Rede de Pesquisa e Desenvolvimento da Amazônia Legal",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-amazonia-legal",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa Rede de Pesquisa e Desenvolvimento da Região Nordeste",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/redes-de-pesquisa-e-desenvolvimento/programa-rede-de-pesquisa-e-desenvolvimento-da-regiao-nordeste",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Desenvolvimento Acadêmico Indígena (PDAI)",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/desenvolvimento-regional/programa-de-desenvolvimento-academico-indigena-pdai",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Desenvolvimento Profissional para Professores de Língua Inglesa nos Estados Unidos (PDPI)",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/programas-de-cooperacao-internacional-de-formacao-de-professores-da-educacao-basica/programa-de-desenvolvimento-profissional-para-professores-de-lingua-inglesa-nos-estados-unidos-pdpi",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Desenvolvimento da Pós-Graduação (PDPG) – Formação Profissional de Nutricionistas",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/programa-de-desenvolvimento-da-pos-graduacao-pdpg-formacao-profissional-de-nutricionistas",
+              "term_hits": 2
+            },
+            {
+              "title": "Programa de Doutorado-sanduíche no Exterior (PDSE)",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-doutorado-sanduiche-no-exterior-pdse",
+              "term_hits": 2
+            },
+            {
+              "title": "Pé-de-meia Licenciaturas",
+              "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/pe-de-meia-licenciaturas",
+              "term_hits": 2
+            },
+            {
+              "title": "Prêmio CAPES de Tese",
+              "url": "https://www.gov.br/capes/pt-br/assuntos/premios/premio-capes-de-tese",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 31,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:c6d981ccd77b72b3"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "fundo-amazonia:success:200",
+      "source_id": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
+      "observed_at": "2026-08-26T00:15:19Z",
+      "source_profile": "program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:25a65337addc8420ac2144e0e513d1e085962b949fd5eaafa4a2391e0def729c",
+        "byte_size": 32119
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "Fundo Amazônia — Chamadas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "BNDES / Fundo Amazônia",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "sustainability",
+            "forest",
+            "communities"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "Programa Desafios da Amazônia (2026) - Novo!",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/programa-desafios-da-amazonia/",
+              "term_hits": 4
+            },
+            {
+              "title": "Amazônia na Escola (2023)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-na-escola/",
+              "term_hits": 2
+            },
+            {
+              "title": "Apoio a projetos produtivos sustentáveis (2012)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/projetos-produtivos-sustentaveis/",
+              "term_hits": 2
+            },
+            {
+              "title": "Chamadas públicas",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
+              "term_hits": 2
+            },
+            {
+              "title": "Chamadas públicas de projetos apoiados",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/chamadas-publicas-de-projetos-apoiados/",
+              "term_hits": 2
+            },
+            {
+              "title": "Conab: Florestas e Comunidades: Amazônia Viva (2026) - Novo!",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
+              "term_hits": 2
+            },
+            {
+              "title": "Consolidação e fortalecimento de cadeias de valor sustentáveis e inclusivas (01/2017)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/consolidacao-e-fortalecimento-de-cadeias-de-valor-sustentaveis-e-inclusivas/",
+              "term_hits": 2
+            },
+            {
+              "title": "Naturezas Quilombolas (2024)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/naturezas-quilombolas/",
+              "term_hits": 2
+            },
+            {
+              "title": "Projetos voltados ao apoio a PGTAs (2014)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/projetos-voltados-ao-apoio-a-PGTAs/",
+              "term_hits": 2
+            },
+            {
+              "title": "Prospera Amazônia (2026) - Novo!",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/prospera-amazonia/",
+              "term_hits": 2
+            },
+            {
+              "title": "Restaura Amazônia (2023)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/restaura-amazonia/",
+              "term_hits": 2
+            },
+            {
+              "title": "Sanear Amazônia – Água Potável para Comunidades da Amazônia (2024)",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/sanear-amazonia/",
+              "term_hits": 2
+            },
+            {
+              "title": "Sanear Indígena (2026) - Novo!",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/sanear-amazonia-indigena/",
+              "term_hits": 2
+            },
+            {
+              "title": "Como apresentar projetos",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/",
+              "term_hits": 1
+            },
+            {
+              "title": "Documentos de suporte",
+              "url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/documentos-de-suporte/",
+              "term_hits": 1
+            },
+            {
+              "title": "Projetos",
+              "url": "https://www.fundoamazonia.gov.br/pt/biblioteca/projetos/",
+              "term_hits": 1
+            },
+            {
+              "title": "Projetos apoiados",
+              "url": "https://www.fundoamazonia.gov.br/pt/projetos-apoiados/",
+              "term_hits": 1
+            },
+            {
+              "title": "Prêmio Fundo Amazônia",
+              "url": "https://www.fundoamazonia.gov.br/pt/premio-fundo-amazonia/",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 18,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fundo-amazonia:a4a2391e0def729c"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "finep-chamadas:success:200",
+      "source_id": "finep-chamadas",
+      "source_url": "https://www.finep.gov.br/chamadas-publicas/chamadaspublicas?situacao=aberta",
+      "observed_at": "2026-08-26T00:15:24Z",
+      "source_profile": "funding_portal",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:b184e011ca62eccb6db5b1f742b8038cb003456788c043f853620c6b60010d68",
+        "byte_size": 184379
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "Finep — Chamadas públicas abertas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "Finep",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "innovation",
+            "research",
+            "sustainability",
+            "financing"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "Oportunidades - Finep",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "Buscar por oportunidades",
+              "url": "https://www.finep.gov.br/oportunidades",
+              "term_hits": 1
+            },
+            {
+              "title": "Pular para o Conteúdo principal",
+              "url": "https://www.finep.gov.br/oportunidades#main-content",
+              "term_hits": 1
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 2,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:finep-chamadas:53620c6b60010d68"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "petrobras-socioambiental:failed:403",
+      "source_id": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
+      "observed_at": "2026-08-26T00:15:28Z",
+      "source_profile": "corporate_program",
+      "fetch": {
+        "status": "failed",
+        "method": "http_get",
+        "http_status": 403,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:c996c0469ef05ff6fdd1f7cefbc3f7e109bb21969de42fcf591498a828a7ad5f",
+        "byte_size": 134
+      },
+      "claims": [],
+      "evidence_ids": [],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "cinea-life:success:200",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+      "observed_at": "2026-08-26T00:15:31Z",
+      "source_profile": "international_program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:34bde6efd8ffa6c29f35ae695e32cbca2b4748fc449a3b90008c4a1dbe5f3da0",
+        "byte_size": 107417
+      },
+      "claims": [
+        {
+          "path": "source.name",
+          "value": "CINEA — LIFE calls for proposals",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.organization",
+          "value": "European Commission / CINEA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "source.domain",
+          "value": [
+            "climate",
+            "nature",
+            "biodiversity",
+            "energy",
+            "circular_economy"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.title",
+          "value": "LIFE Calls for proposals 2026",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_links",
+          "value": [
+            {
+              "title": "Projects on Legislative and Policy Priorities in the fields of Nature & Biodiversity and Circular Economy & Quality of Life",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fprojects-legislative-and-policy-priorities-fields-nature-biodiversity-and-circular-economy-quality_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905441088%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=X8Rphv69qovEEf1FO5wiMC4g7XfRHuPxxVZoT6yTiYc%3D&reserved=0",
+              "term_hits": 7
+            },
+            {
+              "title": "Multilevel climate and energy dialogue to deliver the Governance Regulation and the post–2030 energy and climate policy framework",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fmultilevel-climate-and-energy-dialogue-deliver-governance-regulation-and-post-2030-energy-and_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905403076%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=EnlvRuWvqF8nAFyzskFlzqMezacvQH0YJmEbGY4VOyI%3D&reserved=0",
+              "term_hits": 6
+            },
+            {
+              "title": "Standard Action Projects (SAPs) Climate Change Adaptation",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fclimate-change-adaptation-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905524903%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=KoihkrpHvcRJ95d%2FVu%2BXHL4HHRDZkGtQu6X8C0iJ3rY%3D&reserved=0",
+              "term_hits": 6
+            },
+            {
+              "title": "Standard Action Projects (SAPs) Climate Change Mitigation",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fclimate-change-mitigation-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905546067%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cJHU2H2ZQB8%2BfvW1OThUtqlo15uTq0nLGzZv9Q658sc%3D&reserved=0",
+              "term_hits": 6
+            },
+            {
+              "title": "Standard Action Projects (SAPs) Climate Governance and Information",
+              "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-governance-and-information-0_en",
+              "term_hits": 6
+            },
+            {
+              "title": "Standard Action Projects (SAPs) for nature and biodiversity - Nature",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstandard-action-projects-saps-nature-and-biodiversity-nature-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905297548%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=NfO19FRCnk3kR%2B%2BzOwWuwjIHbF8WWJpTOkjbd3RkoHY%3D&reserved=0",
+              "term_hits": 6
+            },
+            {
+              "title": "Standard Action Projects (SAPs) for nature and biodiversity – Governance and Information",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstandard-action-projects-saps-nature-and-biodiversity-governance-and-information-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905319666%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=7eKhFnGaIoNLZpXK%2BQot4PGzHsizsJXAsRzldH%2FqnEo%3D&reserved=0",
+              "term_hits": 6
+            },
+            {
+              "title": "2019 calls for project proposals",
+              "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals/2019-life-calls-proposals_en",
+              "term_hits": 5
+            },
+            {
+              "title": "2020 calls for project proposals",
+              "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals/2020-life-calls-proposals_en",
+              "term_hits": 5
+            },
+            {
+              "title": "PDA: Project Development Assistance for sustainable energy investments",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fproject-development-assistance-sustainable-energy-investments-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905809470%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Va7jsd0uXzTDS7%2B32MEtIsbuTBmRydqK7kUUzPVEOEM%3D&reserved=0",
+              "term_hits": 5
+            },
+            {
+              "title": "Strategic Integrated Projects – SIP CLIMA",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstrategic-nature-and-integrated-projects-sip-clima-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905505208%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=i1RS7FJ0lizDxfVjuZYfft%2FrfR7bDRnD8kNZDYj9fHw%3D&reserved=0",
+              "term_hits": 5
+            },
+            {
+              "title": "Strategic Integrated Projects – SIP Environment",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstrategic-nature-and-integrated-projects-sip-environment-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905482241%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ZtV6RF9YLxA%2FwwAZMzJkur1AoVl8%2BeLExWrb2NgKftQ%3D&reserved=0",
+              "term_hits": 5
+            },
+            {
+              "title": "Strategic Nature Projects (SNaP)",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstrategic-nature-projects-snap-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905459907%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2Bw47BGSS09I4ewGiQ35OheGRn1l2rxUgSpl%2BG71%2FGOE%3D&reserved=0",
+              "term_hits": 5
+            },
+            {
+              "title": "Technical Assistance for the preparation of SIPs - Climate",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Ftechnical-assistance-preparation-sips-climate-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905383714%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=XYXGz88I9J4H3P0UNpC89JKZ3JWnzF4FqjaNDrvtc7M%3D&reserved=0",
+              "term_hits": 5
+            },
+            {
+              "title": "2021 calls for proposals",
+              "url": "https://cinea.ec.europa.eu/programmes/life/2021-calls-proposals_en",
+              "term_hits": 4
+            },
+            {
+              "title": "2022 calls for proposals",
+              "url": "https://cinea.ec.europa.eu/programmes/life/2022-calls-proposals_en",
+              "term_hits": 4
+            },
+            {
+              "title": "2023 calls for proposals",
+              "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals-2023_en",
+              "term_hits": 4
+            },
+            {
+              "title": "BETTERRENO: Energy renovation solutions – Boosting building renovation through effective markets and instruments",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fenergy-renovation-solutions-boosting-building-renovation-through-effective-markets-and-instruments_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905651007%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=dk6z2raS1IIpjk8wDT2TDbmUyrb48X66OD%2BL65u9I0s%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "BUILD UP Skills: National Platforms on energy efficiency skills for the clean energy transition",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fbuild-skills-national-platforms-energy-efficiency-skills-clean-energy-transition_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905709646%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Hsp9FesXMmSRu8T%2FFJ%2FlsmXqKeZ4Nt8U1aoKfA4iwNY%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "DIGITAL: Supporting digitalisation of Distribution System Operators for a smart energy transition",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fsupporting-digitalisation-distribution-system-operators-smart-energy-transition_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905737418%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OJh3yKbTVr2%2BR5aV%2FNmc9BqvtCgov1WjcYaMD6%2FEDk4%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "EMPOWER: Scaling up smart and clean energy solutions for affordability in EU cities",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fscaling-smart-and-clean-energy-solutions-affordability-eu-cities_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905884457%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=fHIO7cujQLKLElFcTha4l9vw2QWoa6RaRoqEi5b8rs0%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "ENERCOM: Facilitating cooperation among energy communities",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Ffacilitating-cooperation-among-energy-communities_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905863751%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=SiZcPmNitizaeB2s%2BXWtpC3KTCdoNs2q1I%2Fu5BKhk3M%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "ENERPOV: Alleviating household energy poverty in Europe",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Falleviating-household-energy-poverty-europe-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905836175%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=O%2FKMgwJn3%2FxRuk1nFQbG%2BlmHAjm7gYet7NIdXojqN38%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "Ecodesign and energy labelling compliance support facility for suppliers and retailers",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fecodesign-and-energy-labelling-compliance-support-facility-suppliers-and-retailers_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905421641%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ldDXcMw3ZaDr0kdCecTY16tFXZ8b2GESH63aFSraJv8%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "Funding & Tenders Portal",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fec.europa.eu%2Finfo%2Ffunding-tenders%2Fopportunities%2Fportal%2Fscreen%2Fopportunities%2Fcalls-for-proposals%3Fstatus%3D31094503%2C31094501%2C31094502%26frameworkProgramme%3D43252405%26order%3DDESC%26pageNumber%3D1%26pageSize%3D50%26sortBy%3DstartDate&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C739f3bc8e90b4310891808deb00c4312%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639141763902088964%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=IpRvc%2FTAF%2Fb05yVkj05u%2BgEg2L9eVM6Hggh46NWb3i8%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "INDUSTRY: Supporting the clean energy transition of European industry and businesses",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fsupporting-clean-energy-transition-european-industry-and-businesses-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905680820%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=w5JekUDl18guOL1PGRFLb9ckrEgTVDQp5yu71R7m0FQ%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "LIFE Calls for proposals 2024",
+              "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals-2024_en",
+              "term_hits": 4
+            },
+            {
+              "title": "NGO Call for proposals on European Green Deal",
+              "url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals/life-2020-call-proposals-ngos-european-green-deal-ngo4gd_en",
+              "term_hits": 4
+            },
+            {
+              "title": "One-Stop-Shops: Integrated services for clean energy transition in private buildings",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fone-stop-shops-integrated-services-clean-energy-transition-private-buildings_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905782036%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OtZRHB2imDNuvv5j9FKmhj4q8wJxfBo%2BFmhkgaA51Gk%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "POLICY: Towards an effective implementation of key legislation in the field of sustainable energy",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Ftowards-effective-implementation-key-legislation-field-sustainable-energy-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905603231%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=1ZrS0BdqT74QquQQ7DjsB28WSdfZKj5sbcfAYfsxgho%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "Specific Operating Grant Agreements (SGA OG) to Non-Governmental Organisations",
+              "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/specific-operating-grant-agreements-sga-og-non-governmental-organisations_en",
+              "term_hits": 4
+            },
+            {
+              "title": "Standard Action Projects (SAPs) for Circular Economy and Zero Pollution - Environment",
+              "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-circular-economy-and-zero-pollution-environment-0_en",
+              "term_hits": 4
+            },
+            {
+              "title": "Standard Action Projects (SAPs) for Environmental Governance",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstandard-action-projects-saps-environmental-governance-0_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905276815%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cUiEvpdqlG0sqamPZl0HsiTOLExX6ugOwg8gie0gDKQ%3D&reserved=0",
+              "term_hits": 4
+            },
+            {
+              "title": "Calls for proposals",
+              "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals_en",
+              "term_hits": 3
+            },
+            {
+              "title": "Framework Partnership Agreements (FPA OG)",
+              "url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/framework-partnership-agreements-fpa-og-0_en",
+              "term_hits": 3
+            },
+            {
+              "title": "HEATCOOLPLAN: Supporting the delivery of actionable, integrated, and comprehensive local heating and cooling plans",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fsupporting-delivery-actionable-integrated-and-comprehensive-local-heating-and-cooling-plans_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905584363%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=4Aog88iekC21cIo5FwrryYt%2Fh5CrZZfZiOOTl%2B5xBlA%3D&reserved=0",
+              "term_hits": 3
+            },
+            {
+              "title": "LIFE Calls for proposals 2025",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2025_en",
+              "term_hits": 3
+            },
+            {
+              "title": "Older 2018 and 2017 calls are available on the archived LIFE website",
+              "url": "http://ec.europa.eu/environment/archives/life/funding/life2018/index.htm",
+              "term_hits": 3
+            },
+            {
+              "title": "PRIVAFIN: Crowding in private finance",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fcrowding-private-finance-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905762180%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=OPL7Em7d8rsNIlrrnJNPUOqtuNqKDoZPnc79UrC4Pc8%3D&reserved=0",
+              "term_hits": 3
+            },
+            {
+              "title": "RENEWHC: Strengthening national frameworks for renewable and efficient heating and cooling in existing buildings",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Fstrengthening-national-frameworks-renewable-and-efficient-heating-and-cooling-existing-buildings_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905622013%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8pvZpv8tN5W3muwcZs8QvHXh2hV55UzwaHJgiv5l%2B84%3D&reserved=0",
+              "term_hits": 3
+            },
+            {
+              "title": "Skip to main content",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en#main-content",
+              "term_hits": 3
+            },
+            {
+              "title": "Technical Assistance for the preparation of SIPs - Environment",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Ftechnical-assistance-preparation-sips-environment-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905362305%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=gh%2BEdFnD9tw2boVcAKYbnbL3Y29a0gHH3KVWm6r0yBU%3D&reserved=0",
+              "term_hits": 3
+            },
+            {
+              "title": "Technical Assistance for the preparation of SNAPs",
+              "url": "https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcinea.ec.europa.eu%2Ffunding-opportunities%2Fcalls-proposals%2Ftechnical-assistance-preparation-snaps-1_en&data=05%7C02%7CMaria.Ramirez%40stantec.com%7C7937e05a74a54cf3d32a08de9fb26f1d%7C413c6f2c219a469297d3f2b4d80281e7%7C0%7C0%7C639123785905342217%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jkkVSqUqPN7k5lFixfsDfmbI8L8Vy0r2yD7rJEdRyTU%3D&reserved=0",
+              "term_hits": 3
+            },
+            {
+              "title": "bg български",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_bg",
+              "term_hits": 3
+            },
+            {
+              "title": "cs čeština",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_cs",
+              "term_hits": 3
+            },
+            {
+              "title": "da dansk",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_da",
+              "term_hits": 3
+            },
+            {
+              "title": "de Deutsch",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_de",
+              "term_hits": 3
+            },
+            {
+              "title": "el ελληνικά",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_el",
+              "term_hits": 3
+            },
+            {
+              "title": "en English",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
+              "term_hits": 3
+            },
+            {
+              "title": "es español",
+              "url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_es",
+              "term_hits": 3
+            }
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "page.candidate_count",
+          "value": 77,
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cinea-life:008c4a1dbe5f3da0"
+      ],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Generic public collector observes candidate links; detail pages require a later source-specific pass."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    },
+    {
+      "observation_id": "transferegov-parcerias:failed:403",
+      "source_id": "transferegov-parcerias",
+      "source_url": "https://api.transferegov.gestao.gov.br/",
+      "observed_at": "2026-08-26T00:15:34Z",
+      "source_profile": "public_api",
+      "fetch": {
+        "status": "failed",
+        "method": "http_get",
+        "http_status": 403,
+        "content_type": "text/html"
+      },
+      "content": {
+        "media_type": "text/html",
+        "content_hash": "sha256:22dd8f15a75e267fdf1d45799c16b4f6adf0d57189cef046be8c5cbae8dd8b07",
+        "byte_size": 5613
+      },
+      "claims": [],
+      "evidence_ids": [],
+      "collector": {
+        "name": "public-html-opportunity",
+        "version": "0.1.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ],
+      "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
+    }
+  ]
+}

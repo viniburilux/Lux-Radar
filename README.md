@@ -82,6 +82,20 @@ Os contratos iniciais estão em `schemas/`:
 | `evidence.schema.json` | Ligar afirmações e atributos a artefatos observáveis. |
 | `opportunity.schema.json` | Representar a oportunidade canônica sustentada por evidências. |
 
+## MVP operacional
+
+O builder público executa o Source Registry, observa as fontes habilitadas, extrai candidatos de páginas oficiais, registra falhas sem mascará-las, deduplica por URL, preserva `first_seen_at`/`last_seen_at`/`history` e gera `data/opportunities.json`, `data/opportunities.csv`, `data/observations.json`, `data/evidence.json`, `data/normalized.json` e `data/release-manifest.json`. A interface em `site/` consome o JSON estático e oferece busca, filtros e detalhe.
+
+Para executar localmente:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/build_release.py --release-id weekly-local
+python3 -m http.server 4173 --directory site
+```
+
+A atualização semanal ocorre pelo workflow `.github/workflows/weekly-release.yml`, que pode ser disparado manualmente ou roda toda segunda-feira. O workflow coleta, valida, commita os artefatos públicos alterados e publica a pasta `site/` no GitHub Pages. O caminho público planejado é `https://viniburilux.github.io/Lux-Radar/`.
+
 ## Documentos de execução
 
 - [Inventário de fontes](docs/SOURCE_INVENTORY.md)

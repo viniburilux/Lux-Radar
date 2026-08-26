@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lux Radar — Oportunidades de Sustentabilidade</title>
+  <meta name="description" content="Oportunidades de sustentabilidade observadas pelo Lux Radar, com fonte e atualização visíveis.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">LUX RADAR · DATA LAYER</p>
+      <h1>Oportunidades de sustentabilidade, com origem visível.</h1>
+      <p class="hero-copy">Uma primeira camada pública de oportunidades observadas em fontes oficiais. Cada registro preserva fonte, atualização, status e limitações.</p>
+      <div class="hero-meta"><span id="release-label">Carregando release…</span><span id="source-label">Carregando fontes…</span></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls" aria-label="Filtros de oportunidades">
+      <label class="search-label">Pesquisar
+        <input id="search" type="search" placeholder="Título, organização ou fonte…" autocomplete="off">
+      </label>
+      <label>Domínio
+        <select id="domain"><option value="">Todos</option></select>
+      </label>
+      <label>Território
+        <select id="territory"><option value="">Todos</option></select>
+      </label>
+      <label>Tipo
+        <select id="type"><option value="">Todos</option></select>
+      </label>
+      <label>Status
+        <select id="status"><option value="">Todos</option></select>
+      </label>
+      <label>Prazo
+        <select id="deadline"><option value="">Todos</option><option value="with_deadline">Com prazo</option><option value="without_deadline">Sem prazo observado</option></select>
+      </label>
+    </section>
+
+    <section class="summary" aria-live="polite">
+      <div><strong id="visible-count">—</strong><span>oportunidades visíveis</span></div>
+      <div><strong id="open-count">—</strong><span>com status aberto</span></div>
+      <div><strong id="updated-at">—</strong><span>última atualização</span></div>
+    </section>
+
+    <section id="error" class="notice error" hidden></section>
+    <section id="empty" class="notice" hidden>Nenhuma oportunidade corresponde aos filtros atuais.</section>
+    <section id="cards" class="cards" aria-live="polite"></section>
+  </main>
+
+  <dialog id="detail-dialog" class="detail-dialog">
+    <button id="close-detail" class="close" aria-label="Fechar">×</button>
+    <article id="detail-content"></article>
+  </dialog>
+
+  <footer class="footer">
+    <p>Lux Radar observa fontes públicas. Verifique a fonte oficial antes de agir.</p>
+    <a href="https://github.com/viniburilux/Lux-Radar">Código, contratos e fixtures no GitHub</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
