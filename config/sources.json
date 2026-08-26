@@ -4,6 +4,7 @@
   "sources": [
     {
       "id": "fapesb-editais",
+      "detail_enabled": true,
       "name": "FAPESB — Editais",
       "organization": "FAPESB",
       "domain": ["sustainability", "research", "innovation"],
@@ -21,6 +22,7 @@
     },
     {
       "id": "bndes-floresta-viva",
+      "detail_enabled": true,
       "name": "BNDES — Floresta Viva",
       "organization": "BNDES",
       "domain": ["sustainability", "biodiversity", "water"],
@@ -38,6 +40,7 @@
     },
     {
       "id": "mma-fnma",
+      "detail_enabled": true,
       "name": "MMA — Fundo Nacional do Meio Ambiente",
       "organization": "Ministério do Meio Ambiente",
       "domain": ["sustainability", "conservation", "biodiversity"],
@@ -52,6 +55,7 @@
     },
     {
       "id": "mma-fundo-clima",
+      "detail_enabled": true,
       "name": "MMA — Fundo Clima",
       "organization": "Ministério do Meio Ambiente",
       "domain": ["sustainability", "climate", "financing"],
@@ -66,6 +70,7 @@
     },
     {
       "id": "cnpq-chamadas",
+      "detail_enabled": true,
       "name": "CNPq — Chamadas abertas",
       "organization": "CNPq",
       "domain": ["research", "innovation", "sustainability"],
@@ -80,6 +85,7 @@
     },
     {
       "id": "capes-editais",
+      "detail_enabled": true,
       "name": "CAPES — Editais e resultados",
       "organization": "CAPES",
       "domain": ["research", "education", "innovation"],
@@ -94,6 +100,7 @@
     },
     {
       "id": "fundo-amazonia",
+      "detail_enabled": true,
       "name": "Fundo Amazônia — Chamadas",
       "organization": "BNDES / Fundo Amazônia",
       "domain": ["sustainability", "forest", "communities"],
@@ -108,6 +115,7 @@
     },
     {
       "id": "finep-chamadas",
+      "detail_enabled": true,
       "name": "Finep — Chamadas públicas abertas",
       "organization": "Finep",
       "domain": ["innovation", "research", "sustainability", "financing"],
@@ -122,6 +130,7 @@
     },
     {
       "id": "petrobras-socioambiental",
+      "detail_enabled": false,
       "name": "Petrobras — Seleções públicas socioambientais",
       "organization": "Petrobras",
       "domain": ["sustainability", "communities", "conservation"],
@@ -136,6 +145,7 @@
     },
     {
       "id": "cinea-life",
+      "detail_enabled": true,
       "name": "CINEA — LIFE calls for proposals",
       "organization": "European Commission / CINEA",
       "domain": ["climate", "nature", "biodiversity", "energy", "circular_economy"],
@@ -150,6 +160,7 @@
     },
     {
       "id": "transferegov-parcerias",
+      "detail_enabled": false,
       "name": "Transferegov — Dados públicos",
       "organization": "Governo Federal",
       "domain": ["financing", "territory", "public_partnerships"],

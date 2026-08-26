@@ -10,6 +10,7 @@ const dateLabel = (value) => {
 };
 const statusLabel = (status) => ({VERIFIED: "Verificada", CANDIDATE: "Candidata", CLOSED: "Encerrada", UNKNOWN: "Desconhecida", INSUFFICIENT_EVIDENCE: "Evidência insuficiente", OPEN: "Aberta", UPCOMING: "Em breve", EXPIRED: "Encerrada", EXTENDED: "Prorrogada", CANCELLED: "Cancelada", ready_for_action: "Em ação", unknown: "Desconhecida"}[status] || status || "Desconhecido");
 const statusClass = (status) => ["CLOSED", "EXPIRED", "closed"].includes(status) ? "closed" : ["UNKNOWN", "unknown", "INSUFFICIENT_EVIDENCE"].includes(status) ? "unknown" : status === "VERIFIED" ? "verified" : status === "CANDIDATE" ? "candidate" : "";
+const verificationLabel = (status) => ({VERIFIED: "Verificada", CANDIDATE: "Pendente", CLOSED: "Encerrada", UNKNOWN: "Não verificada", INSUFFICIENT_EVIDENCE: "Insuficiente"}[status] || statusLabel(status));
 
 function setOptions(id, values) {
   const select = $(id);
@@ -47,6 +48,16 @@ function render() {
       && (!status || getStatus(item) === status)
       && (!deadlineFilter || (deadlineFilter === "with_deadline" ? hasDeadline : !hasDeadline));
   });
+  const sort = $("sort").value;
+  state.filtered.sort((left, right) => {
+    if (sort === "title_asc") return String(left.title || "").localeCompare(String(right.title || ""), "pt-BR");
+    if (sort === "deadline_asc") {
+      const leftDeadline = getDeadline(left) || "9999-12-31";
+      const rightDeadline = getDeadline(right) || "9999-12-31";
+      return leftDeadline.localeCompare(rightDeadline);
+    }
+    return String(right.updated_at || right.last_seen_at || "").localeCompare(String(left.updated_at || left.last_seen_at || ""));
+  });
   $("visible-count").textContent = state.filtered.length;
   $("verified-count").textContent = state.filtered.filter((item) => getStatus(item) === "VERIFIED").length;
   $("candidate-count").textContent = state.filtered.filter((item) => getStatus(item) === "CANDIDATE").length;
@@ -65,7 +76,7 @@ function cardHtml(item) {
   const verification = item.verification?.state || status;
   const value = item.funding?.amount ? `${item.funding.currency || ""} ${item.funding.amount.toLocaleString("pt-BR")}` : "Valor não observado";
   return `<article class="card">
-    <div class="card-top"><span class="badge ${statusClass(status)}">${escapeHtml(statusLabel(status))}</span><span class="badge ${statusClass(verification)}">${escapeHtml(statusLabel(verification))}</span><span class="source">${escapeHtml(item.source_id || "Fonte")}</span></div>
+    <div class="card-top"><span class="badge ${statusClass(status)}">Status: ${escapeHtml(statusLabel(status))}</span><span class="badge ${statusClass(verification)}">Verificação: ${escapeHtml(verificationLabel(verification))}</span><span class="source">${escapeHtml(item.source_id || "Fonte")}</span></div>
     <h2>${escapeHtml(item.title || "Oportunidade sem título")}</h2>
     <p>${escapeHtml(item.description || domains || "Oportunidade observada em fonte pública; verifique os detalhes oficiais.")}</p>
     <div class="card-footer"><div class="source"><strong>${escapeHtml(organization)}</strong><br>${deadline ? `Prazo: ${dateLabel(deadline)}` : "Prazo não observado"}<br>${escapeHtml(value)}</div><button class="detail-button" data-id="${escapeHtml(item.opportunity_id || item.id || item.official_url)}">Ver detalhe</button></div>
@@ -122,7 +133,7 @@ async function load() {
   }
 }
 
-["search", "domain", "territory", "type", "status", "deadline"].forEach((id) => $(id).addEventListener("input", render));
+["search", "domain", "territory", "type", "status", "deadline", "sort"].forEach((id) => $(id).addEventListener("input", render));
 $("close-detail").addEventListener("click", () => $("detail-dialog").close());
 $("detail-dialog").addEventListener("click", (event) => { if (event.target === $("detail-dialog")) $("detail-dialog").close(); });
 load();

@@ -31,7 +31,7 @@ input:focus, select:focus { outline: 3px solid rgba(28, 107, 76, .2); border-col
 .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .card { display: flex; min-height: 260px; flex-direction: column; padding: 22px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 6px 20px rgba(23, 34, 29, .03); transition: transform .16s ease, box-shadow .16s ease; }
 .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
-.card-top { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
+.card-top { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 7px; align-items: start; }
 .badge { display: inline-flex; padding: 5px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
 .badge.closed { background: #f2ece0; color: #83652d; }
 .badge.unknown { background: #eef0f0; color: #67716c; }

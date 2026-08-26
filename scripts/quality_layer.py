@@ -14,6 +14,7 @@ from bs4 import BeautifulSoup
 
 USER_AGENT = "Lux-Radar-Quality-Layer/0.2 (+https://github.com/viniburilux/Lux-Radar)"
 MAX_DETAILS_PER_SOURCE = 8
+QUALITY_EXCLUDED_IDS = {"petrobras-socioambiental", "transferegov-parcerias"}
 DATE_PATTERNS = [
     re.compile(r"(?P<day>\d{1,2})[/.](?P<month>\d{1,2})[/.](?P<year>20\d{2})"),
     re.compile(r"(?P<year>20\d{2})-(?P<month>\d{2})-(?P<day>\d{2})"),
@@ -290,7 +291,8 @@ def extract_quality_records(observations: list[dict[str, Any]], registry: list[d
     tasks: list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]] = []
     for root in observations:
         source = source_by_id.get(root["source_id"], {})
-        if root["fetch"]["status"] != "success":
+        if (not source.get("detail_enabled", True) or root["source_id"] in QUALITY_EXCLUDED_IDS
+                or root["fetch"]["status"] != "success"):
             continue
         candidates = next((claim["value"] for claim in root.get("claims", []) if claim["path"] == "page.candidate_links"), []) or []
         seed_urls = [url for url in source.get("detail_seeds", []) if isinstance(url, str) and url]
