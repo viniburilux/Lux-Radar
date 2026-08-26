@@ -1,17 +1,17 @@
 {
-  "release_id": "weekly-32918324075",
+  "release_id": "quality-weekly-full-20260826",
   "evidence": [
     {
-      "evidence_id": "evidence:fapesb-editais:779a5735e68457e7",
+      "evidence_id": "evidence:fapesb-editais:2a09442142a69300",
       "evidence_type": "official_page",
       "source_name": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/category/edital/",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:10Z",
+      "observed_at": "2026-08-26T01:32:21Z",
       "observation_ids": [
         "fapesb-editais:success:200"
       ],
-      "content_hash": "sha256:d423cbbf0cfaa26f184489a21b6ba75bf59020565dcacd29779a5735e68457e7",
+      "content_hash": "sha256:108c9e07972435b15b4e9da19ff50ed18fdfbfc028f38f8c2a09442142a69300",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -25,16 +25,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:bndes-floresta-viva:74bde7e52baea14c",
+      "evidence_id": "evidence:bndes-floresta-viva:01296d35e6c96eae",
       "evidence_type": "official_page",
       "source_name": "bndes-floresta-viva",
       "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:15Z",
+      "observed_at": "2026-08-26T01:32:30Z",
       "observation_ids": [
         "bndes-floresta-viva:success:200"
       ],
-      "content_hash": "sha256:f27c7e787fb663a866d7ec31116689c6c5c3ddb67478206474bde7e52baea14c",
+      "content_hash": "sha256:6ae46353144f2ae53a99f27c77e67d6d676b398ed904925601296d35e6c96eae",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -53,7 +53,7 @@
       "source_name": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:16Z",
+      "observed_at": "2026-08-26T01:32:34Z",
       "observation_ids": [
         "mma-fnma:success:200"
       ],
@@ -76,7 +76,7 @@
       "source_name": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:16Z",
+      "observed_at": "2026-08-26T01:32:36Z",
       "observation_ids": [
         "mma-fundo-clima:success:200"
       ],
@@ -99,7 +99,7 @@
       "source_name": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:17Z",
+      "observed_at": "2026-08-26T01:32:40Z",
       "observation_ids": [
         "cnpq-chamadas:success:200"
       ],
@@ -117,16 +117,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:capes-editais:b14288fc8513c353",
+      "evidence_id": "evidence:capes-editais:d51633816330ed55",
       "evidence_type": "official_page",
       "source_name": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:18Z",
+      "observed_at": "2026-08-26T01:32:42Z",
       "observation_ids": [
         "capes-editais:success:200"
       ],
-      "content_hash": "sha256:f294f8ccd49664a66826a0f3b9bbf4ce6238f920e9ec9769b14288fc8513c353",
+      "content_hash": "sha256:0f7d325088d3cdcf7a1eeb43953d429248e9c8fc88071a0bd51633816330ed55",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -145,7 +145,7 @@
       "source_name": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:19Z",
+      "observed_at": "2026-08-26T01:32:44Z",
       "observation_ids": [
         "fundo-amazonia:success:200"
       ],
@@ -163,16 +163,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:finep-chamadas:da86517fc9dafea9",
+      "evidence_id": "evidence:finep-chamadas:23ed400d2fb6fd20",
       "evidence_type": "official_page",
       "source_name": "finep-chamadas",
       "source_url": "https://www.finep.gov.br/chamadas-publicas/chamadaspublicas?situacao=aberta",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:21Z",
+      "observed_at": "2026-08-26T01:32:48Z",
       "observation_ids": [
         "finep-chamadas:success:200"
       ],
-      "content_hash": "sha256:a20543b6904dfd7617e21b16343eb60cbe694a5877910240da86517fc9dafea9",
+      "content_hash": "sha256:d302f244e2f28d31f55717e290eb94cf0d095401a40eed5a23ed400d2fb6fd20",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -186,16 +186,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:petrobras-socioambiental:1230c9e054c95185",
+      "evidence_id": "evidence:petrobras-socioambiental:9518a3849156212c",
       "evidence_type": "official_page",
       "source_name": "petrobras-socioambiental",
       "source_url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:21Z",
+      "observed_at": "2026-08-26T01:32:51Z",
       "observation_ids": [
         "petrobras-socioambiental:success:200"
       ],
-      "content_hash": "sha256:1cbb0eba81eca3259a56c1d393f764cb119baad2226834ab1230c9e054c95185",
+      "content_hash": "sha256:9f1c3025d48411f9c6af09b1ad79c0cdf1e81948bec417b29518a3849156212c",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -214,7 +214,7 @@
       "source_name": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
       "source_role": "primary",
-      "observed_at": "2026-08-26T01:16:23Z",
+      "observed_at": "2026-08-26T01:32:56Z",
       "observation_ids": [
         "cinea-life:success:200"
       ],
@@ -230,6 +230,2080 @@
       ],
       "access_notes": "Fetch status: success; HTTP 200.",
       "license_notes": "Reference URL only; review source terms before redistributing content."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:c8591561d4075ec4",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/chamada-confaperc-2026-call-research-opportunities-in-europe-for-active-phd-researchers-from-brazil/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:c8591561d4075ec4"
+      ],
+      "content_hash": "sha256:dae895243ef4b520be291e0dd6cf2a65063e96bb6e45e41fc8591561d4075ec4",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:nohash",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-parnaiba",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:14Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:failed"
+      ],
+      "content_hash": null,
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "detail_fetch_failed",
+      "limitations": [
+        "Detail fetch returned HTTP 500."
+      ],
+      "access_notes": "Detail fetch status: failed; HTTP 500.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:e328c029523b6732",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/programa-de-bolsas/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:e328c029523b6732"
+      ],
+      "content_hash": "sha256:0dfb82a353f52560a15d8a85c6dc1c7b2e766fbf104bc8cae328c029523b6732",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:ea7fe851e320bc2b",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/chamada-gcub-mob-no-20262027-programa-de-mobilidade-internacional-do-gcub-gcub-mob/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:ea7fe851e320bc2b"
+      ],
+      "content_hash": "sha256:7031feb95cc32a006eba5c4404f27a35718f5e60d830b9a8ea7fe851e320bc2b",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:2d0451d1abae54e0",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-1a-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-2026-2027/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:2d0451d1abae54e0"
+      ],
+      "content_hash": "sha256:9bd616ad2bba87f0a8eb1cf295219b547125b94d1e73820d2d0451d1abae54e0",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:293bb696a429097d",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/chamada-2026-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-daad/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:293bb696a429097d"
+      ],
+      "content_hash": "sha256:ff61e2c696e51732ba31d83534c226be0605d8a9531de5af293bb696a429097d",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:e51f4d2b84d0e581",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/edital-fapesbsectiiel-no-0042026-chamada-estrategica-fapesbsectiiel/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:e51f4d2b84d0e581"
+      ],
+      "content_hash": "sha256:48cf85cd6a8576903a2bc1d556447e3537543bb71a179918e51f4d2b84d0e581",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:c472e22307ebe32f",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-chamada-para-submissao-de-propostas-do-programa-de-intercambio-de-pessoal-msca-se-em-coordenacao-com-o-horizonte-europa-2/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:c472e22307ebe32f"
+      ],
+      "content_hash": "sha256:6c26077c44a5b34f77daee2e5308af457025c2deddda6546c472e22307ebe32f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:4125fe18c31c223d",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://www.funbio.org.br/programas_e_projetos/florestaviva/eneva-edital-amazonas/?id=44248&subproject=1",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:16Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:4125fe18c31c223d"
+      ],
+      "content_hash": "sha256:025626b0a0130d8bff742a1dc834a3bf3fb595cce0cdcbb94125fe18c31c223d",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:a684fcebde31a50b",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:21Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:a684fcebde31a50b"
+      ],
+      "content_hash": "sha256:f2721131a370f5744c42452fac97d6e85b3f7f1a53d36a1ba684fcebde31a50b",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fapesb-editais:detail:c6f8b1bdd48d546c",
+      "evidence_type": "official_detail_page",
+      "source_name": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/edital-de-selecao-publica-no-017-2026-subvencao-economica-a-pesquisadesenvolvimento-e-inovacao-pdi-solucoes-de-sistemas-inteligentes-para-a-administracao-estadual-rodada-2/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:32:59Z",
+      "observation_ids": [
+        "fapesb-editais:success:200",
+        "fapesb-editais:detail:c6f8b1bdd48d546c"
+      ],
+      "content_hash": "sha256:1f729432e9ad89589a1cda5f446f0f05c82baee8843adea8c6f8b1bdd48d546c",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:c5b597a86fe262e1",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/bacia-do-rio-xingu-2",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:18Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:c5b597a86fe262e1"
+      ],
+      "content_hash": "sha256:0ec4dc2bf9556f41966c812f6c5aa6cbb2b04cb931a4869dc5b597a86fe262e1",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:abb43e888f4a2ec7",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva/floresta-viva-selecao-publica/!ut/p/z1/xVXLdtowEP0VNiyFZFm25e4Ih0ISKCVJC3jDkWQZ1BrLsYVp-vUVSdokJkBpm1Nv9JiZq3ncGcMITmGUsUotmFE6Y6k9zyJ_Hox7nX6bOAM6uvGQTy8-din1MBlj-BlGMBKZyc0SzngWy3KustIosxb3CE201CvZRFYgs0qnlVrJzGhQrktjN6ySViVnhZCFYmXD7lhDN2rajRfaSaoLWRrWqFTFno5gewSlTKVgGuRrnirBtt7lQsVwlrhOSASRwLoSAIIEATzxJcCSC8k5ZXEo4KQWLh36aHzlO8jDAaIdH0bPxb33LrHim97Z5Qg7FAeP9mjP10Yv7XezWXt_94HT7HcVosPuTbb5OhLBvcIgvOz2yQgNRuduF7X7nYFHupdOL3QfFQ7l8FgWZzaKYC_CtQ8nlZIb-CnTxcpy9PqpyAGXWJCYACKFB0iABQgdxoAXeq4bcxy7hMA-ghfHfLS8V19ub6O2JbfOjPxm4PRP2V0Tzp8Jt-_gYtgZLmwEzCyByhINp4csrOuLVPOH3mxn3KXWtpCJLGTRWhf2emlMXr5roibabDate69bC121eGFv8tK2my7M1vdSGfkQwWtYS13aoOsQ9eLUqnce7C8OwRwzighwOXcAwWECqLA7yahACWKxI4J6ZXbJ8S8rc9rcOUV7T2FPgqi3Qa2Z3f2Z_q1Zdxjex28L770p_JD8JfzFsUn7_2h40u_vdRoetslXK-reKaXA16v-97MPoDehht65abXq8F_r5ib5uUxo-QMGTlHB/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:18Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:abb43e888f4a2ec7"
+      ],
+      "content_hash": "sha256:3a6a4eb75d95329af1663c147165658d473df094a21d092aabb43e888f4a2ec7",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:cfa1ff2775d15f8a",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-beberibe",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:20Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:cfa1ff2775d15f8a"
+      ],
+      "content_hash": "sha256:dc4a9112b856e5b358f67f81f1d2af7a69d7c9732a8fac45cfa1ff2775d15f8a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:ce6e6ba09522f94f",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://www.funbio.org.br/programas-e-projetos/instituicoes/?id=58056",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:17Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:ce6e6ba09522f94f"
+      ],
+      "content_hash": "sha256:3887b07f105537ded11571f85d01206910e941152b3f6805ce6e6ba09522f94f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:93fca9831dd0a668",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:23Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:93fca9831dd0a668"
+      ],
+      "content_hash": "sha256:58b3baf3d2d9c3b17ca465052e22a91ce592ad01b317115393fca9831dd0a668",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:e887332d8aafc09f",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:23Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:e887332d8aafc09f"
+      ],
+      "content_hash": "sha256:e9f42d93708b9d79741afc10cf12b6ae31c2a526f019c608e887332d8aafc09f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:ed780c79a86f12ac",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-pantanal",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:20Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:ed780c79a86f12ac"
+      ],
+      "content_hash": "sha256:23c58fd42f097596fc650c59a419439fb7d28649249fc378ed780c79a86f12ac",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:9e6649703a037ba2",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:25Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:9e6649703a037ba2"
+      ],
+      "content_hash": "sha256:ea072798a811e2a96cb75211e4a2dc0be67d60a55af9371f9e6649703a037ba2",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:a684fcebde31a50b",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:26Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:a684fcebde31a50b"
+      ],
+      "content_hash": "sha256:f2721131a370f5744c42452fac97d6e85b3f7f1a53d36a1ba684fcebde31a50b",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:44befc512e3108ac",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:23Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:44befc512e3108ac"
+      ],
+      "content_hash": "sha256:880a5cb7bac2db12ebc12c52db1fb4c8e741fb32796b0dbc44befc512e3108ac",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:7753e4741c91a822",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:25Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:7753e4741c91a822"
+      ],
+      "content_hash": "sha256:ab69dd28f4ae064a8072f7cdba5a6f2e1b16f9c023950b797753e4741c91a822",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:1faf56681def8c67",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:25Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:1faf56681def8c67"
+      ],
+      "content_hash": "sha256:06062c2e9ff8eb298d3ad314a7323a26d638fee44c8fadd21faf56681def8c67",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:bndes-floresta-viva:detail:f820270113b7aa4a",
+      "evidence_type": "official_detail_page",
+      "source_name": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:19Z",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200",
+        "bndes-floresta-viva:detail:f820270113b7aa4a"
+      ],
+      "content_hash": "sha256:e51d9df31dfed4a325cd3995dabb68502150cd5dc13054d1f820270113b7aa4a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fnma:detail:c38bb8eb212449e9",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fnma",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:24Z",
+      "observation_ids": [
+        "mma-fnma:success:200",
+        "mma-fnma:detail:c38bb8eb212449e9"
+      ],
+      "content_hash": "sha256:460d823d15cc16d650cbcb9e9eb301d8011aa7ae8db73e32c38bb8eb212449e9",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:93fca9831dd0a668",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:26Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:93fca9831dd0a668"
+      ],
+      "content_hash": "sha256:58b3baf3d2d9c3b17ca465052e22a91ce592ad01b317115393fca9831dd0a668",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:e887332d8aafc09f",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:27Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:e887332d8aafc09f"
+      ],
+      "content_hash": "sha256:e9f42d93708b9d79741afc10cf12b6ae31c2a526f019c608e887332d8aafc09f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:7753e4741c91a822",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:28Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:7753e4741c91a822"
+      ],
+      "content_hash": "sha256:ab69dd28f4ae064a8072f7cdba5a6f2e1b16f9c023950b797753e4741c91a822",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:9e6649703a037ba2",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:28Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:9e6649703a037ba2"
+      ],
+      "content_hash": "sha256:ea072798a811e2a96cb75211e4a2dc0be67d60a55af9371f9e6649703a037ba2",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:1faf56681def8c67",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:27Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:1faf56681def8c67"
+      ],
+      "content_hash": "sha256:06062c2e9ff8eb298d3ad314a7323a26d638fee44c8fadd21faf56681def8c67",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:c38bb8eb212449e9",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:27Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:c38bb8eb212449e9"
+      ],
+      "content_hash": "sha256:460d823d15cc16d650cbcb9e9eb301d8011aa7ae8db73e32c38bb8eb212449e9",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:mma-fundo-clima:detail:c70d98b3cf400764",
+      "evidence_type": "official_detail_page",
+      "source_name": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:27Z",
+      "observation_ids": [
+        "mma-fundo-clima:success:200",
+        "mma-fundo-clima:detail:c70d98b3cf400764"
+      ],
+      "content_hash": "sha256:4527296d655600846eff5efabd748ded584fd0f17fb5d0d8c70d98b3cf400764",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:bb86d93e5ab16360",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada-publica-cnpq-N-18-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:28Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:bb86d93e5ab16360"
+      ],
+      "content_hash": "sha256:53e9bc13b016a605aed80e46554bca2dc02f21765d7e8d1bbb86d93e5ab16360",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:006d272a5b2c6d7a",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-16-2026/chamada-publica-cnpq-N-16-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:29Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:006d272a5b2c6d7a"
+      ],
+      "content_hash": "sha256:35dd91bcbd9561be2fdf21e5e8c1e1fd11fa017ab7663101006d272a5b2c6d7a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:b2b779ac544e655a",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-19-2026/chamada-publica-cnpq-N-19-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:29Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:b2b779ac544e655a"
+      ],
+      "content_hash": "sha256:8c88b2c09768448af68a1c27bb3983ea375b207ccb833f99b2b779ac544e655a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:40c245e980eb3286",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:29Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:40c245e980eb3286"
+      ],
+      "content_hash": "sha256:7b6b34944e120b8d1074b50d91ceb268a26b06e7f8c736d840c245e980eb3286",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:3fdd35207ca0de68",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamamento-no-01-2026/chamamento-publico-01-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:31Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:3fdd35207ca0de68"
+      ],
+      "content_hash": "sha256:b0916b7d577e00fc4cd6afb106598653aa0c73bb83d9b11a3fdd35207ca0de68",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:05e3da20b0de5273",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:34Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:05e3da20b0de5273"
+      ],
+      "content_hash": "sha256:7ced4963ea51de3b6b0ec3abd540a89b6e201804720fe5ea05e3da20b0de5273",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:8d46773935fe64ac",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:34Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:8d46773935fe64ac"
+      ],
+      "content_hash": "sha256:53ac829c76dc9fa139b1a6384d94b09aeba6a27924a22d4d8d46773935fe64ac",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:4e081f2b1dc6bf4a",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:31Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:4e081f2b1dc6bf4a"
+      ],
+      "content_hash": "sha256:3aed8fa296ef2484a7a2edcf6a75db09b455b3b1d5da66854e081f2b1dc6bf4a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:e6e1e7f42f0a4d5b",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-07-2026/chamada-publica-cnpq-N-07-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:28Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:e6e1e7f42f0a4d5b"
+      ],
+      "content_hash": "sha256:3e5da55101ca57d1e93fdb8ec788140362021577ea83de41e6e1e7f42f0a4d5b",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd",
+      "evidence_type": "official_detail_page",
+      "source_name": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:30Z",
+      "observation_ids": [
+        "cnpq-chamadas:success:200",
+        "cnpq-chamadas:detail:ba53e309a3cbc8bd"
+      ],
+      "content_hash": "sha256:23328826fd6fea34443ac3ab885f36b058b83fcc652c4f89ba53e309a3cbc8bd",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:c6460042cadad04f",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:36Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:c6460042cadad04f"
+      ],
+      "content_hash": "sha256:16091102f195f906b5306520135903f6821d9286702d6a0bc6460042cadad04f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:nohash",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/programas-projetos-e-acoes",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:36Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:failed"
+      ],
+      "content_hash": null,
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "detail_fetch_failed",
+      "limitations": [
+        "Detail fetch returned HTTP 401."
+      ],
+      "access_notes": "Detail fetch status: failed; HTTP 401.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:d35d40571f5894f1",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:37Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:d35d40571f5894f1"
+      ],
+      "content_hash": "sha256:f83484d1b3d01553a38b2836b65915446d2facf7ddf59a16d35d40571f5894f1",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:bcb4055bb5ea0b9a",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:37Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:bcb4055bb5ea0b9a"
+      ],
+      "content_hash": "sha256:93a59f935df233250e6c82c00a443620905a8b803b8ad87abcb4055bb5ea0b9a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:0568acc9f58ee0d8",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/parfor/parfor",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:37Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:0568acc9f58ee0d8"
+      ],
+      "content_hash": "sha256:ac65d6dbe8f3cb366cb7324f5967005e465ca1db38f13e2e0568acc9f58ee0d8",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:capes-editais:detail:e6278742621b4ef6",
+      "evidence_type": "official_detail_page",
+      "source_name": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sistema-nacional-de-pos-graduacao-snpg/pci",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:36Z",
+      "observation_ids": [
+        "capes-editais:success:200",
+        "capes-editais:detail:e6278742621b4ef6"
+      ],
+      "content_hash": "sha256:1ad788e461f32c065c3fbaabbd06266a9788247d27c0b38de6278742621b4ef6",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:76d77b709dbd2528",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/programa-desafios-da-amazonia/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:38Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:76d77b709dbd2528"
+      ],
+      "content_hash": "sha256:367fa85feaccaa3df1f7a1ee55519b4f08b58aee4cb47b6176d77b709dbd2528",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:2c182c3f3c1480cf",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/naturezas-quilombolas/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:39Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:2c182c3f3c1480cf"
+      ],
+      "content_hash": "sha256:09d462a8214fb83bc4ffe08979d340ba99a6d921c322dc0d2c182c3f3c1480cf",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document.",
+        "Official PDF network failure: ConnectionError."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:65734077533b570d",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:39Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:65734077533b570d"
+      ],
+      "content_hash": "sha256:6ba729b3fdaddc8659613ec3caff9690039637aed44fc97d65734077533b570d",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:a4a2391e0def729c",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:38Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:a4a2391e0def729c"
+      ],
+      "content_hash": "sha256:25a65337addc8420ac2144e0e513d1e085962b949fd5eaafa4a2391e0def729c",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:4e9cf3a17e36afd8",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-na-escola/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:38Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:4e9cf3a17e36afd8"
+      ],
+      "content_hash": "sha256:210c9bde7de8c23e322416bbba8170b65003a364a69f9caa4e9cf3a17e36afd8",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document.",
+        "Official PDF network failure: ConnectionError."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:34c83c3095c14ed5",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/documents/2677942/7444258/SP+2023.1+-+Regulamento+Incentivados.pdf/c175c3b8-d4ca-a0f9-85ce-8a75d836a0ac?version=1.0&t=1694195358000&download=true",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:42Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:34c83c3095c14ed5"
+      ],
+      "content_hash": "sha256:db05e2bf37883fde498e10f1edc8c2e7d7477202f70c27c034c83c3095c14ed5",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:2780d981f56e5142",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/chamadas-publicas-de-projetos-apoiados/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:39Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:2780d981f56e5142"
+      ],
+      "content_hash": "sha256:510fa1aca49acdd58f8e5152a67b308239e8d7558f7207eb2780d981f56e5142",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:fca54dbe41448742",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/sustentabilidade/socioambiental",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:42Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:fca54dbe41448742"
+      ],
+      "content_hash": "sha256:73394bebbdc4eb23c3c9babbc088c1181443ea67f624e28bfca54dbe41448742",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:80db46c1f62218ba",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/documents/2677942/7444258/SP+2023.1+-+Regulamento+Nao+Incentivados.pdf/04e566d0-35dc-f269-ee71-bdaed0b5b0ff?version=1.0&t=1694537432000&download=true",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:42Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:80db46c1f62218ba"
+      ],
+      "content_hash": "sha256:323693d0ec5d7dbc877fdc9ffd2bfa10aef2a90963c0370a80db46c1f62218ba",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:finep-chamadas:detail:9eabc00c9bd9f1ec",
+      "evidence_type": "official_detail_page",
+      "source_name": "finep-chamadas",
+      "source_url": "https://www.finep.gov.br/oportunidades",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:41Z",
+      "observation_ids": [
+        "finep-chamadas:success:200",
+        "finep-chamadas:detail:9eabc00c9bd9f1ec"
+      ],
+      "content_hash": "sha256:75dad9eadc6f3a22a06dabf8bd7ca612df88fb395433573f9eabc00c9bd9f1ec",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:4aa32a540a7a8a9a",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/documents/2677942/3356916/Regulamento+Sele%C3%A7%C3%A3o+P%C3%BAblica+2023.2+-+Projetos+Incentivados.pdf/28305898-7221-ad7b-610b-99c32e08b96e?version=1.0&t=1699376898000&download=true",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:44Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:4aa32a540a7a8a9a"
+      ],
+      "content_hash": "sha256:ef7eb5ac16925bf557a9744171a9eec787af9f417d42397b4aa32a540a7a8a9a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:6f878ec7ae8d0bfc",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/consolidacao-e-fortalecimento-de-cadeias-de-valor-sustentaveis-e-inclusivas/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:39Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:6f878ec7ae8d0bfc"
+      ],
+      "content_hash": "sha256:0a9425c14088d27e6866b1dea85a28ad699c416320f324bb6f878ec7ae8d0bfc",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:finep-chamadas:detail:133b30223402f4d5",
+      "evidence_type": "official_detail_page",
+      "source_name": "finep-chamadas",
+      "source_url": "https://www.finep.gov.br/oportunidades#main-content",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:42Z",
+      "observation_ids": [
+        "finep-chamadas:success:200",
+        "finep-chamadas:detail:133b30223402f4d5"
+      ],
+      "content_hash": "sha256:337ea7ef930d81d553bae0cc55892bd543f1f8d14eda1642133b30223402f4d5",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:5c9ee303e05441aa",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/documents/2677942/2678303/Socioambiental+-+Edital+Destina%C3%A7%C3%A3o+de+Res%C3%ADduos+2026_OGR+Final+1.pdf/e3e7b384-9c8f-f30f-588f-ce661bf3469d?version=1.0&t=1778856363000&download=true",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:47Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:5c9ee303e05441aa"
+      ],
+      "content_hash": "sha256:33e7524795af108ae6c96763930f496da81f979a506f10565c9ee303e05441aa",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:ecf35db4f2b4edf7",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://investidor.bussolasocial.com.br/petrobras/editais/incentivados2023",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:46Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:ecf35db4f2b4edf7"
+      ],
+      "content_hash": "sha256:bcd0489340f90f2b9e2e850b4d662381b5944c574704fc3cecf35db4f2b4edf7",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:8a134d1e0ebdf08a",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://investidor.bussolasocial.com.br/petrobras/editais/naoincentivados2023",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:46Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:8a134d1e0ebdf08a"
+      ],
+      "content_hash": "sha256:25d0d66b813c256bb0f5583251bd1e3c79d84ec16d54f1498a134d1e0ebdf08a",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:petrobras-socioambiental:detail:cc7a92b4bdb6cd1f",
+      "evidence_type": "official_detail_page",
+      "source_name": "petrobras-socioambiental",
+      "source_url": "https://petrobras.com.br/documents/2677942/3356916/Regulamento+Sele%C3%A7%C3%A3o+P%C3%BAblica+2023.2+-+Projetos+Nao+Incentivados.pdf/af45b992-2e9d-b0f1-f40a-f5e0eb9d48d8?version=1.0&t=1699376882000&download=true",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:46Z",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200",
+        "petrobras-socioambiental:detail:cc7a92b4bdb6cd1f"
+      ],
+      "content_hash": "sha256:3fab82233d699b2cc5a07608df0519814498d39e33574fb1cc7a92b4bdb6cd1f",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail response was not HTML; metadata was retained and no HTML field extraction was attempted."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:a44bc5746f4ac789",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-governance-and-information-0_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:48Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:a44bc5746f4ac789"
+      ],
+      "content_hash": "sha256:7b4d618b25948f1b94738c01ebe510877a1e0d30d41a31f1a44bc5746f4ac789",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:c41d42aaaed077f7",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/projects-legislative-and-policy-priorities-fields-nature-biodiversity-and-circular-economy-quality_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:47Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:c41d42aaaed077f7"
+      ],
+      "content_hash": "sha256:f6c659a4d5d06241141f8c4255e75611fcc2cee7324bd5acc41d42aaaed077f7",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:fundo-amazonia:detail:a982d30af62a67eb",
+      "evidence_type": "official_detail_page",
+      "source_name": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/projetos-produtivos-sustentaveis/",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:38Z",
+      "observation_ids": [
+        "fundo-amazonia:success:200",
+        "fundo-amazonia:detail:a982d30af62a67eb"
+      ],
+      "content_hash": "sha256:d896a45cdbfb1e7cc0eb8ae7832fa42f5e5ed897284e4342a982d30af62a67eb",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:5ba71f40e1d0a591",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/multilevel-climate-and-energy-dialogue-deliver-governance-regulation-and-post-2030-energy-and_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:47Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:5ba71f40e1d0a591"
+      ],
+      "content_hash": "sha256:4a8e82b05f0ed880f744916b2d95e51dd5fc8a3109d12ab55ba71f40e1d0a591",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:44794daab99f82a3",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-change-adaptation-0_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:47Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:44794daab99f82a3"
+      ],
+      "content_hash": "sha256:f8f7cd553bf11e1da80236283b539c9e2cc59f376656965344794daab99f82a3",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:9b639a08a06bdeab",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-change-mitigation-0_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:48Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:9b639a08a06bdeab"
+      ],
+      "content_hash": "sha256:3a6d0ab75f9b16389399ffb719cccc288a75a8c49e1fea479b639a08a06bdeab",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:7d92901f0280217d",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-governance-and-information-0_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:49Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:7d92901f0280217d"
+      ],
+      "content_hash": "sha256:6cb7675bcdce7ff8723123ec3bedf1ed094263b8825840cc7d92901f0280217d",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:a0ed4cab68bbc12b",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-nature-1_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:49Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:a0ed4cab68bbc12b"
+      ],
+      "content_hash": "sha256:8eb70c110598933609201926c7cc52fed710770baeae534aa0ed4cab68bbc12b",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "evidence_id": "evidence:cinea-life:detail:3249ce102022f0a5",
+      "evidence_type": "official_detail_page",
+      "source_name": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals-2024/2019-life-calls-proposals_en",
+      "source_role": "primary",
+      "observed_at": "2026-08-26T01:33:50Z",
+      "observation_ids": [
+        "cinea-life:success:200",
+        "cinea-life:detail:3249ce102022f0a5"
+      ],
+      "content_hash": "sha256:becfd54237a71067e44949f17dc7d5c6fdc9ef3f3e7c24183249ce102022f0a5",
+      "supports_claims": [
+        "title",
+        "description",
+        "organization",
+        "deadline",
+        "eligibility",
+        "status",
+        "official_pdf_url"
+      ],
+      "reliability": "official_detail_observed",
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "access_notes": "Detail fetch status: success; HTTP 200.",
+      "license_notes": "Reference URL and selected claims only; complete third-party content is not redistributed."
     }
   ]
 }

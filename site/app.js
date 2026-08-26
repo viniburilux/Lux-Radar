@@ -8,8 +8,8 @@ const dateLabel = (value) => {
   const parsed = new Date(value);
   return Number.isNaN(parsed.getTime()) ? escapeHtml(value) : parsed.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" });
 };
-const statusLabel = (status) => ({OPEN: "Aberta", UPCOMING: "Em breve", CLOSED: "Encerrada", EXPIRED: "Encerrada", EXTENDED: "Prorrogada", CANCELLED: "Cancelada", UNKNOWN: "Desconhecida", ready_for_action: "Em ação", unknown: "Desconhecida"}[status] || status || "Desconhecido");
-const statusClass = (status) => ["CLOSED", "EXPIRED", "closed"].includes(status) ? "closed" : ["UNKNOWN", "unknown"].includes(status) ? "unknown" : "";
+const statusLabel = (status) => ({VERIFIED: "Verificada", CANDIDATE: "Candidata", CLOSED: "Encerrada", UNKNOWN: "Desconhecida", INSUFFICIENT_EVIDENCE: "Evidência insuficiente", OPEN: "Aberta", UPCOMING: "Em breve", EXPIRED: "Encerrada", EXTENDED: "Prorrogada", CANCELLED: "Cancelada", ready_for_action: "Em ação", unknown: "Desconhecida"}[status] || status || "Desconhecido");
+const statusClass = (status) => ["CLOSED", "EXPIRED", "closed"].includes(status) ? "closed" : ["UNKNOWN", "unknown", "INSUFFICIENT_EVIDENCE"].includes(status) ? "unknown" : status === "VERIFIED" ? "verified" : status === "CANDIDATE" ? "candidate" : "";
 
 function setOptions(id, values) {
   const select = $(id);
@@ -48,7 +48,9 @@ function render() {
       && (!deadlineFilter || (deadlineFilter === "with_deadline" ? hasDeadline : !hasDeadline));
   });
   $("visible-count").textContent = state.filtered.length;
-  $("open-count").textContent = state.filtered.filter((item) => ["OPEN", "ready_for_action", "UPCOMING", "EXTENDED"].includes(getStatus(item))).length;
+  $("verified-count").textContent = state.filtered.filter((item) => getStatus(item) === "VERIFIED").length;
+  $("candidate-count").textContent = state.filtered.filter((item) => getStatus(item) === "CANDIDATE").length;
+  $("unknown-count").textContent = state.filtered.filter((item) => ["UNKNOWN", "INSUFFICIENT_EVIDENCE"].includes(getStatus(item))).length;
   $("updated-at").textContent = dateLabel(state.manifest?.created_at);
   $("empty").hidden = state.filtered.length > 0;
   $("cards").innerHTML = state.filtered.map(cardHtml).join("");
@@ -60,11 +62,13 @@ function cardHtml(item) {
   const organization = item.organization || item.issuer?.name || item.source_id || "Fonte não informada";
   const deadline = getDeadline(item);
   const domains = getDomains(item).slice(0, 3).join(" · ");
+  const verification = item.verification?.state || status;
+  const value = item.funding?.amount ? `${item.funding.currency || ""} ${item.funding.amount.toLocaleString("pt-BR")}` : "Valor não observado";
   return `<article class="card">
-    <div class="card-top"><span class="badge ${statusClass(status)}">${escapeHtml(statusLabel(status))}</span><span class="source">${escapeHtml(item.source_id || "Fonte")}</span></div>
+    <div class="card-top"><span class="badge ${statusClass(status)}">${escapeHtml(statusLabel(status))}</span><span class="badge ${statusClass(verification)}">${escapeHtml(statusLabel(verification))}</span><span class="source">${escapeHtml(item.source_id || "Fonte")}</span></div>
     <h2>${escapeHtml(item.title || "Oportunidade sem título")}</h2>
     <p>${escapeHtml(item.description || domains || "Oportunidade observada em fonte pública; verifique os detalhes oficiais.")}</p>
-    <div class="card-footer"><div class="source"><strong>${escapeHtml(organization)}</strong><br>${deadline ? `Prazo: ${dateLabel(deadline)}` : "Prazo não observado"}</div><button class="detail-button" data-id="${escapeHtml(item.opportunity_id || item.id || item.official_url)}">Ver detalhe</button></div>
+    <div class="card-footer"><div class="source"><strong>${escapeHtml(organization)}</strong><br>${deadline ? `Prazo: ${dateLabel(deadline)}` : "Prazo não observado"}<br>${escapeHtml(value)}</div><button class="detail-button" data-id="${escapeHtml(item.opportunity_id || item.id || item.official_url)}">Ver detalhe</button></div>
   </article>`;
 }
 
@@ -90,8 +94,10 @@ function openDetail(id) {
       <dt>Elegibilidade</dt><dd>${escapeHtml(eligibility)}</dd>
       <dt>Última atualização</dt><dd>${escapeHtml(dateLabel(item.updated_at || item.last_seen_at))}</dd>
     </dl>
+    <h3>Por que este registro é considerado verificado?</h3><p>${escapeHtml(item.verification?.reason || "Este registro ainda não foi promovido a verificado; os campos ausentes permanecem explícitos.")}</p>
     <h3>Proveniência</h3><dl>
       <dt>Fonte</dt><dd>${escapeHtml(item.source_id || "Não observado")}</dd>
+      <dt>Verificação</dt><dd>${escapeHtml(statusLabel(item.verification?.state || getStatus(item)))}</dd>
       <dt>Confiança</dt><dd>${escapeHtml(item.confidence ?? item.context?.confidence ?? "Não informada")}</dd>
       <dt>Evidências</dt><dd>${escapeHtml((item.evidence || item.evidence_ids || []).join(", ") || "Não observadas")}</dd>
     </dl>

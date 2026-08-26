@@ -12,6 +12,9 @@
       "access_method": "html_pdf",
       "url": "https://www.fapesb.ba.gov.br/category/edital/",
       "collector": "fapesb",
+      "detail_seeds": [
+        "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-1a-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-2026-2027/"
+      ],
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"
@@ -26,6 +29,9 @@
       "access_method": "html",
       "url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
       "collector": "bndes_floresta_viva",
+      "detail_seeds": [
+        "https://chamadas.funbio.org.br/floresta-viva-parnaiba"
+      ],
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"

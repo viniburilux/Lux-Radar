@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32918324075",
-  "created_at": "2026-08-26T01:16:10Z",
+  "release_id": "quality-weekly-full-20260826",
+  "created_at": "2026-08-26T01:32:21Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,49 +15,55 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T01:16:10Z",
-    "ended_at": "2026-08-26T01:16:24Z"
+    "started_at": "2026-08-26T01:32:21Z",
+    "ended_at": "2026-08-26T01:33:50Z"
   },
   "record_counts": {
-    "observations": 11,
-    "evidence": 10,
-    "normalized": 260,
-    "opportunities": 226,
-    "collected": 260,
-    "new": 0,
-    "updated": 0,
+    "observations": 85,
+    "evidence": 84,
+    "normalized": 334,
+    "opportunities": 238,
+    "collected": 272,
+    "new": 4,
+    "updated": 209,
     "closed": 0,
-    "failed": 1
+    "unchanged": 25,
+    "failed": 3,
+    "total_candidates": 161,
+    "total_verified": 6,
+    "total_closed": 4,
+    "total_unknown": 53,
+    "total_insufficient_evidence": 14
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:1705765c70119f5995f0dedb683bb9797fb2e559713eba8b7339854c50cc5b75",
+      "content_hash": "sha256:df565e7debfdf1dbb14263ca9cc91a02dcf59bf854476046b407ec51c46f98c4",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:3c435581145a68526fdd63768371c36c96b09b71199a5d023cc59d4fd42ee4f1",
+      "content_hash": "sha256:c72d9f307320e5f3505021caa05d59e2f509b7d9bae74dc1ae5c960843f26bf3",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:8d728746c71202140a07a7ff480f3f41a664913771b7858b07ead8636793d106",
+      "content_hash": "sha256:40745b8b4a4876522c9977cb02394afb04a956c271fe3a4dc8a1cc901cbdcdb8",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:fc7979f1d20d2083a135f40e09acc885db401db161498599fce83a1596b96f73",
+      "content_hash": "sha256:ad4bc463451ebc4a34f79aef1554ced4d6e466d012cf10134432602a232a10c9",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:67d640c687ceb9ed7d311ba1d25e7357eb5d14f2e7a938e68b6b15ee69d52ba8",
+      "content_hash": "sha256:aa5b2b68796a3b9c20ea6274868d4d8785e2cd865d1047c68d0b075a9e1743b3",
       "media_type": "text/csv"
     }
   ],
@@ -78,9 +84,25 @@
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 403,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "bndes-floresta-viva",
+      "status": "failed",
+      "http_status": 500,
+      "limitations": [
+        "Detail fetch returned HTTP 500."
+      ]
+    },
+    {
+      "source_id": "capes-editais",
+      "status": "failed",
+      "http_status": 401,
+      "limitations": [
+        "Detail fetch returned HTTP 401."
       ]
     }
   ],

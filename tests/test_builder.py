@@ -16,6 +16,7 @@ class BuilderTests(unittest.TestCase):
             "opportunity_id": "candidate-1",
             "canonical_key": "url:https://example.org/call",
             "title": title,
+            "organization": "Example Foundation",
             "status": status,
             "source_id": "source-a",
             "evidence": ["evidence-1"],

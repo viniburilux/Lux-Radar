@@ -7,11 +7,17 @@ import hashlib
 import json
 from pathlib import Path
 import re
+from difflib import SequenceMatcher
 from typing import Any
 from urllib.parse import urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
+
+try:
+    from quality_layer import extract_quality_records, norm_url
+except ModuleNotFoundError:
+    from scripts.quality_layer import extract_quality_records, norm_url
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -197,7 +203,8 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
                 "eligibility": [],
                 "funding": {},
                 "deadline": "",
-                "status": "UNKNOWN",
+                "status": "CANDIDATE",
+                "verification": {"state": "CANDIDATE", "reason": "Candidate link observed on an official source page; detail verification pending."},
                 "official_url": url,
                 "source_id": observation["source_id"],
                 "published_at": None,
@@ -222,20 +229,47 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
     return records, evidences, normalized
 
 
+def records_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_url = norm_url(left.get("official_url"))
+    right_url = norm_url(right.get("official_url"))
+    if left_url and left_url == right_url:
+        return True
+    left_pdf = norm_url(left.get("official_pdf_url"))
+    right_pdf = norm_url(right.get("official_pdf_url"))
+    if left_pdf and right_pdf and left_pdf == right_pdf:
+        return True
+    title_similarity = SequenceMatcher(None, norm_text(left.get("title")), norm_text(right.get("title"))).ratio()
+    left_org = norm_text(left.get("organization"))
+    right_org = norm_text(right.get("organization"))
+    left_deadline = left.get("deadline") or ""
+    right_deadline = right.get("deadline") or ""
+    return title_similarity >= 0.93 and left_org and left_org == right_org and (not left_deadline or not right_deadline or left_deadline == right_deadline)
+
+
+def merge_record_metadata(target: dict[str, Any], record: dict[str, Any]) -> None:
+    target["evidence"] = sorted(set(target.get("evidence", [])) | set(record.get("evidence", [])))
+    target["evidence_ids"] = sorted(set(target.get("evidence_ids", [])) | set(record.get("evidence_ids", [])))
+    target.setdefault("provenance", {}).setdefault("observation_ids", [])
+    target["provenance"]["observation_ids"] = sorted(set(target["provenance"].get("observation_ids", [])) | set(record.get("provenance", {}).get("observation_ids", [])))
+    target["provenance"]["limitations"] = sorted(set(target["provenance"].get("limitations", [])) | set(record.get("provenance", {}).get("limitations", [])))
+    target["sources"] = sorted({source for source in (set(target.get("sources", [])) | set(record.get("sources", [])) | {target.get("source_id", ""), record.get("source_id", "")}) if source})
+    if record.get("status") in {"VERIFIED", "CLOSED", "INSUFFICIENT_EVIDENCE"} or target.get("status") in {"UNKNOWN", "CANDIDATE"}:
+        for field in ["title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "verification", "official_url", "official_pdf_url", "updated_at", "last_seen_at", "confidence"]:
+            if field in record and record[field] not in (None, "", [], {}):
+                target[field] = record[field]
+
+
 def dedupe(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    by_key: dict[str, dict[str, Any]] = {}
+    consolidated: list[dict[str, Any]] = []
     for record in records:
-        key = record.get("canonical_key") or f"title:{norm_text(record.get('title'))}|org:{norm_text(record.get('organization'))}"
-        if key not in by_key:
-            by_key[key] = record
+        match = next((existing for existing in consolidated if records_match(existing, record)), None)
+        if match is None:
+            item = dict(record)
+            item["sources"] = sorted({source for source in item.get("sources", [item.get("source_id", "")]) if source})
+            consolidated.append(item)
             continue
-        target = by_key[key]
-        target["source_id"] = target["source_id"]
-        target["evidence"] = sorted(set(target.get("evidence", [])) | set(record.get("evidence", [])))
-        target["provenance"]["observation_ids"] = sorted(set(target["provenance"].get("observation_ids", [])) | set(record["provenance"].get("observation_ids", [])))
-        target["provenance"]["limitations"] = sorted(set(target["provenance"].get("limitations", [])) | set(record["provenance"].get("limitations", [])))
-        target["sources"] = sorted(set(target.get("sources", [target["source_id"]])) | {record["source_id"]})
-    return list(by_key.values())
+        merge_record_metadata(match, record)
+    return consolidated
 
 
 def merge_history(incoming: list[dict[str, Any]], previous: list[dict[str, Any]], observed_at: str) -> tuple[list[dict[str, Any]], dict[str, int]]:
@@ -246,6 +280,8 @@ def merge_history(incoming: list[dict[str, Any]], previous: list[dict[str, Any]]
     for candidate in dedupe(incoming):
         key = candidate["canonical_key"]
         old = previous_by_key.get(key)
+        if not old:
+            old = next((item for item in previous if records_match(item, candidate)), None)
         if not old:
             candidate["first_seen_at"] = observed_at
             candidate["history"] = [{"at": observed_at, "event": "first_seen", "status": candidate["status"]}]
@@ -261,6 +297,8 @@ def merge_history(incoming: list[dict[str, Any]], previous: list[dict[str, Any]]
         candidate["last_seen_at"] = observed_at
         candidate["updated_at"] = observed_at
         seen.add(key)
+        if old and old.get("canonical_key"):
+            seen.add(old["canonical_key"])
         output.append(candidate)
     for old in previous:
         key = old.get("canonical_key")
@@ -284,7 +322,7 @@ def write_csv(path: Path, records: list[dict[str, Any]]) -> str:
     columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "official_url", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=columns)
+        writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
         writer.writeheader()
         for record in records:
             writer.writerow({column: csv_value(record.get(column, "")) for column in columns})
@@ -298,7 +336,14 @@ def run(args: argparse.Namespace) -> int:
         registry = registry[: args.limit_sources]
     observed_at = now()
     observations = [fetch_source(source) for source in registry]
-    incoming, evidences, normalized = candidate_records(observations, registry)
+    candidate_incoming, candidate_evidences, candidate_normalized = candidate_records(observations, registry)
+    quality_observations, quality_evidences, quality_normalized, quality_records, _details = extract_quality_records(observations, registry)
+    detail_urls = {norm_url(record.get("official_url", "")) for record in quality_records}
+    incoming = [record for record in candidate_incoming if norm_url(record.get("official_url", "")) not in detail_urls]
+    incoming.extend(quality_records)
+    evidences = candidate_evidences + quality_evidences
+    normalized = candidate_normalized + quality_normalized
+    observations = quality_observations
     previous_payload = load_json(DATA_DIR / "opportunities.json", {"opportunities": []})
     previous = previous_payload.get("opportunities", []) if isinstance(previous_payload, dict) else previous_payload
     database, stats = merge_history(incoming, previous, observed_at)
@@ -327,7 +372,7 @@ def run(args: argparse.Namespace) -> int:
         "created_at": observed_at,
         "source_ids": [source["id"] for source in registry],
         "observation_window": {"started_at": min((item["observed_at"] for item in observations), default=observed_at), "ended_at": max((item["observed_at"] for item in observations), default=observed_at)},
-        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "collected": len(incoming), "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "failed": len(failed)},
+        "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "collected": len(incoming), "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database)},
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
         "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "limitations": item.get("limitations", [])} for item in failed],

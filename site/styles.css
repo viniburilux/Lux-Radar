@@ -35,6 +35,8 @@ input:focus, select:focus { outline: 3px solid rgba(28, 107, 76, .2); border-col
 .badge { display: inline-flex; padding: 5px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: .7rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
 .badge.closed { background: #f2ece0; color: #83652d; }
 .badge.unknown { background: #eef0f0; color: #67716c; }
+.badge.verified { background: #d9f0df; color: #16633b; }
+.badge.candidate { background: #fff0c9; color: #85651d; }
 .card h2 { margin: 18px 0 9px; font: 700 1.38rem/1.08 Georgia, serif; letter-spacing: -.02em; }
 .card p { margin: 0; color: var(--muted); font-size: .93rem; }
 .card-footer { display: flex; justify-content: space-between; gap: 12px; align-items: end; margin-top: auto; padding-top: 24px; }
