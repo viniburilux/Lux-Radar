@@ -1,11 +1,11 @@
 {
-  "release_id": "weekly-32914463776",
+  "release_id": "weekly-32918324075",
   "observations": [
     {
       "observation_id": "fapesb-editais:success:200",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/category/edital/",
-      "observed_at": "2026-08-26T00:17:46Z",
+      "observed_at": "2026-08-26T01:16:10Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:8066136df1e3d8e2beab6f720a78921bd57afdb4e9bf5487567352d4f813d869",
+        "content_hash": "sha256:d423cbbf0cfaa26f184489a21b6ba75bf59020565dcacd29779a5735e68457e7",
         "byte_size": 117322
       },
       "claims": [
@@ -226,7 +226,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:567352d4f813d869"
+        "evidence:fapesb-editais:779a5735e68457e7"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -242,7 +242,7 @@
       "observation_id": "bndes-floresta-viva:success:200",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
-      "observed_at": "2026-08-26T00:17:52Z",
+      "observed_at": "2026-08-26T01:16:15Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -252,8 +252,8 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:31dd0032ff57400f8160957ed5b04e65515003f252f48845bba1d7c255f20f5b",
-        "byte_size": 91481
+        "content_hash": "sha256:f27c7e787fb663a866d7ec31116689c6c5c3ddb67478206474bde7e52baea14c",
+        "byte_size": 91504
       },
       "claims": [
         {
@@ -378,7 +378,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:bba1d7c255f20f5b"
+        "evidence:bndes-floresta-viva:74bde7e52baea14c"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -394,7 +394,7 @@
       "observation_id": "mma-fnma:success:200",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1",
-      "observed_at": "2026-08-26T00:17:53Z",
+      "observed_at": "2026-08-26T01:16:16Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -566,7 +566,7 @@
       "observation_id": "mma-fundo-clima:success:200",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
-      "observed_at": "2026-08-26T00:17:54Z",
+      "observed_at": "2026-08-26T01:16:16Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -788,7 +788,7 @@
       "observation_id": "cnpq-chamadas:success:200",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
-      "observed_at": "2026-08-26T00:17:55Z",
+      "observed_at": "2026-08-26T01:16:17Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -1025,7 +1025,7 @@
       "observation_id": "capes-editais:success:200",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
-      "observed_at": "2026-08-26T00:17:56Z",
+      "observed_at": "2026-08-26T01:16:18Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -1035,7 +1035,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:aa1ae92ee42c486426917d8e732714fe1726c903ef80d919632f65623b213fc2",
+        "content_hash": "sha256:f294f8ccd49664a66826a0f3b9bbf4ce6238f920e9ec9769b14288fc8513c353",
         "byte_size": 311403
       },
       "claims": [
@@ -1231,7 +1231,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:capes-editais:632f65623b213fc2"
+        "evidence:capes-editais:b14288fc8513c353"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1247,7 +1247,7 @@
       "observation_id": "fundo-amazonia:success:200",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
-      "observed_at": "2026-08-26T00:17:57Z",
+      "observed_at": "2026-08-26T01:16:19Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -1404,7 +1404,7 @@
       "observation_id": "finep-chamadas:success:200",
       "source_id": "finep-chamadas",
       "source_url": "https://www.finep.gov.br/chamadas-publicas/chamadaspublicas?situacao=aberta",
-      "observed_at": "2026-08-26T00:17:59Z",
+      "observed_at": "2026-08-26T01:16:21Z",
       "source_profile": "funding_portal",
       "fetch": {
         "status": "success",
@@ -1414,8 +1414,8 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:beadd00eb35244e8ed269a9dd93733aafd968974ef458e21c790d7622d1bc8e3",
-        "byte_size": 184383
+        "content_hash": "sha256:a20543b6904dfd7617e21b16343eb60cbe694a5877910240da86517fc9dafea9",
+        "byte_size": 184381
       },
       "claims": [
         {
@@ -1466,7 +1466,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:c790d7622d1bc8e3"
+        "evidence:finep-chamadas:da86517fc9dafea9"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1482,7 +1482,7 @@
       "observation_id": "petrobras-socioambiental:success:200",
       "source_id": "petrobras-socioambiental",
       "source_url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
-      "observed_at": "2026-08-26T00:18:00Z",
+      "observed_at": "2026-08-26T01:16:21Z",
       "source_profile": "corporate_program",
       "fetch": {
         "status": "success",
@@ -1492,7 +1492,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:f28015c8dc3b1952ffdc0d006646c34939bb7f70e45dfa79004cfb539736a201",
+        "content_hash": "sha256:1cbb0eba81eca3259a56c1d393f764cb119baad2226834ab1230c9e054c95185",
         "byte_size": 1265823
       },
       "claims": [
@@ -1643,7 +1643,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:petrobras-socioambiental:004cfb539736a201"
+        "evidence:petrobras-socioambiental:1230c9e054c95185"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1659,7 +1659,7 @@
       "observation_id": "cinea-life:success:200",
       "source_id": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
-      "observed_at": "2026-08-26T00:18:02Z",
+      "observed_at": "2026-08-26T01:16:23Z",
       "source_profile": "international_program",
       "fetch": {
         "status": "success",
@@ -1978,7 +1978,7 @@
       "observation_id": "transferegov-parcerias:failed:404",
       "source_id": "transferegov-parcerias",
       "source_url": "https://api.transferegov.gestao.gov.br/",
-      "observed_at": "2026-08-26T00:18:07Z",
+      "observed_at": "2026-08-26T01:16:24Z",
       "source_profile": "public_api",
       "fetch": {
         "status": "failed",
@@ -1988,7 +1988,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:e06b130c8eefcc2acaa40366ad0486b13c67ab846f1f9540136b968baf8b10bd",
+        "content_hash": "sha256:27665ff42caa7d8f7cd975db1f8fae057241b02372e159b1ab83f2176b5b3a49",
         "byte_size": 1437
       },
       "claims": [],

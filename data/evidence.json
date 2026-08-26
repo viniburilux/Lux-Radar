@@ -1,17 +1,17 @@
 {
-  "release_id": "weekly-32914463776",
+  "release_id": "weekly-32918324075",
   "evidence": [
     {
-      "evidence_id": "evidence:fapesb-editais:567352d4f813d869",
+      "evidence_id": "evidence:fapesb-editais:779a5735e68457e7",
       "evidence_type": "official_page",
       "source_name": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/category/edital/",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:46Z",
+      "observed_at": "2026-08-26T01:16:10Z",
       "observation_ids": [
         "fapesb-editais:success:200"
       ],
-      "content_hash": "sha256:8066136df1e3d8e2beab6f720a78921bd57afdb4e9bf5487567352d4f813d869",
+      "content_hash": "sha256:d423cbbf0cfaa26f184489a21b6ba75bf59020565dcacd29779a5735e68457e7",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -25,16 +25,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:bndes-floresta-viva:bba1d7c255f20f5b",
+      "evidence_id": "evidence:bndes-floresta-viva:74bde7e52baea14c",
       "evidence_type": "official_page",
       "source_name": "bndes-floresta-viva",
       "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:52Z",
+      "observed_at": "2026-08-26T01:16:15Z",
       "observation_ids": [
         "bndes-floresta-viva:success:200"
       ],
-      "content_hash": "sha256:31dd0032ff57400f8160957ed5b04e65515003f252f48845bba1d7c255f20f5b",
+      "content_hash": "sha256:f27c7e787fb663a866d7ec31116689c6c5c3ddb67478206474bde7e52baea14c",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -53,7 +53,7 @@
       "source_name": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:53Z",
+      "observed_at": "2026-08-26T01:16:16Z",
       "observation_ids": [
         "mma-fnma:success:200"
       ],
@@ -76,7 +76,7 @@
       "source_name": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:54Z",
+      "observed_at": "2026-08-26T01:16:16Z",
       "observation_ids": [
         "mma-fundo-clima:success:200"
       ],
@@ -99,7 +99,7 @@
       "source_name": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:55Z",
+      "observed_at": "2026-08-26T01:16:17Z",
       "observation_ids": [
         "cnpq-chamadas:success:200"
       ],
@@ -117,16 +117,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:capes-editais:632f65623b213fc2",
+      "evidence_id": "evidence:capes-editais:b14288fc8513c353",
       "evidence_type": "official_page",
       "source_name": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:56Z",
+      "observed_at": "2026-08-26T01:16:18Z",
       "observation_ids": [
         "capes-editais:success:200"
       ],
-      "content_hash": "sha256:aa1ae92ee42c486426917d8e732714fe1726c903ef80d919632f65623b213fc2",
+      "content_hash": "sha256:f294f8ccd49664a66826a0f3b9bbf4ce6238f920e9ec9769b14288fc8513c353",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -145,7 +145,7 @@
       "source_name": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:57Z",
+      "observed_at": "2026-08-26T01:16:19Z",
       "observation_ids": [
         "fundo-amazonia:success:200"
       ],
@@ -163,16 +163,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:finep-chamadas:c790d7622d1bc8e3",
+      "evidence_id": "evidence:finep-chamadas:da86517fc9dafea9",
       "evidence_type": "official_page",
       "source_name": "finep-chamadas",
       "source_url": "https://www.finep.gov.br/chamadas-publicas/chamadaspublicas?situacao=aberta",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:17:59Z",
+      "observed_at": "2026-08-26T01:16:21Z",
       "observation_ids": [
         "finep-chamadas:success:200"
       ],
-      "content_hash": "sha256:beadd00eb35244e8ed269a9dd93733aafd968974ef458e21c790d7622d1bc8e3",
+      "content_hash": "sha256:a20543b6904dfd7617e21b16343eb60cbe694a5877910240da86517fc9dafea9",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -186,16 +186,16 @@
       "license_notes": "Reference URL only; review source terms before redistributing content."
     },
     {
-      "evidence_id": "evidence:petrobras-socioambiental:004cfb539736a201",
+      "evidence_id": "evidence:petrobras-socioambiental:1230c9e054c95185",
       "evidence_type": "official_page",
       "source_name": "petrobras-socioambiental",
       "source_url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:18:00Z",
+      "observed_at": "2026-08-26T01:16:21Z",
       "observation_ids": [
         "petrobras-socioambiental:success:200"
       ],
-      "content_hash": "sha256:f28015c8dc3b1952ffdc0d006646c34939bb7f70e45dfa79004cfb539736a201",
+      "content_hash": "sha256:1cbb0eba81eca3259a56c1d393f764cb119baad2226834ab1230c9e054c95185",
       "supports_claims": [
         "page.candidate_links",
         "source.organization",
@@ -214,7 +214,7 @@
       "source_name": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
       "source_role": "primary",
-      "observed_at": "2026-08-26T00:18:02Z",
+      "observed_at": "2026-08-26T01:16:23Z",
       "observation_ids": [
         "cinea-life:success:200"
       ],
