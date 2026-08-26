@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32914372494",
-  "created_at": "2026-08-26T00:16:25Z",
+  "release_id": "weekly-32914463776",
+  "created_at": "2026-08-26T00:17:46Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,8 +15,8 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T00:16:25Z",
-    "ended_at": "2026-08-26T00:16:39Z"
+    "started_at": "2026-08-26T00:17:46Z",
+    "ended_at": "2026-08-26T00:18:07Z"
   },
   "record_counts": {
     "observations": 11,
@@ -24,7 +24,7 @@
     "normalized": 260,
     "opportunities": 226,
     "collected": 260,
-    "new": 22,
+    "new": 0,
     "updated": 0,
     "closed": 0,
     "failed": 1
@@ -33,31 +33,31 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:b9bc8851970e32bfcd7a09014114f6b392aa87092e988af832f0fc5203ddab79",
+      "content_hash": "sha256:6423850d76e1de0796ece6005172ed5b6e3273c1affad93dc4cfd48c4a4826ad",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:02b3aa6932cc438764484892dafd4c4ac70df4f63563d70a4a81fa031ed58752",
+      "content_hash": "sha256:cf9c1cba632054eec78604e2440da5bee067218ea36f91cd6cce6f51a3e38ca8",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:5f9938ea677550143752d5aa69e78fd2938e8c312e899b87bbeb978eacc8c685",
+      "content_hash": "sha256:c25d4fbdb268cb58f58fc2ade7cfe75bae935f90396a99d9be45666ffc3ae6f5",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:21f3429de15292c5c5e84993e09a2aada205780e8d2eead1e76aa2a158fddd22",
+      "content_hash": "sha256:0dfdce6a361d33897622abac42b03e8436c35960f8bfab6a99f9ca7e4811bf6b",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:0812651d4ac3cf29c0013a9452a0aa20de57e10a924617c73f8432ce5fa92151",
+      "content_hash": "sha256:f625f8e94f347b0eb99a7cb694227ace31ab5d84ebc0c99bac04f863608b47c2",
       "media_type": "text/csv"
     }
   ],
