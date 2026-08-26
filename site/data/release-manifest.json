@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32937689928",
-  "created_at": "2026-08-26T06:20:07Z",
+  "release_id": "weekly-32958058630",
+  "created_at": "2026-08-26T10:24:23Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -37,31 +37,31 @@
     "ingesto-editais"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T06:20:07Z",
-    "ended_at": "2026-08-26T06:22:02Z"
+    "started_at": "2026-08-26T10:24:23Z",
+    "ended_at": "2026-08-26T10:26:42Z"
   },
   "record_counts": {
     "observations": 223,
-    "evidence": 221,
-    "normalized": 821,
+    "evidence": 220,
+    "normalized": 820,
     "opportunities": 566,
     "current_opportunities": 12,
     "signals_history": 554,
     "moved_to_history_or_signals": 554,
     "closing_soon": 8,
     "new_current": 0,
-    "deduplicated": 146,
-    "collected": 666,
-    "new": 1,
-    "updated": 50,
+    "deduplicated": 145,
+    "collected": 665,
+    "new": 0,
+    "updated": 51,
     "closed": 0,
     "unchanged": 515,
     "failed": 9,
-    "total_candidates": 412,
+    "total_candidates": 411,
     "total_verified": 0,
     "total_closed": 58,
     "total_unknown": 47,
-    "total_insufficient_evidence": 37,
+    "total_insufficient_evidence": 38,
     "sustainability_records": 44,
     "sustainability_lens_records": 92,
     "non_sustainability_records": 522,
@@ -72,16 +72,16 @@
       "climate": 21,
       "culture": 21,
       "economy": 27,
-      "education": 83,
+      "education": 81,
       "energy": 17,
       "financing": 103,
       "innovation": 62,
       "public_policy": 2,
       "research": 100,
       "social_impact": 22,
-      "sport": 9,
+      "sport": 8,
       "sustainability": 44,
-      "technology": 36,
+      "technology": 37,
       "territorial_development": 4,
       "territory": 23,
       "tourism": 4,
@@ -89,9 +89,9 @@
     }
   },
   "funnel": {
-    "normalized_records": 821,
+    "normalized_records": 820,
     "canonical_records": 566,
-    "potential_opportunities": 400,
+    "potential_opportunities": 401,
     "with_temporal_evidence": 75,
     "verifiable_records": 12,
     "active": 2,
@@ -100,8 +100,8 @@
     "remaining_outside_current": 554
   },
   "reason_codes": {
-    "not_opportunity": 119,
-    "missing_deadline": 321,
+    "not_opportunity": 118,
+    "missing_deadline": 322,
     "status_explicitly_closed": 30,
     "deadline_expired": 28,
     "current_opportunity": 12,
@@ -120,43 +120,43 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:4ca9dc565fe174329f3688ace6035e6dae76da0c89c7463c5a7a4c6252eba198",
+      "content_hash": "sha256:843310b062d2da1c817718f1cd09b2e7d21a5a386b14ed41a0f8ae6c02132b6f",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:0000971de8fb20708336422c2ce1fdbb5268e766b8097d0f4656593ed2018525",
+      "content_hash": "sha256:bd20834602c61f13d95fa8b91224ad71b669cf5dee6170cfc9b41f698c0abfb1",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:7896dbf5b236ee3d5ffd4ca6d4cc7a8172d9af869c9ac7770b3cc7eb80417f56",
+      "content_hash": "sha256:432c44be45a32752eae7be5a8006803c3935dc4aecef8228d8f5824b88f4ad37",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:013b4eafbadf0a9307352649890c163d50f14f7ac82582df1be2a3d219ca1ada",
+      "content_hash": "sha256:4dbbd0f53ba02a2a2af630d63447c50a34a5c292f45801cfcfd6ba90683df64e",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:40352f1fb80ac27e2b45f06534f23c9335042b73e4384b32b332e478a2bd610b",
+      "content_hash": "sha256:8b94cab16799249daab771986018bf67feb9010157f12bcd082dcf5009a20ee5",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:4f561a0f0714add102663b4421f89c143bd17b9aec4939495449fa8b7673f137",
+      "content_hash": "sha256:38710d2baf9e7252c5c926ea06386078b815912039fc901998331566a4afbd98",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:7734437f6e29cdfdc77800d457e3e3a3480bbaf13151874b8f74d459e1ad4b1b",
+      "content_hash": "sha256:bb1222f354c12e0c84c6f40fd10c981cb0128eb329e762e4bc225c87bacf264d",
       "media_type": "text/csv"
     }
   ],
@@ -190,7 +190,7 @@
     "faperj-editais": "success",
     "facepe-editais": "success",
     "minc-cultbr-editais": "success",
-    "pncp-editais": "success",
+    "pncp-editais": "failed",
     "observatorio-3setor-editais": "success",
     "ingesto-editais": "success"
   },
@@ -214,6 +214,16 @@
       ]
     },
     {
+      "source_id": "pncp-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Network failure: ConnectionError.",
+        "No retry or access bypass was attempted."
+      ]
+    },
+    {
       "source_id": "bndes-floresta-viva",
       "status": "failed",
       "http_status": 500,
@@ -229,15 +239,6 @@
       "reason_code": "parser_failure",
       "limitations": [
         "Detail fetch returned HTTP 401."
-      ]
-    },
-    {
-      "source_id": "sudene-editais",
-      "status": "failed",
-      "http_status": null,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Detail network failure: ConnectionError."
       ]
     },
     {

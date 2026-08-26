@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-32937689928",
+  "release_id": "weekly-32958058630",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
       ],
@@ -156,9 +156,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:bb86d93e5ab16360"
       ],
@@ -290,6 +290,107 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-ab5f85d11fac3339",
+      "canonical_key": "url:https://chamadas.funbio.org.br/planodemanejo-rppn",
+      "title": "Chamada de Projetos 07/2026 Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
+      "description": "Chamada de Projetos 07/2026 - Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
+      "organization": "FUNBIO",
+      "type": "innovation_program",
+      "domains": [
+        "biodiversity",
+        "innovation"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "elegibilidade, documentos obrigatórios, etapas de seleção e demais orientações para submissão, baixe e consulte o regulamento completo da chamada"
+      ],
+      "funding": {
+        "amount": 1000000.0,
+        "currency": "BRL",
+        "raw": "R$ 1.000.000,00"
+      },
+      "deadline": "2026-09-04T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/planodemanejo-rppn",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-26T10:24:23Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:eb40b098205b73ba"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:eb40b098205b73ba"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:eb40b098205b73ba"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "biodiversity",
+        "innovation",
+        "sustainability"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-d7187c8249cada41",
       "canonical_key": "url:https://chamadas.funbio.org.br/usopublico-rppn",
       "title": "Chamada de Projetos 08/2026 - Uso público e negócios voltados ao apoio às RPPNs",
@@ -340,19 +441,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:1e4ddb3387b3b046"
+        "evidence:funbio-chamadas:detail:0144e004158a0d0b"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:1e4ddb3387b3b046"
+        "evidence:funbio-chamadas:detail:0144e004158a0d0b"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:1e4ddb3387b3b046"
+          "funbio-chamadas:detail:0144e004158a0d0b"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -383,107 +484,6 @@
       "lens_matches": [
         "biodiversity",
         "economy",
-        "innovation",
-        "sustainability"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-ab5f85d11fac3339",
-      "canonical_key": "url:https://chamadas.funbio.org.br/planodemanejo-rppn",
-      "title": "Chamada de Projetos 07/2026 Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
-      "description": "Chamada de Projetos 07/2026 - Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
-      "organization": "FUNBIO",
-      "type": "innovation_program",
-      "domains": [
-        "biodiversity",
-        "innovation"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "elegibilidade, documentos obrigatórios, etapas de seleção e demais orientações para submissão, baixe e consulte o regulamento completo da chamada"
-      ],
-      "funding": {
-        "amount": 1000000.0,
-        "currency": "BRL",
-        "raw": "R$ 1.000.000,00"
-      },
-      "deadline": "2026-09-04T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/planodemanejo-rppn",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:660a23672a587618"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:660a23672a587618"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:660a23672a587618"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "biodiversity",
         "innovation",
         "sustainability"
       ],
@@ -540,19 +540,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:cd1bdedcc97cfbb8"
+        "evidence:funbio-chamadas:detail:4ca1c4753bb4a96e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:cd1bdedcc97cfbb8"
+        "evidence:funbio-chamadas:detail:4ca1c4753bb4a96e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:cd1bdedcc97cfbb8"
+          "funbio-chamadas:detail:4ca1c4753bb4a96e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -638,19 +638,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:4a5c1ac418e5d46e"
+        "evidence:funbio-chamadas:detail:799db737cf20b0ea"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:4a5c1ac418e5d46e"
+        "evidence:funbio-chamadas:detail:799db737cf20b0ea"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:4a5c1ac418e5d46e"
+          "funbio-chamadas:detail:799db737cf20b0ea"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -739,19 +739,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:3c994aec90bc42ea"
+        "evidence:funbio-chamadas:detail:1d6310ca107a04c4"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:3c994aec90bc42ea"
+        "evidence:funbio-chamadas:detail:1d6310ca107a04c4"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:3c994aec90bc42ea"
+          "funbio-chamadas:detail:1d6310ca107a04c4"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -836,19 +836,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:4ed8690ca2591423"
+        "evidence:funbio-chamadas:detail:7c6bd73e30432453"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:4ed8690ca2591423"
+        "evidence:funbio-chamadas:detail:7c6bd73e30432453"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:4ed8690ca2591423"
+          "funbio-chamadas:detail:7c6bd73e30432453"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -937,9 +937,9 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
         "evidence:capta-editais:detail:1dfeef126b6ddb26"
       ],
@@ -981,98 +981,6 @@
         "innovation"
       ],
       "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-51943bce55bbbb06",
-      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
-      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
-      "organization": "Prosas",
-      "type": "award",
-      "domains": [],
-      "source_domains": [
-        "communities",
-        "financing",
-        "innovation",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 1.2,
-        "currency": "BRL",
-        "raw": "R$1,2"
-      },
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
-      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "source_id": "prosas-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
-      "evidence": [
-        "evidence:prosas-editais:detail:3ab347ef5263e3f4"
-      ],
-      "evidence_ids": [
-        "evidence:prosas-editais:detail:3ab347ef5263e3f4"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "prosas-editais:success:200",
-          "prosas-editais:detail:3ab347ef5263e3f4"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "prosas-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [],
-      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -1128,19 +1036,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:capta-editais:detail:8eb4d0ae0a2dcf6d"
+        "evidence:capta-editais:detail:f35bfdbee330661a"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:8eb4d0ae0a2dcf6d"
+        "evidence:capta-editais:detail:f35bfdbee330661a"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:8eb4d0ae0a2dcf6d"
+          "capta-editais:detail:f35bfdbee330661a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1172,6 +1080,98 @@
         "financing"
       ],
       "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-51943bce55bbbb06",
+      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
+      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
+      "organization": "Prosas",
+      "type": "award",
+      "domains": [],
+      "source_domains": [
+        "communities",
+        "financing",
+        "innovation",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 1.2,
+        "currency": "BRL",
+        "raw": "R$1,2"
+      },
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
+      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "source_id": "prosas-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-26T10:24:23Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
+      "evidence": [
+        "evidence:prosas-editais:detail:4917a1c54e6f42a5"
+      ],
+      "evidence_ids": [
+        "evidence:prosas-editais:detail:4917a1c54e6f42a5"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "prosas-editais:success:200",
+          "prosas-editais:detail:4917a1c54e6f42a5"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "prosas-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -1227,39 +1227,39 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-26T06:20:07Z",
+      "updated_at": "2026-08-26T10:24:23Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-08-26T06:20:07Z",
+      "last_seen_at": "2026-08-26T10:24:23Z",
       "evidence": [
-        "evidence:observatorio-3setor-editais:detail:008eb840b8f5e382",
-        "evidence:observatorio-3setor-editais:detail:37d056f2dce52498",
-        "evidence:observatorio-3setor-editais:detail:4e330034d865c87b",
-        "evidence:observatorio-3setor-editais:detail:6b9cfc45e4d284a8",
-        "evidence:observatorio-3setor-editais:detail:9da7ba87b28976fd",
-        "evidence:observatorio-3setor-editais:detail:f134bf4e1bc02d9d",
-        "evidence:observatorio-3setor-editais:detail:f2f7f79e42fd3bac",
-        "evidence:observatorio-3setor-editais:detail:fa1cc56f72f63d1d"
+        "evidence:observatorio-3setor-editais:detail:43278e0bfe78b442",
+        "evidence:observatorio-3setor-editais:detail:43977a056cc704af",
+        "evidence:observatorio-3setor-editais:detail:7bf88fda50deccf2",
+        "evidence:observatorio-3setor-editais:detail:98522f4ca38911db",
+        "evidence:observatorio-3setor-editais:detail:bbecef0f706564f4",
+        "evidence:observatorio-3setor-editais:detail:cec68d5405f0dfd0",
+        "evidence:observatorio-3setor-editais:detail:e40e185deb9a64db",
+        "evidence:observatorio-3setor-editais:detail:e7aa69c871c31f26"
       ],
       "evidence_ids": [
-        "evidence:observatorio-3setor-editais:detail:008eb840b8f5e382",
-        "evidence:observatorio-3setor-editais:detail:37d056f2dce52498",
-        "evidence:observatorio-3setor-editais:detail:4e330034d865c87b",
-        "evidence:observatorio-3setor-editais:detail:6b9cfc45e4d284a8",
-        "evidence:observatorio-3setor-editais:detail:9da7ba87b28976fd",
-        "evidence:observatorio-3setor-editais:detail:f134bf4e1bc02d9d",
-        "evidence:observatorio-3setor-editais:detail:f2f7f79e42fd3bac",
-        "evidence:observatorio-3setor-editais:detail:fa1cc56f72f63d1d"
+        "evidence:observatorio-3setor-editais:detail:43278e0bfe78b442",
+        "evidence:observatorio-3setor-editais:detail:43977a056cc704af",
+        "evidence:observatorio-3setor-editais:detail:7bf88fda50deccf2",
+        "evidence:observatorio-3setor-editais:detail:98522f4ca38911db",
+        "evidence:observatorio-3setor-editais:detail:bbecef0f706564f4",
+        "evidence:observatorio-3setor-editais:detail:cec68d5405f0dfd0",
+        "evidence:observatorio-3setor-editais:detail:e40e185deb9a64db",
+        "evidence:observatorio-3setor-editais:detail:e7aa69c871c31f26"
       ],
       "provenance": {
         "observation_ids": [
-          "observatorio-3setor-editais:detail:008eb840b8f5e382",
-          "observatorio-3setor-editais:detail:37d056f2dce52498",
-          "observatorio-3setor-editais:detail:4e330034d865c87b",
-          "observatorio-3setor-editais:detail:6b9cfc45e4d284a8",
-          "observatorio-3setor-editais:detail:9da7ba87b28976fd",
-          "observatorio-3setor-editais:detail:f134bf4e1bc02d9d",
-          "observatorio-3setor-editais:detail:f2f7f79e42fd3bac",
-          "observatorio-3setor-editais:detail:fa1cc56f72f63d1d",
+          "observatorio-3setor-editais:detail:43278e0bfe78b442",
+          "observatorio-3setor-editais:detail:43977a056cc704af",
+          "observatorio-3setor-editais:detail:7bf88fda50deccf2",
+          "observatorio-3setor-editais:detail:98522f4ca38911db",
+          "observatorio-3setor-editais:detail:bbecef0f706564f4",
+          "observatorio-3setor-editais:detail:cec68d5405f0dfd0",
+          "observatorio-3setor-editais:detail:e40e185deb9a64db",
+          "observatorio-3setor-editais:detail:e7aa69c871c31f26",
           "observatorio-3setor-editais:success:200"
         ],
         "method": "detail follow-up and claim-preserving extraction",
@@ -1337,7 +1337,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
     }
   ]
 }
