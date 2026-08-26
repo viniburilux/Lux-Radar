@@ -118,7 +118,8 @@ function openDetail(id) {
 
 async function load() {
   try {
-    const [opportunitiesResponse, manifestResponse] = await Promise.all([fetch("data/opportunities.json"), fetch("data/release-manifest.json")]);
+    const cacheVersion = "quality-layer-20260826-final";
+    const [opportunitiesResponse, manifestResponse] = await Promise.all([fetch(`data/opportunities.json?v=${cacheVersion}`), fetch(`data/release-manifest.json?v=${cacheVersion}`)]);
     if (!opportunitiesResponse.ok || !manifestResponse.ok) throw new Error("O release público ainda não foi gerado.");
     const opportunitiesPayload = await opportunitiesResponse.json();
     state.opportunities = opportunitiesPayload.opportunities || [];
