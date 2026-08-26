@@ -68,6 +68,29 @@
         }
       }
     },
+    "funnel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "normalized_records": {"type": "integer", "minimum": 0},
+        "canonical_records": {"type": "integer", "minimum": 0},
+        "potential_opportunities": {"type": "integer", "minimum": 0},
+        "with_temporal_evidence": {"type": "integer", "minimum": 0},
+        "verifiable_records": {"type": "integer", "minimum": 0},
+        "active": {"type": "integer", "minimum": 0},
+        "closing_soon": {"type": "integer", "minimum": 0},
+        "upcoming": {"type": "integer", "minimum": 0},
+        "remaining_outside_current": {"type": "integer", "minimum": 0}
+      }
+    },
+    "reason_codes": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
+    "lifecycle_counts": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    },
     "artifacts": {
       "type": "array",
       "items": {
@@ -80,6 +103,21 @@
           "content_hash": {"type": "string"},
           "media_type": {"type": "string"},
           "bytes": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "status"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "status": {"type": "string"},
+          "http_status": {"type": ["integer", "null"]},
+          "reason_code": {"type": "string"},
+          "limitations": {"type": "array", "items": {"type": "string"}}
         }
       }
     },

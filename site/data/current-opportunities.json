@@ -1,105 +1,6 @@
 {
-  "release_id": "weekly-32934675628",
+  "release_id": "funnel-diagnosis-final-20260826",
   "opportunities": [
-    {
-      "opportunity_id": "opportunity-b49d91da43e099ef",
-      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
-      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
-      "organization": "CNPq",
-      "type": "grant",
-      "domains": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "source_domains": [
-        "innovation",
-        "research",
-        "sustainability"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-      ],
-      "funding": {
-        "amount": 4925000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.925.000,00"
-      },
-      "deadline": "2026-12-15T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "source_id": "cnpq-chamadas",
-      "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
-      "evidence": [
-        "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:ba53e309a3cbc8bd"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "cnpq-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "change_type": "UNCHANGED"
-    },
     {
       "opportunity_id": "opportunity-4922e852978cf0df",
       "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada_18_2026_avaliacoes_de_politicas__programas__projetos_e_acoes_em_saude.pdf",
@@ -146,10 +47,14 @@
       "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada-publica-cnpq-N-18-2026",
       "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada_18_2026_avaliacoes_de_politicas__programas__projetos_e_acoes_em_saude.pdf",
       "source_id": "cnpq-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:bb86d93e5ab16360"
       ],
@@ -277,6 +182,111 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-b49d91da43e099ef",
+      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
+      "organization": "CNPq",
+      "type": "grant",
+      "domains": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "source_domains": [
+        "innovation",
+        "research",
+        "sustainability"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+      ],
+      "funding": {
+        "amount": 4925000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.925.000,00"
+      },
+      "deadline": "2026-12-15T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "source_id": "cnpq-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-26T06:12:31Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
+      "evidence": [
+        "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "cnpq-chamadas:success:200",
+          "cnpq-chamadas:detail:ba53e309a3cbc8bd"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "cnpq-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -324,20 +334,24 @@
       "official_url": "https://chamadas.funbio.org.br/planodemanejo-rppn",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:7b4b5d7bdab57367"
+        "evidence:funbio-chamadas:detail:732658840f87fafc"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:7b4b5d7bdab57367"
+        "evidence:funbio-chamadas:detail:732658840f87fafc"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:7b4b5d7bdab57367"
+          "funbio-chamadas:detail:732658840f87fafc"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -373,6 +387,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -421,20 +436,24 @@
       "official_url": "https://chamadas.funbio.org.br/usopublico-rppn",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:59a0ee90297f354e"
+        "evidence:funbio-chamadas:detail:f998b4792f168d60"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:59a0ee90297f354e"
+        "evidence:funbio-chamadas:detail:f998b4792f168d60"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:59a0ee90297f354e"
+          "funbio-chamadas:detail:f998b4792f168d60"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -471,6 +490,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -515,20 +535,24 @@
       "official_url": "https://chamadas.funbio.org.br/raisfortalecimento1",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:ca268b8e375a43e5"
+        "evidence:funbio-chamadas:detail:f8a143625a6806ca"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:ca268b8e375a43e5"
+        "evidence:funbio-chamadas:detail:f8a143625a6806ca"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:ca268b8e375a43e5"
+          "funbio-chamadas:detail:f8a143625a6806ca"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -560,100 +584,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-2a58d116be92a7bf",
-      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
-      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
-      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
-      "organization": "FUNBIO",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar",
-        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
-      ],
-      "funding": {
-        "amount": 1750000.0,
-        "currency": "BRL",
-        "raw": "R$ 1.750.000,00"
-      },
-      "deadline": "2026-09-14T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:c1bb79486ed1d156"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:c1bb79486ed1d156"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:c1bb79486ed1d156"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -702,20 +633,24 @@
       "official_url": "https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:d4e87194a566c184"
+        "evidence:funbio-chamadas:detail:35e5893aa7f24874"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:d4e87194a566c184"
+        "evidence:funbio-chamadas:detail:35e5893aa7f24874"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:d4e87194a566c184"
+          "funbio-chamadas:detail:35e5893aa7f24874"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -751,6 +686,106 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-2a58d116be92a7bf",
+      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
+      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
+      "organization": "FUNBIO",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar",
+        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
+      ],
+      "funding": {
+        "amount": 1750000.0,
+        "currency": "BRL",
+        "raw": "R$ 1.750.000,00"
+      },
+      "deadline": "2026-09-14T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-26T06:12:31Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:24579b2f8506c43e"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:24579b2f8506c43e"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:24579b2f8506c43e"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -796,20 +831,24 @@
       "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:e61b5e58811d1ef2"
+        "evidence:funbio-chamadas:detail:84c36564bb1596ef"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:e61b5e58811d1ef2"
+        "evidence:funbio-chamadas:detail:84c36564bb1596ef"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:e61b5e58811d1ef2"
+          "funbio-chamadas:detail:84c36564bb1596ef"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -844,6 +883,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -892,10 +932,14 @@
       "official_url": "https://periferiasfortes.phi.org.br/",
       "official_pdf_url": null,
       "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
         "evidence:capta-editais:detail:1dfeef126b6ddb26"
       ],
@@ -939,6 +983,99 @@
       "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-51943bce55bbbb06",
+      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
+      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
+      "organization": "Prosas",
+      "type": "award",
+      "domains": [],
+      "source_domains": [
+        "communities",
+        "financing",
+        "innovation",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 1.2,
+        "currency": "BRL",
+        "raw": "R$1,2"
+      },
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
+      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "source_id": "prosas-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-26T06:12:31Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
+      "evidence": [
+        "evidence:prosas-editais:detail:3b4192d771df3f4c"
+      ],
+      "evidence_ids": [
+        "evidence:prosas-editais:detail:3b4192d771df3f4c"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "prosas-editais:success:200",
+          "prosas-editais:detail:3b4192d771df3f4c"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "prosas-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -986,20 +1123,24 @@
       "official_url": "https://abde.org.br/premio-abde-bid/",
       "official_pdf_url": "https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
       "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:capta-editais:detail:2749da30968f5647"
+        "evidence:capta-editais:detail:e189a6d11679ccd7"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:2749da30968f5647"
+        "evidence:capta-editais:detail:e189a6d11679ccd7"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:2749da30968f5647"
+          "capta-editais:detail:e189a6d11679ccd7"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1033,33 +1174,41 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-51943bce55bbbb06",
-      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
-      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
-      "organization": "Prosas",
-      "type": "award",
-      "domains": [],
+      "opportunity_id": "opportunity-a0514411806aa7b7",
+      "canonical_key": "pdf:https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
+      "title": "Prêmio iCS-Anpec de Economia e Clima - Hub de Economia e Clima",
+      "description": "Reconhecer estudos que analisem os impactos das mudanças climáticas na economia brasileira.",
+      "organization": "Capta / ISPN",
+      "type": "research_call",
+      "domains": [
+        "climate",
+        "economy",
+        "research"
+      ],
       "source_domains": [
+        "biodiversity",
+        "climate",
         "communities",
         "financing",
-        "innovation",
         "sustainability",
         "territory"
       ],
       "territories": [
         "Brasil"
       ],
-      "eligibility": [],
+      "eligibility": [
+        "Quem pode participar Pesquisadores(as) brasileiros(as) com título de doutor e estudos publicados em periódicos nacionais ou internacionais de destaque, focados na interseção entre economia e clima"
+      ],
       "funding": {
-        "amount": 1.2,
+        "amount": 20000.0,
         "currency": "BRL",
-        "raw": "R$1,2"
+        "raw": "R$ 20.000,00"
       },
-      "deadline": "",
+      "deadline": "2026-11-23T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -1067,28 +1216,32 @@
         "critical_fields": {
           "title": true,
           "organization": true,
-          "deadline": false,
-          "eligibility": false,
+          "deadline": true,
+          "eligibility": true,
           "official_url": true
         }
       },
-      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
-      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "source_id": "prosas-editais",
+      "official_url": "https://hubdeeconomiaeclima.org.br/premio-ics-anpec-de-economia-e-clima/",
+      "official_pdf_url": "https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:prosas-editais:detail:04274eb104d84c06"
+        "evidence:capta-editais:detail:c2fa90f5ba6a11d2"
       ],
       "evidence_ids": [
-        "evidence:prosas-editais:detail:04274eb104d84c06"
+        "evidence:capta-editais:detail:c2fa90f5ba6a11d2"
       ],
       "provenance": {
         "observation_ids": [
-          "prosas-editais:success:200",
-          "prosas-editais:detail:04274eb104d84c06"
+          "capta-editais:success:200",
+          "capta-editais:detail:c2fa90f5ba6a11d2"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1097,42 +1250,46 @@
       },
       "confidence": 0.55,
       "sources": [
-        "prosas-editais"
+        "capta-editais"
       ],
       "history": [
         {
           "at": "2026-08-26T03:39:09Z",
           "event": "first_seen",
-          "status": "CANDIDATE"
+          "status": "VERIFIED"
         },
         {
           "at": "2026-08-26T05:01:48Z",
           "event": "updated",
           "before": {
-            "status": "CANDIDATE"
+            "status": "VERIFIED"
           },
           "after": {
             "status": "OPEN"
           }
         }
       ],
-      "lens_matches": [],
-      "lifecycle_state": "ACTIVE",
+      "lens_matches": [
+        "climate",
+        "economy",
+        "research",
+        "sustainability"
+      ],
+      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-3b2a8c63386441f4",
       "canonical_key": "pdf:https://observatorio3setor.org.br/wp-content/uploads/2024/06/Midia-kit-Portal-Observatorio.pdf",
-      "title": "Ambev abre edital de até R$ 67 milhões para projetos culturais e esportivos em todo o Brasil",
-      "description": "Chamada da Ambev selecionará iniciativas aprovadas ou inscritas em leis estaduais de incentivo à cultura e ao esporte; inscrições abertas até 30 de setembro",
+      "title": "Fundação Tide Setubal abre edital com apoio de R$ 200 mil para projetos de saúde mental",
+      "description": "Fundação Tide Setubal selecionará dez organizações de São Paulo, que receberão até R$ 200 mil; inscrições seguem até 31 agosto",
       "organization": "Observatório do Terceiro Setor",
-      "type": "research_call",
+      "type": "grant",
       "domains": [
-        "culture",
-        "research",
-        "sport"
+        "financing"
       ],
       "source_domains": [
         "financing",
@@ -1140,16 +1297,15 @@
         "sustainability"
       ],
       "territories": [
-        "Bahia",
         "Brasil"
       ],
       "eligibility": [
-        "Podem participar pessoas jurídicas com fins lucrativos, organizações da sociedade civil, outras pessoas jurídicas sem fins lucrativos e organizações públicas"
+        "Podem participar organizações da sociedade civil, coletivos e grupos, com ou sem CNPJ, que atuem em São Paulo e desenvolvam iniciativas relacionadas ao atendimento psicológico ou psicanalítico, à formação de profissionais ou à produção de conhecimento na área de saúde mental"
       ],
       "funding": {
-        "amount": 67.0,
+        "amount": 200.0,
         "currency": "BRL",
-        "raw": "R$ 67"
+        "raw": "R$ 200"
       },
       "deadline": "",
       "status": "OPEN",
@@ -1164,43 +1320,47 @@
           "official_url": true
         }
       },
-      "official_url": "https://observatorio3setor.org.br/ambev-abre-edital-de-ate-r-67-milhoes-para-projetos-culturais-e-esportivos-em-todo-o-brasil/",
+      "official_url": "https://observatorio3setor.org.br/fundacao-tide-setubal-abre-edital-com-apoio-de-r-200-mil-para-projetos-de-saude-mental/",
       "official_pdf_url": "https://observatorio3setor.org.br/wp-content/uploads/2024/06/Midia-kit-Portal-Observatorio.pdf",
       "source_id": "observatorio-3setor-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
       "published_at": null,
-      "updated_at": "2026-08-26T05:36:09Z",
+      "updated_at": "2026-08-26T06:12:31Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-08-26T05:36:09Z",
+      "last_seen_at": "2026-08-26T06:12:31Z",
       "evidence": [
-        "evidence:observatorio-3setor-editais:detail:01db9df535430ad2",
-        "evidence:observatorio-3setor-editais:detail:0ad17ceb8ff73af7",
-        "evidence:observatorio-3setor-editais:detail:3d0673f26c0fc386",
-        "evidence:observatorio-3setor-editais:detail:3e2c66c16536f9d3",
-        "evidence:observatorio-3setor-editais:detail:56558e6fbf725058",
-        "evidence:observatorio-3setor-editais:detail:600f629d01b5a77e",
-        "evidence:observatorio-3setor-editais:detail:d43c37e00d427a16",
-        "evidence:observatorio-3setor-editais:detail:f05b0621c276fecd"
+        "evidence:observatorio-3setor-editais:detail:1687db8d5ff2717a",
+        "evidence:observatorio-3setor-editais:detail:414e676b6efa5794",
+        "evidence:observatorio-3setor-editais:detail:43497b0a8a493edb",
+        "evidence:observatorio-3setor-editais:detail:5490222309032bc2",
+        "evidence:observatorio-3setor-editais:detail:98efcd1b1e3fda64",
+        "evidence:observatorio-3setor-editais:detail:b16dcd33289f5668",
+        "evidence:observatorio-3setor-editais:detail:f21913d4c82266f4",
+        "evidence:observatorio-3setor-editais:detail:f2b66b201e7fcc24"
       ],
       "evidence_ids": [
-        "evidence:observatorio-3setor-editais:detail:01db9df535430ad2",
-        "evidence:observatorio-3setor-editais:detail:0ad17ceb8ff73af7",
-        "evidence:observatorio-3setor-editais:detail:3d0673f26c0fc386",
-        "evidence:observatorio-3setor-editais:detail:3e2c66c16536f9d3",
-        "evidence:observatorio-3setor-editais:detail:56558e6fbf725058",
-        "evidence:observatorio-3setor-editais:detail:600f629d01b5a77e",
-        "evidence:observatorio-3setor-editais:detail:d43c37e00d427a16",
-        "evidence:observatorio-3setor-editais:detail:f05b0621c276fecd"
+        "evidence:observatorio-3setor-editais:detail:1687db8d5ff2717a",
+        "evidence:observatorio-3setor-editais:detail:414e676b6efa5794",
+        "evidence:observatorio-3setor-editais:detail:43497b0a8a493edb",
+        "evidence:observatorio-3setor-editais:detail:5490222309032bc2",
+        "evidence:observatorio-3setor-editais:detail:98efcd1b1e3fda64",
+        "evidence:observatorio-3setor-editais:detail:b16dcd33289f5668",
+        "evidence:observatorio-3setor-editais:detail:f21913d4c82266f4",
+        "evidence:observatorio-3setor-editais:detail:f2b66b201e7fcc24"
       ],
       "provenance": {
         "observation_ids": [
-          "observatorio-3setor-editais:detail:01db9df535430ad2",
-          "observatorio-3setor-editais:detail:0ad17ceb8ff73af7",
-          "observatorio-3setor-editais:detail:3d0673f26c0fc386",
-          "observatorio-3setor-editais:detail:3e2c66c16536f9d3",
-          "observatorio-3setor-editais:detail:56558e6fbf725058",
-          "observatorio-3setor-editais:detail:600f629d01b5a77e",
-          "observatorio-3setor-editais:detail:d43c37e00d427a16",
-          "observatorio-3setor-editais:detail:f05b0621c276fecd",
+          "observatorio-3setor-editais:detail:1687db8d5ff2717a",
+          "observatorio-3setor-editais:detail:414e676b6efa5794",
+          "observatorio-3setor-editais:detail:43497b0a8a493edb",
+          "observatorio-3setor-editais:detail:5490222309032bc2",
+          "observatorio-3setor-editais:detail:98efcd1b1e3fda64",
+          "observatorio-3setor-editais:detail:b16dcd33289f5668",
+          "observatorio-3setor-editais:detail:f21913d4c82266f4",
+          "observatorio-3setor-editais:detail:f2b66b201e7fcc24",
           "observatorio-3setor-editais:success:200"
         ],
         "method": "detail follow-up and claim-preserving extraction",
@@ -1239,7 +1399,17 @@
           }
         },
         {
-          "at": "2026-08-26T05:36:09Z",
+          "at": "2026-08-26T06:04:36Z",
+          "event": "updated",
+          "before": {
+            "status": "OPEN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-08-26T06:12:31Z",
           "event": "updated",
           "before": {
             "status": "OPEN"
@@ -1250,13 +1420,12 @@
         }
       ],
       "lens_matches": [
-        "culture",
-        "research",
-        "sport"
+        "financing"
       ],
       "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
+      "reason_code": "current_opportunity",
       "change_type": "UPDATED"
     }
   ]

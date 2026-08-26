@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 import hashlib
 import json
@@ -186,6 +187,51 @@ def classify_experience(record: dict[str, Any], reference_time: datetime | None 
     return "ONGOING", "OPPORTUNITY", True
 
 
+NOT_OPPORTUNITY_TITLE = re.compile(r"^(?:clique|leia mais|saiba mais|home|in[ií]cio|login|contato|contact|sobre n[oó]s|todos os programas|programas|not[ií]cias|institucional|acesse|resultados?)$", re.I)
+OPPORTUNITY_TITLE = re.compile(r"(?:edital|chamada|call|programa|oportunidade|grant|funding|financiamento|pr[eê]mio|bolsa|fellowship|concurso|sele[cç][aã]o|apoio|projeto|fundo|award|challenge|procurement|contrata[cç][aã]o)", re.I)
+
+
+def derive_reason_code(record: dict[str, Any], lifecycle_state: str, reference_time: datetime) -> str:
+    status = str(record.get("status") or "UNKNOWN")
+    deadline = parse_iso_datetime(record.get("deadline"))
+    title = str(record.get("title") or "").strip()
+    verification_reason = str(record.get("verification", {}).get("reason") or "").lower()
+    roles = set(record.get("source_roles") or ([record.get("source_role")] if record.get("source_role") else []))
+    if lifecycle_state in {"ACTIVE", "CLOSING_SOON", "UPCOMING", "ONGOING"}:
+        return "current_opportunity"
+    if status in CLOSED_STATES:
+        if deadline and deadline < reference_time:
+            return "deadline_expired"
+        return "status_explicitly_closed"
+    if lifecycle_state == "HISTORICAL" or (deadline and deadline < reference_time):
+        return "historical_content" if status not in CLOSED_STATES else "deadline_expired"
+    if status == "UNKNOWN":
+        if any(event.get("event") == "not_seen_in_release" for event in record.get("history", [])):
+            return "not_seen_in_release"
+        return "missing_status"
+    if status in {"CANDIDATE", "candidate", "verification_pending"}:
+        if NOT_OPPORTUNITY_TITLE.fullmatch(title) or not OPPORTUNITY_TITLE.search(title):
+            return "not_opportunity"
+        if not deadline:
+            return "missing_deadline"
+        return "insufficient_evidence"
+    if status in {"INSUFFICIENT_EVIDENCE", "insufficient_evidence"}:
+        if roles and roles.issubset({"curator"}) and not record.get("official_pdf_url"):
+            return "aggregator_only"
+        if not deadline:
+            return "missing_deadline"
+        if "primary" in verification_reason or "official" not in verification_reason:
+            return "primary_source_not_verified"
+        return "insufficient_evidence"
+    if status in {"VERIFIED", "verified_primary", "OPEN", "ready_for_action"}:
+        return "ongoing_program" if not deadline else "historical_content"
+    if "parser" in verification_reason or "fetch" in verification_reason:
+        return "parser_failure"
+    if OPPORTUNITY_TITLE.search(title):
+        return "signal_only"
+    return "unknown"
+
+
 def decorate_experience(records: list[dict[str, Any]], observed_at: str) -> list[dict[str, Any]]:
     reference_time = parse_iso_datetime(observed_at) or datetime.now(timezone.utc)
     for record in records:
@@ -193,6 +239,7 @@ def decorate_experience(records: list[dict[str, Any]], observed_at: str) -> list
         record["lifecycle_state"] = lifecycle_state
         record["experience_type"] = experience_type
         record["current_view"] = current_view
+        record["reason_code"] = derive_reason_code(record, lifecycle_state, reference_time)
         events = [event for event in record.get("history", []) if event.get("at") == observed_at]
         if any(event.get("event") == "first_seen" for event in events):
             record["change_type"] = "NEW"
@@ -263,6 +310,8 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
                 "verification": {"state": "CANDIDATE", "reason": "Candidate link observed on an official source page; detail verification pending."},
                 "official_url": url,
                 "source_id": observation["source_id"],
+                "source_role": source.get("source_role", "primary"),
+                "source_roles": [source.get("source_role", "primary")],
                 "published_at": None,
                 "updated_at": observation["observed_at"],
                 "first_seen_at": observation["observed_at"],
@@ -272,6 +321,7 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
                 "confidence": 0.55,
             }
             records.append(record)
+            candidate_reason = "not_opportunity" if NOT_OPPORTUNITY_TITLE.fullmatch(title.strip()) or not OPPORTUNITY_TITLE.search(title) else "missing_deadline"
             normalized.append({
                 "normalized_id": f"normalized:{record['opportunity_id']}",
                 "record_type": "opportunity_candidate",
@@ -279,7 +329,7 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
                 "normalized_at": observation["observed_at"],
                 "source_observation_ids": [observation["observation_id"]],
                 "evidence_ids": [evidence["evidence_id"]],
-                "fields": {"title": title, "official_url": url, "organization": record["organization"]},
+                "fields": {"title": title, "official_url": url, "organization": record["organization"], "published_at": None, "updated_at": observation["observed_at"], "observed_at": observation["observed_at"], "first_seen_at": observation["observed_at"], "last_seen_at": observation["observed_at"], "status": "CANDIDATE", "reason_code": candidate_reason},
                 "provenance": {"method": "claim-preserving public page normalization", "limitations": record["provenance"]["limitations"]},
             })
     return records, evidences, normalized
@@ -310,6 +360,7 @@ def merge_record_metadata(target: dict[str, Any], record: dict[str, Any]) -> Non
     target["provenance"]["limitations"] = sorted(set(target["provenance"].get("limitations", [])) | set(record.get("provenance", {}).get("limitations", [])))
     target["sources"] = sorted({source for source in (set(target.get("sources", [])) | set(record.get("sources", [])) | {target.get("source_id", ""), record.get("source_id", "")}) if source})
     target["source_domains"] = sorted(set(target.get("source_domains", [])) | set(record.get("source_domains", [])))
+    target["source_roles"] = sorted(set(target.get("source_roles", [])) | set(record.get("source_roles", [])))
     target["lens_matches"] = sorted(set(target.get("lens_matches", [])) | set(record.get("lens_matches", [])))
     if record.get("status") in {"VERIFIED", "CLOSED", "INSUFFICIENT_EVIDENCE"} or target.get("status") in {"UNKNOWN", "CANDIDATE"}:
         for field in ["title", "description", "organization", "type", "domains", "territories", "eligibility", "funding", "deadline", "status", "verification", "official_url", "official_pdf_url", "updated_at", "last_seen_at", "confidence"]:
@@ -406,7 +457,7 @@ def csv_value(value: Any) -> str:
 
 
 def write_csv(path: Path, records: list[dict[str, Any]]) -> str:
-    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "source_domains", "territories", "eligibility", "funding", "deadline", "status", "lifecycle_state", "experience_type", "current_view", "change_type", "official_url", "official_pdf_url", "sources", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
+    columns = ["opportunity_id", "title", "description", "organization", "type", "domains", "source_domains", "source_role", "territories", "eligibility", "funding", "deadline", "status", "lifecycle_state", "experience_type", "current_view", "change_type", "reason_code", "official_url", "official_pdf_url", "sources", "source_id", "published_at", "updated_at", "first_seen_at", "last_seen_at", "confidence"]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=columns, lineterminator="\n")
@@ -442,6 +493,22 @@ def run(args: argparse.Namespace) -> int:
     current_records = [item for item in database if item.get("current_view") is True]
     signals_history = [item for item in database if item.get("current_view") is not True]
     failed = [item for item in observations if item["fetch"]["status"] in {"failed", "blocked"}]
+    reason_counts = dict(Counter(item.get("reason_code", "unknown") for item in database))
+    lifecycle_counts = dict(Counter(item.get("lifecycle_state", "SIGNAL") for item in database))
+    potential_records = [item for item in database if item.get("reason_code") not in {"not_opportunity", "signal_only", "unknown", "not_seen_in_release"}]
+    temporal_records = [item for item in potential_records if item.get("deadline") or item.get("status") in CURRENT_QUALITY_STATES or item.get("status") in CLOSED_STATES]
+    verifiable_records = [item for item in potential_records if item.get("status") in {"VERIFIED", "OPEN", "verified_primary", "ready_for_action"} and item.get("official_url") and item.get("evidence")]
+    funnel = {
+        "normalized_records": len(normalized),
+        "canonical_records": len(database),
+        "potential_opportunities": len(potential_records),
+        "with_temporal_evidence": len(temporal_records),
+        "verifiable_records": len(verifiable_records),
+        "active": lifecycle_counts.get("ACTIVE", 0),
+        "closing_soon": lifecycle_counts.get("CLOSING_SOON", 0),
+        "upcoming": lifecycle_counts.get("UPCOMING", 0),
+        "remaining_outside_current": len(signals_history),
+    }
     release_id = args.release_id or f"weekly-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}"
     artifact_specs = [
         ("observations", "observations", observations, "application/json"),
@@ -470,11 +537,14 @@ def run(args: argparse.Namespace) -> int:
         "source_ids": [source["id"] for source in registry],
         "observation_window": {"started_at": min((item["observed_at"] for item in observations), default=observed_at), "ended_at": max((item["observed_at"] for item in observations), default=observed_at)},
         "record_counts": {"observations": len(observations), "evidence": len(evidences), "normalized": len(normalized), "opportunities": len(database), "current_opportunities": len(current_records), "signals_history": len(signals_history), "moved_to_history_or_signals": len(signals_history), "closing_soon": sum(item.get("lifecycle_state") == "CLOSING_SOON" for item in database), "new_current": sum(item.get("current_view") is True and item.get("change_type") == "NEW" for item in database), "deduplicated": duplicate_consolidated, "collected": collected_count, "new": stats["new"], "updated": stats["updated"], "closed": stats["closed"], "unchanged": max(len(database) - stats["new"] - stats["updated"], 0), "failed": len(failed), "total_candidates": sum(item.get("status") == "CANDIDATE" for item in database), "total_verified": sum(item.get("status") == "VERIFIED" for item in database), "total_closed": sum(item.get("status") == "CLOSED" for item in database), "total_unknown": sum(item.get("status") == "UNKNOWN" for item in database), "total_insufficient_evidence": sum(item.get("status") == "INSUFFICIENT_EVIDENCE" for item in database), "sustainability_records": sum("sustainability" in item.get("domains", []) for item in database), "sustainability_lens_records": sum("sustainability" in item.get("lens_matches", []) for item in database), "non_sustainability_records": sum("sustainability" not in item.get("domains", []) for item in database), "unclassified_records": sum(not item.get("domains") for item in database), "domain_counts": {domain: sum(domain in item.get("domains", []) for item in database) for domain in sorted({domain for item in database for domain in item.get("domains", [])})}},
+        "funnel": funnel,
+        "reason_codes": reason_counts,
+        "lifecycle_counts": lifecycle_counts,
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
-        "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "limitations": item.get("limitations", [])} for item in failed],
+        "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "reason_code": "parser_failure", "limitations": item.get("limitations", [])} for item in failed],
         "producer": {"name": "lux-radar-public-builder", "version": "0.1.0", "repository": "https://github.com/viniburilux/Lux-Radar"},
-        "limitations": ["The current opportunity view requires a quality state and temporal evidence; UNKNOWN, CANDIDATE and INSUFFICIENT_EVIDENCE remain outside it.", "Generic HTML extraction is candidate-level; detail verification remains source-specific.", "External content is referenced, not redistributed by default.", "A source failure does not imply absence of opportunities."],
+        "limitations": ["The current opportunity view requires a quality state and temporal evidence; UNKNOWN, CANDIDATE and INSUFFICIENT_EVIDENCE remain outside it.", "Temporal validity is recalculated at presentation time from stored deadlines/status; collection and validity are separate operations.", "Generic HTML extraction is candidate-level; detail verification remains source-specific.", "External content is referenced, not redistributed by default.", "A source failure does not imply absence of opportunities."],
     }
     save_json(DATA_DIR / "release-manifest.json", manifest)
     (site_data / "release-manifest.json").write_text((DATA_DIR / "release-manifest.json").read_text(encoding="utf-8"), encoding="utf-8")

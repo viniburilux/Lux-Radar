@@ -9,7 +9,7 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
-const CACHE_VERSION = "opportunity-intelligence-20260826";
+const CACHE_VERSION = "funnel-diagnostic-20260826";
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#039;", '"':"&quot;"}[char]));
 const listValue = (value) => Array.isArray(value) ? value : (value ? [value] : []);
@@ -22,6 +22,16 @@ const lifecycleLabel = (stateName) => ({
   ACTIVE: "Aberta", CLOSING_SOON: "Fechando em breve", UPCOMING: "Próxima",
   ONGOING: "Em andamento", SIGNAL: "Sinal", HISTORICAL: "Histórico",
 }[stateName] || stateName || "Não observado");
+const reasonLabel = (reason) => ({
+  current_opportunity: "Oportunidade atual", deadline_expired: "Prazo vencido",
+  status_explicitly_closed: "Fechamento explícito", missing_deadline: "Prazo ausente",
+  missing_status: "Status ausente", insufficient_evidence: "Evidência insuficiente",
+  primary_source_not_verified: "Fonte primária não verificada", aggregator_only: "Somente agregador",
+  parser_failure: "Falha de coleta/parsing", historical_content: "Conteúdo histórico",
+  ongoing_program: "Programa em andamento", signal_only: "Somente sinal",
+  not_opportunity: "Não é oportunidade", not_seen_in_release: "Não observado no release",
+  duplicate: "Duplicata consolidada", unknown: "Motivo desconhecido",
+}[reason] || reason || "Não observado");
 const typeLabel = (type) => ({
   grant: "Grant", call: "Edital", public_call: "Chamada pública", research_call: "Pesquisa",
   funding: "Financiamento", sponsorship: "Patrocínio", scholarship: "Bolsa", procurement: "Procurement",
@@ -52,8 +62,26 @@ function getLensMatches(item) { return listValue(item.lens_matches || getDomains
 function getTerritories(item) { return [...new Set(listValue(item.territories).concat(listValue(item.geography?.territories)).concat(item.geography?.state ? [item.geography.state] : []))]; }
 function getType(item) { return item.type || item.opportunity_type || "opportunity_candidate"; }
 function getStatus(item) { return item.status || "UNKNOWN"; }
-function getLifecycle(item) { return item.lifecycle_state || (getStatus(item) === "VERIFIED" ? "ONGOING" : getStatus(item) === "CLOSED" ? "HISTORICAL" : "SIGNAL"); }
 function getDeadline(item) { return item.deadline || item.deadlines?.submission || item.deadlines?.end || ""; }
+
+const CLOSED_STATUSES = new Set(["CLOSED", "CANCELLED", "EXPIRED", "HISTORICAL", "SUPERSEDED"]);
+const CURRENT_STATUSES = new Set(["VERIFIED", "OPEN", "UPCOMING", "EXTENDED", "READY_FOR_ACTION", "VERIFIED_PRIMARY", "ONGOING"]);
+const NON_CURRENT_STATUSES = new Set(["UNKNOWN", "CANDIDATE", "INSUFFICIENT_EVIDENCE", "VERIFICATION_PENDING", "REJECTED"]);
+
+function temporalState(item, now = new Date()) {
+  const status = String(getStatus(item) || "UNKNOWN").toUpperCase();
+  if (CLOSED_STATUSES.has(status)) return "HISTORICAL";
+  const deadline = parseDate(getDeadline(item));
+  if (deadline && deadline.getTime() < now.getTime()) return "HISTORICAL";
+  if (NON_CURRENT_STATUSES.has(status)) return "SIGNAL";
+  if (deadline && deadline.getTime() <= now.getTime() + 30 * 24 * 60 * 60 * 1000) return "CLOSING_SOON";
+  if (deadline && deadline.getTime() > now.getTime() + 30 * 24 * 60 * 60 * 1000) return "UPCOMING";
+  if (CURRENT_STATUSES.has(status)) return "ACTIVE";
+  return "SIGNAL";
+}
+
+function getLifecycle(item) { return temporalState(item); }
+function isCurrentAtNow(item) { return ["ACTIVE", "CLOSING_SOON", "UPCOMING", "ONGOING"].includes(temporalState(item)); }
 function getOrganization(item) { return item.organization || item.issuer?.name || item.source_id || "Organização não observada"; }
 function getFunding(item) {
   const funding = item.funding || {};
@@ -117,6 +145,9 @@ function filterRecords(records) {
 }
 
 function render() {
+  // Recalculate temporal validity from stored fields at view time, not from the last collection snapshot.
+  state.current = state.all.filter((item) => isCurrentAtNow(item));
+  state.secondary = state.all.filter((item) => !isCurrentAtNow(item));
   state.filteredCurrent = filterRecords(state.current);
   state.filteredSecondary = filterRecords(state.secondary);
   const closing = state.filteredCurrent.filter((item) => getLifecycle(item) === "CLOSING_SOON");
@@ -156,7 +187,7 @@ function cardHtml(item, compact = false) {
   const territories = getTerritories(item).slice(0, 2).map((value) => escapeHtml(value)).join(" · ") || "Território não observado";
   const deadline = getDeadline(item);
   const sources = getSources(item);
-  const isCurrent = item.current_view === true || lifecycle === "ACTIVE" || lifecycle === "CLOSING_SOON" || lifecycle === "UPCOMING" || lifecycle === "ONGOING";
+  const isCurrent = isCurrentAtNow(item);
   const stateText = isCurrent ? lifecycleLabel(lifecycle) : lifecycleLabel(lifecycle);
   const qualityText = status === "VERIFIED" ? "Verificada" : status === "CANDIDATE" ? "Pendente" : statusLabel(status);
   return `<article class="card ${compact ? "card-compact" : ""} ${isCurrent ? "card-current" : "card-secondary"}">
@@ -188,7 +219,7 @@ function openDetail(id) {
   const limitations = listValue(item.provenance?.limitations);
   const officialUrl = item.official_url || "";
   const pdfUrl = item.official_pdf_url || "";
-  const isCurrent = item.current_view === true;
+  const isCurrent = isCurrentAtNow(item);
   const action = isCurrent
     ? `Consulte a fonte oficial e verifique os requisitos antes de preparar uma submissão. ${item.next_action?.description || ""}`
     : "Acompanhe a fonte oficial: este registro permanece como sinal ou histórico porque ainda não há evidência suficiente de oportunidade atual.";
@@ -210,6 +241,7 @@ function openDetail(id) {
       <dt>Fonte primária</dt><dd>${escapeHtml(sources[0] || item.source_id || "Não observado")}</dd>
       <dt>Encontrada também em</dt><dd>${sources.length > 1 ? escapeHtml(sources.slice(1).join(", ")) : "Não observado"}</dd>
       <dt>Estado de qualidade</dt><dd>${escapeHtml(item.verification?.reason || statusLabel(status))}</dd>
+      <dt>Motivo do estado</dt><dd>${escapeHtml(reasonLabel(item.reason_code))}</dd>
       <dt>Evidências</dt><dd>${evidence.length ? escapeHtml(evidence.join(", ")) : "Não observadas"}</dd>
       <dt>Limitações</dt><dd>${limitations.length ? escapeHtml(limitations.join(" ")) : "Nenhuma limitação adicional observada."}</dd>
     </dl>
@@ -231,15 +263,13 @@ async function load() {
     const responses = await Promise.all([
       fetch(`data/opportunities.json${suffix}`),
       fetch(`data/release-manifest.json${suffix}`),
-      fetch(`data/current-opportunities.json${suffix}`),
-      fetch(`data/signals-history.json${suffix}`),
     ]);
     if (responses.some((response) => !response.ok)) throw new Error("O release público ainda não foi gerado.");
-    const [allPayload, manifest, currentPayload, secondaryPayload] = await Promise.all(responses.map((response) => response.json()));
+    const [allPayload, manifest] = await Promise.all(responses.map((response) => response.json()));
     state.all = allPayload.opportunities || [];
     state.manifest = manifest;
-    state.current = currentPayload.opportunities || state.all.filter((item) => item.current_view === true);
-    state.secondary = secondaryPayload.signals || state.all.filter((item) => item.current_view !== true);
+    state.current = state.all.filter((item) => isCurrentAtNow(item));
+    state.secondary = state.all.filter((item) => !isCurrentAtNow(item));
     populateFilters();
     $("hero-release").textContent = `Release ${manifest.release_id}`;
     $("source-label").textContent = `${manifest.source_ids?.length || 0} fontes observadas`;

@@ -78,6 +78,16 @@
       "items": {"type": "string"},
       "uniqueItems": true
     },
+    "source_role": {"type": "string"},
+    "source_roles": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "reason_code": {
+      "type": "string",
+      "enum": ["current_opportunity", "deadline_expired", "status_explicitly_closed", "missing_deadline", "missing_status", "insufficient_evidence", "primary_source_not_verified", "aggregator_only", "parser_failure", "historical_content", "ongoing_program", "signal_only", "not_opportunity", "not_seen_in_release", "duplicate", "unknown"]
+    },
     "lens_matches": {
       "type": "array",
       "items": {"type": "string"},

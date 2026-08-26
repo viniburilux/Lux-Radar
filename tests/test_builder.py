@@ -52,6 +52,12 @@ class BuilderTests(unittest.TestCase):
         lifecycle, experience, current = MODULE.classify_experience(self.record(status="UNKNOWN"), datetime(2026, 8, 26, tzinfo=timezone.utc))
         self.assertEqual((lifecycle, experience, current), ("SIGNAL", "SIGNAL", False))
 
+    def test_open_future_deadline_is_current(self):
+        record = self.record(status="OPEN")
+        record["deadline"] = "2026-09-30T23:59:59Z"
+        lifecycle, experience, current = MODULE.classify_experience(record, datetime(2026, 8, 26, tzinfo=timezone.utc))
+        self.assertEqual((lifecycle, experience, current), ("UPCOMING", "OPPORTUNITY", True))
+
     def test_expired_verified_is_historical(self):
         record = self.record(status="VERIFIED")
         record["deadline"] = "2026-08-20T23:59:59Z"
