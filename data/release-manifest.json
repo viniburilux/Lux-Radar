@@ -1,6 +1,6 @@
 {
-  "release_id": "wave2-final-20260826",
-  "created_at": "2026-08-26T03:47:16Z",
+  "release_id": "weekly-32928105404",
+  "created_at": "2026-08-26T03:53:04Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -24,73 +24,73 @@
     "capitaai-meio-ambiente"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T03:47:16Z",
-    "ended_at": "2026-08-26T03:51:17Z"
+    "started_at": "2026-08-26T03:53:04Z",
+    "ended_at": "2026-08-26T03:54:11Z"
   },
   "record_counts": {
     "observations": 150,
-    "evidence": 148,
-    "normalized": 520,
+    "evidence": 149,
+    "normalized": 542,
     "opportunities": 393,
-    "current_opportunities": 9,
-    "signals_history": 384,
-    "moved_to_history_or_signals": 384,
+    "current_opportunities": 8,
+    "signals_history": 385,
+    "moved_to_history_or_signals": 385,
     "closing_soon": 6,
-    "new_current": 6,
-    "deduplicated": 72,
-    "collected": 412,
-    "new": 8,
-    "updated": 85,
+    "new_current": 0,
+    "deduplicated": 84,
+    "collected": 434,
+    "new": 0,
+    "updated": 56,
     "closed": 0,
-    "unchanged": 300,
-    "failed": 8,
-    "total_candidates": 266,
-    "total_verified": 9,
-    "total_closed": 36,
-    "total_unknown": 53,
-    "total_insufficient_evidence": 29
+    "unchanged": 337,
+    "failed": 7,
+    "total_candidates": 277,
+    "total_verified": 8,
+    "total_closed": 35,
+    "total_unknown": 43,
+    "total_insufficient_evidence": 30
   },
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:e09d7a183dc44015ccfca4d6882595a35d113e5164bf9408e101f710f109651e",
+      "content_hash": "sha256:241bc1ad0257173ef1a4d95d04b9bb71290757d9d10b9eaf7a55b34a04f306b3",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:2240ea69597714079a485098b11c4921a3f9b981e97963b17ccba0fce39cddf1",
+      "content_hash": "sha256:0123513d22c05328006c69b809079909e99b74a969bccf7b99685523d6bae7ae",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:51aac9ca9884cb54d0ec742915687e01b84da82920f63a27467ea023191c08c0",
+      "content_hash": "sha256:d4aa4710423a7db015035b797fb8123aa2f5a5645ccdea1bf65efa3da3a6ebfc",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:0839033fd636ecfbc880441de5674c6702e3d7bc6a123f9504a08ace9ea89376",
+      "content_hash": "sha256:4c48d78a9402df0b3c1de8da6ca05b4c1d18a428a6f5d4e93535c199e3a979cf",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:30c19a0713de27e2d067f717783992bee4bce32007d159a0dd41631589e67339",
+      "content_hash": "sha256:9a71197ef4eb1c7089294d6e88cea1b4973b565ce3d7f307eafe346faa4160a0",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:391973f3a188c5a954321c83a9b71f63b806005c9f37aaf6de1b4af33e7ce8f3",
+      "content_hash": "sha256:5f244d7b21281709f9a9c2b17bb22a41fcf135c325b9592f40d61ab358f5110c",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:3d0af59f8f00b40c2b8f92130295a04780f82febd68391b18a675616530daabb",
+      "content_hash": "sha256:7c091f19c1bcda4bc3d45038d3979f194ae4b86b29d03a599996055eee0df4e4",
       "media_type": "text/csv"
     }
   ],
@@ -103,7 +103,7 @@
     "capes-editais": "success",
     "fundo-amazonia": "success",
     "finep-chamadas": "success",
-    "petrobras-socioambiental": "failed",
+    "petrobras-socioambiental": "success",
     "cinea-life": "success",
     "transferegov-parcerias": "failed",
     "funbio-chamadas": "success",
@@ -118,18 +118,9 @@
   },
   "errors": [
     {
-      "source_id": "petrobras-socioambiental",
-      "status": "failed",
-      "http_status": null,
-      "limitations": [
-        "Network failure: ReadTimeout.",
-        "No retry or access bypass was attempted."
-      ]
-    },
-    {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 404,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
       ]
@@ -151,6 +142,14 @@
       ]
     },
     {
+      "source_id": "sudene-editais",
+      "status": "failed",
+      "http_status": null,
+      "limitations": [
+        "Detail network failure: ConnectionError."
+      ]
+    },
+    {
       "source_id": "capta-editais",
       "status": "failed",
       "http_status": 403,
@@ -159,27 +158,19 @@
       ]
     },
     {
-      "source_id": "sudene-editais",
+      "source_id": "capta-editais",
       "status": "failed",
-      "http_status": null,
+      "http_status": 403,
       "limitations": [
-        "Detail network failure: ReadTimeout."
-      ]
-    },
-    {
-      "source_id": "sudene-editais",
-      "status": "failed",
-      "http_status": null,
-      "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail fetch returned HTTP 403."
       ]
     },
     {
       "source_id": "capta-editais",
       "status": "failed",
-      "http_status": null,
+      "http_status": 522,
       "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail fetch returned HTTP 522."
       ]
     }
   ],

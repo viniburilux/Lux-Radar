@@ -1,5 +1,5 @@
 {
-  "release_id": "wave2-final-20260826",
+  "release_id": "weekly-32928105404",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -43,9 +43,9 @@
       "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
       "source_id": "cnpq-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
       ],
@@ -76,7 +76,7 @@
       "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-4922e852978cf0df",
@@ -121,9 +121,9 @@
       "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada_18_2026_avaliacoes_de_politicas__programas__projetos_e_acoes_em_saude.pdf",
       "source_id": "cnpq-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:bb86d93e5ab16360"
       ],
@@ -234,7 +234,84 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ab5f85d11fac3339",
+      "canonical_key": "url:https://chamadas.funbio.org.br/planodemanejo-rppn",
+      "title": "Chamada de Projetos 07/2026 Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
+      "description": "Chamada de Projetos 07/2026 - Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
+      "organization": "FUNBIO",
+      "type": "innovation_program",
+      "domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "elegibilidade, documentos obrigatórios, etapas de seleção e demais orientações para submissão, baixe e consulte o regulamento completo da chamada"
+      ],
+      "funding": {
+        "amount": 1000000.0,
+        "currency": "BRL",
+        "raw": "R$ 1.000.000,00"
+      },
+      "deadline": "2026-09-04T23:59:59Z",
+      "status": "VERIFIED",
+      "verification": {
+        "state": "VERIFIED",
+        "reason": "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/planodemanejo-rppn",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "published_at": null,
+      "updated_at": "2026-08-26T03:53:04Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:17ebd50c2b7391b5"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:17ebd50c2b7391b5"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:17ebd50c2b7391b5"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.92,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        }
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-d7187c8249cada41",
@@ -279,19 +356,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:1f939601c9eb0d81"
+        "evidence:funbio-chamadas:detail:761e659784e7a417"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:1f939601c9eb0d81"
+        "evidence:funbio-chamadas:detail:761e659784e7a417"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:1f939601c9eb0d81"
+          "funbio-chamadas:detail:761e659784e7a417"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -312,84 +389,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "NEW"
-    },
-    {
-      "opportunity_id": "opportunity-ab5f85d11fac3339",
-      "canonical_key": "url:https://chamadas.funbio.org.br/planodemanejo-rppn",
-      "title": "Chamada de Projetos 07/2026 Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
-      "description": "Chamada de Projetos 07/2026 - Apoio à Consolidação de RPPNs no litoral do Paraná - Implementação de Planos de Manejo",
-      "organization": "FUNBIO",
-      "type": "innovation_program",
-      "domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "elegibilidade, documentos obrigatórios, etapas de seleção e demais orientações para submissão, baixe e consulte o regulamento completo da chamada"
-      ],
-      "funding": {
-        "amount": 1000000.0,
-        "currency": "BRL",
-        "raw": "R$ 1.000.000,00"
-      },
-      "deadline": "2026-09-04T23:59:59Z",
-      "status": "VERIFIED",
-      "verification": {
-        "state": "VERIFIED",
-        "reason": "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/planodemanejo-rppn",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:57925fe1bf41f8b5"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:57925fe1bf41f8b5"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:57925fe1bf41f8b5"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.92,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        }
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-86e8e1e2db000e88",
@@ -435,19 +435,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:93ab0efa32aea89c"
+        "evidence:funbio-chamadas:detail:4d64862c0833f68e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:93ab0efa32aea89c"
+        "evidence:funbio-chamadas:detail:4d64862c0833f68e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:93ab0efa32aea89c"
+          "funbio-chamadas:detail:4d64862c0833f68e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -468,7 +468,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-2a58d116be92a7bf",
@@ -515,19 +515,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:acf22772f52b5a7e"
+        "evidence:funbio-chamadas:detail:5dea995cd0f1308b"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:acf22772f52b5a7e"
+        "evidence:funbio-chamadas:detail:5dea995cd0f1308b"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:acf22772f52b5a7e"
+          "funbio-chamadas:detail:5dea995cd0f1308b"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -548,7 +548,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-9768f23f518f414c",
@@ -593,19 +593,19 @@
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:363517ee3e6e449c"
+        "evidence:funbio-chamadas:detail:36b50e48b301665b"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:363517ee3e6e449c"
+        "evidence:funbio-chamadas:detail:36b50e48b301665b"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:363517ee3e6e449c"
+          "funbio-chamadas:detail:36b50e48b301665b"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -626,7 +626,7 @@
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-0de12731dedb4323",
@@ -673,9 +673,9 @@
       "official_pdf_url": null,
       "source_id": "capta-editais",
       "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
+      "updated_at": "2026-08-26T03:53:04Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-26T03:53:04Z",
       "evidence": [
         "evidence:capta-editais:detail:1dfeef126b6ddb26"
       ],
@@ -686,86 +686,6 @@
         "observation_ids": [
           "capta-editais:success:200",
           "capta-editais:detail:1dfeef126b6ddb26"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.92,
-      "sources": [
-        "capta-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        }
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-a0514411806aa7b7",
-      "canonical_key": "pdf:https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
-      "title": "Prêmio iCS-Anpec de Economia e Clima - Hub de Economia e Clima",
-      "description": "Reconhecer estudos que analisem os impactos das mudanças climáticas na economia brasileira.",
-      "organization": "Capta / ISPN",
-      "type": "research_call",
-      "domains": [
-        "biodiversity",
-        "climate",
-        "communities",
-        "financing",
-        "innovation",
-        "research",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "Quem pode participar Pesquisadores(as) brasileiros(as) com título de doutor e estudos publicados em periódicos nacionais ou internacionais de destaque, focados na interseção entre economia e clima"
-      ],
-      "funding": {
-        "amount": 20000.0,
-        "currency": "BRL",
-        "raw": "R$ 20.000,00"
-      },
-      "deadline": "2026-11-23T23:59:59Z",
-      "status": "VERIFIED",
-      "verification": {
-        "state": "VERIFIED",
-        "reason": "Official detail page is accessible and supplies title, organization, deadline and eligibility, with the official URL preserved.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://hubdeeconomiaeclima.org.br/premio-ics-anpec-de-economia-e-clima/",
-      "official_pdf_url": "https://hubdeeconomiaeclima.org.br/wp-content/uploads/2026/07/Premio-iCS-ANPEC_2026_Regulamento-2.pdf",
-      "source_id": "capta-editais",
-      "published_at": null,
-      "updated_at": "2026-08-26T03:47:16Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-26T03:47:16Z",
-      "evidence": [
-        "evidence:capta-editais:detail:a64937e54a5ff988"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:a64937e54a5ff988"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:a64937e54a5ff988"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
