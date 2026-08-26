@@ -1,6 +1,6 @@
 {
-  "release_id": "quality-weekly-final-20260826",
-  "created_at": "2026-08-26T01:40:38Z",
+  "release_id": "weekly-32919999866",
+  "created_at": "2026-08-26T01:42:55Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,8 +15,8 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T01:40:38Z",
-    "ended_at": "2026-08-26T01:42:01Z"
+    "started_at": "2026-08-26T01:42:55Z",
+    "ended_at": "2026-08-26T01:43:39Z"
   },
   "record_counts": {
     "observations": 77,
@@ -25,9 +25,9 @@
     "opportunities": 237,
     "collected": 272,
     "new": 0,
-    "updated": 54,
+    "updated": 51,
     "closed": 0,
-    "unchanged": 183,
+    "unchanged": 186,
     "failed": 3,
     "total_candidates": 162,
     "total_verified": 6,
@@ -39,31 +39,31 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:58b63649c838c1128bab64b4c3734d54d97f4ce6091e2f8d42a010ead5ef02ed",
+      "content_hash": "sha256:4f14f86d1493828d7b87297f49cbafb98ca12c44a966145aa11a51336b68ee9b",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:d1d5bf276cbb86063b25a649553da29adc21ec99731ca0db245e13b757fcd5e5",
+      "content_hash": "sha256:a4eb77fc764d3baf1b837dc4dfb581711f6395d7f0746b68056e113375157717",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:50d7c61fdcd1fc4683df1b0300087defe2c0d3507a9d4e4f5ace587224effe0a",
+      "content_hash": "sha256:b09c321502b620508c1d1ec8eb534d63b6cf80fab6d9d54fcb3332149036f5e1",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:a280ae4030446ec84e639e726ef654bf72ae15ffcd94842292629e68fd5e2841",
+      "content_hash": "sha256:375d5025619dc9674d88facf5c4d5a5cf5e23c4109a62440710d5a8f429c8ef4",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:25a108fa887b80ed4da5d007cdd98fa738145030147a14daac522ba620fa0e88",
+      "content_hash": "sha256:a801f4d95115ea3868ef384ff8f16f61a31c45e7139722b63262887ed9410ffe",
       "media_type": "text/csv"
     }
   ],
@@ -84,7 +84,7 @@
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 404,
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
       ]

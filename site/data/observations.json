@@ -1,11 +1,11 @@
 {
-  "release_id": "quality-weekly-final-20260826",
+  "release_id": "weekly-32919999866",
   "observations": [
     {
       "observation_id": "fapesb-editais:success:200",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/category/edital/",
-      "observed_at": "2026-08-26T01:40:38Z",
+      "observed_at": "2026-08-26T01:42:55Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -15,7 +15,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:c7a7dd09153a3315a71a93f82b4234f2a226cb5868a206add00f9153cf3bce0b",
+        "content_hash": "sha256:17455ce5131676de465e225e9e2a498613c372e867a7768d5d3f8a1056d5a941",
         "byte_size": 117322
       },
       "claims": [
@@ -226,7 +226,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:d00f9153cf3bce0b"
+        "evidence:fapesb-editais:5d3f8a1056d5a941"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -242,7 +242,7 @@
       "observation_id": "bndes-floresta-viva:success:200",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva",
-      "observed_at": "2026-08-26T01:40:48Z",
+      "observed_at": "2026-08-26T01:42:59Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -252,7 +252,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:18451bd7efc24d1901c31ad8b7b41c4e9ae71c64f4aefcd65ef8bc5efe638765",
+        "content_hash": "sha256:e9fc17a1aa4ad38996b804116b3f5c67634ad6a67c1b22b33d9cca896f81bcf0",
         "byte_size": 91482
       },
       "claims": [
@@ -378,7 +378,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:5ef8bc5efe638765"
+        "evidence:bndes-floresta-viva:3d9cca896f81bcf0"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -394,7 +394,7 @@
       "observation_id": "mma-fnma:success:200",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-do-meio-ambiente/editais-e-termos-de-referencia-1",
-      "observed_at": "2026-08-26T01:40:51Z",
+      "observed_at": "2026-08-26T01:43:00Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -566,7 +566,7 @@
       "observation_id": "mma-fundo-clima:success:200",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/composicao/secex/dfre/fundo-nacional-sobre-mudanca-do-clima/chamadas-editais-1",
-      "observed_at": "2026-08-26T01:40:53Z",
+      "observed_at": "2026-08-26T01:43:01Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -788,7 +788,7 @@
       "observation_id": "cnpq-chamadas:success:200",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
-      "observed_at": "2026-08-26T01:40:55Z",
+      "observed_at": "2026-08-26T01:43:02Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -1025,7 +1025,7 @@
       "observation_id": "capes-editais:success:200",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/assuntos/editais-e-resultados-capes",
-      "observed_at": "2026-08-26T01:40:57Z",
+      "observed_at": "2026-08-26T01:43:03Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -1035,8 +1035,8 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:0f65c3ffdebefc2ffd6872d60d4b3162e52b5abcfad38d8792ffe3147567475b",
-        "byte_size": 311402
+        "content_hash": "sha256:56a18f5e682c3a703062f105f2d1afad9c55541967d9acbfb9b1692a25629ffe",
+        "byte_size": 311401
       },
       "claims": [
         {
@@ -1231,7 +1231,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:capes-editais:92ffe3147567475b"
+        "evidence:capes-editais:b9b1692a25629ffe"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1247,7 +1247,7 @@
       "observation_id": "fundo-amazonia:success:200",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
-      "observed_at": "2026-08-26T01:40:59Z",
+      "observed_at": "2026-08-26T01:43:04Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -1404,7 +1404,7 @@
       "observation_id": "finep-chamadas:success:200",
       "source_id": "finep-chamadas",
       "source_url": "https://www.finep.gov.br/chamadas-publicas/chamadaspublicas?situacao=aberta",
-      "observed_at": "2026-08-26T01:41:02Z",
+      "observed_at": "2026-08-26T01:43:05Z",
       "source_profile": "funding_portal",
       "fetch": {
         "status": "success",
@@ -1414,8 +1414,8 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:40217239012f4789714976ad5bf75852db8784d5641b47cb347bb3f1ed883cfb",
-        "byte_size": 184381
+        "content_hash": "sha256:a4bd7bd9d152c0db3b49ad5085832cf3159e722bb02472132643d572f65479d6",
+        "byte_size": 184379
       },
       "claims": [
         {
@@ -1466,7 +1466,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:347bb3f1ed883cfb"
+        "evidence:finep-chamadas:2643d572f65479d6"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1482,7 +1482,7 @@
       "observation_id": "petrobras-socioambiental:success:200",
       "source_id": "petrobras-socioambiental",
       "source_url": "https://petrobras.com.br/sustentabilidade/selecoes-publicas",
-      "observed_at": "2026-08-26T01:41:05Z",
+      "observed_at": "2026-08-26T01:43:06Z",
       "source_profile": "corporate_program",
       "fetch": {
         "status": "success",
@@ -1492,7 +1492,7 @@
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:0c4be295be5c4777a5e4f472acbe1fd489d3abcc55c3f0278ae541a4a0486547",
+        "content_hash": "sha256:8d08b30442bb7d558b0f2af01f73647f6f0dbc4ed2c481bda9f507cc3e67f241",
         "byte_size": 1265823
       },
       "claims": [
@@ -1643,7 +1643,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:petrobras-socioambiental:8ae541a4a0486547"
+        "evidence:petrobras-socioambiental:a9f507cc3e67f241"
       ],
       "collector": {
         "name": "public-html-opportunity",
@@ -1659,7 +1659,7 @@
       "observation_id": "cinea-life:success:200",
       "source_id": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/life-calls-proposals-2026_en",
-      "observed_at": "2026-08-26T01:41:07Z",
+      "observed_at": "2026-08-26T01:43:08Z",
       "source_profile": "international_program",
       "fetch": {
         "status": "success",
@@ -1975,21 +1975,21 @@
       "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
     },
     {
-      "observation_id": "transferegov-parcerias:failed:403",
+      "observation_id": "transferegov-parcerias:failed:404",
       "source_id": "transferegov-parcerias",
       "source_url": "https://api.transferegov.gestao.gov.br/",
-      "observed_at": "2026-08-26T01:41:09Z",
+      "observed_at": "2026-08-26T01:43:08Z",
       "source_profile": "public_api",
       "fetch": {
         "status": "failed",
         "method": "http_get",
-        "http_status": 403,
+        "http_status": 404,
         "content_type": "text/html"
       },
       "content": {
         "media_type": "text/html",
-        "content_hash": "sha256:951010f5ac6c1268d701c6d5cf993862301f1563b70105c5f4229ac4f67d2c03",
-        "byte_size": 5613
+        "content_hash": "sha256:32d375bb7749c0b54ff2f3fff9e45eded4e95d323cbb5c3b6be4e1a973ad33c2",
+        "byte_size": 1437
       },
       "claims": [],
       "evidence_ids": [],
@@ -2004,10 +2004,10 @@
       "license_or_terms_note": "Reference URLs and metadata only; external content remains governed by source terms."
     },
     {
-      "observation_id": "fapesb-editais:detail:c32f555ef11ce9e7",
+      "observation_id": "fapesb-editais:detail:fc4d29a24f46fe36",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/chamada-confaperc-2026-call-research-opportunities-in-europe-for-active-phd-researchers-from-brazil/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2017,7 +2017,7 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:05ecc9d47d974683d61606d077c1ecdf8ee0e3bbc81bef6fc32f555ef11ce9e7",
+        "content_hash": "sha256:adf5d632da46bd4006d16f59cc352ca405c9b5a6c2dee025fc4d29a24f46fe36",
         "byte_size": 92249
       },
       "claims": [
@@ -2060,7 +2060,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:c32f555ef11ce9e7"
+        "evidence:fapesb-editais:detail:fc4d29a24f46fe36"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2076,7 +2076,7 @@
       "observation_id": "bndes-floresta-viva:detail:failed",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://chamadas.funbio.org.br/floresta-viva-parnaiba",
-      "observed_at": "2026-08-26T01:41:25Z",
+      "observed_at": "2026-08-26T01:43:16Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "failed",
@@ -2110,10 +2110,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fapesb-editais:detail:6a830cf17fd54647",
+      "observation_id": "fapesb-editais:detail:2c42f04db45e62b7",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/chamada-gcub-mob-no-20262027-programa-de-mobilidade-internacional-do-gcub-gcub-mob/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2123,7 +2123,7 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:1867c0c36861d9c41fa7d955dad4c649d7fcd27e03d5d2a06a830cf17fd54647",
+        "content_hash": "sha256:4aa4f866c9a762f7a1a386aeaace19dcdb545edada7f42c82c42f04db45e62b7",
         "byte_size": 91373
       },
       "claims": [
@@ -2159,7 +2159,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:6a830cf17fd54647"
+        "evidence:fapesb-editais:detail:2c42f04db45e62b7"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2172,10 +2172,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fapesb-editais:detail:be8a65c6df50e92c",
+      "observation_id": "fapesb-editais:detail:9a27e39a9ad476af",
       "source_id": "fapesb-editais",
-      "source_url": "https://www.fapesb.ba.gov.br/chamada-2026-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-daad/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "source_url": "https://www.fapesb.ba.gov.br/programa-de-bolsas/",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2185,7 +2185,69 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:4108a92c11d168dc0f62524d7721bf807efa73ff2c567ed8be8a65c6df50e92c",
+        "content_hash": "sha256:4257357b5858d89c44c530c109159096fd470c6b1c5c6a9e9a27e39a9ad476af",
+        "byte_size": 90229
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Programa de Bolsas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Diretorias",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "FAPESB",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "deadline",
+          "value": "2024-06-10T23:59:59Z",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/ERRATA_5_CNM4-1-1.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fapesb-editais:detail:9a27e39a9ad476af"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "fapesb-editais:detail:8beea3a7d0172f59",
+      "source_id": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/chamada-2026-programa-de-auxilio-para-doutorandos-com-bolsa-nacional-daad/",
+      "observed_at": "2026-08-26T01:43:09Z",
+      "source_profile": "institutional",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:0b3e610de1cd2328da8adf019d8a656f68750c28d242f3878beea3a7d0172f59",
         "byte_size": 91545
       },
       "claims": [
@@ -2229,7 +2291,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:be8a65c6df50e92c"
+        "evidence:fapesb-editais:detail:8beea3a7d0172f59"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2242,79 +2304,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fapesb-editais:detail:14cd94f1a8550119",
-      "source_id": "fapesb-editais",
-      "source_url": "https://www.fapesb.ba.gov.br/edital-fapesbsectiiel-no-0042026-chamada-estrategica-fapesbsectiiel/",
-      "observed_at": "2026-08-26T01:41:11Z",
-      "source_profile": "institutional",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:c3779c1c08610d44596b7e3c3dd23b3ded042a68059b8a2114cd94f1a8550119",
-        "byte_size": 97874
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "EDITAL FAPESB/SECTI/IEL nº 004/2026 – Chamada Estratégica FAPESB/SECTI/IEL",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Diretorias",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "FAPESB",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "deadline",
-          "value": "2024-06-10T23:59:59Z",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "ELEGIBILIDADE E CONDIÇÕES DE PARTICIPAÇÃO 3"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "VERIFIED",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/Edital_IEL_2026.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:fapesb-editais:detail:14cd94f1a8550119"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "bndes-floresta-viva:detail:565162a9ac302378",
+      "observation_id": "bndes-floresta-viva:detail:160c4e0560532d75",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://www.funbio.org.br/programas_e_projetos/florestaviva/eneva-edital-amazonas/?id=44248&subproject=1",
-      "observed_at": "2026-08-26T01:41:27Z",
+      "observed_at": "2026-08-26T01:43:17Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -2324,7 +2317,7 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:35d830a1b04ade6cb465a89933655d254d0cfec17c14a8f4565162a9ac302378",
+        "content_hash": "sha256:0a5ea3cfd6f1128f678f0d3026da58cedff216b97b5fbbe4160c4e0560532d75",
         "byte_size": 71309
       },
       "claims": [
@@ -2355,7 +2348,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:565162a9ac302378"
+        "evidence:bndes-floresta-viva:detail:160c4e0560532d75"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2368,10 +2361,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fapesb-editais:detail:8642e62b075ca630",
+      "observation_id": "fapesb-editais:detail:22680c6c1068e21b",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-1a-chamada-da-parceria-de-materias-primas-para-a-transicao-verde-e-digital-ramp-2026-2027/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2381,7 +2374,7 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:a8b524e192694ad1bacdd5f13e9497cdc3c653887ba6b2a98642e62b075ca630",
+        "content_hash": "sha256:53acf140808e17fc1573cb9c7205db4f7bbcc667113ba03a22680c6c1068e21b",
         "byte_size": 91444
       },
       "claims": [
@@ -2424,7 +2417,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:8642e62b075ca630"
+        "evidence:fapesb-editais:detail:22680c6c1068e21b"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2437,73 +2430,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fapesb-editais:detail:2403585861521015",
-      "source_id": "fapesb-editais",
-      "source_url": "https://www.fapesb.ba.gov.br/programa-de-bolsas/",
-      "observed_at": "2026-08-26T01:41:11Z",
-      "source_profile": "institutional",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:8672e2697a5d49f754d3a255a3feb5a336efb0dab25a1d4f2403585861521015",
-        "byte_size": 90229
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Programa de Bolsas",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Diretorias",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "FAPESB",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "deadline",
-          "value": "2024-06-10T23:59:59Z",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/ERRATA_5_CNM4-1-1.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:fapesb-editais:detail:2403585861521015"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document.",
-        "Official PDF network failure: SSLError."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "fapesb-editais:detail:5cc697ec8e5fb4b8",
+      "observation_id": "fapesb-editais:detail:8398298e37d51685",
       "source_id": "fapesb-editais",
       "source_url": "https://www.fapesb.ba.gov.br/diretrizes-especificas-da-fapesb-chamada-para-submissao-de-propostas-do-programa-de-intercambio-de-pessoal-msca-se-em-coordenacao-com-o-horizonte-europa-2/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2513,7 +2443,7 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:4ee0b5caef143415eb42b5273087bdeaff8bbc1a8c7dca505cc697ec8e5fb4b8",
+        "content_hash": "sha256:1bbba677259600c63fbdd704cbb2e83bcdc3f9584539b30f8398298e37d51685",
         "byte_size": 91549
       },
       "claims": [
@@ -2556,7 +2486,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:5cc697ec8e5fb4b8"
+        "evidence:fapesb-editais:detail:8398298e37d51685"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2569,74 +2499,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "bndes-floresta-viva:detail:f03c3c208df64673",
-      "source_id": "bndes-floresta-viva",
-      "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva/floresta-viva-selecao-publica/!ut/p/z1/xVXLdtowEP0VNiyFZFm25e4Ih0ISKCVJC3jDkWQZ1BrLsYVp-vUVSdokJkBpm1Nv9JiZq3ncGcMITmGUsUotmFE6Y6k9zyJ_Hox7nX6bOAM6uvGQTy8-din1MBlj-BlGMBKZyc0SzngWy3KustIosxb3CE201CvZRFYgs0qnlVrJzGhQrktjN6ySViVnhZCFYmXD7lhDN2rajRfaSaoLWRrWqFTFno5gewSlTKVgGuRrnirBtt7lQsVwlrhOSASRwLoSAIIEATzxJcCSC8k5ZXEo4KQWLh36aHzlO8jDAaIdH0bPxb33LrHim97Z5Qg7FAeP9mjP10Yv7XezWXt_94HT7HcVosPuTbb5OhLBvcIgvOz2yQgNRuduF7X7nYFHupdOL3QfFQ7l8FgWZzaKYC_CtQ8nlZIb-CnTxcpy9PqpyAGXWJCYACKFB0iABQgdxoAXeq4bcxy7hMA-ghfHfLS8V19ub6O2JbfOjPxm4PRP2V0Tzp8Jt-_gYtgZLmwEzCyByhINp4csrOuLVPOH3mxn3KXWtpCJLGTRWhf2emlMXr5roibabDate69bC121eGFv8tK2my7M1vdSGfkQwWtYS13aoOsQ9eLUqnce7C8OwRwzighwOXcAwWECqLA7yahACWKxI4J6ZXbJ8S8rc9rcOUV7T2FPgqi3Qa2Z3f2Z_q1Zdxjex28L770p_JD8JfzFsUn7_2h40u_vdRoetslXK-reKaXA16v-97MPoDehht65abXq8F_r5ib5uUxo-QMGTlHB/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
-      "observed_at": "2026-08-26T01:41:31Z",
-      "source_profile": "institutional_partner",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:640bc2b773b2e50c622fc1dcf76d9a1dfb04ce429028b801f03c3c208df64673",
-        "byte_size": 78621
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Floresta Viva - Seleção Pública de Parceiro Gestor",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Renderizado em 8/25/26 10:36 PM",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "BNDES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "elegibilidade dos Proponentes e apresentação dos documentos obrigatórios previstos neste Edital; e) Prazo para apresentação de recursos exclusivamente relacionados aos requisitos eliminatórios; f) Fase Classificatória – classificação das propostas conforme os critérios estabelecidos neste edital; g) Apresentação"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.bndes.gov.br/wps/wcm/connect/site/69711472-271a-4a55-9b68-287b2df3290b/Chamada+P%C3%BAblica+para+Sele%C3%A7%C3%A3o+de+Parceiro+Gestor+-+BNDES+Iniciativa+Floresta+Viva.pdf?MOD=AJPERES&CVID=nRIQE16",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:f03c3c208df64673"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "fapesb-editais:detail:b127f80d59a404bd",
+      "observation_id": "fapesb-editais:detail:8486717f83bc123f",
       "source_id": "fapesb-editais",
-      "source_url": "https://www.fapesb.ba.gov.br/edital-de-selecao-publica-no-017-2026-subvencao-economica-a-pesquisadesenvolvimento-e-inovacao-pdi-solucoes-de-sistemas-inteligentes-para-a-administracao-estadual-rodada-2/",
-      "observed_at": "2026-08-26T01:41:11Z",
+      "source_url": "https://www.fapesb.ba.gov.br/edital-fapesbsectiiel-no-0042026-chamada-estrategica-fapesbsectiiel/",
+      "observed_at": "2026-08-26T01:43:09Z",
       "source_profile": "institutional",
       "fetch": {
         "status": "success",
@@ -2646,13 +2512,13 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:9e9809f39438c94e6da5b35f39049f470523ba45dc89c63fb127f80d59a404bd",
-        "byte_size": 97439
+        "content_hash": "sha256:92d3362da52a91a4bfd43dfbabc7e963d857e87190ebbcf48486717f83bc123f",
+        "byte_size": 97874
       },
       "claims": [
         {
           "path": "title",
-          "value": "EDITAL DE SELEÇÃO PÚBLICA Nº 017/ 2026 Subvenção Econômica à Pesquisa,Desenvolvimento e Inovação (P,D&I) Soluções de Sistemas Inteligentes para a Administração Estadual – Rodada 2",
+          "value": "EDITAL FAPESB/SECTI/IEL nº 004/2026 – Chamada Estratégica FAPESB/SECTI/IEL",
           "epistemic_status": "observed"
         },
         {
@@ -2673,23 +2539,23 @@
         {
           "path": "eligibility",
           "value": [
-            "destinado a criar representações hierárquicas ricas por meio do treinamento de redes neurais com muitas camadas ocultas 7"
+            "ELEGIBILIDADE E CONDIÇÕES DE PARTICIPAÇÃO 3"
           ],
           "epistemic_status": "observed"
         },
         {
           "path": "status",
-          "value": "CLOSED",
+          "value": "VERIFIED",
           "epistemic_status": "observed"
         },
         {
           "path": "official_pdf_url",
-          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/EDITAL-DE-SELECAO-PUBLICA-N-017_2026-Subvencao-Economica-a-PesquisaDesenvolvimento-e-Inovacao-PDI-Solucoes-de-Sistemas-Inteligentes-para-a-Administracao-Estadual-Rodada-2.pdf",
+          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/Edital_IEL_2026.pdf",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:detail:b127f80d59a404bd"
+        "evidence:fapesb-editais:detail:8486717f83bc123f"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2705,7 +2571,7 @@
       "observation_id": "mma-fnma:detail:a684fcebde31a50b",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
-      "observed_at": "2026-08-26T01:41:34Z",
+      "observed_at": "2026-08-26T01:43:21Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -2756,10 +2622,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "bndes-floresta-viva:detail:e0e755df93c24f1f",
+      "observation_id": "bndes-floresta-viva:detail:d41d873749c8ba8d",
       "source_id": "bndes-floresta-viva",
-      "source_url": "https://www.funbio.org.br/programas-e-projetos/instituicoes/?id=58056",
-      "observed_at": "2026-08-26T01:41:28Z",
+      "source_url": "https://www.bndes.gov.br/wps/portal/site/home/desenvolvimento-sustentavel/parcerias/floresta-viva/floresta-viva-selecao-publica/!ut/p/z1/xVXLdtowEP0VNiyFZFm25e4Ih0ISKCVJC3jDkWQZ1BrLsYVp-vUVSdokJkBpm1Nv9JiZq3ncGcMITmGUsUotmFE6Y6k9zyJ_Hox7nX6bOAM6uvGQTy8-din1MBlj-BlGMBKZyc0SzngWy3KustIosxb3CE201CvZRFYgs0qnlVrJzGhQrktjN6ySViVnhZCFYmXD7lhDN2rajRfaSaoLWRrWqFTFno5gewSlTKVgGuRrnirBtt7lQsVwlrhOSASRwLoSAIIEATzxJcCSC8k5ZXEo4KQWLh36aHzlO8jDAaIdH0bPxb33LrHim97Z5Qg7FAeP9mjP10Yv7XezWXt_94HT7HcVosPuTbb5OhLBvcIgvOz2yQgNRuduF7X7nYFHupdOL3QfFQ7l8FgWZzaKYC_CtQ8nlZIb-CnTxcpy9PqpyAGXWJCYACKFB0iABQgdxoAXeq4bcxy7hMA-ghfHfLS8V19ub6O2JbfOjPxm4PRP2V0Tzp8Jt-_gYtgZLmwEzCyByhINp4csrOuLVPOH3mxn3KXWtpCJLGTRWhf2emlMXr5roibabDate69bC121eGFv8tK2my7M1vdSGfkQwWtYS13aoOsQ9eLUqnce7C8OwRwzighwOXcAwWECqLA7yahACWKxI4J6ZXbJ8S8rc9rcOUV7T2FPgqi3Qa2Z3f2Z_q1Zdxjex28L770p_JD8JfzFsUn7_2h40u_vdRoetslXK-reKaXA16v-97MPoDehht65abXq8F_r5ib5uUxo-QMGTlHB/dz/d5/L2dBISEvZ0FBIS9nQSEh/",
+      "observed_at": "2026-08-26T01:43:17Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -2769,75 +2635,18 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:5a9308c601d777b537af972ac272c82138349ff5d9e5541fe0e755df93c24f1f",
-        "byte_size": 82331
+        "content_hash": "sha256:66a846863a572be033c25154f91edafc169b0a9353832cc6d41d873749c8ba8d",
+        "byte_size": 78621
       },
       "claims": [
         {
           "path": "title",
-          "value": "Instituições",
+          "value": "Floresta Viva - Seleção Pública de Parceiro Gestor",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "Home - Programas e Projetos - Instituições",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "BNDES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.funbio.org.br/wp-content/uploads/2022/11/Edital-Manguezais-do-Brasil_FINAL.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:e0e755df93c24f1f"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "bndes-floresta-viva:detail:3f0b2e0e144db86a",
-      "source_id": "bndes-floresta-viva",
-      "source_url": "https://chamadas.funbio.org.br/floresta-viva-beberibe",
-      "observed_at": "2026-08-26T01:41:33Z",
-      "source_profile": "institutional_partner",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:65201a05b65ca9585bbd612581d48cdbe64b87d5f4f336e43f0b2e0e144db86a",
-        "byte_size": 63989
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Floresta Viva - Restauração e Recarga do Aquífero Beberibe",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Apoio à Restauração Ecológica e Fortalecimento das Cadeias Produtivas Associadas à Restauração na Área de Recarga do Aquífero Beberibe",
+          "value": "Renderizado em 8/25/26 10:41 PM",
           "epistemic_status": "observed"
         },
         {
@@ -2848,23 +2657,23 @@
         {
           "path": "eligibility",
           "value": [
-            "Quem pode participar"
+            "elegibilidade dos Proponentes e apresentação dos documentos obrigatórios previstos neste Edital; e) Prazo para apresentação de recursos exclusivamente relacionados aos requisitos eliminatórios; f) Fase Classificatória – classificação das propostas conforme os critérios estabelecidos neste edital; g) Apresentação"
           ],
           "epistemic_status": "observed"
         },
         {
           "path": "status",
-          "value": "CLOSED",
+          "value": "INSUFFICIENT_EVIDENCE",
           "epistemic_status": "observed"
         },
         {
           "path": "official_pdf_url",
-          "value": "https://chamadas.funbio.org.br/static/P-42-2020-Politica-de-Privacidade-do-Funbio_revMai2023.pdf",
+          "value": "https://www.bndes.gov.br/wps/wcm/connect/site/69711472-271a-4a55-9b68-287b2df3290b/Chamada+P%C3%BAblica+para+Sele%C3%A7%C3%A3o+de+Parceiro+Gestor+-+BNDES+Iniciativa+Floresta+Viva.pdf?MOD=AJPERES&CVID=nRIQE16",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:3f0b2e0e144db86a"
+        "evidence:bndes-floresta-viva:detail:d41d873749c8ba8d"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2877,10 +2686,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "bndes-floresta-viva:detail:60b190a6d4843de4",
+      "observation_id": "bndes-floresta-viva:detail:e9bea631e6b5ced6",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://chamadas.funbio.org.br/bacia-do-rio-xingu-2",
-      "observed_at": "2026-08-26T01:41:31Z",
+      "observed_at": "2026-08-26T01:43:18Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -2890,7 +2699,7 @@
       },
       "content": {
         "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:b0cda80e0bf7abf23928a6ac9d41cc583fc172dbf271349f60b190a6d4843de4",
+        "content_hash": "sha256:9bad6fee2d8fbd56ae24c391c42eb84b5cdf6867bf577b36e9bea631e6b5ced6",
         "byte_size": 66895
       },
       "claims": [
@@ -2928,7 +2737,204 @@
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:60b190a6d4843de4"
+        "evidence:bndes-floresta-viva:detail:e9bea631e6b5ced6"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "bndes-floresta-viva:detail:a72f4b0ecfb2f32f",
+      "source_id": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
+      "observed_at": "2026-08-26T01:43:18Z",
+      "source_profile": "institutional_partner",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:5ff25e775c75bfba6dd7433f4d0b4f0cc86c38e58e218b59a72f4b0ecfb2f32f",
+        "byte_size": 61365
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Floresta Viva - Bacia do Rio Parnaíba - Piauí",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Apoio à Restauração Ecológica e à Revitalização dos Recursos Hídricos na Bacia do Rio Parnaíba, no estado do Piauí",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "BNDES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "Quem pode participar"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CLOSED",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://chamadas.funbio.org.br/static/P-42-2020-Politica-de-Privacidade-do-Funbio_revMai2023.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:bndes-floresta-viva:detail:a72f4b0ecfb2f32f"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "fapesb-editais:detail:b50e2cc1fdcf8798",
+      "source_id": "fapesb-editais",
+      "source_url": "https://www.fapesb.ba.gov.br/edital-de-selecao-publica-no-017-2026-subvencao-economica-a-pesquisadesenvolvimento-e-inovacao-pdi-solucoes-de-sistemas-inteligentes-para-a-administracao-estadual-rodada-2/",
+      "observed_at": "2026-08-26T01:43:09Z",
+      "source_profile": "institutional",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:e4f34f9cd989b48095b6a7f41fc257787acd395564b3f575b50e2cc1fdcf8798",
+        "byte_size": 97439
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "EDITAL DE SELEÇÃO PÚBLICA Nº 017/ 2026 Subvenção Econômica à Pesquisa,Desenvolvimento e Inovação (P,D&I) Soluções de Sistemas Inteligentes para a Administração Estadual – Rodada 2",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Diretorias",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "FAPESB",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "deadline",
+          "value": "2024-06-10T23:59:59Z",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "destinado a criar representações hierárquicas ricas por meio do treinamento de redes neurais com muitas camadas ocultas 7"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CLOSED",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.fapesb.ba.gov.br/wp-content/uploads/2019/08/EDITAL-DE-SELECAO-PUBLICA-N-017_2026-Subvencao-Economica-a-PesquisaDesenvolvimento-e-Inovacao-PDI-Solucoes-de-Sistemas-Inteligentes-para-a-Administracao-Estadual-Rodada-2.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fapesb-editais:detail:b50e2cc1fdcf8798"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "bndes-floresta-viva:detail:d63ba3fbf872d897",
+      "source_id": "bndes-floresta-viva",
+      "source_url": "https://chamadas.funbio.org.br/floresta-viva-beberibe",
+      "observed_at": "2026-08-26T01:43:19Z",
+      "source_profile": "institutional_partner",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:092eb2f0b8eafe4556ca26f0b83582cd2f75b3c62cda22efd63ba3fbf872d897",
+        "byte_size": 63989
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Floresta Viva - Restauração e Recarga do Aquífero Beberibe",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Apoio à Restauração Ecológica e Fortalecimento das Cadeias Produtivas Associadas à Restauração na Área de Recarga do Aquífero Beberibe",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "BNDES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "Quem pode participar"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CLOSED",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://chamadas.funbio.org.br/static/P-42-2020-Politica-de-Privacidade-do-Funbio_revMai2023.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:bndes-floresta-viva:detail:d63ba3fbf872d897"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -2944,7 +2950,7 @@
       "observation_id": "mma-fnma:detail:93fca9831dd0a668",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
-      "observed_at": "2026-08-26T01:41:35Z",
+      "observed_at": "2026-08-26T01:43:22Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -2995,10 +3001,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "mma-fnma:detail:e887332d8aafc09f",
+      "observation_id": "mma-fnma:detail:33d4b0e4624f0712",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
-      "observed_at": "2026-08-26T01:41:37Z",
+      "observed_at": "2026-08-26T01:43:23Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3008,8 +3014,8 @@
       },
       "content": {
         "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:e9f42d93708b9d79741afc10cf12b6ae31c2a526f019c608e887332d8aafc09f",
-        "byte_size": 183386
+        "content_hash": "sha256:e36dd89029ed787632894cc39bdd66b7fc0864c2d4ff670933d4b0e4624f0712",
+        "byte_size": 183392
       },
       "claims": [
         {
@@ -3041,7 +3047,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:mma-fnma:detail:e887332d8aafc09f"
+        "evidence:mma-fnma:detail:33d4b0e4624f0712"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -3057,7 +3063,7 @@
       "observation_id": "mma-fnma:detail:b44a5310676cc402",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
-      "observed_at": "2026-08-26T01:41:38Z",
+      "observed_at": "2026-08-26T01:43:23Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3113,74 +3119,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "bndes-floresta-viva:detail:9f1e112ebe57a662",
-      "source_id": "bndes-floresta-viva",
-      "source_url": "https://chamadas.funbio.org.br/floresta-viva-piaui",
-      "observed_at": "2026-08-26T01:41:33Z",
-      "source_profile": "institutional_partner",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:cc09779559feb9fc1e9b909d8c00092bedcf7d5ff9211f0b9f1e112ebe57a662",
-        "byte_size": 61365
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Floresta Viva - Bacia do Rio Parnaíba - Piauí",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Apoio à Restauração Ecológica e à Revitalização dos Recursos Hídricos na Bacia do Rio Parnaíba, no estado do Piauí",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "BNDES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "Quem pode participar"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CLOSED",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://chamadas.funbio.org.br/static/P-42-2020-Politica-de-Privacidade-do-Funbio_revMai2023.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:9f1e112ebe57a662"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "bndes-floresta-viva:detail:69f6141bc68135b3",
+      "observation_id": "bndes-floresta-viva:detail:ff50f6132586ac7c",
       "source_id": "bndes-floresta-viva",
       "source_url": "https://chamadas.funbio.org.br/floresta-viva-pantanal",
-      "observed_at": "2026-08-26T01:41:34Z",
+      "observed_at": "2026-08-26T01:43:20Z",
       "source_profile": "institutional_partner",
       "fetch": {
         "status": "success",
@@ -3190,7 +3132,7 @@
       },
       "content": {
         "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:67cb33c177a5950fb499d9dd489a8c1e03f8fa032c2f6d6969f6141bc68135b3",
+        "content_hash": "sha256:d04ddcf09ea75f2235f3297c51bcb06d0be0f6fab1e2156aff50f6132586ac7c",
         "byte_size": 63298
       },
       "claims": [
@@ -3228,7 +3170,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:detail:69f6141bc68135b3"
+        "evidence:bndes-floresta-viva:detail:ff50f6132586ac7c"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -3244,7 +3186,7 @@
       "observation_id": "mma-fnma:detail:7753e4741c91a822",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
-      "observed_at": "2026-08-26T01:41:39Z",
+      "observed_at": "2026-08-26T01:43:24Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3300,10 +3242,67 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "mma-fnma:detail:cebaf8b28a021157",
+      "observation_id": "bndes-floresta-viva:detail:2265cf798e501d2e",
+      "source_id": "bndes-floresta-viva",
+      "source_url": "https://www.funbio.org.br/programas-e-projetos/instituicoes/?id=58056",
+      "observed_at": "2026-08-26T01:43:17Z",
+      "source_profile": "institutional_partner",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:322a8e65a7095826a1f5187b744bc22298c1d8bd272563b22265cf798e501d2e",
+        "byte_size": 82331
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Instituições",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Home - Programas e Projetos - Instituições",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "BNDES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.funbio.org.br/wp-content/uploads/2022/11/Edital-Manguezais-do-Brasil_FINAL.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:bndes-floresta-viva:detail:2265cf798e501d2e"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "mma-fnma:detail:9e6649703a037ba2",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
-      "observed_at": "2026-08-26T01:41:39Z",
+      "observed_at": "2026-08-26T01:43:24Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3313,8 +3312,8 @@
       },
       "content": {
         "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:0f6e18ba30c71096a6b08ebb4510d0198a3223721e0892eccebaf8b28a021157",
-        "byte_size": 187439
+        "content_hash": "sha256:ea072798a811e2a96cb75211e4a2dc0be67d60a55af9371f9e6649703a037ba2",
+        "byte_size": 187433
       },
       "claims": [
         {
@@ -3341,125 +3340,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:mma-fnma:detail:cebaf8b28a021157"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "mma-fundo-clima:detail:93fca9831dd0a668",
-      "source_id": "mma-fundo-clima",
-      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
-      "observed_at": "2026-08-26T01:41:40Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:58b3baf3d2d9c3b17ca465052e22a91ce592ad01b317115393fca9831dd0a668",
-        "byte_size": 186458
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "2. Ações e Programas",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "Ministério do Meio Ambiente",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:mma-fundo-clima:detail:93fca9831dd0a668"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "mma-fnma:detail:c70d98b3cf400764",
-      "source_id": "mma-fnma",
-      "source_url": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima",
-      "observed_at": "2026-08-26T01:41:36Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:4527296d655600846eff5efabd748ded584fd0f17fb5d0d8c70d98b3cf400764",
-        "byte_size": 73157
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Ministério do Meio Ambiente e Mudança do Clima (MMA)",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Mais informações sobre todos os serviços oferecidos por este órgão podem ser encontrados também em formato PDF .",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "Ministério do Meio Ambiente",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima/@@download.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:mma-fnma:detail:c70d98b3cf400764"
+        "evidence:mma-fnma:detail:9e6649703a037ba2"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -3475,7 +3356,7 @@
       "observation_id": "mma-fundo-clima:detail:a684fcebde31a50b",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/dados-abertos/12-2-disponibilizacao-das-bases-de-dados-programadas-para-abertura-no-pda-do-orgao",
-      "observed_at": "2026-08-26T01:41:40Z",
+      "observed_at": "2026-08-26T01:43:24Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3526,10 +3407,64 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
+      "observation_id": "mma-fundo-clima:detail:93fca9831dd0a668",
+      "source_id": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas",
+      "observed_at": "2026-08-26T01:43:24Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:58b3baf3d2d9c3b17ca465052e22a91ce592ad01b317115393fca9831dd0a668",
+        "byte_size": 186458
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "2. Ações e Programas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fundo-clima:detail:93fca9831dd0a668"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
       "observation_id": "mma-fundo-clima:detail:33d4b0e4624f0712",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/2-3-concessoes-de-recurso-financeiros-ou-renuncias-de-receitas",
-      "observed_at": "2026-08-26T01:41:40Z",
+      "observed_at": "2026-08-26T01:43:25Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3585,64 +3520,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "mma-fundo-clima:detail:cebaf8b28a021157",
-      "source_id": "mma-fundo-clima",
-      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
-      "observed_at": "2026-08-26T01:41:42Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:0f6e18ba30c71096a6b08ebb4510d0198a3223721e0892eccebaf8b28a021157",
-        "byte_size": 187439
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Conheça o Programa de Gestão e Desempenho do MMA",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "Ministério do Meio Ambiente",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:mma-fundo-clima:detail:cebaf8b28a021157"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
       "observation_id": "mma-fundo-clima:detail:b44a5310676cc402",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/unidades-responsaveis",
-      "observed_at": "2026-08-26T01:41:41Z",
+      "observed_at": "2026-08-26T01:43:25Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3698,69 +3579,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "mma-fundo-clima:detail:7753e4741c91a822",
-      "source_id": "mma-fundo-clima",
-      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
-      "observed_at": "2026-08-26T01:41:41Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:ab69dd28f4ae064a8072f7cdba5a6f2e1b16f9c023950b797753e4741c91a822",
-        "byte_size": 183556
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Acompanhamento do Programa de Gestão e Desempenho no MMA",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "O Programa de Gestão e Desempenho - PGD é o modelo de gestão instituído pela Administração Pública Federal por meio do Decreto nº 11.072/2022 e regulamentado pelas Instruções Normativas nº 24/2023 e 52/2023. Esso modelo de gestão induz a melhoria do desempenho das instituições públicas federais, com foco na gestão por resultados. O PGD alinha estratégias organizacionais, entregas das unidades e planos de trabalho dos agentes públicos, buscando, assim, a melhoria da qualidade dos serviços prestados à sociedade .",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "Ministério do Meio Ambiente",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:mma-fundo-clima:detail:7753e4741c91a822"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
       "observation_id": "mma-fnma:detail:c38bb8eb212449e9",
       "source_id": "mma-fnma",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
-      "observed_at": "2026-08-26T01:41:37Z",
+      "observed_at": "2026-08-26T01:43:23Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3821,10 +3643,123 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
+      "observation_id": "mma-fundo-clima:detail:7753e4741c91a822",
+      "source_id": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/8-servidores-ou-empregados-publicos/copy_of_acompanhamento-de-trabalho-remoto-e-presencial-do-mma",
+      "observed_at": "2026-08-26T01:43:25Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:ab69dd28f4ae064a8072f7cdba5a6f2e1b16f9c023950b797753e4741c91a822",
+        "byte_size": 183556
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Acompanhamento do Programa de Gestão e Desempenho no MMA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "O Programa de Gestão e Desempenho - PGD é o modelo de gestão instituído pela Administração Pública Federal por meio do Decreto nº 11.072/2022 e regulamentado pelas Instruções Normativas nº 24/2023 e 52/2023. Esso modelo de gestão induz a melhoria do desempenho das instituições públicas federais, com foco na gestão por resultados. O PGD alinha estratégias organizacionais, entregas das unidades e planos de trabalho dos agentes públicos, buscando, assim, a melhoria da qualidade dos serviços prestados à sociedade .",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fundo-clima:detail:7753e4741c91a822"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "mma-fundo-clima:detail:cebaf8b28a021157",
+      "source_id": "mma-fundo-clima",
+      "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/programa-de-gestao-e-desempenho-pgd/conheca-o-programa-de-gestao-e-desempenho-do-mma",
+      "observed_at": "2026-08-26T01:43:25Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:0f6e18ba30c71096a6b08ebb4510d0198a3223721e0892eccebaf8b28a021157",
+        "byte_size": 187439
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Conheça o Programa de Gestão e Desempenho do MMA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fundo-clima:detail:cebaf8b28a021157"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
       "observation_id": "mma-fundo-clima:detail:c38bb8eb212449e9",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/acoes-e-programas/governanca",
-      "observed_at": "2026-08-26T01:41:41Z",
+      "observed_at": "2026-08-26T01:43:25Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3885,10 +3820,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cnpq-chamadas:detail:10a093848012f830",
+      "observation_id": "cnpq-chamadas:detail:bb86d93e5ab16360",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-18-2026/chamada-publica-cnpq-N-18-2026",
-      "observed_at": "2026-08-26T01:41:42Z",
+      "observed_at": "2026-08-26T01:43:26Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -3898,8 +3833,8 @@
       },
       "content": {
         "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:e5f71bc8b093127bb4505d85605f2636eec4775bf086a94510a093848012f830",
-        "byte_size": 133536
+        "content_hash": "sha256:53e9bc13b016a605aed80e46554bca2dc02f21765d7e8d1bbb86d93e5ab16360",
+        "byte_size": 133542
       },
       "claims": [
         {
@@ -3937,72 +3872,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:10a093848012f830"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "cnpq-chamadas:detail:e6e1e7f42f0a4d5b",
-      "source_id": "cnpq-chamadas",
-      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-07-2026/chamada-publica-cnpq-N-07-2026",
-      "observed_at": "2026-08-26T01:41:42Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:3e5da55101ca57d1e93fdb8ec788140362021577ea83de41e6e1e7f42f0a4d5b",
-        "byte_size": 131261
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Chamada Pública CNPq N° 07/2026 - Programa Institucional de Bolsas de Pós-Graduação (PIBPG)",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "São objetivos desta Chamada: promover a capacitação de recursos humanos para a pesquisa científica, tecnológica e de inovação de grupos consolidados e emergentes; fomentar o desenvolvimento de pesquisas com foco na geração de inovação e impacto socioambiental, social, econômico e cultural, em nível local, regional e nacional; e incentivar o desenvolvimento científico, tecnológico e de inovação nos temas estratégicos de pesquisa das IES/ICT.",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CNPq",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
-            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:e6e1e7f42f0a4d5b"
+        "evidence:cnpq-chamadas:detail:bb86d93e5ab16360"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -4018,7 +3888,7 @@
       "observation_id": "cnpq-chamadas:detail:006d272a5b2c6d7a",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-16-2026/chamada-publica-cnpq-N-16-2026",
-      "observed_at": "2026-08-26T01:41:43Z",
+      "observed_at": "2026-08-26T01:43:26Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4080,10 +3950,139 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
+      "observation_id": "mma-fnma:detail:c70d98b3cf400764",
+      "source_id": "mma-fnma",
+      "source_url": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima",
+      "observed_at": "2026-08-26T01:43:23Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:4527296d655600846eff5efabd748ded584fd0f17fb5d0d8c70d98b3cf400764",
+        "byte_size": 73157
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Ministério do Meio Ambiente e Mudança do Clima (MMA)",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Mais informações sobre todos os serviços oferecidos por este órgão podem ser encontrados também em formato PDF .",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "Ministério do Meio Ambiente",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima/@@download.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:mma-fnma:detail:c70d98b3cf400764"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cnpq-chamadas:detail:e6e1e7f42f0a4d5b",
+      "source_id": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-07-2026/chamada-publica-cnpq-N-07-2026",
+      "observed_at": "2026-08-26T01:43:26Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:3e5da55101ca57d1e93fdb8ec788140362021577ea83de41e6e1e7f42f0a4d5b",
+        "byte_size": 131261
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Chamada Pública CNPq N° 07/2026 - Programa Institucional de Bolsas de Pós-Graduação (PIBPG)",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "São objetivos desta Chamada: promover a capacitação de recursos humanos para a pesquisa científica, tecnológica e de inovação de grupos consolidados e emergentes; fomentar o desenvolvimento de pesquisas com foco na geração de inovação e impacto socioambiental, social, econômico e cultural, em nível local, regional e nacional; e incentivar o desenvolvimento científico, tecnológico e de inovação nos temas estratégicos de pesquisa das IES/ICT.",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CNPq",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
+            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:e6e1e7f42f0a4d5b"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
       "observation_id": "cnpq-chamadas:detail:40c245e980eb3286",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-15-2026/chamada-publica-cnpq-N-15-2026",
-      "observed_at": "2026-08-26T01:41:43Z",
+      "observed_at": "2026-08-26T01:43:26Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4145,75 +4144,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cnpq-chamadas:detail:e32aebbdb3266a30",
-      "source_id": "cnpq-chamadas",
-      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-      "observed_at": "2026-08-26T01:41:44Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:010d88c66e7b7b00cd8f2d9a783d32dea83262039c8acda2e32aebbdb3266a30",
-        "byte_size": 131195
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CNPq",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
-            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:e32aebbdb3266a30"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
       "observation_id": "capes-editais:detail:8d46773935fe64ac",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "observed_at": "2026-08-26T01:41:48Z",
+      "observed_at": "2026-08-26T01:43:32Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4250,7 +4184,7 @@
       "observation_id": "cnpq-chamadas:detail:b2b779ac544e655a",
       "source_id": "cnpq-chamadas",
       "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-19-2026/chamada-publica-cnpq-N-19-2026",
-      "observed_at": "2026-08-26T01:41:43Z",
+      "observed_at": "2026-08-26T01:43:26Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4312,202 +4246,59 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "capes-editais:detail:38a575a752b467f3",
-      "source_id": "capes-editais",
-      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "observed_at": "2026-08-26T01:41:48Z",
+      "observation_id": "cnpq-chamadas:detail:e32aebbdb3266a30",
+      "source_id": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "observed_at": "2026-08-26T01:43:27Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
+        "content_type": "text/html;charset=utf-8"
       },
       "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:aa27e2a235e33620edb9d40b92e5e42a147ee9bf6e592e9c38a575a752b467f3",
-        "byte_size": 331813
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:010d88c66e7b7b00cd8f2d9a783d32dea83262039c8acda2e32aebbdb3266a30",
+        "byte_size": 131195
       },
       "claims": [
         {
           "path": "title",
-          "value": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
+          "value": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
+          "value": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "CAPES",
+          "value": "CNPq",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
+            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
+          ],
           "epistemic_status": "observed"
         },
         {
           "path": "status",
-          "value": "CANDIDATE",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:38a575a752b467f3"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "capes-editais:detail:93abfcb00f38c39c",
-      "source_id": "capes-editais",
-      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas",
-      "observed_at": "2026-08-26T01:41:50Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:1f107e5360f4964b5b5b74500a5fd455c4d6805edcf641d993abfcb00f38c39c",
-        "byte_size": 278806
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Ações e Programas",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Nesta seção, são divulgadas as informações pertinentes aos programas, ações, projetos e atividades implementadas pela CAPES.",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CAPES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:93abfcb00f38c39c"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "capes-editais:detail:ffbddae25829f6ad",
-      "source_id": "capes-editais",
-      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "observed_at": "2026-08-26T01:41:49Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:16198da1edd791861df81786141cddc837af9ede07a7c2b6ffbddae25829f6ad",
-        "byte_size": 387806
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Programa Capes/MES-Cuba - Projetos",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CAPES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:ffbddae25829f6ad"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "capes-editais:detail:37cd067ec4cae4c8",
-      "source_id": "capes-editais",
-      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sistema-nacional-de-pos-graduacao-snpg/pci",
-      "observed_at": "2026-08-26T01:41:50Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:88c41f6e33bcdab9c25d12bba48f2676ce6fc0cdfdf266bc37cd067ec4cae4c8",
-        "byte_size": 425802
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "PCI",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "A Portaria CAPES nº 120 ,de 26 de junho de 2023, disciplinou os Projetos de Cooperação entre Instituições para Qualificação de Profissionais de Nível Superior (PCI).",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CAPES",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:37cd067ec4cae4c8"
+        "evidence:cnpq-chamadas:detail:e32aebbdb3266a30"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -4523,7 +4314,7 @@
       "observation_id": "mma-fundo-clima:detail:c70d98b3cf400764",
       "source_id": "mma-fundo-clima",
       "source_url": "https://www.gov.br/pt-br/orgaos/ministerio-do-meio-ambiente-e-mudanca-do-clima",
-      "observed_at": "2026-08-26T01:41:40Z",
+      "observed_at": "2026-08-26T01:43:24Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4584,10 +4375,166 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
+      "observation_id": "capes-editais:detail:03f1f79eca127148",
+      "source_id": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "observed_at": "2026-08-26T01:43:32Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:5702b9b26b731a57c135296e0ecff4dfcbf53b3047b4912e03f1f79eca127148",
+        "byte_size": 331883
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CAPES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:03f1f79eca127148"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "capes-editais:detail:19ea2cd8b580c962",
+      "source_id": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "observed_at": "2026-08-26T01:43:33Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:fe149a11c919248e9fa7c44369473fef28f97e34848d42c119ea2cd8b580c962",
+        "byte_size": 387943
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Programa Capes/MES-Cuba - Projetos",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CAPES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:19ea2cd8b580c962"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "capes-editais:detail:1aa332b8c0e99e34",
+      "source_id": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/avaliacao/sistema-nacional-de-pos-graduacao-snpg/pci",
+      "observed_at": "2026-08-26T01:43:33Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:018017461af1c40c49d2e82ea2947d956b11209f557b8c601aa332b8c0e99e34",
+        "byte_size": 425803
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "PCI",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "A Portaria CAPES nº 120 ,de 26 de junho de 2023, disciplinou os Projetos de Cooperação entre Instituições para Qualificação de Profissionais de Nível Superior (PCI).",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CAPES",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:1aa332b8c0e99e34"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
       "observation_id": "capes-editais:detail:failed",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/programas-projetos-e-acoes",
-      "observed_at": "2026-08-26T01:41:50Z",
+      "observed_at": "2026-08-26T01:43:33Z",
       "source_profile": "government",
       "fetch": {
         "status": "failed",
@@ -4621,75 +4568,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cnpq-chamadas:detail:9bb55963e7025310",
-      "source_id": "cnpq-chamadas",
-      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamamento-no-01-2026/chamamento-publico-01-2026",
-      "observed_at": "2026-08-26T01:41:46Z",
-      "source_profile": "government",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:220fe56a426f4ab9cc4a46d11f53347715f218e05ff748599bb55963e7025310",
-        "byte_size": 132950
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Chamamento Público CNPq/FNDCT/MCTI Nº 01/2026 Para Participação no Programa de Apoio à Popularização da Ciência nas Unidades da Federação",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "O Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq e o Ministério da Ciência, Tecnologia e Inovação – MCTI convidam as fundações estaduais de amparo à pesquisa – FAPs a apresentarem propostas estaduais e do Distrito Federal para apoio a projetos de popularização da ciência, apresentadas por FAPs, visando o desenvolvimento científico, tecnológico e a inovação no País, com os seguintes objetivos:",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "CNPq",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
-            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:9bb55963e7025310"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "capes-editais:detail:3a0e3000031559c1",
+      "observation_id": "capes-editais:detail:7a485e8aa2484b61",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/programas-estrategicos/formacao-de-recursos-humanos-em-areas-estrategicas/capes-cnj-apoio-a-pesquisas-judiciarias-constitucionais",
-      "observed_at": "2026-08-26T01:41:50Z",
+      "observed_at": "2026-08-26T01:43:33Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4699,7 +4581,7 @@
       },
       "content": {
         "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:73c9a7d82952d2cf1bb0dc3c2e31c62b8bb743548bb7aff63a0e3000031559c1",
+        "content_hash": "sha256:8e6f5f574dcf4f5f349d6d16c8d03edb5de5b7441f5233587a485e8aa2484b61",
         "byte_size": 348847
       },
       "claims": [
@@ -4733,7 +4615,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:3a0e3000031559c1"
+        "evidence:capes-editais:detail:7a485e8aa2484b61"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -4746,10 +4628,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "capes-editais:detail:56046a20b06c943d",
+      "observation_id": "capes-editais:detail:1a505d14fe9cc166",
       "source_id": "capes-editais",
       "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/educacao-basica/parfor/parfor",
-      "observed_at": "2026-08-26T01:41:52Z",
+      "observed_at": "2026-08-26T01:43:33Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
@@ -4759,8 +4641,8 @@
       },
       "content": {
         "media_type": "text/html; charset=utf-8",
-        "content_hash": "sha256:2db51260f689caadb55a5d73e7fb2f43ccb997d15086c21f56046a20b06c943d",
-        "byte_size": 386589
+        "content_hash": "sha256:4e12f297a57875267bf5bc5e4a354a26ac97cf083315f0bb1a505d14fe9cc166",
+        "byte_size": 386452
       },
       "claims": [
         {
@@ -4785,7 +4667,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:56046a20b06c943d"
+        "evidence:capes-editais:detail:1a505d14fe9cc166"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -4798,21 +4680,21 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cnpq-chamadas:detail:4e081f2b1dc6bf4a",
-      "source_id": "cnpq-chamadas",
-      "source_url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas",
-      "observed_at": "2026-08-26T01:41:47Z",
+      "observation_id": "capes-editais:detail:9d864d1bae818c9a",
+      "source_id": "capes-editais",
+      "source_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas",
+      "observed_at": "2026-08-26T01:43:33Z",
       "source_profile": "government",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html;charset=utf-8"
+        "content_type": "text/html; charset=utf-8"
       },
       "content": {
-        "media_type": "text/html;charset=utf-8",
-        "content_hash": "sha256:3aed8fa296ef2484a7a2edcf6a75db09b455b3b1d5da66854e081f2b1dc6bf4a",
-        "byte_size": 126522
+        "media_type": "text/html; charset=utf-8",
+        "content_hash": "sha256:95da683f713f79563a9ba635852fd5068e1bae80d27ccf049d864d1bae818c9a",
+        "byte_size": 278809
       },
       "claims": [
         {
@@ -4822,72 +4704,12 @@
         },
         {
           "path": "description",
-          "value": "Ações e Programas",
+          "value": "Nesta seção, são divulgadas as informações pertinentes aos programas, ações, projetos e atividades implementadas pela CAPES.",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "CNPq",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
-            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
-          ],
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "INSUFFICIENT_EVIDENCE",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "official_pdf_url",
-          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:4e081f2b1dc6bf4a"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "fundo-amazonia:detail:a4a2391e0def729c",
-      "source_id": "fundo-amazonia",
-      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
-      "observed_at": "2026-08-26T01:41:53Z",
-      "source_profile": "program",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=UTF-8",
-        "content_hash": "sha256:25a65337addc8420ac2144e0e513d1e085962b949fd5eaafa4a2391e0def729c",
-        "byte_size": 32119
-      },
-      "claims": [
-        {
-          "path": "description",
-          "value": "Os focos definidos nas Diretrizes e Critérios do Fundo Amazônia, estabelecidos pelo Comitê Orientador do Fundo Amazônia (COFA) , serão apoiados por meio da apresentação direta de projetos estruturantes ou de projetos selecionados através de chamadas públicas promovidas diretamente pelo Fundo Amazônia (BNDES) ou por intermédio de instituições parceiras.",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "BNDES / Fundo Amazônia",
+          "value": "CAPES",
           "epistemic_status": "observed"
         },
         {
@@ -4897,7 +4719,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:fundo-amazonia:detail:a4a2391e0def729c"
+        "evidence:capes-editais:detail:9d864d1bae818c9a"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -4913,7 +4735,7 @@
       "observation_id": "fundo-amazonia:detail:76d77b709dbd2528",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/programa-desafios-da-amazonia/",
-      "observed_at": "2026-08-26T01:41:52Z",
+      "observed_at": "2026-08-26T01:43:34Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -4955,7 +4777,7 @@
       "observation_id": "fundo-amazonia:detail:4e9cf3a17e36afd8",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-na-escola/",
-      "observed_at": "2026-08-26T01:41:52Z",
+      "observed_at": "2026-08-26T01:43:34Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -5017,10 +4839,286 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
+      "observation_id": "fundo-amazonia:detail:65734077533b570d",
+      "source_id": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
+      "observed_at": "2026-08-26T01:43:34Z",
+      "source_profile": "program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=UTF-8",
+        "content_hash": "sha256:6ba729b3fdaddc8659613ec3caff9690039637aed44fc97d65734077533b570d",
+        "byte_size": 35106
+      },
+      "claims": [
+        {
+          "path": "description",
+          "value": "A Companhia Nacional de Abastecimento – CONAB e o Banco Nacional de Desenvolvimento Econômico e Social – BNDES, por meio da disponibilidade de recursos do Fundo Amazônia – apresentam o projeto “Florestas e Comunidades: Amazônia Viva”, que tem como objetivo o fortalecimento social e econômico de organizações produtivas de povos indígenas, povos e comunidades tradicionais e agricultores familiares (PIPCTAFs). Com investimento total de R$ 96 milhões, pretende-se ampliar o acesso a mercados de alimentos e produtos da sociobiodiversidade Amazônica, o fornecimento de alimentos para o Programa de Aquisição de Alimentos (PAA), para o Programa Nacional de Alimentação Escolar (PNAE), além do acesso a operações do Programa de Valorização da Sociobiodiversidade e do Extrativismo (SocioBio Mais).",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "BNDES / Fundo Amazônia",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fundo-amazonia:detail:65734077533b570d"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "fundo-amazonia:detail:a4a2391e0def729c",
+      "source_id": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/",
+      "observed_at": "2026-08-26T01:43:34Z",
+      "source_profile": "program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=UTF-8",
+        "content_hash": "sha256:25a65337addc8420ac2144e0e513d1e085962b949fd5eaafa4a2391e0def729c",
+        "byte_size": 32119
+      },
+      "claims": [
+        {
+          "path": "description",
+          "value": "Os focos definidos nas Diretrizes e Critérios do Fundo Amazônia, estabelecidos pelo Comitê Orientador do Fundo Amazônia (COFA) , serão apoiados por meio da apresentação direta de projetos estruturantes ou de projetos selecionados através de chamadas públicas promovidas diretamente pelo Fundo Amazônia (BNDES) ou por intermédio de instituições parceiras.",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "BNDES / Fundo Amazônia",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:fundo-amazonia:detail:a4a2391e0def729c"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cnpq-chamadas:detail:9bb55963e7025310",
+      "source_id": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamamento-no-01-2026/chamamento-publico-01-2026",
+      "observed_at": "2026-08-26T01:43:31Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:220fe56a426f4ab9cc4a46d11f53347715f218e05ff748599bb55963e7025310",
+        "byte_size": 132950
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Chamamento Público CNPq/FNDCT/MCTI Nº 01/2026 Para Participação no Programa de Apoio à Popularização da Ciência nas Unidades da Federação",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "O Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq e o Ministério da Ciência, Tecnologia e Inovação – MCTI convidam as fundações estaduais de amparo à pesquisa – FAPs a apresentarem propostas estaduais e do Distrito Federal para apoio a projetos de popularização da ciência, apresentadas por FAPs, visando o desenvolvimento científico, tecnológico e a inovação no País, com os seguintes objetivos:",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CNPq",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
+            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:9bb55963e7025310"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cnpq-chamadas:detail:4e081f2b1dc6bf4a",
+      "source_id": "cnpq-chamadas",
+      "source_url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas",
+      "observed_at": "2026-08-26T01:43:32Z",
+      "source_profile": "government",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html;charset=utf-8"
+      },
+      "content": {
+        "media_type": "text/html;charset=utf-8",
+        "content_hash": "sha256:3aed8fa296ef2484a7a2edcf6a75db09b455b3b1d5da66854e081f2b1dc6bf4a",
+        "byte_size": 126522
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Ações e Programas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Ações e Programas",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "CNPq",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação",
+            "Podem participar do DGP as instituições, cadastradas no Diretório \\n 12 de Instituições -DI do CNPq, que atendam a um dos requisitos previstos no art"
+          ],
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "INSUFFICIENT_EVIDENCE",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-06-25.pdf",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:4e081f2b1dc6bf4a"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cinea-life:detail:c41d42aaaed077f7",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/projects-legislative-and-policy-priorities-fields-nature-biodiversity-and-circular-economy-quality_en",
+      "observed_at": "2026-08-26T01:43:36Z",
+      "source_profile": "international_program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:f6c659a4d5d06241141f8c4255e75611fcc2cee7324bd5acc41d42aaaed077f7",
+        "byte_size": 93606
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Projects on Legislative and Policy Priorities in the fields of Nature & Biodiversity and Circular Economy & Quality of Life",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "description",
+          "value": "Projects on Legislative and Policy Priorities in the fields of Nature & Biodiversity and Circular Economy & Quality of Life",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "European Commission / CINEA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
+          "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cinea-life:detail:c41d42aaaed077f7"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
       "observation_id": "fundo-amazonia:detail:2c182c3f3c1480cf",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/naturezas-quilombolas/",
-      "observed_at": "2026-08-26T01:41:54Z",
+      "observed_at": "2026-08-26T01:43:36Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -5075,57 +5173,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fundo-amazonia:detail:65734077533b570d",
-      "source_id": "fundo-amazonia",
-      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/amazonia-viva/",
-      "observed_at": "2026-08-26T01:41:54Z",
-      "source_profile": "program",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html;charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html;charset=UTF-8",
-        "content_hash": "sha256:6ba729b3fdaddc8659613ec3caff9690039637aed44fc97d65734077533b570d",
-        "byte_size": 35106
-      },
-      "claims": [
-        {
-          "path": "description",
-          "value": "A Companhia Nacional de Abastecimento – CONAB e o Banco Nacional de Desenvolvimento Econômico e Social – BNDES, por meio da disponibilidade de recursos do Fundo Amazônia – apresentam o projeto “Florestas e Comunidades: Amazônia Viva”, que tem como objetivo o fortalecimento social e econômico de organizações produtivas de povos indígenas, povos e comunidades tradicionais e agricultores familiares (PIPCTAFs). Com investimento total de R$ 96 milhões, pretende-se ampliar o acesso a mercados de alimentos e produtos da sociobiodiversidade Amazônica, o fornecimento de alimentos para o Programa de Aquisição de Alimentos (PAA), para o Programa Nacional de Alimentação Escolar (PNAE), além do acesso a operações do Programa de Valorização da Sociobiodiversidade e do Extrativismo (SocioBio Mais).",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "BNDES / Fundo Amazônia",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:fundo-amazonia:detail:65734077533b570d"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "cinea-life:detail:c41d42aaaed077f7",
+      "observation_id": "cinea-life:detail:5ba71f40e1d0a591",
       "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/projects-legislative-and-policy-priorities-fields-nature-biodiversity-and-circular-economy-quality_en",
-      "observed_at": "2026-08-26T01:41:56Z",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/multilevel-climate-and-energy-dialogue-deliver-governance-regulation-and-post-2030-energy-and_en",
+      "observed_at": "2026-08-26T01:43:37Z",
       "source_profile": "international_program",
       "fetch": {
         "status": "success",
@@ -5135,18 +5186,18 @@
       },
       "content": {
         "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:f6c659a4d5d06241141f8c4255e75611fcc2cee7324bd5acc41d42aaaed077f7",
-        "byte_size": 93606
+        "content_hash": "sha256:4a8e82b05f0ed880f744916b2d95e51dd5fc8a3109d12ab55ba71f40e1d0a591",
+        "byte_size": 92659
       },
       "claims": [
         {
           "path": "title",
-          "value": "Projects on Legislative and Policy Priorities in the fields of Nature & Biodiversity and Circular Economy & Quality of Life",
+          "value": "Multilevel climate and energy dialogue to deliver the Governance Regulation and the post–2030 energy and climate policy framework",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "Projects on Legislative and Policy Priorities in the fields of Nature & Biodiversity and Circular Economy & Quality of Life",
+          "value": "Multilevel climate and energy dialogue to deliver the Governance Regulation and the post–2030 energy and climate policy framework",
           "epistemic_status": "observed"
         },
         {
@@ -5161,7 +5212,7 @@
         }
       ],
       "evidence_ids": [
-        "evidence:cinea-life:detail:c41d42aaaed077f7"
+        "evidence:cinea-life:detail:5ba71f40e1d0a591"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -5174,51 +5225,98 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "finep-chamadas:detail:bcc0cfd8141d6525",
-      "source_id": "finep-chamadas",
-      "source_url": "https://www.finep.gov.br/oportunidades#main-content",
-      "observed_at": "2026-08-26T01:41:55Z",
-      "source_profile": "funding_portal",
+      "observation_id": "cinea-life:detail:a44bc5746f4ac789",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-governance-and-information-0_en",
+      "observed_at": "2026-08-26T01:43:38Z",
+      "source_profile": "international_program",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html;charset=UTF-8"
+        "content_type": "text/html; charset=UTF-8"
       },
       "content": {
-        "media_type": "text/html;charset=UTF-8",
-        "content_hash": "sha256:93c817f448142f50d217e1f3bd68d6daa0cdf899e398e117bcc0cfd8141d6525",
-        "byte_size": 184381
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:7b4d618b25948f1b94738c01ebe510877a1e0d30d41a31f1a44bc5746f4ac789",
+        "byte_size": 89455
       },
       "claims": [
         {
           "path": "title",
-          "value": "Oportunidades - Finep",
+          "value": "Climate Governance and Information",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "Aqui você encontra informações sobre a Finep, como sua atuação, estrutura, dirigentes, horários de atendimento e base legal. Esta seção ajuda você a entender melhor o papel da instituição e como ela está organizada.",
+          "value": "Climate Governance and Information",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "Finep",
+          "value": "European Commission / CINEA",
           "epistemic_status": "observed"
         },
         {
           "path": "status",
           "value": "CANDIDATE",
           "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cinea-life:detail:a44bc5746f4ac789"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cinea-life:detail:44794daab99f82a3",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-change-adaptation-0_en",
+      "observed_at": "2026-08-26T01:43:37Z",
+      "source_profile": "international_program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:f8f7cd553bf11e1da80236283b539c9e2cc59f376656965344794daab99f82a3",
+        "byte_size": 88270
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Climate Change Adaptation",
+          "epistemic_status": "observed"
         },
         {
-          "path": "official_pdf_url",
-          "value": "https://legacy.finep.gov.br/images/organograma.pdf",
+          "path": "description",
+          "value": "Climate Change Adaptation",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "European Commission / CINEA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:detail:bcc0cfd8141d6525"
+        "evidence:cinea-life:detail:44794daab99f82a3"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -5234,7 +5332,7 @@
       "observation_id": "fundo-amazonia:detail:2780d981f56e5142",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/chamadas-publicas-de-projetos-apoiados/",
-      "observed_at": "2026-08-26T01:41:53Z",
+      "observed_at": "2026-08-26T01:43:34Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -5288,51 +5386,98 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "finep-chamadas:detail:7fad9b1ce168c67e",
-      "source_id": "finep-chamadas",
-      "source_url": "https://www.finep.gov.br/oportunidades",
-      "observed_at": "2026-08-26T01:41:55Z",
-      "source_profile": "funding_portal",
+      "observation_id": "cinea-life:detail:7d92901f0280217d",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-governance-and-information-0_en",
+      "observed_at": "2026-08-26T01:43:38Z",
+      "source_profile": "international_program",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html;charset=UTF-8"
+        "content_type": "text/html; charset=UTF-8"
       },
       "content": {
-        "media_type": "text/html;charset=UTF-8",
-        "content_hash": "sha256:c0088ba65a98c0527f2461b3cd8c6a259642de6d96b765057fad9b1ce168c67e",
-        "byte_size": 184381
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:6cb7675bcdce7ff8723123ec3bedf1ed094263b8825840cc7d92901f0280217d",
+        "byte_size": 92491
       },
       "claims": [
         {
           "path": "title",
-          "value": "Oportunidades - Finep",
+          "value": "Standard Action Projects (SAPs) for nature and biodiversity – Governance and Information",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "Aqui você encontra informações sobre a Finep, como sua atuação, estrutura, dirigentes, horários de atendimento e base legal. Esta seção ajuda você a entender melhor o papel da instituição e como ela está organizada.",
+          "value": "Standard Action Projects (SAPs) for nature and biodiversity – Governance and Information",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "Finep",
+          "value": "European Commission / CINEA",
           "epistemic_status": "observed"
         },
         {
           "path": "status",
           "value": "CANDIDATE",
           "epistemic_status": "observed"
+        }
+      ],
+      "evidence_ids": [
+        "evidence:cinea-life:detail:7d92901f0280217d"
+      ],
+      "collector": {
+        "name": "detail-follow-up",
+        "version": "0.2.0",
+        "repository": "https://github.com/viniburilux/Lux-Radar"
+      },
+      "limitations": [
+        "Detail extraction is claim-preserving and does not publish the complete third-party document."
+      ],
+      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
+    },
+    {
+      "observation_id": "cinea-life:detail:a0ed4cab68bbc12b",
+      "source_id": "cinea-life",
+      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-nature-1_en",
+      "observed_at": "2026-08-26T01:43:38Z",
+      "source_profile": "international_program",
+      "fetch": {
+        "status": "success",
+        "method": "http_get",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8"
+      },
+      "content": {
+        "media_type": "text/html; charset=UTF-8",
+        "content_hash": "sha256:8eb70c110598933609201926c7cc52fed710770baeae534aa0ed4cab68bbc12b",
+        "byte_size": 90739
+      },
+      "claims": [
+        {
+          "path": "title",
+          "value": "Standard Action Projects (SAPs) for nature and biodiversity - Nature",
+          "epistemic_status": "observed"
         },
         {
-          "path": "official_pdf_url",
-          "value": "https://legacy.finep.gov.br/images/organograma.pdf",
+          "path": "description",
+          "value": "Standard Action Projects (SAPs) for nature and biodiversity - Nature",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "organization",
+          "value": "European Commission / CINEA",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "status",
+          "value": "CANDIDATE",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:detail:7fad9b1ce168c67e"
+        "evidence:cinea-life:detail:a0ed4cab68bbc12b"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -5348,7 +5493,7 @@
       "observation_id": "fundo-amazonia:detail:6f878ec7ae8d0bfc",
       "source_id": "fundo-amazonia",
       "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/consolidacao-e-fortalecimento-de-cadeias-de-valor-sustentaveis-e-inclusivas/",
-      "observed_at": "2026-08-26T01:41:54Z",
+      "observed_at": "2026-08-26T01:43:35Z",
       "source_profile": "program",
       "fetch": {
         "status": "success",
@@ -5409,166 +5554,10 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cinea-life:detail:5ba71f40e1d0a591",
-      "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/multilevel-climate-and-energy-dialogue-deliver-governance-regulation-and-post-2030-energy-and_en",
-      "observed_at": "2026-08-26T01:41:58Z",
-      "source_profile": "international_program",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:4a8e82b05f0ed880f744916b2d95e51dd5fc8a3109d12ab55ba71f40e1d0a591",
-        "byte_size": 92659
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Multilevel climate and energy dialogue to deliver the Governance Regulation and the post–2030 energy and climate policy framework",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Multilevel climate and energy dialogue to deliver the Governance Regulation and the post–2030 energy and climate policy framework",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "European Commission / CINEA",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cinea-life:detail:5ba71f40e1d0a591"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "cinea-life:detail:a44bc5746f4ac789",
-      "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-governance-and-information-0_en",
-      "observed_at": "2026-08-26T01:42:00Z",
-      "source_profile": "international_program",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:7b4d618b25948f1b94738c01ebe510877a1e0d30d41a31f1a44bc5746f4ac789",
-        "byte_size": 89455
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Climate Governance and Information",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Climate Governance and Information",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "European Commission / CINEA",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cinea-life:detail:a44bc5746f4ac789"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
-      "observation_id": "cinea-life:detail:44794daab99f82a3",
-      "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-change-adaptation-0_en",
-      "observed_at": "2026-08-26T01:41:59Z",
-      "source_profile": "international_program",
-      "fetch": {
-        "status": "success",
-        "method": "http_get",
-        "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
-      },
-      "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:f8f7cd553bf11e1da80236283b539c9e2cc59f376656965344794daab99f82a3",
-        "byte_size": 88270
-      },
-      "claims": [
-        {
-          "path": "title",
-          "value": "Climate Change Adaptation",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "description",
-          "value": "Climate Change Adaptation",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "organization",
-          "value": "European Commission / CINEA",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "status",
-          "value": "CANDIDATE",
-          "epistemic_status": "observed"
-        }
-      ],
-      "evidence_ids": [
-        "evidence:cinea-life:detail:44794daab99f82a3"
-      ],
-      "collector": {
-        "name": "detail-follow-up",
-        "version": "0.2.0",
-        "repository": "https://github.com/viniburilux/Lux-Radar"
-      },
-      "limitations": [
-        "Detail extraction is claim-preserving and does not publish the complete third-party document."
-      ],
-      "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
-    },
-    {
       "observation_id": "cinea-life:detail:9b639a08a06bdeab",
       "source_id": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/climate-change-mitigation-0_en",
-      "observed_at": "2026-08-26T01:42:00Z",
+      "observed_at": "2026-08-26T01:43:37Z",
       "source_profile": "international_program",
       "fetch": {
         "status": "success",
@@ -5617,46 +5606,51 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cinea-life:detail:a0ed4cab68bbc12b",
-      "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-nature-1_en",
-      "observed_at": "2026-08-26T01:42:01Z",
-      "source_profile": "international_program",
+      "observation_id": "finep-chamadas:detail:e18b4bc738cd4c32",
+      "source_id": "finep-chamadas",
+      "source_url": "https://www.finep.gov.br/oportunidades#main-content",
+      "observed_at": "2026-08-26T01:43:36Z",
+      "source_profile": "funding_portal",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html;charset=UTF-8"
       },
       "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:8eb70c110598933609201926c7cc52fed710770baeae534aa0ed4cab68bbc12b",
-        "byte_size": 90739
+        "media_type": "text/html;charset=UTF-8",
+        "content_hash": "sha256:03622b12d642de94478a86c3268334afb4f25e6f979b89bce18b4bc738cd4c32",
+        "byte_size": 184379
       },
       "claims": [
         {
           "path": "title",
-          "value": "Standard Action Projects (SAPs) for nature and biodiversity - Nature",
+          "value": "Oportunidades - Finep",
           "epistemic_status": "observed"
         },
         {
           "path": "description",
-          "value": "Standard Action Projects (SAPs) for nature and biodiversity - Nature",
+          "value": "Aqui você encontra informações sobre a Finep, como sua atuação, estrutura, dirigentes, horários de atendimento e base legal. Esta seção ajuda você a entender melhor o papel da instituição e como ela está organizada.",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "European Commission / CINEA",
+          "value": "Finep",
           "epistemic_status": "observed"
         },
         {
           "path": "status",
           "value": "CANDIDATE",
           "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://legacy.finep.gov.br/images/organograma.pdf",
+          "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:cinea-life:detail:a0ed4cab68bbc12b"
+        "evidence:finep-chamadas:detail:e18b4bc738cd4c32"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -5669,11 +5663,11 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "fundo-amazonia:detail:a982d30af62a67eb",
-      "source_id": "fundo-amazonia",
-      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/projetos-produtivos-sustentaveis/",
-      "observed_at": "2026-08-26T01:41:52Z",
-      "source_profile": "program",
+      "observation_id": "finep-chamadas:detail:b0ebe3b298c96768",
+      "source_id": "finep-chamadas",
+      "source_url": "https://www.finep.gov.br/oportunidades",
+      "observed_at": "2026-08-26T01:43:36Z",
+      "source_profile": "funding_portal",
       "fetch": {
         "status": "success",
         "method": "http_get",
@@ -5682,41 +5676,38 @@
       },
       "content": {
         "media_type": "text/html;charset=UTF-8",
-        "content_hash": "sha256:d896a45cdbfb1e7cc0eb8ae7832fa42f5e5ed897284e4342a982d30af62a67eb",
-        "byte_size": 68648
+        "content_hash": "sha256:2748d60d54f7719cdd2f0fd8288d787c038e35be827a653eb0ebe3b298c96768",
+        "byte_size": 184379
       },
       "claims": [
         {
+          "path": "title",
+          "value": "Oportunidades - Finep",
+          "epistemic_status": "observed"
+        },
+        {
           "path": "description",
-          "value": "Nome Instituição",
+          "value": "Aqui você encontra informações sobre a Finep, como sua atuação, estrutura, dirigentes, horários de atendimento e base legal. Esta seção ajuda você a entender melhor o papel da instituição e como ela está organizada.",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "BNDES / Fundo Amazônia",
-          "epistemic_status": "observed"
-        },
-        {
-          "path": "eligibility",
-          "value": [
-            "PÚBLICO ALVO As propostas e atividades apoiadas devem ter por fi nalidade a promoção de benefícios diretos a povos e comunidades tradicionais, povos indígenas, assentados da reforma agrária, pescadores artesanais, aquicul tores familiares e agricultores familiares 2 localizados no Bioma Amazônia",
-            "podem participar da Chamada Pública"
-          ],
+          "value": "Finep",
           "epistemic_status": "observed"
         },
         {
           "path": "status",
-          "value": "CLOSED",
+          "value": "CANDIDATE",
           "epistemic_status": "observed"
         },
         {
           "path": "official_pdf_url",
-          "value": "https://www.fundoamazonia.gov.br/export/sites/default/pt/.galleries/documentos/chamadas-publicas/APS_04_2012.pdf",
+          "value": "https://legacy.finep.gov.br/images/organograma.pdf",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:fundo-amazonia:detail:a982d30af62a67eb"
+        "evidence:finep-chamadas:detail:b0ebe3b298c96768"
       ],
       "collector": {
         "name": "detail-follow-up",
@@ -5732,7 +5723,7 @@
       "observation_id": "cinea-life:detail:3249ce102022f0a5",
       "source_id": "cinea-life",
       "source_url": "https://cinea.ec.europa.eu/programmes/life/life-calls-proposals-2024/2019-life-calls-proposals_en",
-      "observed_at": "2026-08-26T01:42:01Z",
+      "observed_at": "2026-08-26T01:43:39Z",
       "source_profile": "international_program",
       "fetch": {
         "status": "success",
@@ -5786,46 +5777,54 @@
       "license_or_terms_note": "Selected claims only; complete third-party content is not redistributed."
     },
     {
-      "observation_id": "cinea-life:detail:7d92901f0280217d",
-      "source_id": "cinea-life",
-      "source_url": "https://cinea.ec.europa.eu/funding-opportunities/calls-proposals/standard-action-projects-saps-nature-and-biodiversity-governance-and-information-0_en",
-      "observed_at": "2026-08-26T01:42:01Z",
-      "source_profile": "international_program",
+      "observation_id": "fundo-amazonia:detail:a982d30af62a67eb",
+      "source_id": "fundo-amazonia",
+      "source_url": "https://www.fundoamazonia.gov.br/pt/como-apresentar-projetos/chamadas-publicas/projetos-produtivos-sustentaveis/",
+      "observed_at": "2026-08-26T01:43:34Z",
+      "source_profile": "program",
       "fetch": {
         "status": "success",
         "method": "http_get",
         "http_status": 200,
-        "content_type": "text/html; charset=UTF-8"
+        "content_type": "text/html;charset=UTF-8"
       },
       "content": {
-        "media_type": "text/html; charset=UTF-8",
-        "content_hash": "sha256:6cb7675bcdce7ff8723123ec3bedf1ed094263b8825840cc7d92901f0280217d",
-        "byte_size": 92491
+        "media_type": "text/html;charset=UTF-8",
+        "content_hash": "sha256:d896a45cdbfb1e7cc0eb8ae7832fa42f5e5ed897284e4342a982d30af62a67eb",
+        "byte_size": 68648
       },
       "claims": [
         {
-          "path": "title",
-          "value": "Standard Action Projects (SAPs) for nature and biodiversity – Governance and Information",
-          "epistemic_status": "observed"
-        },
-        {
           "path": "description",
-          "value": "Standard Action Projects (SAPs) for nature and biodiversity – Governance and Information",
+          "value": "Nome Instituição",
           "epistemic_status": "observed"
         },
         {
           "path": "organization",
-          "value": "European Commission / CINEA",
+          "value": "BNDES / Fundo Amazônia",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "eligibility",
+          "value": [
+            "PÚBLICO ALVO As propostas e atividades apoiadas devem ter por fi nalidade a promoção de benefícios diretos a povos e comunidades tradicionais, povos indígenas, assentados da reforma agrária, pescadores artesanais, aquicul tores familiares e agricultores familiares 2 localizados no Bioma Amazônia",
+            "podem participar da Chamada Pública"
+          ],
           "epistemic_status": "observed"
         },
         {
           "path": "status",
-          "value": "CANDIDATE",
+          "value": "CLOSED",
+          "epistemic_status": "observed"
+        },
+        {
+          "path": "official_pdf_url",
+          "value": "https://www.fundoamazonia.gov.br/export/sites/default/pt/.galleries/documentos/chamadas-publicas/APS_04_2012.pdf",
           "epistemic_status": "observed"
         }
       ],
       "evidence_ids": [
-        "evidence:cinea-life:detail:7d92901f0280217d"
+        "evidence:fundo-amazonia:detail:a982d30af62a67eb"
       ],
       "collector": {
         "name": "detail-follow-up",
