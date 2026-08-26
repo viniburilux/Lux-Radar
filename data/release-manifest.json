@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32920140666",
-  "created_at": "2026-08-26T01:45:15Z",
+  "release_id": "weekly-32920289962",
+  "created_at": "2026-08-26T01:47:36Z",
   "source_ids": [
     "fapesb-editais",
     "bndes-floresta-viva",
@@ -15,8 +15,8 @@
     "transferegov-parcerias"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T01:45:15Z",
-    "ended_at": "2026-08-26T01:46:02Z"
+    "started_at": "2026-08-26T01:47:36Z",
+    "ended_at": "2026-08-26T01:48:22Z"
   },
   "record_counts": {
     "observations": 77,
@@ -39,31 +39,31 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:1b038ea874238c331e4ea12653b557494202f179b7f3e2ad2de336703936ab89",
+      "content_hash": "sha256:833062eeaaeed4657a8eb0a4d6c0ba088ab8cca85fcf7fd2ab75b85c7aac38f9",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:c80be9d93f4b8a5d11d9811ecd80a53e54a0551b9a4ee73f749c120de6186e8b",
+      "content_hash": "sha256:9bcc8acd81b142a28499cc0d46ab540acd4aecc68992f18b6b1606a86e6085a7",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:7c0ee0022092f29ebb770c2daf4bcd75e004e371239bc64fc077cb80d7f98ba6",
+      "content_hash": "sha256:3bbb5ed4c85ea986e1ab6214d73c2ce276b0ff6bf3705f231fb37ade9782ef08",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:578eeb9f3018c9a196de47e49a985ac425fe9e0f681d62ba7af646a2524cffaa",
+      "content_hash": "sha256:233f4024e04cf540f758e605311e4be1b76e6787b68ec4db8e1f14fbb3480a06",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:6d464cb64b85f316cd99409cebc84083afec2c78df6885afaa4132d7d5ca9c0e",
+      "content_hash": "sha256:769d591718ec6267742c659f901e2c8a6042cb35ddd230bd0433230b3729922a",
       "media_type": "text/csv"
     }
   ],
