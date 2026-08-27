@@ -41,7 +41,11 @@ O build global foi executado sobre as 34 fontes do registry, sem bypass de bloqu
 | Fontes indisponíveis | 5 |
 | `UNKNOWN` na visão atual | 0 |
 
-Os cinco canais indisponíveis foram preservados no manifest: Transferegov, GIFE, MinC CultBR, PNCP e IBGE nessa execução específica. Isso representa **saúde operacional**, não prova de inexistência de informação. O release mantém `UNKNOWN`, `CANDIDATE` e `INSUFFICIENT_EVIDENCE` fora da visão atual.
+A execução local preservou cinco canais indisponíveis — Transferegov, GIFE, MinC CultBR, PNCP e IBGE — como saúde operacional, não como prova de inexistência de informação. Depois, o workflow público `weekly-33095118433` repetiu a coleta e publicou 615 sinais, 34 snapshots de fonte, 15 oportunidades atuais, 70 mudanças temporais, 31 fontes com sucesso e 3 indisponíveis: Transferegov, Capta e GIFE. O release público mantém `UNKNOWN`, `CANDIDATE` e `INSUFFICIENT_EVIDENCE` fora da visão atual.
+
+## Release público
+
+O workflow [`33095118433`](https://github.com/viniburilux/Lux-Radar/actions/runs/33095118433) concluiu com sucesso a validação, o commit automático de dados e o deploy do Pages. O código está no commit [`0d3fc33`](https://github.com/viniburilux/Lux-Radar/commit/0d3fc33), e o snapshot publicado pelo workflow está no commit [`ecdd4dc`](https://github.com/viniburilux/Lux-Radar/commit/ecdd4dc). A interface pública está disponível em [viniburilux.github.io/Lux-Radar](https://viniburilux.github.io/Lux-Radar/).
 
 ## Alterações implementadas
 
