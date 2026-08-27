@@ -1,6 +1,6 @@
 {
-  "release_id": "environmental-v1-local-release-20260827",
-  "created_at": "2026-08-27T21:07:02Z",
+  "release_id": "weekly-33117047991",
+  "created_at": "2026-08-27T21:12:44Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -43,30 +43,30 @@
     "open-meteo"
   ],
   "observation_window": {
-    "started_at": "2026-08-27T21:07:02Z",
-    "ended_at": "2026-08-27T21:10:42Z"
+    "started_at": "2026-08-27T21:12:44Z",
+    "ended_at": "2026-08-27T21:15:25Z"
   },
   "record_counts": {
-    "observations": 228,
-    "evidence": 225,
-    "normalized": 817,
+    "observations": 227,
+    "evidence": 223,
+    "normalized": 814,
     "opportunities": 581,
-    "current_opportunities": 16,
-    "signals_history": 565,
-    "moved_to_history_or_signals": 565,
-    "closing_soon": 10,
+    "current_opportunities": 15,
+    "signals_history": 566,
+    "moved_to_history_or_signals": 566,
+    "closing_soon": 9,
     "new_current": 0,
-    "deduplicated": 133,
-    "collected": 663,
+    "deduplicated": 134,
+    "collected": 661,
     "new": 0,
-    "updated": 55,
+    "updated": 59,
     "closed": 0,
-    "unchanged": 526,
-    "failed": 6,
-    "total_candidates": 399,
+    "unchanged": 522,
+    "failed": 8,
+    "total_candidates": 398,
     "total_verified": 0,
-    "total_closed": 75,
-    "total_unknown": 52,
+    "total_closed": 74,
+    "total_unknown": 55,
     "total_insufficient_evidence": 39,
     "sustainability_records": 48,
     "sustainability_lens_records": 100,
@@ -76,7 +76,7 @@
       "biodiversity": 12,
       "circular_economy": 8,
       "climate": 24,
-      "culture": 22,
+      "culture": 23,
       "economy": 32,
       "education": 83,
       "energy": 18,
@@ -84,55 +84,55 @@
       "innovation": 63,
       "public_policy": 3,
       "research": 108,
-      "social_impact": 23,
-      "sport": 10,
+      "social_impact": 22,
+      "sport": 9,
       "sustainability": 48,
       "technology": 37,
       "territorial_development": 4,
-      "territory": 28,
+      "territory": 29,
       "tourism": 4,
       "water": 8
     }
   },
   "funnel": {
-    "normalized_records": 817,
+    "normalized_records": 814,
     "canonical_records": 581,
-    "potential_opportunities": 407,
-    "with_temporal_evidence": 106,
-    "verifiable_records": 16,
+    "potential_opportunities": 405,
+    "with_temporal_evidence": 104,
+    "verifiable_records": 15,
     "active": 1,
-    "closing_soon": 10,
+    "closing_soon": 9,
     "upcoming": 5,
-    "remaining_outside_current": 565
+    "remaining_outside_current": 566
   },
   "reason_codes": {
-    "not_opportunity": 122,
-    "missing_deadline": 298,
-    "deadline_expired": 50,
+    "not_opportunity": 121,
+    "missing_deadline": 299,
+    "deadline_expired": 49,
     "status_explicitly_closed": 25,
-    "current_opportunity": 16,
+    "current_opportunity": 15,
     "primary_source_not_verified": 1,
-    "aggregator_only": 17,
-    "not_seen_in_release": 52
+    "aggregator_only": 16,
+    "not_seen_in_release": 55
   },
   "lifecycle_counts": {
-    "SIGNAL": 490,
-    "HISTORICAL": 75,
+    "SIGNAL": 492,
+    "HISTORICAL": 74,
     "UPCOMING": 5,
-    "CLOSING_SOON": 10,
+    "CLOSING_SOON": 9,
     "ACTIVE": 1
   },
   "signal_counts": {
-    "total": 1222,
+    "total": 622,
     "new": 0,
-    "updated": 78,
-    "unchanged": 544,
+    "updated": 80,
+    "unchanged": 542,
     "source_signals": 38,
     "record_signals": 581,
     "by_type": {
-      "record_signal": 490,
-      "historical_content": 75,
-      "opportunity": 16,
+      "record_signal": 492,
+      "historical_content": 74,
+      "opportunity": 15,
       "source_observation": 27,
       "research_funding": 1,
       "funding_opportunity": 1,
@@ -141,17 +141,16 @@
       "procurement": 1,
       "environmental_data": 1,
       "TERRITORIAL_CONTEXT": 1,
-      "FIRE_ACTIVITY": 601,
+      "FIRE_ACTIVITY": 1,
       "BIODIVERSITY_OCCURRENCE": 1,
       "NATURAL_EVENT": 1,
       "CLIMATE_CONDITION": 1,
       "COMPOSITE_ENVIRONMENTAL": 3
     },
     "by_change": {
-      "UNCHANGED": 544,
-      "UPDATED": 76,
-      "SOURCE_UNAVAILABLE": 2,
-      "ADDED": 600
+      "UNCHANGED": 542,
+      "UPDATED": 77,
+      "SOURCE_UNAVAILABLE": 3
     }
   },
   "temporal_changes": [
@@ -165,33 +164,20 @@
         "fapesb-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:6f9be18f1406ceb3"
+        "evidence:fapesb-editais:3960255b5aee6748"
       ]
     },
     {
-      "source_id": "bndes-floresta-viva",
+      "source_id": "mma-fnma",
       "field": "content_changed",
       "before": null,
       "after": null,
       "status": "UPDATED",
       "observation_ids": [
-        "bndes-floresta-viva:success:200"
+        "mma-fnma:success:200"
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:39cae95db38f710c"
-      ]
-    },
-    {
-      "source_id": "mma-fundo-clima",
-      "field": "content_changed",
-      "before": null,
-      "after": null,
-      "status": "UPDATED",
-      "observation_ids": [
-        "mma-fundo-clima:success:200"
-      ],
-      "evidence_ids": [
-        "evidence:mma-fundo-clima:fc58854ff9bd3bd7"
+        "evidence:mma-fnma:1211ed11281fd28a"
       ]
     },
     {
@@ -204,7 +190,7 @@
         "capes-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:7289ffa2895c38c0"
+        "evidence:capes-editais:27d4f9c9edcb4884"
       ]
     },
     {
@@ -217,7 +203,7 @@
         "finep-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:1aff050d15b2e92c"
+        "evidence:finep-chamadas:efc6bcbd708461b1"
       ]
     },
     {
@@ -230,7 +216,7 @@
         "petrobras-socioambiental:success:200"
       ],
       "evidence_ids": [
-        "evidence:petrobras-socioambiental:d23d16a8788c873e"
+        "evidence:petrobras-socioambiental:80b14d7253687809"
       ]
     },
     {
@@ -254,7 +240,7 @@
         "funbio-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:23797d3883c1f442"
+        "evidence:funbio-chamadas:9aa9a0dfe3d463f1"
       ]
     },
     {
@@ -267,7 +253,7 @@
         "fundacao-boticario-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fundacao-boticario-editais:d871c6772c2ec859"
+        "evidence:fundacao-boticario-editais:c9a758df833371b4"
       ]
     },
     {
@@ -280,7 +266,20 @@
         "bnb-fundeci:success:200"
       ],
       "evidence_ids": [
-        "evidence:bnb-fundeci:0fb7c8e23808f3f3"
+        "evidence:bnb-fundeci:27838150a5e41ad9"
+      ]
+    },
+    {
+      "source_id": "embratur-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "embratur-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:6c267d971530b0ef"
       ]
     },
     {
@@ -293,21 +292,19 @@
         "ics-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:ics-chamadas:32f5d74c26ac3fdd"
+        "evidence:ics-chamadas:18463b7fbc9ca801"
       ]
     },
     {
       "source_id": "gife-editais",
-      "field": "content_changed",
+      "field": "source_unavailable",
       "before": null,
       "after": null,
-      "status": "UPDATED",
+      "status": "SOURCE_UNAVAILABLE",
       "observation_ids": [
-        "gife-editais:success:200"
+        "gife-editais:failed:403"
       ],
-      "evidence_ids": [
-        "evidence:gife-editais:4cb1aac263525332"
-      ]
+      "evidence_ids": []
     },
     {
       "source_id": "fundo-brasil-editais",
@@ -319,7 +316,7 @@
         "fundo-brasil-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fundo-brasil-editais:b7b9427fa9456864"
+        "evidence:fundo-brasil-editais:4ec5ce2383b492b5"
       ]
     },
     {
@@ -332,7 +329,7 @@
         "sos-mata-atlantica-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:sos-mata-atlantica-editais:3558ebb06d350d4f"
+        "evidence:sos-mata-atlantica-editais:50583b86a483cd0a"
       ]
     },
     {
@@ -345,7 +342,7 @@
         "caixa-fsa-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:1d3ca995c971f5c3"
+        "evidence:caixa-fsa-chamadas:af860205af2a41cb"
       ]
     },
     {
@@ -358,32 +355,32 @@
         "facepe-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:facepe-editais:280b5e239d154bd6"
+        "evidence:facepe-editais:acd19e70e95ecc26"
       ]
     },
     {
       "source_id": "minc-cultbr-editais",
-      "field": "source_unavailable",
-      "before": null,
-      "after": null,
-      "status": "SOURCE_UNAVAILABLE",
-      "observation_ids": [
-        "minc-cultbr-editais:failed:403"
-      ],
-      "evidence_ids": []
-    },
-    {
-      "source_id": "pncp-editais",
       "field": "content_changed",
       "before": null,
       "after": null,
       "status": "UPDATED",
       "observation_ids": [
-        "pncp-editais:success:200"
+        "minc-cultbr-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:pncp-editais:b076e440cf3e0282"
+        "evidence:minc-cultbr-editais:950ab5ec7295781d"
       ]
+    },
+    {
+      "source_id": "pncp-editais",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "pncp-editais:failed:network"
+      ],
+      "evidence_ids": []
     },
     {
       "source_id": "observatorio-3setor-editais",
@@ -395,7 +392,7 @@
         "observatorio-3setor-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:observatorio-3setor-editais:cafd42daab3bbb04"
+        "evidence:observatorio-3setor-editais:134e763b1bd24897"
       ]
     },
     {
@@ -408,7 +405,7 @@
         "ingesto-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:ingesto-editais:c24e485b9e40512c"
+        "evidence:ingesto-editais:0fdf23342732fade"
       ]
     },
     {
@@ -438,9 +435,9 @@
     {
       "source_id": "inpe-queimadas",
       "field": "entity_diff",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "before": {
-        "entity_count": 14891
+        "entity_count": 22750
       },
       "after": {
         "entity_count": 22750
@@ -452,1378 +449,17 @@
         "evidence:inpe-queimadas:environment:2318115e136086ab"
       ],
       "entity_changes": {
-        "added": 7859,
+        "added": 0,
         "removed": 0,
         "changed": 0,
-        "unchanged": 14891,
-        "sample": [
-          {
-            "change_type": "ADDED",
-            "key": "000141ab-5429-357e-806d-9e6cdceeb476",
-            "before": null,
-            "after": {
-              "key": "000141ab-5429-357e-806d-9e6cdceeb476",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:20:00Z",
-              "location": {
-                "latitude": -8.5975,
-                "longitude": -54.715
-              },
-              "municipality_id": "1500602",
-              "municipality": "ALTAMIRA",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 139.0,
-              "territory": {
-                "municipality_id": "1500602",
-                "municipality": "Altamira",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00024852-b793-37d4-b185-1ba76fd05829",
-            "before": null,
-            "after": {
-              "key": "00024852-b793-37d4-b185-1ba76fd05829",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:07:00Z",
-              "location": {
-                "latitude": -14.60823,
-                "longitude": -53.1571
-              },
-              "municipality_id": "5102603",
-              "municipality": "CAMPINÁPOLIS",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 11.7,
-              "territory": {
-                "municipality_id": "5102603",
-                "municipality": "Campinápolis",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00088182-c1e4-329b-b359-1f386160379e",
-            "before": null,
-            "after": {
-              "key": "00088182-c1e4-329b-b359-1f386160379e",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:41:00Z",
-              "location": {
-                "latitude": -28.3798,
-                "longitude": -50.16542
-              },
-              "municipality_id": "4216503",
-              "municipality": "SÃO JOAQUIM",
-              "state": "SANTA CATARINA",
-              "country": "Brasil",
-              "biome": "Mata Atlântica",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 3.6,
-              "territory": {
-                "municipality_id": "4216503",
-                "municipality": "São Joaquim",
-                "state": "SC",
-                "state_name": "Santa Catarina",
-                "region": "S",
-                "region_name": "Sul",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "000ae328-2e6c-3ff0-bd62-39bf99c5bfd9",
-            "before": null,
-            "after": {
-              "key": "000ae328-2e6c-3ff0-bd62-39bf99c5bfd9",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:30:00Z",
-              "location": {
-                "latitude": -8.6948,
-                "longitude": -69.6852
-              },
-              "municipality_id": "1200302",
-              "municipality": "FEIJÓ",
-              "state": "ACRE",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 47.1,
-              "territory": {
-                "municipality_id": "1200302",
-                "municipality": "Feijó",
-                "state": "AC",
-                "state_name": "Acre",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00165164-0477-3d29-951c-bd4c62bdff3a",
-            "before": null,
-            "after": {
-              "key": "00165164-0477-3d29-951c-bd4c62bdff3a",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -9.06791,
-                "longitude": -68.37636
-              },
-              "municipality_id": "1300706",
-              "municipality": "BOCA DO ACRE",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 7.5,
-              "territory": {
-                "municipality_id": "1300706",
-                "municipality": "Boca do Acre",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0019a910-b95d-3c92-a72a-6348eac1992c",
-            "before": null,
-            "after": {
-              "key": "0019a910-b95d-3c92-a72a-6348eac1992c",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:00:00Z",
-              "location": {
-                "latitude": -9.0058,
-                "longitude": -65.4373
-              },
-              "municipality_id": "1302405",
-              "municipality": "LÁBREA",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 115.1,
-              "territory": {
-                "municipality_id": "1302405",
-                "municipality": "Lábrea",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "001ddc3e-c378-39ec-8f54-db29d3e0fc23",
-            "before": null,
-            "after": {
-              "key": "001ddc3e-c378-39ec-8f54-db29d3e0fc23",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -9.65931,
-                "longitude": -68.96157
-              },
-              "municipality_id": "1200500",
-              "municipality": "SENA MADUREIRA",
-              "state": "ACRE",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 9.7,
-              "territory": {
-                "municipality_id": "1200500",
-                "municipality": "Sena Madureira",
-                "state": "AC",
-                "state_name": "Acre",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "001df59c-9979-3ff0-b34c-5c06f59adbbb",
-            "before": null,
-            "after": {
-              "key": "001df59c-9979-3ff0-b34c-5c06f59adbbb",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:07:00Z",
-              "location": {
-                "latitude": -14.49485,
-                "longitude": -53.50302
-              },
-              "municipality_id": "5107792",
-              "municipality": "SANTO ANTÔNIO DO LESTE",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 7.4,
-              "territory": {
-                "municipality_id": "5107792",
-                "municipality": "Santo Antônio do Leste",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0021309c-254a-3322-9317-f90b8c465397",
-            "before": null,
-            "after": {
-              "key": "0021309c-254a-3322-9317-f90b8c465397",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:11:00Z",
-              "location": {
-                "latitude": -1.81104,
-                "longitude": -47.79015
-              },
-              "municipality_id": "1507201",
-              "municipality": "SÃO DOMINGOS DO CAPIM",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 12.2,
-              "territory": {
-                "municipality_id": "1507201",
-                "municipality": "São Domingos do Capim",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "003489f7-eee3-3c5c-876a-64e5ca20f38d",
-            "before": null,
-            "after": {
-              "key": "003489f7-eee3-3c5c-876a-64e5ca20f38d",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -6.26123,
-                "longitude": -53.1206
-              },
-              "municipality_id": "1507300",
-              "municipality": "SÃO FÉLIX DO XINGU",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 10.7,
-              "territory": {
-                "municipality_id": "1507300",
-                "municipality": "São Félix do Xingu",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "003a460e-43de-3cd5-aecb-057bbada6ea4",
-            "before": null,
-            "after": {
-              "key": "003a460e-43de-3cd5-aecb-057bbada6ea4",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:13:00Z",
-              "location": {
-                "latitude": 2.48118,
-                "longitude": -51.08947
-              },
-              "municipality_id": "1600204",
-              "municipality": "CALÇOENE",
-              "state": "AMAPÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 9.0,
-              "territory": {
-                "municipality_id": "1600204",
-                "municipality": "Calçoene",
-                "state": "AP",
-                "state_name": "Amapá",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0046337a-fac3-3edf-a64f-f3142a8326d2",
-            "before": null,
-            "after": {
-              "key": "0046337a-fac3-3edf-a64f-f3142a8326d2",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -11.27467,
-                "longitude": -46.8877
-              },
-              "municipality_id": "1700400",
-              "municipality": "ALMAS",
-              "state": "TOCANTINS",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 4.3,
-              "territory": {
-                "municipality_id": "1700400",
-                "municipality": "Almas",
-                "state": "TO",
-                "state_name": "Tocantins",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0050b505-98cc-3781-b5b8-8c13a04c1fc5",
-            "before": null,
-            "after": {
-              "key": "0050b505-98cc-3781-b5b8-8c13a04c1fc5",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:47:00Z",
-              "location": {
-                "latitude": -6.64667,
-                "longitude": -58.4945
-              },
-              "municipality_id": "1302900",
-              "municipality": "MAUÉS",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 4.0,
-              "territory": {
-                "municipality_id": "1302900",
-                "municipality": "Maués",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "005b7abf-a5e3-3b97-afb5-f9c197cd5b3a",
-            "before": null,
-            "after": {
-              "key": "005b7abf-a5e3-3b97-afb5-f9c197cd5b3a",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:10:00Z",
-              "location": {
-                "latitude": -10.5168,
-                "longitude": -64.4997
-              },
-              "municipality_id": "1100338",
-              "municipality": "NOVA MAMORÉ",
-              "state": "RONDÔNIA",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 46.7,
-              "territory": {
-                "municipality_id": "1100338",
-                "municipality": "Nova Mamoré",
-                "state": "RO",
-                "state_name": "Rondônia",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "007f3ec1-3f9a-3a77-955e-939859b45f9d",
-            "before": null,
-            "after": {
-              "key": "007f3ec1-3f9a-3a77-955e-939859b45f9d",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:41:00Z",
-              "location": {
-                "latitude": -29.36135,
-                "longitude": -53.41879
-              },
-              "municipality_id": "4313102",
-              "municipality": "NOVA PALMA",
-              "state": "RIO GRANDE DO SUL",
-              "country": "Brasil",
-              "biome": "Mata Atlântica",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 3.5,
-              "territory": {
-                "municipality_id": "4313102",
-                "municipality": "Nova Palma",
-                "state": "RS",
-                "state_name": "Rio Grande do Sul",
-                "region": "S",
-                "region_name": "Sul",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0082c945-93e4-3d4a-ace3-ef02dbaad5a7",
-            "before": null,
-            "after": {
-              "key": "0082c945-93e4-3d4a-ace3-ef02dbaad5a7",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:07:00Z",
-              "location": {
-                "latitude": -17.57419,
-                "longitude": -46.51181
-              },
-              "municipality_id": "3137536",
-              "municipality": "LAGOA GRANDE",
-              "state": "MINAS GERAIS",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 12.9,
-              "territory": {
-                "municipality_id": "3137536",
-                "municipality": "Lagoa Grande",
-                "state": "MG",
-                "state_name": "Minas Gerais",
-                "region": "SE",
-                "region_name": "Sudeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00840839-24aa-331a-a99c-49c34c04717b",
-            "before": null,
-            "after": {
-              "key": "00840839-24aa-331a-a99c-49c34c04717b",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -11.57795,
-                "longitude": -45.4228
-              },
-              "municipality_id": "2926202",
-              "municipality": "RIACHÃO DAS NEVES",
-              "state": "BAHIA",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 13.2,
-              "territory": {
-                "municipality_id": "2926202",
-                "municipality": "Riachão das Neves",
-                "state": "BA",
-                "state_name": "Bahia",
-                "region": "NE",
-                "region_name": "Nordeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00ab12aa-a27e-3011-9f15-e5351287b5bd",
-            "before": null,
-            "after": {
-              "key": "00ab12aa-a27e-3011-9f15-e5351287b5bd",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:10:00Z",
-              "location": {
-                "latitude": -14.1645,
-                "longitude": -52.8269
-              },
-              "municipality_id": "5100201",
-              "municipality": "ÁGUA BOA",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 252.8,
-              "territory": {
-                "municipality_id": "5100201",
-                "municipality": "Água Boa",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00b7e486-f5e6-3753-81f6-b4c152a68185",
-            "before": null,
-            "after": {
-              "key": "00b7e486-f5e6-3753-81f6-b4c152a68185",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:07:00Z",
-              "location": {
-                "latitude": -14.58268,
-                "longitude": -52.06083
-              },
-              "municipality_id": "5106174",
-              "municipality": "NOVA NAZARÉ",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 7.2,
-              "territory": {
-                "municipality_id": "5106174",
-                "municipality": "Nova Nazaré",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00b8df7a-8144-3bb2-89bf-56dfb4943a6b",
-            "before": null,
-            "after": {
-              "key": "00b8df7a-8144-3bb2-89bf-56dfb4943a6b",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:20:00Z",
-              "location": {
-                "latitude": -9.0058,
-                "longitude": -65.4373
-              },
-              "municipality_id": "1302405",
-              "municipality": "LÁBREA",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 171.4,
-              "territory": {
-                "municipality_id": "1302405",
-                "municipality": "Lábrea",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00c39ff6-ac4c-312d-a482-67f38799db45",
-            "before": null,
-            "after": {
-              "key": "00c39ff6-ac4c-312d-a482-67f38799db45",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:47:00Z",
-              "location": {
-                "latitude": -6.02881,
-                "longitude": -57.72536
-              },
-              "municipality_id": "1503754",
-              "municipality": "JACAREACANGA",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 13.7,
-              "territory": {
-                "municipality_id": "1503754",
-                "municipality": "Jacareacanga",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00c93f18-2d7c-3fed-8e73-993967b42257",
-            "before": null,
-            "after": {
-              "key": "00c93f18-2d7c-3fed-8e73-993967b42257",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -6.76565,
-                "longitude": -55.70185
-              },
-              "municipality_id": "1505031",
-              "municipality": "NOVO PROGRESSO",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 7.3,
-              "territory": {
-                "municipality_id": "1505031",
-                "municipality": "Novo Progresso",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00caf244-31b5-37b7-9105-8f2cd1b6c730",
-            "before": null,
-            "after": {
-              "key": "00caf244-31b5-37b7-9105-8f2cd1b6c730",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -6.13296,
-                "longitude": -53.52785
-              },
-              "municipality_id": "1500602",
-              "municipality": "ALTAMIRA",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 25.6,
-              "territory": {
-                "municipality_id": "1500602",
-                "municipality": "Altamira",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00cf000f-0db5-382a-b651-b8d2d190647d",
-            "before": null,
-            "after": {
-              "key": "00cf000f-0db5-382a-b651-b8d2d190647d",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:47:00Z",
-              "location": {
-                "latitude": -8.39207,
-                "longitude": -70.73493
-              },
-              "municipality_id": "1200609",
-              "municipality": "TARAUACÁ",
-              "state": "ACRE",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 30.8,
-              "territory": {
-                "municipality_id": "1200609",
-                "municipality": "Tarauacá",
-                "state": "AC",
-                "state_name": "Acre",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00d194ad-0d1c-353f-95a0-e68496a307ce",
-            "before": null,
-            "after": {
-              "key": "00d194ad-0d1c-353f-95a0-e68496a307ce",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -9.1859,
-                "longitude": -72.00639
-              },
-              "municipality_id": "1200328",
-              "municipality": "JORDÃO",
-              "state": "ACRE",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 16.2,
-              "territory": {
-                "municipality_id": "1200328",
-                "municipality": "Jordão",
-                "state": "AC",
-                "state_name": "Acre",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00d2ab5c-a9b9-3fbf-9f43-7e2285f40c8d",
-            "before": null,
-            "after": {
-              "key": "00d2ab5c-a9b9-3fbf-9f43-7e2285f40c8d",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -5.19647,
-                "longitude": -49.34529
-              },
-              "municipality_id": "1503705",
-              "municipality": "ITUPIRANGA",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 21.1,
-              "territory": {
-                "municipality_id": "1503705",
-                "municipality": "Itupiranga",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00df2243-c976-3666-a406-972f0ed3f0a2",
-            "before": null,
-            "after": {
-              "key": "00df2243-c976-3666-a406-972f0ed3f0a2",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -10.85036,
-                "longitude": -62.56689
-              },
-              "municipality_id": "1101435",
-              "municipality": "NOVA UNIÃO",
-              "state": "RONDÔNIA",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 10.7,
-              "territory": {
-                "municipality_id": "1101435",
-                "municipality": "Nova União",
-                "state": "RO",
-                "state_name": "Rondônia",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00f02741-146c-3a0a-815b-52b35548e47d",
-            "before": null,
-            "after": {
-              "key": "00f02741-146c-3a0a-815b-52b35548e47d",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:47:00Z",
-              "location": {
-                "latitude": -3.87416,
-                "longitude": -59.56073
-              },
-              "municipality_id": "1300300",
-              "municipality": "AUTAZES",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 5.8,
-              "territory": {
-                "municipality_id": "1300300",
-                "municipality": "Autazes",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00f4cda1-6c9a-36c7-b469-9c5263954ceb",
-            "before": null,
-            "after": {
-              "key": "00f4cda1-6c9a-36c7-b469-9c5263954ceb",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -11.20374,
-                "longitude": -53.99512
-              },
-              "municipality_id": "5105580",
-              "municipality": "MARCELÂNDIA",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 29.4,
-              "territory": {
-                "municipality_id": "5105580",
-                "municipality": "Marcelândia",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00f88fb2-c60d-3869-a146-b69345193147",
-            "before": null,
-            "after": {
-              "key": "00f88fb2-c60d-3869-a146-b69345193147",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:11:00Z",
-              "location": {
-                "latitude": -2.6817,
-                "longitude": -51.91148
-              },
-              "municipality_id": "1507805",
-              "municipality": "SENADOR JOSÉ PORFÍRIO",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 19.0,
-              "territory": {
-                "municipality_id": "1507805",
-                "municipality": "Senador José Porfírio",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "00fd3551-558c-3d84-ab0c-8dffd0fd7908",
-            "before": null,
-            "after": {
-              "key": "00fd3551-558c-3d84-ab0c-8dffd0fd7908",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -6.34278,
-                "longitude": -45.57801
-              },
-              "municipality_id": "2104081",
-              "municipality": "FERNANDO FALCÃO",
-              "state": "MARANHÃO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 7.6,
-              "territory": {
-                "municipality_id": "2104081",
-                "municipality": "Fernando Falcão",
-                "state": "MA",
-                "state_name": "Maranhão",
-                "region": "NE",
-                "region_name": "Nordeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "01004a8e-261f-3cad-bd57-1b5c118307e9",
-            "before": null,
-            "after": {
-              "key": "01004a8e-261f-3cad-bd57-1b5c118307e9",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -10.99941,
-                "longitude": -49.64239
-              },
-              "municipality_id": "1718899",
-              "municipality": "SANTA RITA DO TOCANTINS",
-              "state": "TOCANTINS",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 21.3,
-              "territory": {
-                "municipality_id": "1718899",
-                "municipality": "Santa Rita do Tocantins",
-                "state": "TO",
-                "state_name": "Tocantins",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "01018361-92b9-3c57-b381-7bbfde49e0b8",
-            "before": null,
-            "after": {
-              "key": "01018361-92b9-3c57-b381-7bbfde49e0b8",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:43:00Z",
-              "location": {
-                "latitude": -14.94229,
-                "longitude": -52.60472
-              },
-              "municipality_id": "5101803",
-              "municipality": "BARRA DO GARÇAS",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 9.1,
-              "territory": {
-                "municipality_id": "5101803",
-                "municipality": "Barra do Garças",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "01088eb5-fd00-3d24-90f0-4e4d732ccab6",
-            "before": null,
-            "after": {
-              "key": "01088eb5-fd00-3d24-90f0-4e4d732ccab6",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:20:00Z",
-              "location": {
-                "latitude": -2.7304,
-                "longitude": -47.0424
-              },
-              "municipality_id": "1505502",
-              "municipality": "PARAGOMINAS",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 199.3,
-              "territory": {
-                "municipality_id": "1505502",
-                "municipality": "Paragominas",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "010aecd9-22ab-3815-8b07-9fb87ef9f043",
-            "before": null,
-            "after": {
-              "key": "010aecd9-22ab-3815-8b07-9fb87ef9f043",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -6.29291,
-                "longitude": -55.83694
-              },
-              "municipality_id": "1503606",
-              "municipality": "ITAITUBA",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 5.4,
-              "territory": {
-                "municipality_id": "1503606",
-                "municipality": "Itaituba",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "01184152-5618-3574-8809-8a87f021af86",
-            "before": null,
-            "after": {
-              "key": "01184152-5618-3574-8809-8a87f021af86",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:07:00Z",
-              "location": {
-                "latitude": -26.37023,
-                "longitude": -51.72349
-              },
-              "municipality_id": "4117602",
-              "municipality": "PALMAS",
-              "state": "PARANÁ",
-              "country": "Brasil",
-              "biome": "Mata Atlântica",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 10.6,
-              "territory": {
-                "municipality_id": "4117602",
-                "municipality": "Palmas",
-                "state": "PR",
-                "state_name": "Paraná",
-                "region": "S",
-                "region_name": "Sul",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0121f884-2232-3fa6-9482-2490e34c52f9",
-            "before": null,
-            "after": {
-              "key": "0121f884-2232-3fa6-9482-2490e34c52f9",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T20:20:00Z",
-              "location": {
-                "latitude": -3.3469,
-                "longitude": -50.0927
-              },
-              "municipality_id": "1505486",
-              "municipality": "PACAJÁ",
-              "state": "PARÁ",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "GOES-19",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 91.7,
-              "territory": {
-                "municipality_id": "1505486",
-                "municipality": "Pacajá",
-                "state": "PA",
-                "state_name": "Pará",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0122068e-b4a7-37ef-b965-1d35fa240d3b",
-            "before": null,
-            "after": {
-              "key": "0122068e-b4a7-37ef-b965-1d35fa240d3b",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:09:00Z",
-              "location": {
-                "latitude": -11.01021,
-                "longitude": -49.65466
-              },
-              "municipality_id": "1718899",
-              "municipality": "SANTA RITA DO TOCANTINS",
-              "state": "TOCANTINS",
-              "country": "Brasil",
-              "biome": "Cerrado",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 25.8,
-              "territory": {
-                "municipality_id": "1718899",
-                "municipality": "Santa Rita do Tocantins",
-                "state": "TO",
-                "state_name": "Tocantins",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "01227a9f-3652-3545-b33d-d9454f4fbd47",
-            "before": null,
-            "after": {
-              "key": "01227a9f-3652-3545-b33d-d9454f4fbd47",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:11:00Z",
-              "location": {
-                "latitude": -4.80495,
-                "longitude": -62.85363
-              },
-              "municipality_id": "1304104",
-              "municipality": "TAPAUÁ",
-              "state": "AMAZONAS",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NOAA-21",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 20.4,
-              "territory": {
-                "municipality_id": "1304104",
-                "municipality": "Tapauá",
-                "state": "AM",
-                "state_name": "Amazonas",
-                "region": "N",
-                "region_name": "Norte",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          },
-          {
-            "change_type": "ADDED",
-            "key": "0130135a-a51a-3443-aefa-2e1442822b47",
-            "before": null,
-            "after": {
-              "key": "0130135a-a51a-3443-aefa-2e1442822b47",
-              "entity_type": "fire_hotspot",
-              "occurred_at": "2026-08-27T17:45:00Z",
-              "location": {
-                "latitude": -10.77026,
-                "longitude": -54.04041
-              },
-              "municipality_id": "5105580",
-              "municipality": "MARCELÂNDIA",
-              "state": "MATO GROSSO",
-              "country": "Brasil",
-              "biome": "Amazônia",
-              "satellite": "NPP-375",
-              "dry_days": null,
-              "precipitation_mm": null,
-              "fire_risk": null,
-              "frp": 6.2,
-              "territory": {
-                "municipality_id": "5105580",
-                "municipality": "Marcelândia",
-                "state": "MT",
-                "state_name": "Mato Grosso",
-                "region": "CO",
-                "region_name": "Centro-Oeste",
-                "match_method": "municipality_id"
-              },
-              "territory_status": "MATCHED"
-            }
-          }
-        ]
+        "unchanged": 22750,
+        "sample": []
       }
     },
     {
       "source_id": "gbif-occurrences",
       "field": "entity_diff",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "before": {
         "entity_count": 100
       },
@@ -1882,7 +518,7 @@
         "open-meteo:success:4locations"
       ],
       "evidence_ids": [
-        "evidence:open-meteo:environment:9e7869cd2c72ff09"
+        "evidence:open-meteo:environment:6a4d326292b68be5"
       ],
       "entity_changes": {
         "added": 0,
@@ -1894,13 +530,13 @@
     }
   ],
   "environmental": {
-    "entity_added": 7859,
+    "entity_added": 0,
     "entity_removed": 0,
     "entity_changed": 0,
-    "entity_unchanged": 20804,
+    "entity_unchanged": 28663,
     "source_level_change_only": 0,
-    "published_entity_signals": 600,
-    "truncated_entity_signals": 7259,
+    "published_entity_signals": 0,
+    "truncated_entity_signals": 0,
     "demonstrations": 3,
     "composition_status": "PROVEN",
     "limitations": [
@@ -1908,7 +544,7 @@
     ],
     "by_type": {
       "TERRITORIAL_CONTEXT": 1,
-      "FIRE_ACTIVITY": 601,
+      "FIRE_ACTIVITY": 1,
       "BIODIVERSITY_OCCURRENCE": 1,
       "NATURAL_EVENT": 1,
       "CLIMATE_CONDITION": 1,
@@ -1919,55 +555,55 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:69a9c41d4a09be72e3994f7083d47d4ba9895113ca2d804e42dc43d75b74f3d9",
+      "content_hash": "sha256:91f0fdcb82d894fd9feb48a279fdffd93e215ab61b82ed06f2a653585faaa950",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:3fb999ddaa76f1a56179dd7a713d83b26126ee971a4a0988b9a5292f841ffec4",
+      "content_hash": "sha256:ca11f3aab564fcfd06622719310fd50e417dfdc02fee4d0a5c71f2ba0364e94d",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:b3a3b800586821a337aca27a63afef942b50e964e97c0d0ee00413e77189bba8",
+      "content_hash": "sha256:17490c2f180d748588b8554033d595a5bdaed0fb59fa93e8497c4caee771a93d",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:b537d4a095a32b815064f05697713727782fa9eb59267335769f249d7b85095e",
+      "content_hash": "sha256:42cdb4034ec36d11f7f72a971e546783ec2dea727fb18a9ac48de589f52d54fb",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:d2047e58eba5261568e2b4b9ee9fd9fa140637fc41778e423e9cb0793a053342",
+      "content_hash": "sha256:cfba8e850109595a0f76d6f89220b5f276d35d0545357fdfa97596eeab9816b6",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:d83ed4aa43caf64508f491bc7675d98f44c2fa09ff14d0a5658b9f092687796d",
+      "content_hash": "sha256:45450209d8a57ab32a4b4775fa66bdbd0ede3ea9492d71b92d5f0c1f98f53f39",
       "media_type": "application/json"
     },
     {
       "kind": "signals",
       "ref": "data/signals.json",
-      "content_hash": "sha256:2023a57938df1bf9bc2777664528b1ae59262ee3ef9715719b02bcdf004dfd9d",
+      "content_hash": "sha256:c2fca4ceb030fdc3a5b33dade4c6864e1bc7bfe0a67aecd22a3bcb64f1201022",
       "media_type": "application/json"
     },
     {
       "kind": "environmental-demonstrations",
       "ref": "data/environmental-demonstrations.json",
-      "content_hash": "sha256:01bad4a85fe6b0fcf4c470d7555883c4bcf8c9c78db028e26b834b3226960974",
+      "content_hash": "sha256:09613e4f39e290d26cb26548ce6bb8fb12d35730c31825cd6aa9dd90bc903232",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:3d7de837bf02bd292ad9e74f3f40507b618dff988eb5670c9d4c60310c66fd4b",
+      "content_hash": "sha256:c566d9094a316bc438f8f386dfadeaa88d452a9ffd7de73f024d6945b52bca7d",
       "media_type": "text/csv"
     }
   ],
@@ -1990,18 +626,18 @@
     "sudene-editais": "success",
     "embratur-editais": "success",
     "prosas-editais": "success",
-    "capta-editais": "success",
+    "capta-editais": "failed",
     "capitaai-meio-ambiente": "success",
     "ics-chamadas": "success",
-    "gife-editais": "success",
+    "gife-editais": "failed",
     "fundo-brasil-editais": "success",
     "sos-mata-atlantica-editais": "success",
     "caixa-fsa-chamadas": "success",
     "fapesp-oportunidades": "success",
     "faperj-editais": "success",
     "facepe-editais": "success",
-    "minc-cultbr-editais": "failed",
-    "pncp-editais": "success",
+    "minc-cultbr-editais": "success",
+    "pncp-editais": "failed",
     "observatorio-3setor-editais": "success",
     "ingesto-editais": "success",
     "ibge-localidades-api": "success",
@@ -2022,12 +658,22 @@
       ]
     },
     {
-      "source_id": "minc-cultbr-editais",
+      "source_id": "gife-editais",
       "status": "failed",
       "http_status": 403,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "pncp-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Network failure: ConnectionError.",
+        "No retry or access bypass was attempted."
       ]
     },
     {
@@ -2049,21 +695,30 @@
       ]
     },
     {
-      "source_id": "capta-editais",
-      "status": "failed",
-      "http_status": 404,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Detail fetch returned HTTP 404."
-      ]
-    },
-    {
       "source_id": "sudene-editais",
       "status": "failed",
       "http_status": null,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail network failure: ConnectionError."
+      ]
+    },
+    {
+      "source_id": "capta-editais",
+      "status": "failed",
+      "http_status": 403,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail fetch returned HTTP 403."
+      ]
+    },
+    {
+      "source_id": "capta-editais",
+      "status": "failed",
+      "http_status": 522,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail fetch returned HTTP 522."
       ]
     }
   ],

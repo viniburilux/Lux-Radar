@@ -1,5 +1,5 @@
 {
-  "release_id": "environmental-v1-local-release-20260827",
+  "release_id": "weekly-33117047991",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-territory-climate",
@@ -9,7 +9,7 @@
       "summary": "Foram observados 1258 focos no município Altamira (PA); o sistema associou contexto meteorológico por proximidade de 5.26 km, sem afirmar causalidade.",
       "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-27T21:07:02Z",
+      "observed_at": "2026-08-27T21:12:44Z",
       "occurred_at": "2026-08-27T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -75,7 +75,7 @@
       "evidence_ids": [
         "evidence:inpe-queimadas:environment:2318115e136086ab",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:9e7869cd2c72ff09"
+        "evidence:open-meteo:environment:6a4d326292b68be5"
       ],
       "observation_ids": [
         "inpe-queimadas:success:focos_diario_br_20260827.csv",
@@ -98,7 +98,7 @@
       "summary": "O agrupamento do arquivo diário encontrou 1258 focos no município Altamira (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-27T21:07:02Z",
+      "observed_at": "2026-08-27T21:12:44Z",
       "occurred_at": "2026-08-27T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -165,7 +165,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-27T21:07:02Z",
+      "observed_at": "2026-08-27T21:12:44Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
