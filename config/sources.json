@@ -81,6 +81,7 @@
       "access_method": "html_pdf",
       "url": "https://www.gov.br/cnpq/pt-br/assuntos/defeso-eleitoral/copy_of_veja-as-chamadas-com-inscricoes-abertas-no-cnpq",
       "collector": "html_opportunity",
+      "signal_type": "research_funding",
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"
@@ -187,6 +188,7 @@
       "access_method": "html",
       "url": "https://chamadas.funbio.org.br/",
       "collector": "funbio-chamadas",
+      "signal_type": "funding_opportunity",
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"
@@ -219,6 +221,7 @@
       "access_method": "html",
       "url": "https://fundacaogrupoboticario.org.br/noticias/",
       "collector": "fundacao-boticario-editais",
+      "signal_type": "news_signal",
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"
@@ -299,6 +302,7 @@
         {"title": "Prêmio LED Globo 2027", "url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml"}
       ],
       "collector": "prosas-editais",
+      "signal_type": "discovery_signal",
       "frequency": "weekly",
       "enabled": true,
       "priority": "medium"
@@ -494,6 +498,7 @@
       "access_method": "html",
       "url": "https://pncp.gov.br/app/editais",
       "collector": "html_opportunity",
+      "signal_type": "procurement",
       "frequency": "weekly",
       "enabled": true,
       "priority": "high"
@@ -529,6 +534,42 @@
       "frequency": "weekly",
       "enabled": true,
       "priority": "medium"
+    },
+    {
+      "id": "ibge-localidades-api",
+      "detail_enabled": false,
+      "name": "IBGE — Localidades e hierarquia territorial",
+      "organization": "IBGE",
+      "domain": ["territory", "public_policy"],
+      "country": "BR",
+      "source_type": "public_api",
+      "source_role": "primary",
+      "access_method": "rest_api",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios?orderBy=nome&view=nivelado",
+      "collector": "ibge-localidades",
+      "record_mode": "signal_only",
+      "signal_type": "territorial_data",
+      "frequency": "weekly",
+      "enabled": true,
+      "priority": "high"
+    },
+    {
+      "id": "mapbiomas-platform",
+      "detail_enabled": false,
+      "name": "MapBiomas — Plataforma de dados ambientais",
+      "organization": "MapBiomas",
+      "domain": ["sustainability", "biodiversity", "climate", "water", "territory"],
+      "country": "BR",
+      "source_type": "environmental_dataset",
+      "source_role": "primary",
+      "access_method": "html",
+      "url": "https://plataforma.mapbiomas.org/projects/mapbiomas/brazil",
+      "collector": "mapbiomas-platform",
+      "record_mode": "signal_only",
+      "signal_type": "environmental_data",
+      "frequency": "weekly",
+      "enabled": true,
+      "priority": "high"
     }
   ]
 }

@@ -77,6 +77,47 @@ class BuilderTests(unittest.TestCase):
         self.assertEqual(database[0]["status"], "OPEN")
         self.assertEqual(database[0]["history"][-1]["event"], "updated")
 
+    def test_signal_view_contains_source_and_record_without_promoting_source(self):
+        record = self.record(status="OPEN")
+        record.update({"experience_type": "OPPORTUNITY", "lifecycle_state": "ACTIVE", "current_view": True, "change_type": "NEW", "official_url": "https://example.org/call"})
+        observation = {
+            "observation_id": "observation-api",
+            "source_id": "source-a",
+            "source_url": "https://example.org/api",
+            "observed_at": "2026-08-27T10:00:00Z",
+            "fetch": {"status": "success", "http_status": 200},
+            "content": {"content_hash": "sha256:abc", "media_type": "application/json"},
+            "claims": [
+                {"path": "api.item_count", "value": 2},
+                {"path": "api.identifier_keys", "value": ["id"]},
+                {"path": "api.preview", "value": [{"id": "1", "name": "Um"}, {"id": "2", "name": "Dois"}]},
+            ],
+            "evidence_ids": ["evidence-api"],
+            "collector": {"name": "test-api"},
+            "limitations": [],
+        }
+        signals, changes = MODULE.build_signal_views([record], [observation], [{"id": "source-a", "name": "API teste", "url": "https://example.org/api", "domain": ["territory"], "source_role": "primary", "signal_type": "territorial_data"}], [], observation["observed_at"])
+        self.assertEqual(len(signals), 2)
+        source_signal = next(item for item in signals if item["canonical_key"] == "source:source-a")
+        record_signal = next(item for item in signals if item["canonical_key"].startswith("record:"))
+        self.assertEqual(source_signal["signal_type"], "territorial_data")
+        self.assertEqual(source_signal["change_type"], "NEW")
+        self.assertEqual(source_signal["observed_item_count"], 2)
+        self.assertEqual(record_signal["signal_type"], "opportunity")
+        self.assertTrue(record_signal["current_view"])
+        self.assertEqual(changes, [])
+
+    def test_source_profile_maps_access_method_to_observation_enum(self):
+        self.assertEqual(MODULE.source_profile_for({"access_method": "rest_api", "source_type": "public_api"}), "api")
+        self.assertEqual(MODULE.source_profile_for({"access_method": "html", "source_type": "government"}), "html")
+        self.assertEqual(MODULE.source_profile_for({"access_method": "html", "source_type": "public_portal"}), "portal")
+
+    def test_source_change_detects_added_removed_and_updated_items(self):
+        previous = {"content_hash": "sha256:old", "observed_items": [{"key": "a", "label": "Antes"}, {"key": "b", "label": "Saiu"}]}
+        change_type, changes = MODULE._source_change(previous, "sha256:new", [{"key": "a", "label": "Depois"}, {"key": "c", "label": "Entrou"}], "success")
+        self.assertEqual(change_type, "UPDATED")
+        self.assertEqual({item["kind"] for item in changes}, {"item_added", "item_removed", "item_updated"})
+
 
 if __name__ == "__main__":
     unittest.main()

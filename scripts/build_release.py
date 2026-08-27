@@ -58,6 +58,20 @@ def norm_url(value: str | None) -> str:
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path.rstrip("/"), parts.query, ""))
 
 
+def source_profile_for(source: dict[str, Any]) -> str:
+    access_method = str(source.get("access_method") or "").lower()
+    source_type = str(source.get("source_type") or "").lower()
+    if "api" in access_method or source_type.endswith("_api"):
+        return "api"
+    if "feed" in access_method:
+        return "feed"
+    if "portal" in source_type or access_method == "portal":
+        return "portal"
+    if "event" in source_type or access_method == "event_page":
+        return "event_page"
+    return "html"
+
+
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
@@ -92,7 +106,28 @@ def fetch_source(source: dict[str, Any]) -> dict[str, Any]:
         }
         claims: list[dict[str, Any]] = []
         limitations = list(source.get("limitations", []))
-        if response.ok and "html" in fetch["content_type"].lower():
+        if response.ok and ("json" in fetch["content_type"].lower() or body.lstrip().startswith((b"{", b"["))):
+            try:
+                payload = json.loads(body.decode("utf-8", errors="replace"))
+            except json.JSONDecodeError:
+                payload = None
+            items = payload if isinstance(payload, list) else payload.get("items", []) if isinstance(payload, dict) and isinstance(payload.get("items"), list) else []
+            if not items and isinstance(payload, dict):
+                items = payload.get("data", []) if isinstance(payload.get("data"), list) else []
+            preview = [item for item in items[:200] if isinstance(item, dict)]
+            first_keys = sorted({key for item in preview[:10] for key in item.keys()})
+            identifier_keys = [key for key in ["id", "id_municipio", "municipio-id", "municipio_id", "codigo", "codigo_ibge", "nome"] if key in first_keys]
+            response_keys = sorted(payload.keys()) if isinstance(payload, dict) else []
+            claims = [
+                {"path": "api.response_type", "value": "array" if isinstance(payload, list) else "object" if isinstance(payload, dict) else "unknown", "epistemic_status": "observed"},
+                {"path": "api.item_count", "value": len(items), "epistemic_status": "observed"},
+                {"path": "api.response_keys", "value": response_keys, "epistemic_status": "observed"},
+                {"path": "api.item_keys", "value": first_keys, "epistemic_status": "observed"},
+                {"path": "api.identifier_keys", "value": identifier_keys, "epistemic_status": "observed"},
+                {"path": "api.preview", "value": preview, "epistemic_status": "observed"},
+            ]
+            limitations.append("Structured API response was observed; only a bounded preview is retained in claims, while the response hash preserves snapshot identity.")
+        elif response.ok and "html" in fetch["content_type"].lower():
             soup = BeautifulSoup(body, "html.parser")
             title_node = soup.find("h1") or soup.find("title")
             title = title_node.get_text(" ", strip=True) if title_node else source["name"]
@@ -132,7 +167,7 @@ def fetch_source(source: dict[str, Any]) -> dict[str, Any]:
             "source_id": source["id"],
             "source_url": source["url"],
             "observed_at": observed_at,
-            "source_profile": source.get("source_type", "public"),
+            "source_profile": source_profile_for(source),
             "fetch": fetch,
             "content": {"media_type": fetch["content_type"] or "application/octet-stream", "content_hash": hash_bytes(body), "byte_size": len(body)},
             "claims": claims,
@@ -147,7 +182,7 @@ def fetch_source(source: dict[str, Any]) -> dict[str, Any]:
             "source_id": source["id"],
             "source_url": source["url"],
             "observed_at": observed_at,
-            "source_profile": source.get("source_type", "public"),
+            "source_profile": source_profile_for(source),
             "fetch": {"status": "failed", "method": "http_get", "http_status": None, "content_type": None},
             "content": {"media_type": "application/octet-stream", "content_hash": None, "byte_size": 0},
             "claims": [],
@@ -281,6 +316,8 @@ def candidate_records(observations: list[dict[str, Any]], registry: list[dict[st
         if observation["fetch"]["status"] != "success":
             continue
         source = source_by_id.get(observation["source_id"], {})
+        if source.get("record_mode") == "signal_only":
+            continue
         claims = claim_map(observation)
         evidence = evidence_for(observation, ["page.candidate_links", "source.organization", "source.domain"])
         candidate_links = claims.get("page.candidate_links", [])
@@ -467,6 +504,140 @@ def write_csv(path: Path, records: list[dict[str, Any]]) -> str:
     return hash_bytes(path.read_bytes())
 
 
+def _signal_type_for_record(record: dict[str, Any]) -> str:
+    if record.get("experience_type") == "OPPORTUNITY":
+        return "opportunity"
+    if record.get("lifecycle_state") == "HISTORICAL":
+        return "historical_content"
+    return "record_signal"
+
+
+def _stable_observed_items(observation: dict[str, Any]) -> list[dict[str, str]]:
+    claims = claim_map(observation)
+    items: list[dict[str, str]] = []
+    candidate_links = claims.get("page.candidate_links", [])
+    for candidate in candidate_links[:200] if isinstance(candidate_links, list) else []:
+        url = norm_url(str(candidate.get("url") or "")) if isinstance(candidate, dict) else ""
+        title = str(candidate.get("title") or "") if isinstance(candidate, dict) else ""
+        if url:
+            items.append({"key": url, "label": title[:240]})
+    api_preview = claims.get("api.preview", [])
+    api_keys = claims.get("api.identifier_keys", [])
+    for item in api_preview[:200] if isinstance(api_preview, list) else []:
+        if not isinstance(item, dict):
+            continue
+        key = "|".join(str(item.get(field) or "") for field in api_keys[:4]) or norm_text(json.dumps(item, ensure_ascii=False, sort_keys=True))
+        if key:
+            items.append({"key": key[:240], "label": json.dumps(item, ensure_ascii=False, sort_keys=True)[:240]})
+    seen: set[str] = set()
+    return [item for item in items if item["key"] not in seen and not seen.add(item["key"])]
+
+
+def _source_change(previous: dict[str, Any] | None, current_hash: str | None, current_items: list[dict[str, str]], fetch_status: str) -> tuple[str, list[dict[str, Any]]]:
+    if fetch_status != "success":
+        return "SOURCE_UNAVAILABLE", [{"kind": "source_unavailable", "status": fetch_status}]
+    if not previous:
+        return "NEW", [{"kind": "source_observed", "status": "success"}]
+    previous_items = {item.get("key"): item.get("label", "") for item in previous.get("observed_items", []) if item.get("key")}
+    current_map = {item.get("key"): item.get("label", "") for item in current_items if item.get("key")}
+    changes: list[dict[str, Any]] = []
+    for key in sorted(set(current_map) - set(previous_items))[:50]:
+        changes.append({"kind": "item_added", "key": key, "after": current_map[key]})
+    for key in sorted(set(previous_items) - set(current_map))[:50]:
+        changes.append({"kind": "item_removed", "key": key, "before": previous_items[key]})
+    for key in sorted(set(current_map) & set(previous_items))[:50]:
+        if current_map[key] != previous_items[key]:
+            changes.append({"kind": "item_updated", "key": key, "before": previous_items[key], "after": current_map[key]})
+    if current_hash != previous.get("content_hash") and not changes:
+        changes.append({"kind": "content_changed", "status": "success"})
+    return ("UPDATED" if changes or current_hash != previous.get("content_hash") else "UNCHANGED"), changes
+
+
+def build_signal_views(database: list[dict[str, Any]], observations: list[dict[str, Any]], registry: list[dict[str, Any]], previous: list[dict[str, Any]], observed_at: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    source_by_id = {source["id"]: source for source in registry}
+    previous_by_key = {item.get("canonical_key"): item for item in previous if item.get("canonical_key")}
+    signals: list[dict[str, Any]] = []
+    temporal_changes: list[dict[str, Any]] = []
+
+    for record in database:
+        source_id = record.get("source_id") or (record.get("sources") or [""])[0]
+        signal = {
+            "signal_id": f"signal:record:{record.get('opportunity_id')}",
+            "canonical_key": f"record:{record.get('canonical_key') or record.get('opportunity_id')}",
+            "signal_type": _signal_type_for_record(record),
+            "title": record.get("title") or "Registro observado",
+            "summary": record.get("description") or "Interpretação estruturada mínima de uma observação.",
+            "source_id": source_id,
+            "source_url": record.get("official_url") or source_by_id.get(source_id, {}).get("url", ""),
+            "observed_at": record.get("updated_at") or observed_at,
+            "status": record.get("status") or "UNKNOWN",
+            "change_type": record.get("change_type") or "UNCHANGED",
+            "domains": record.get("domains", []),
+            "lens_matches": record.get("lens_matches", []),
+            "opportunity_id": record.get("opportunity_id"),
+            "record_ref": record.get("opportunity_id"),
+            "lifecycle_state": record.get("lifecycle_state"),
+            "current_view": record.get("current_view") is True,
+            "deadline": record.get("deadline") or "",
+            "evidence_ids": record.get("evidence", record.get("evidence_ids", [])),
+            "observation_ids": record.get("provenance", {}).get("observation_ids", []),
+            "observed_fields": {field: record.get(field) for field in ["title", "organization", "type", "deadline", "status", "official_url", "official_pdf_url"] if record.get(field) not in (None, "", [], {})},
+            "changes": record.get("history", [])[-10:],
+            "limitations": record.get("provenance", {}).get("limitations", []),
+            "provenance": {"method": "derived from canonical normalized record", "source_role": record.get("source_role", "unknown")},
+        }
+        signals.append(signal)
+
+    for observation in observations:
+        if observation.get("parent_observation_id"):
+            continue
+        source = source_by_id.get(observation.get("source_id"), {})
+        canonical_key = f"source:{observation.get('source_id')}"
+        current_hash = observation.get("content", {}).get("content_hash")
+        observed_items = _stable_observed_items(observation)
+        old = previous_by_key.get(canonical_key)
+        change_type, changes = _source_change(old, current_hash, observed_items, observation.get("fetch", {}).get("status", "failed"))
+        signal_type = source.get("signal_type") or ("source_observation" if source.get("record_mode") != "signal_only" else "source_snapshot")
+        claims = claim_map(observation)
+        signal = {
+            "signal_id": f"signal:source:{observation.get('source_id')}",
+            "canonical_key": canonical_key,
+            "signal_type": signal_type,
+            "title": source.get("name") or observation.get("source_id") or "Fonte observada",
+            "summary": claims.get("page.title") or f"Snapshot observado de {source.get('name') or observation.get('source_id')}.",
+            "source_id": observation.get("source_id"),
+            "source_url": observation.get("source_url", ""),
+            "observed_at": observation.get("observed_at") or observed_at,
+            "status": observation.get("fetch", {}).get("status", "failed"),
+            "change_type": change_type,
+            "domains": source.get("domain", []),
+            "lens_matches": ["sustainability"] if "sustainability" in source.get("domain", []) else source.get("domain", []),
+            "content_hash": current_hash,
+            "content_type": observation.get("content", {}).get("media_type"),
+            "observed_item_count": claims.get("page.candidate_count", claims.get("api.item_count", len(observed_items))),
+            "observed_items": observed_items,
+            "claim_paths": sorted(claim.get("path") for claim in observation.get("claims", []) if claim.get("path")),
+            "evidence_ids": observation.get("evidence_ids", []),
+            "observation_ids": [observation.get("observation_id")] if observation.get("observation_id") else [],
+            "changes": changes,
+            "limitations": observation.get("limitations", []),
+            "provenance": {"method": "source observation snapshot", "collector": observation.get("collector", {})},
+        }
+        signals.append(signal)
+        for change in changes:
+            if change.get("kind") in {"item_added", "item_removed", "item_updated", "content_changed", "source_unavailable"}:
+                temporal_changes.append({
+                    "source_id": observation.get("source_id", ""),
+                    "field": change.get("kind", "content"),
+                    "before": change.get("before"),
+                    "after": change.get("after"),
+                    "status": change_type,
+                    "observation_ids": [observation.get("observation_id")] if observation.get("observation_id") else [],
+                    "evidence_ids": observation.get("evidence_ids", []),
+                })
+    return signals, temporal_changes
+
+
 def run(args: argparse.Namespace) -> int:
     registry_payload = load_json(args.registry, {"sources": []})
     registry = [source for source in registry_payload.get("sources", []) if source.get("enabled", True)]
@@ -490,6 +661,9 @@ def run(args: argparse.Namespace) -> int:
     database, stats = merge_history(deduped_incoming, previous, observed_at)
     database = reclassify_domains(database, registry)
     database = decorate_experience(database, observed_at)
+    previous_signals_payload = load_json(DATA_DIR / "signals.json", {"signals": []})
+    previous_signals = previous_signals_payload.get("signals", []) if isinstance(previous_signals_payload, dict) else previous_signals_payload
+    signals, temporal_changes = build_signal_views(database, observations, registry, previous_signals, observed_at)
     current_records = [item for item in database if item.get("current_view") is True]
     signals_history = [item for item in database if item.get("current_view") is not True]
     failed = [item for item in observations if item["fetch"]["status"] in {"failed", "blocked"}]
@@ -517,6 +691,7 @@ def run(args: argparse.Namespace) -> int:
         ("opportunities", "opportunities", database, "application/json"),
         ("current-opportunities", "opportunities", current_records, "application/json"),
         ("signals-history", "signals", signals_history, "application/json"),
+        ("signals", "signals", signals, "application/json"),
     ]
     artifacts: list[dict[str, Any]] = []
     for name, payload_key, payload, media_type in artifact_specs:
@@ -527,7 +702,7 @@ def run(args: argparse.Namespace) -> int:
     artifacts.append({"kind": "opportunities_csv", "ref": "data/opportunities.csv", "content_hash": csv_digest, "media_type": "text/csv"})
     site_data = SITE_DATA_DIR
     site_data.mkdir(parents=True, exist_ok=True)
-    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json", "current-opportunities.json", "signals-history.json"]:
+    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json", "current-opportunities.json", "signals-history.json", "signals.json"]:
         (site_data / filename).write_text((DATA_DIR / filename).read_text(encoding="utf-8"), encoding="utf-8")
     (site_data / "opportunities.csv").write_bytes((DATA_DIR / "opportunities.csv").read_bytes())
     manifest = {
@@ -540,6 +715,17 @@ def run(args: argparse.Namespace) -> int:
         "funnel": funnel,
         "reason_codes": reason_counts,
         "lifecycle_counts": lifecycle_counts,
+        "signal_counts": {
+            "total": len(signals),
+            "new": sum(signal.get("change_type") == "NEW" for signal in signals),
+            "updated": sum(signal.get("change_type") in {"UPDATED", "SOURCE_UNAVAILABLE"} for signal in signals),
+            "unchanged": sum(signal.get("change_type") == "UNCHANGED" for signal in signals),
+            "source_signals": sum(signal.get("canonical_key", "").startswith("source:") for signal in signals),
+            "record_signals": sum(signal.get("canonical_key", "").startswith("record:") for signal in signals),
+            "by_type": dict(Counter(signal.get("signal_type", "unknown") for signal in signals)),
+            "by_change": dict(Counter(signal.get("change_type", "unknown") for signal in signals)),
+        },
+        "temporal_changes": temporal_changes,
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
         "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "reason_code": "parser_failure", "limitations": item.get("limitations", [])} for item in failed],

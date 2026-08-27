@@ -49,8 +49,8 @@
           "type": "string",
           "enum": ["http_get", "rest_api", "manual", "feed_reader", "sitemap_reader", "browser", "email", "other"]
         },
-        "http_status": {"type": "integer", "minimum": 100, "maximum": 599},
-        "content_type": {"type": "string"},
+        "http_status": {"type": ["integer", "null"], "minimum": 100, "maximum": 599},
+        "content_type": {"type": ["string", "null"]},
         "etag": {"type": "string"},
         "last_modified": {"type": "string"},
         "request_parameters": {"type": "object"},
@@ -73,7 +73,7 @@
         "title": {"type": "string"},
         "language": {"type": "string"},
         "media_type": {"type": "string"},
-        "content_hash": {"type": "string"},
+        "content_hash": {"type": ["string", "null"]},
         "byte_size": {"type": "integer", "minimum": 0},
         "external_artifact_ref": {"type": "string"}
       }

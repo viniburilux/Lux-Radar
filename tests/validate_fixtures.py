@@ -50,6 +50,11 @@ def main() -> int:
         validate(json.loads(path.read_text()), "opportunity.schema.json", path)
     for path in (FIXTURES / "releases").rglob("manifest.json"):
         validate(json.loads(path.read_text()), "release-manifest.schema.json", path)
+    signals_path = ROOT / "data" / "signals.json"
+    if signals_path.exists():
+        signal_payload = json.loads(signals_path.read_text(encoding="utf-8"))
+        for index, signal in enumerate(signal_payload.get("signals", [])):
+            validate(signal, "derived-signal.schema.json", Path(f"{signals_path}#signals[{index}]"))
     validate_product_views()
     print("public fixture validation: ok")
     return 0

@@ -91,6 +91,21 @@
       "type": "object",
       "additionalProperties": {"type": "integer", "minimum": 0}
     },
+    "signal_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "new", "updated", "unchanged", "source_signals", "record_signals", "by_type", "by_change"],
+      "properties": {
+        "total": {"type": "integer", "minimum": 0},
+        "new": {"type": "integer", "minimum": 0},
+        "updated": {"type": "integer", "minimum": 0},
+        "unchanged": {"type": "integer", "minimum": 0},
+        "source_signals": {"type": "integer", "minimum": 0},
+        "record_signals": {"type": "integer", "minimum": 0},
+        "by_type": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "by_change": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}}
+      }
+    },
     "artifacts": {
       "type": "array",
       "items": {

@@ -382,7 +382,7 @@ def extract_quality_records(observations: list[dict[str, Any]], registry: list[d
     tasks: list[tuple[dict[str, Any], dict[str, Any], dict[str, Any]]] = []
     for root in observations:
         source = source_by_id.get(root["source_id"], {})
-        if (not source.get("detail_enabled", True) or root["source_id"] in QUALITY_EXCLUDED_IDS
+        if (source.get("record_mode") == "signal_only" or not source.get("detail_enabled", True) or root["source_id"] in QUALITY_EXCLUDED_IDS
                 or root["fetch"]["status"] != "success"):
             continue
         candidates = next((claim["value"] for claim in root.get("claims", []) if claim["path"] == "page.candidate_links"), []) or []
@@ -416,9 +416,10 @@ def extract_quality_records(observations: list[dict[str, Any]], registry: list[d
         detail_observation = {
             "observation_id": detail_observation_id,
             "source_id": detail["source_id"],
+            "parent_observation_id": root["observation_id"],
             "source_url": detail.get("url") or detail.get("candidate_url"),
             "observed_at": detail["observed_at"],
-            "source_profile": source.get("source_type", "public"),
+            "source_profile": "pdf" if "pdf" in str(detail.get("content_type") or "").lower() else "html",
             "fetch": {"status": detail["status"], "method": "http_get", "http_status": detail.get("http_status"), "content_type": detail.get("content_type")},
             "content": {"media_type": detail.get("content_type") or "application/octet-stream", "content_hash": detail_hash, "byte_size": len(detail.get("body", b""))},
             "claims": [{"path": path, "value": value, "epistemic_status": "observed"} for path, value in {"title": detail.get("title"), "description": detail.get("description"), "organization": detail.get("organization"), "deadline": detail.get("deadline"), "eligibility": detail.get("eligibility", []), "status": detail.get("quality_status", "CANDIDATE"), "official_pdf_url": detail.get("pdf_url")}.items() if value not in (None, "", [])],

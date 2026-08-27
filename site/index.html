@@ -74,6 +74,21 @@
 
     <section id="error" class="notice error" hidden></section>
 
+    <section id="signals-section" class="signal-engine-section" aria-labelledby="signals-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">SUSTAINABILITY SIGNAL ENGINE · EXPERIMENTAL</p><h2 id="signals-title">O que apareceu e o que mudou</h2><p class="section-copy">Esta camada observa fontes heterogêneas antes de decidir se algo é oportunidade, evento, programa, política ou dado ambiental. A evidência e as limitações permanecem visíveis.</p></div>
+        <span id="signals-caption" class="section-count">—</span>
+      </div>
+      <div class="signal-metrics" aria-label="Métricas do Signal Engine">
+        <div class="signal-metric"><span>Novos sinais</span><strong id="signal-new-count">—</strong></div>
+        <div class="signal-metric"><span>Mudanças</span><strong id="signal-change-count">—</strong></div>
+        <div class="signal-metric"><span>Fontes observadas</span><strong id="signal-source-count">—</strong></div>
+        <div class="signal-metric signal-metric-alert"><span>Fontes com falha</span><strong id="signal-failure-count">—</strong></div>
+      </div>
+      <div id="signals-empty" class="empty-state compact-empty" hidden>Nenhum sinal corresponde à lente e aos filtros atuais.</div>
+      <div id="signal-cards" class="signal-grid" aria-live="polite"></div>
+    </section>
+
     <section id="current-section" class="radar-section">
       <div class="section-heading">
         <div><p class="section-kicker">OPORTUNIDADES</p><h2>Oportunidades agora</h2></div>
@@ -117,6 +132,6 @@
     <p>Lux Radar observa fontes públicas. Verifique a fonte oficial antes de agir.</p>
     <a href="https://github.com/viniburilux/Lux-Radar">Código, contratos e fixtures no GitHub</a>
   </footer>
-  <script src="app.js?v=opportunity-intelligence-20260826"></script>
+  <script src="app.js?v=signal-engine-20260827"></script>
 </body>
 </html>

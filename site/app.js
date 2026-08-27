@@ -1,5 +1,6 @@
 const state = {
   all: [],
+  signals: [],
   current: [],
   secondary: [],
   filteredCurrent: [],
@@ -9,7 +10,7 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
-const CACHE_VERSION = "funnel-diagnostic-20260826";
+const CACHE_VERSION = "signal-engine-20260827";
 
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#039;", '"':"&quot;"}[char]));
 const listValue = (value) => Array.isArray(value) ? value : (value ? [value] : []);
@@ -38,6 +39,16 @@ const typeLabel = (type) => ({
   partnership: "Parceria", innovation_program: "Programa de inovação", award: "Prêmio",
   event: "Evento", workshop: "Workshop", challenge: "Desafio", opportunity_candidate: "Oportunidade",
 }[type] || String(type || "Oportunidade").replaceAll("_", " "));
+
+const signalTypeLabel = (type) => ({
+  opportunity: "Oportunidade", historical_content: "Conteúdo histórico", record_signal: "Sinal de registro",
+  source_observation: "Observação de fonte", source_snapshot: "Snapshot de fonte", territorial_data: "Dado territorial",
+  environmental_data: "Dado ambiental", funding_opportunity: "Financiamento / oportunidade", news_signal: "Sinal de notícia",
+  discovery_signal: "Sinal de descoberta", research_funding: "Pesquisa / financiamento", procurement: "Procurement",
+}[type] || String(type || "Sinal").replaceAll("_", " "));
+const signalChangeLabel = (change) => ({
+  NEW: "Novo", UPDATED: "Atualizado", UNCHANGED: "Sem mudança", SOURCE_UNAVAILABLE: "Fonte indisponível",
+}[change] || change || "Não observado");
 
 function parseDate(value) {
   if (!value || typeof value !== "string") return null;
@@ -170,6 +181,67 @@ function render() {
   $("closing-cards").innerHTML = closing.slice(0, 6).map((item) => cardHtml(item, true)).join("");
   $("new-cards").innerHTML = newItems.slice(0, 6).map((item) => cardHtml(item, true)).join("");
   renderSecondary();
+  renderSignals();
+}
+
+function renderSignals() {
+  const lens = $("lens").value;
+  const query = $("search").value.trim().toLowerCase();
+  const visible = state.signals.filter((signal) => {
+    const lensMatches = getLensMatches(signal);
+    const text = [signal.title, signal.summary, signal.source_id, signal.signal_type, ...getDomains(signal), ...lensMatches].join(" ").toLowerCase();
+    return (!lens || lensMatches.includes(lens)) && (!query || text.includes(query));
+  }).sort((left, right) => {
+    const rank = {NEW: 0, UPDATED: 1, SOURCE_UNAVAILABLE: 2, UNCHANGED: 3};
+    return (rank[left.change_type] ?? 9) - (rank[right.change_type] ?? 9) || String(right.observed_at || "").localeCompare(String(left.observed_at || ""));
+  });
+  const sourceSignals = state.signals.filter((signal) => String(signal.canonical_key || "").startsWith("source:"));
+  const failures = sourceSignals.filter((signal) => signal.change_type === "SOURCE_UNAVAILABLE");
+  $("signal-new-count").textContent = state.signals.filter((signal) => signal.change_type === "NEW").length;
+  $("signal-change-count").textContent = state.signals.filter((signal) => ["UPDATED", "SOURCE_UNAVAILABLE"].includes(signal.change_type)).length;
+  $("signal-source-count").textContent = sourceSignals.length;
+  $("signal-failure-count").textContent = failures.length;
+  $("signals-caption").textContent = `${visible.length} ${visible.length === 1 ? "sinal" : "sinais"} na lente atual`;
+  $("signals-empty").hidden = visible.length > 0;
+  $("signal-cards").innerHTML = visible.slice(0, 12).map(signalCardHtml).join("");
+  bindSignalButtons();
+}
+
+function signalCardHtml(signal) {
+  const changeClass = signal.change_type === "SOURCE_UNAVAILABLE" ? "signal-failure" : signal.change_type === "UNCHANGED" ? "signal-unchanged" : "signal-active";
+  const sourceLabel = signal.source_id || "Fonte não observada";
+  const domains = getDomains(signal).slice(0, 3).map((value) => escapeHtml(value)).join(" · ") || "Domínio não observado";
+  const count = Number.isFinite(signal.observed_item_count) ? `${signal.observed_item_count} itens observados` : signal.opportunity_id ? "Registro normalizado" : "Snapshot de fonte";
+  return `<article class="signal-card ${changeClass}">
+    <div class="signal-card-top"><span class="signal-change">${escapeHtml(signalChangeLabel(signal.change_type))}</span><span class="signal-type">${escapeHtml(signalTypeLabel(signal.signal_type))}</span></div>
+    <h3>${escapeHtml(signal.title || "Sinal sem título")}</h3>
+    <p>${escapeHtml(signal.summary || "Observação preservada com proveniência.")}</p>
+    <div class="signal-facts"><span>${escapeHtml(sourceLabel)}</span><span>${escapeHtml(count)}</span><span>${escapeHtml(domains)}</span></div>
+    <div class="signal-footer"><small>${escapeHtml(relativeDate(signal.observed_at))}</small><button class="signal-detail-button" data-signal-id="${escapeHtml(signal.signal_id)}">Ver observação</button></div>
+  </article>`;
+}
+
+function openSignalDetail(id) {
+  const signal = state.signals.find((candidate) => candidate.signal_id === id);
+  if (!signal) return;
+  const changes = listValue(signal.changes).filter(Boolean).slice(-8).map((change) => typeof change === "string" ? change : JSON.stringify(change)).join("\n");
+  const limitations = listValue(signal.limitations);
+  const fields = signal.observed_fields && Object.keys(signal.observed_fields).length ? JSON.stringify(signal.observed_fields, null, 2) : "Não há campos normalizados neste sinal.";
+  const source = signal.source_url ? `<a class="primary-link" href="${escapeHtml(signal.source_url)}" target="_blank" rel="noopener">Abrir fonte observada →</a>` : "";
+  $("detail-content").innerHTML = `<div class="detail-kicker"><span class="badge ${signal.change_type === "SOURCE_UNAVAILABLE" ? "unknown" : "verified"}">${escapeHtml(signalChangeLabel(signal.change_type))}</span><span class="quality-pill">${escapeHtml(signalTypeLabel(signal.signal_type))}</span></div>
+    <h2>${escapeHtml(signal.title || "Sinal sem título")}</h2>
+    <p class="detail-lede">${escapeHtml(signal.summary || "Observação estruturada de fonte pública.")}</p>
+    <div class="action-box"><span>O que este sinal significa</span><strong>${signal.change_type === "SOURCE_UNAVAILABLE" ? "A fonte não respondeu neste release; isso não prova ausência de informação." : "O sistema observou este item e preservou sua evidência para interpretação posterior."}</strong></div>
+    <h3>Observação</h3><dl><dt>Tipo</dt><dd>${escapeHtml(signalTypeLabel(signal.signal_type))}</dd><dt>Fonte</dt><dd>${escapeHtml(signal.source_id || "Não observada")}</dd><dt>Observado em</dt><dd>${escapeHtml(dateLabel(signal.observed_at))}</dd><dt>Status</dt><dd>${escapeHtml(signal.status || "Não observado")}</dd><dt>Itens</dt><dd>${escapeHtml(String(signal.observed_item_count ?? "Não observado"))}</dd><dt>Domínios</dt><dd>${escapeHtml(getDomains(signal).join(", ") || "Não observado")}</dd></dl>
+    <h3>Campos observados</h3><pre class="signal-pre">${escapeHtml(fields)}</pre>
+    <h3>Mudanças preservadas</h3><pre class="signal-pre">${escapeHtml(changes || "Nenhuma mudança detalhada neste snapshot.")}</pre>
+    <h3>Limitações</h3><p>${escapeHtml(limitations.join(" ") || "Nenhuma limitação adicional observada.")}</p>
+    <div class="detail-links">${source}</div>`;
+  $("detail-dialog").showModal();
+}
+
+function bindSignalButtons() {
+  document.querySelectorAll(".signal-detail-button").forEach((button) => button.addEventListener("click", () => openSignalDetail(button.dataset.signalId)));
 }
 
 function renderSecondary() {
@@ -263,10 +335,12 @@ async function load() {
     const responses = await Promise.all([
       fetch(`data/opportunities.json${suffix}`),
       fetch(`data/release-manifest.json${suffix}`),
+      fetch(`data/signals.json${suffix}`),
     ]);
     if (responses.some((response) => !response.ok)) throw new Error("O release público ainda não foi gerado.");
-    const [allPayload, manifest] = await Promise.all(responses.map((response) => response.json()));
+    const [allPayload, manifest, signalsPayload] = await Promise.all(responses.map((response) => response.json()));
     state.all = allPayload.opportunities || [];
+    state.signals = signalsPayload.signals || [];
     state.manifest = manifest;
     state.current = state.all.filter((item) => isCurrentAtNow(item));
     state.secondary = state.all.filter((item) => !isCurrentAtNow(item));

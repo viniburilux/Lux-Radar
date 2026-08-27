@@ -40,6 +40,17 @@ def is_http(url: str) -> bool:
     return url.startswith(("http://", "https://"))
 
 
+def observation_profile(content_type: str | None) -> str:
+    content_type = (content_type or "").lower()
+    if "pdf" in content_type:
+        return "pdf"
+    if "json" in content_type:
+        return "api"
+    if "html" in content_type:
+        return "html"
+    return "unknown"
+
+
 def same_host(url: str, host: str) -> bool:
     return urlparse(url).netloc.lower().endswith(host.lower())
 
@@ -263,7 +274,7 @@ def _failed(source: dict[str, Any], observed: str, status: str, http_status: int
         "source_id": source["id"],
         "source_url": source["url"],
         "observed_at": observed,
-        "source_profile": source.get("source_type", "public"),
+        "source_profile": "unknown",
         "fetch": {"status": status, "method": "http_get", "http_status": http_status, "content_type": None},
         "content": {"media_type": "application/octet-stream", "content_hash": None, "byte_size": 0},
         "claims": [],
@@ -291,7 +302,7 @@ def fetch_wave2_source(source: dict[str, Any]) -> dict[str, Any]:
         "source_id": source["id"],
         "source_url": source["url"],
         "observed_at": observed,
-        "source_profile": source.get("source_type", "public"),
+        "source_profile": observation_profile(content_type),
         "fetch": {"status": "success", "method": "http_get", "http_status": response.status_code, "content_type": content_type},
         "content": {"media_type": content_type or "application/octet-stream", "content_hash": content_hash(body), "byte_size": len(body)},
         "claims": claims_for(source, response, candidates, page_title),

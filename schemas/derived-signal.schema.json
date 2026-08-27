@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/viniburilux/Lux-Radar/blob/main/schemas/derived-signal.schema.json",
+  "title": "Lux Radar Derived Signal",
+  "description": "A minimal, provenance-preserving signal derived from an observed source or normalized record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["signal_id", "canonical_key", "signal_type", "title", "source_id", "source_url", "observed_at", "status", "change_type", "evidence_ids", "observation_ids", "provenance"],
+  "properties": {
+    "signal_id": {"type": "string", "minLength": 1},
+    "canonical_key": {"type": "string", "minLength": 1},
+    "signal_type": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "summary": {"type": "string"},
+    "source_id": {"type": "string", "minLength": 1},
+    "source_url": {"type": "string", "format": "uri"},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "status": {"type": "string"},
+    "change_type": {"type": "string", "enum": ["NEW", "UPDATED", "UNCHANGED", "SOURCE_UNAVAILABLE"]},
+    "domains": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "lens_matches": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "opportunity_id": {"type": ["string", "null"]},
+    "record_ref": {"type": ["string", "null"]},
+    "lifecycle_state": {"type": ["string", "null"]},
+    "current_view": {"type": "boolean"},
+    "deadline": {"type": "string"},
+    "content_hash": {"type": ["string", "null"]},
+    "content_type": {"type": ["string", "null"]},
+    "observed_item_count": {"type": "integer", "minimum": 0},
+    "observed_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "label"],
+        "properties": {"key": {"type": "string"}, "label": {"type": "string"}}
+      }
+    },
+    "claim_paths": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "observed_fields": {"type": "object", "additionalProperties": true},
+    "changes": {"type": "array", "items": {"type": "object", "additionalProperties": true}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "observation_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "limitations": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "provenance": {"type": "object", "additionalProperties": true}
+  }
+}
