@@ -150,6 +150,24 @@
       "type": "object",
       "additionalProperties": {"type": "string"}
     },
+    "environmental": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["entity_added", "entity_removed", "entity_changed", "entity_unchanged", "source_level_change_only", "published_entity_signals", "truncated_entity_signals", "demonstrations", "composition_status", "limitations", "by_type"],
+      "properties": {
+        "entity_added": {"type": "integer", "minimum": 0},
+        "entity_removed": {"type": "integer", "minimum": 0},
+        "entity_changed": {"type": "integer", "minimum": 0},
+        "entity_unchanged": {"type": "integer", "minimum": 0},
+        "source_level_change_only": {"type": "integer", "minimum": 0},
+        "published_entity_signals": {"type": "integer", "minimum": 0},
+        "truncated_entity_signals": {"type": "integer", "minimum": 0},
+        "demonstrations": {"type": "integer", "minimum": 0},
+        "composition_status": {"type": "string", "enum": ["PROVEN", "NOT_PROVEN"]},
+        "limitations": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "by_type": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}}
+      }
+    },
     "temporal_changes": {
       "type": "array",
       "items": {

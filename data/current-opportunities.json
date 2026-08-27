@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-33111416679",
+  "release_id": "environmental-v1-local-release-20260827",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ba53e309a3cbc8bd"
       ],
@@ -157,19 +157,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:650c69f26a07d345"
+        "evidence:cnpq-chamadas:detail:40c245e980eb3286"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:650c69f26a07d345"
+        "evidence:cnpq-chamadas:detail:40c245e980eb3286"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:650c69f26a07d345"
+          "cnpq-chamadas:detail:40c245e980eb3286"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -291,6 +291,131 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-27T21:07:02Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
+      "evidence": [
+        "evidence:capes-editais:detail:c7b05b13297101f6"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:c7b05b13297101f6"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:c7b05b13297101f6"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
       "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
@@ -333,19 +458,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:capes-editais:detail:ff830b90152cb569"
+        "evidence:capes-editais:detail:c3c6ac2fb5120c80"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:ff830b90152cb569"
+        "evidence:capes-editais:detail:c3c6ac2fb5120c80"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:ff830b90152cb569"
+          "capes-editais:detail:c3c6ac2fb5120c80"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -411,131 +536,6 @@
       "lens_matches": [
         "education",
         "financing",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
-      "evidence": [
-        "evidence:capes-editais:detail:8d982cd6317e4263"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:8d982cd6317e4263"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:8d982cd6317e4263"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
         "research"
       ],
       "lifecycle_state": "UPCOMING",
@@ -587,9 +587,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -633,6 +633,100 @@
         "territory"
       ],
       "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-86e8e1e2db000e88",
+      "canonical_key": "url:https://chamadas.funbio.org.br/raisfortalecimento1",
+      "title": "Participe da 1ª Chamada do Projeto RAÍS -\"Fortalecimento de Organizações Comunitárias em Barcarena e Abaetetuba-PA\"",
+      "description": "Participe do 1º Edital de Chamada de Projetos do Projeto RAÍS com foco no fortalecimento de organizações e empreendimentos de base comunitária em Barcarena e Abaetetuba - PA",
+      "organization": "FUNBIO",
+      "type": "call",
+      "domains": [],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Amazônia"
+      ],
+      "eligibility": [
+        "Quem pode participar Associações, fundações e cooperativas sem fins lucrativos; Organizações com pelo menos 2 anos de CNPJ, regularidade fiscal e capacidade de execução comprovada"
+      ],
+      "funding": {
+        "amount": 8500000.0,
+        "currency": "BRL",
+        "raw": "R$ 8.500.000,00"
+      },
+      "deadline": "2026-09-06T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/raisfortalecimento1",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-27T21:07:02Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:b06d83694ff3b6ac"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:b06d83694ff3b6ac"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:b06d83694ff3b6ac"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -688,19 +782,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:b9434c79248d80f8"
+        "evidence:funbio-chamadas:detail:c04fd97dfd7ec35b"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:b9434c79248d80f8"
+        "evidence:funbio-chamadas:detail:c04fd97dfd7ec35b"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:b9434c79248d80f8"
+          "funbio-chamadas:detail:c04fd97dfd7ec35b"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -738,100 +832,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-86e8e1e2db000e88",
-      "canonical_key": "url:https://chamadas.funbio.org.br/raisfortalecimento1",
-      "title": "Participe da 1ª Chamada do Projeto RAÍS -\"Fortalecimento de Organizações Comunitárias em Barcarena e Abaetetuba-PA\"",
-      "description": "Participe do 1º Edital de Chamada de Projetos do Projeto RAÍS com foco no fortalecimento de organizações e empreendimentos de base comunitária em Barcarena e Abaetetuba - PA",
-      "organization": "FUNBIO",
-      "type": "call",
-      "domains": [],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Amazônia"
-      ],
-      "eligibility": [
-        "Quem pode participar Associações, fundações e cooperativas sem fins lucrativos; Organizações com pelo menos 2 anos de CNPJ, regularidade fiscal e capacidade de execução comprovada"
-      ],
-      "funding": {
-        "amount": 8500000.0,
-        "currency": "BRL",
-        "raw": "R$ 8.500.000,00"
-      },
-      "deadline": "2026-09-06T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/raisfortalecimento1",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:fe3a4b4308233530"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:fe3a4b4308233530"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:fe3a4b4308233530"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-9768f23f518f414c",
       "canonical_key": "url:https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
       "title": "Seleção de Unidades de Conservação Costeiras e Marinhas Estaduais do Brasil para Inclusão ao Fundo Marinho",
@@ -861,7 +861,7 @@
         "currency": "BRL",
         "raw": "R$ 6.650.000,00"
       },
-      "deadline": "2026-08-27T23:59:59Z",
+      "deadline": "2026-09-16T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -882,19 +882,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:09ade2c52771b888"
+        "evidence:funbio-chamadas:detail:43615d870af6432e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:09ade2c52771b888"
+        "evidence:funbio-chamadas:detail:43615d870af6432e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:09ade2c52771b888"
+          "funbio-chamadas:detail:43615d870af6432e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -981,19 +981,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:622f78b366125c1e"
+        "evidence:funbio-chamadas:detail:a8b8b187bc25ebfa"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:622f78b366125c1e"
+        "evidence:funbio-chamadas:detail:a8b8b187bc25ebfa"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:622f78b366125c1e"
+          "funbio-chamadas:detail:a8b8b187bc25ebfa"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1078,19 +1078,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:f4f89247dfcc47e4"
+        "evidence:funbio-chamadas:detail:3afa686521a3c441"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:f4f89247dfcc47e4"
+        "evidence:funbio-chamadas:detail:3afa686521a3c441"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:f4f89247dfcc47e4"
+          "funbio-chamadas:detail:3afa686521a3c441"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1148,6 +1148,98 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-51943bce55bbbb06",
+      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
+      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
+      "organization": "Prosas",
+      "type": "award",
+      "domains": [],
+      "source_domains": [
+        "communities",
+        "financing",
+        "innovation",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 1.2,
+        "currency": "BRL",
+        "raw": "R$1,2"
+      },
+      "deadline": "2026-09-02T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
+      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
+      "source_id": "prosas-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-27T21:07:02Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
+      "evidence": [
+        "evidence:prosas-editais:detail:6a652e5b734d5eb0"
+      ],
+      "evidence_ids": [
+        "evidence:prosas-editais:detail:6a652e5b734d5eb0"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "prosas-editais:success:200",
+          "prosas-editais:detail:6a652e5b734d5eb0"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "prosas-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-4c17aec51c980e91",
       "canonical_key": "pdf:https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
       "title": "Edital de Projetos - Aperam",
@@ -1195,9 +1287,9 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
         "evidence:capta-editais:detail:f2ec8d9175b69d63"
       ],
@@ -1231,6 +1323,158 @@
         "sustainability"
       ],
       "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-221eea749fea1153",
+      "canonical_key": "pdf:https://www.lamsa.com.br/www.lamsa.com.br/edital/2026/Regulamento Edital 2026_VF_PDF.pdf",
+      "title": "Edital de Seleção de Projetos Socioambientais 2026",
+      "description": "Concessionária que administra a Linha Amarela, uma das mais importantes vias expressas da cidade do Rio de Janeiro.",
+      "organization": "Capta / ISPN",
+      "type": "partnership",
+      "domains": [
+        "territory"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "communities",
+        "financing",
+        "social_impact",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil",
+        "Pantanal"
+      ],
+      "eligibility": [
+        "público-alvo; • Adequação da proposta às necessidades das comunidades que serão atendidas; • Clareza nos objetivos, metodologia definida, cronograma e orçamento compatíveis; • Experiência da organização e de seus dirigentes na área de atuação do projeto e no seu grau de engajamento comunitário nas localidades d"
+      ],
+      "funding": {
+        "amount": 300000.0,
+        "currency": "BRL",
+        "raw": "R$ 300.000,00"
+      },
+      "deadline": "2026-09-03T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.lamsa.com.br/www.lamsa.com.br/pages/edital.html",
+      "official_pdf_url": "https://www.lamsa.com.br/www.lamsa.com.br/edital/2026/Regulamento Edital 2026_VF_PDF.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-27T21:07:02Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
+      "evidence": [
+        "evidence:capta-editais:detail:e6e2be5b4cdc129e"
+      ],
+      "evidence_ids": [
+        "evidence:capta-editais:detail:e6e2be5b4cdc129e"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capta-editais:success:200",
+          "capta-editais:detail:e6e2be5b4cdc129e"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capta-editais",
+        "ics-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          }
+        },
+        {
+          "at": "2026-08-26T05:26:28Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-27T20:42:28Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-27T20:50:15Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-27T20:50:15Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CLOSED"
+          }
+        },
+        {
+          "at": "2026-08-27T21:00:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "territory"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -1286,19 +1530,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:capta-editais:detail:c1115285b9217fd4"
+        "evidence:capta-editais:detail:045e64a120b7723a"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:c1115285b9217fd4"
+        "evidence:capta-editais:detail:045e64a120b7723a"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:c1115285b9217fd4"
+          "capta-editais:detail:045e64a120b7723a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1388,19 +1632,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:capta-editais:detail:e001f184a41a6f9b"
+        "evidence:capta-editais:detail:1c3037f59b7afefe"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:e001f184a41a6f9b"
+        "evidence:capta-editais:detail:1c3037f59b7afefe"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:e001f184a41a6f9b"
+          "capta-editais:detail:1c3037f59b7afefe"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1442,98 +1686,6 @@
         "economy",
         "research"
       ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-51943bce55bbbb06",
-      "canonical_key": "pdf:https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "title": "Inscrições abertas para o Prêmio LED Globo 2027",
-      "description": "Educadores, estudantes e empreendedores de todo o país podem se inscrever gratuitamente e concorrer a R$1,2 milhão em premiação",
-      "organization": "Prosas",
-      "type": "award",
-      "domains": [],
-      "source_domains": [
-        "communities",
-        "financing",
-        "innovation",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 1.2,
-        "currency": "BRL",
-        "raw": "R$1,2"
-      },
-      "deadline": "2026-09-02T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://somos.globo.com/movimento-led/premio-led/noticia/inscricoes-abertas-para-o-premio-led-globo-2027.ghtml",
-      "official_pdf_url": "https://s3.glbimg.com/v1/AUTH_181ecc4c353545aaa3c24808d6e5977d/somos-globo/Guia%20de%20Inscri%C3%A7%C3%A3o%20Pr%C3%AAmio%20LED%202027.pdf",
-      "source_id": "prosas-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
-      "evidence": [
-        "evidence:prosas-editais:detail:e1ff756b86d88281"
-      ],
-      "evidence_ids": [
-        "evidence:prosas-editais:detail:e1ff756b86d88281"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "prosas-editais:success:200",
-          "prosas-editais:detail:e1ff756b86d88281"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "prosas-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
@@ -1590,19 +1742,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-27T20:03:13Z",
+      "updated_at": "2026-08-27T21:07:02Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-08-27T20:03:13Z",
+      "last_seen_at": "2026-08-27T21:07:02Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:6f306b50d422f0bf"
+        "evidence:caixa-fsa-chamadas:detail:cf3110f0fa42a680"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:6f306b50d422f0bf"
+        "evidence:caixa-fsa-chamadas:detail:cf3110f0fa42a680"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:6f306b50d422f0bf"
+          "caixa-fsa-chamadas:detail:cf3110f0fa42a680"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [

@@ -18,9 +18,11 @@ from bs4 import BeautifulSoup
 try:
     from quality_layer import extract_quality_records, norm_url, infer_domains
     from wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
+    from environmental_signals import ENVIRONMENTAL_SOURCE_IDS, environmental_evidence, fetch_environmental_source, build_environmental_signal_views
 except ModuleNotFoundError:
     from scripts.quality_layer import extract_quality_records, norm_url, infer_domains
     from scripts.wave2_collectors import WAVE2_COLLECTOR_IDS, fetch_wave2_source
+    from scripts.environmental_signals import ENVIRONMENTAL_SOURCE_IDS, environmental_evidence, fetch_environmental_source, build_environmental_signal_views
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -589,7 +591,7 @@ def build_signal_views(database: list[dict[str, Any]], observations: list[dict[s
         signals.append(signal)
 
     for observation in observations:
-        if observation.get("parent_observation_id"):
+        if observation.get("parent_observation_id") or observation.get("source_id") in ENVIRONMENTAL_SOURCE_IDS:
             continue
         source = source_by_id.get(observation.get("source_id"), {})
         canonical_key = f"source:{observation.get('source_id')}"
@@ -644,13 +646,29 @@ def run(args: argparse.Namespace) -> int:
     if args.limit_sources:
         registry = registry[: args.limit_sources]
     observed_at = now()
-    observations = [fetch_source(source) for source in registry]
+    observations: list[dict[str, Any]] = []
+    for source in registry:
+        if source.get("id") in ENVIRONMENTAL_SOURCE_IDS:
+            observations.append(fetch_environmental_source(source, observations))
+        else:
+            observations.append(fetch_source(source))
+    previous_observations_payload = load_json(DATA_DIR / "observations.json", {"observations": []})
+    previous_observations = previous_observations_payload.get("observations", []) if isinstance(previous_observations_payload, dict) else previous_observations_payload
+    environmental_evidences: list[dict[str, Any]] = []
+    environmental_evidence_by_source: dict[str, list[str]] = {}
+    for observation in observations:
+        if observation.get("source_id") not in ENVIRONMENTAL_SOURCE_IDS:
+            continue
+        evidence = environmental_evidence(observation)
+        environmental_evidences.append(evidence)
+        observation["evidence_ids"] = [evidence["evidence_id"]]
+        environmental_evidence_by_source.setdefault(observation["source_id"], []).append(evidence["evidence_id"])
     candidate_incoming, candidate_evidences, candidate_normalized = candidate_records(observations, registry)
     quality_observations, quality_evidences, quality_normalized, quality_records, _details = extract_quality_records(observations, registry)
     detail_urls = {norm_url(record.get("official_url", "")) for record in quality_records}
     incoming = [record for record in candidate_incoming if norm_url(record.get("official_url", "")) not in detail_urls]
     incoming.extend(quality_records)
-    evidences = candidate_evidences + quality_evidences
+    evidences = candidate_evidences + quality_evidences + environmental_evidences
     normalized = candidate_normalized + quality_normalized
     observations = quality_observations
     previous_payload = load_json(DATA_DIR / "opportunities.json", {"opportunities": []})
@@ -664,6 +682,9 @@ def run(args: argparse.Namespace) -> int:
     previous_signals_payload = load_json(DATA_DIR / "signals.json", {"signals": []})
     previous_signals = previous_signals_payload.get("signals", []) if isinstance(previous_signals_payload, dict) else previous_signals_payload
     signals, temporal_changes = build_signal_views(database, observations, registry, previous_signals, observed_at)
+    environmental_signals, environmental_temporal_changes, environmental_demonstrations, environmental_stats = build_environmental_signal_views(observations, previous_observations, registry, environmental_evidence_by_source, observed_at)
+    signals.extend(environmental_signals)
+    temporal_changes.extend(environmental_temporal_changes)
     current_records = [item for item in database if item.get("current_view") is True]
     signals_history = [item for item in database if item.get("current_view") is not True]
     failed = [item for item in observations if item["fetch"]["status"] in {"failed", "blocked"}]
@@ -692,6 +713,7 @@ def run(args: argparse.Namespace) -> int:
         ("current-opportunities", "opportunities", current_records, "application/json"),
         ("signals-history", "signals", signals_history, "application/json"),
         ("signals", "signals", signals, "application/json"),
+        ("environmental-demonstrations", "demonstrations", environmental_demonstrations, "application/json"),
     ]
     artifacts: list[dict[str, Any]] = []
     for name, payload_key, payload, media_type in artifact_specs:
@@ -702,7 +724,7 @@ def run(args: argparse.Namespace) -> int:
     artifacts.append({"kind": "opportunities_csv", "ref": "data/opportunities.csv", "content_hash": csv_digest, "media_type": "text/csv"})
     site_data = SITE_DATA_DIR
     site_data.mkdir(parents=True, exist_ok=True)
-    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json", "current-opportunities.json", "signals-history.json", "signals.json"]:
+    for filename in ["observations.json", "evidence.json", "normalized.json", "opportunities.json", "current-opportunities.json", "signals-history.json", "signals.json", "environmental-demonstrations.json"]:
         (site_data / filename).write_text((DATA_DIR / filename).read_text(encoding="utf-8"), encoding="utf-8")
     (site_data / "opportunities.csv").write_bytes((DATA_DIR / "opportunities.csv").read_bytes())
     manifest = {
@@ -726,6 +748,7 @@ def run(args: argparse.Namespace) -> int:
             "by_change": dict(Counter(signal.get("change_type", "unknown") for signal in signals)),
         },
         "temporal_changes": temporal_changes,
+        "environmental": environmental_stats,
         "artifacts": artifacts,
         "source_status": {item["source_id"]: item["fetch"]["status"] for item in observations},
         "errors": [{"source_id": item["source_id"], "status": item["fetch"]["status"], "http_status": item["fetch"].get("http_status"), "reason_code": "parser_failure", "limitations": item.get("limitations", [])} for item in failed],

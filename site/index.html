@@ -89,6 +89,27 @@
       <div id="signal-cards" class="signal-grid" aria-live="polite"></div>
     </section>
 
+    <section id="environmental-section" class="environmental-section" aria-labelledby="environmental-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">ENVIRONMENTAL SIGNAL ENGINE · V1</p><h2 id="environmental-title">O que mudou no mundo observado?</h2><p class="section-copy">Sinais ambientais derivados de INPE, GBIF, NASA EONET, IBGE e clima contextual. Esta camada descreve observações e mudanças; não transforma fenômeno em risco nem em oportunidade automaticamente.</p></div>
+        <span class="section-count">cinco capacidades · signal_only</span>
+      </div>
+      <div class="environmental-metrics" aria-label="Resumo dos sinais ambientais">
+        <div class="signal-metric"><span>Agora</span><strong id="environmental-now-count">—</strong></div>
+        <div class="signal-metric"><span>Novos</span><strong id="environmental-new-count">—</strong></div>
+        <div class="signal-metric"><span>Alterados</span><strong id="environmental-changed-count">—</strong></div>
+        <div class="signal-metric signal-metric-alert"><span>Removidos / encerrados</span><strong id="environmental-removed-count">—</strong></div>
+        <div class="signal-metric"><span>Inalterados</span><strong id="environmental-unchanged-count">—</strong></div>
+      </div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>AGORA</h3><span>observações recentes</span></div><div id="environmental-now-cards" class="signal-grid"></div></div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>NOVOS</h3><span>entidades ausentes na observação anterior</span></div><div id="environmental-new-cards" class="signal-grid"></div></div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>ALTERADOS</h3><span>conteúdo ou estado mudou</span></div><div id="environmental-changed-cards" class="signal-grid"></div></div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>ENCERRADOS / REMOVIDOS</h3><span>com cautela: falha da fonte não prova remoção</span></div><div id="environmental-removed-cards" class="signal-grid"></div></div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>INALTERADOS</h3><span>mesma entidade e conteúdo observado</span></div><div id="environmental-unchanged-cards" class="signal-grid"></div></div>
+      <div class="environmental-block"><div class="environmental-block-heading"><h3>CONTEXTO</h3><span>território e clima, sem causalidade</span></div><div id="environmental-context-cards" class="signal-grid"></div></div>
+      <div class="environmental-block environmental-demo"><div class="environmental-block-heading"><h3>TRÊS DEMONSTRAÇÕES COMPOSTAS</h3><span>somente composições provadas</span></div><div id="environmental-demos" class="signal-grid"></div><p id="environmental-limitations" class="environmental-limitations"></p></div>
+    </section>
+
     <section id="current-section" class="radar-section">
       <div class="section-heading">
         <div><p class="section-kicker">OPORTUNIDADES</p><h2>Oportunidades agora</h2></div>
