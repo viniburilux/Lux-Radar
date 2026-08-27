@@ -1,6 +1,6 @@
 {
-  "release_id": "signal-engine-v1-global-final",
-  "created_at": "2026-08-27T16:35:53Z",
+  "release_id": "weekly-33095118433",
+  "created_at": "2026-08-27T16:48:37Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -39,13 +39,13 @@
     "mapbiomas-platform"
   ],
   "observation_window": {
-    "started_at": "2026-08-27T16:35:53Z",
-    "ended_at": "2026-08-27T16:42:51Z"
+    "started_at": "2026-08-27T16:48:37Z",
+    "ended_at": "2026-08-27T16:50:47Z"
   },
   "record_counts": {
     "observations": 223,
-    "evidence": 217,
-    "normalized": 813,
+    "evidence": 219,
+    "normalized": 815,
     "opportunities": 581,
     "current_opportunities": 15,
     "signals_history": 566,
@@ -53,48 +53,48 @@
     "closing_soon": 9,
     "new_current": 0,
     "deduplicated": 134,
-    "collected": 660,
+    "collected": 662,
     "new": 0,
-    "updated": 60,
+    "updated": 59,
     "closed": 0,
-    "unchanged": 521,
-    "failed": 11,
-    "total_candidates": 398,
+    "unchanged": 522,
+    "failed": 7,
+    "total_candidates": 399,
     "total_verified": 0,
-    "total_closed": 73,
-    "total_unknown": 56,
+    "total_closed": 74,
+    "total_unknown": 54,
     "total_insufficient_evidence": 39,
-    "sustainability_records": 47,
-    "sustainability_lens_records": 99,
-    "non_sustainability_records": 534,
-    "unclassified_records": 267,
+    "sustainability_records": 49,
+    "sustainability_lens_records": 101,
+    "non_sustainability_records": 532,
+    "unclassified_records": 266,
     "domain_counts": {
       "biodiversity": 12,
       "circular_economy": 8,
       "climate": 24,
-      "culture": 22,
+      "culture": 23,
       "economy": 32,
-      "education": 83,
+      "education": 82,
       "energy": 18,
-      "financing": 104,
+      "financing": 105,
       "innovation": 63,
       "public_policy": 3,
       "research": 110,
-      "social_impact": 23,
-      "sport": 10,
-      "sustainability": 47,
-      "technology": 37,
+      "social_impact": 22,
+      "sport": 8,
+      "sustainability": 49,
+      "technology": 38,
       "territorial_development": 4,
-      "territory": 27,
+      "territory": 28,
       "tourism": 4,
       "water": 8
     }
   },
   "funnel": {
-    "normalized_records": 813,
+    "normalized_records": 815,
     "canonical_records": 581,
     "potential_opportunities": 405,
-    "with_temporal_evidence": 103,
+    "with_temporal_evidence": 104,
     "verifiable_records": 15,
     "active": 1,
     "closing_soon": 9,
@@ -102,18 +102,18 @@
     "remaining_outside_current": 566
   },
   "reason_codes": {
-    "not_opportunity": 120,
-    "missing_deadline": 300,
-    "deadline_expired": 48,
+    "not_opportunity": 122,
+    "missing_deadline": 299,
+    "deadline_expired": 49,
     "status_explicitly_closed": 25,
     "current_opportunity": 15,
     "primary_source_not_verified": 1,
     "aggregator_only": 16,
-    "not_seen_in_release": 56
+    "not_seen_in_release": 54
   },
   "lifecycle_counts": {
-    "SIGNAL": 493,
-    "HISTORICAL": 73,
+    "SIGNAL": 492,
+    "HISTORICAL": 74,
     "CLOSING_SOON": 9,
     "UPCOMING": 5,
     "ACTIVE": 1
@@ -121,13 +121,13 @@
   "signal_counts": {
     "total": 615,
     "new": 0,
-    "updated": 81,
-    "unchanged": 534,
+    "updated": 80,
+    "unchanged": 535,
     "source_signals": 34,
     "record_signals": 581,
     "by_type": {
-      "record_signal": 493,
-      "historical_content": 73,
+      "record_signal": 492,
+      "historical_content": 74,
       "opportunity": 15,
       "source_observation": 27,
       "research_funding": 1,
@@ -139,9 +139,9 @@
       "environmental_data": 1
     },
     "by_change": {
-      "UNCHANGED": 534,
-      "UPDATED": 76,
-      "SOURCE_UNAVAILABLE": 5
+      "UNCHANGED": 535,
+      "UPDATED": 78,
+      "SOURCE_UNAVAILABLE": 2
     }
   },
   "temporal_changes": [
@@ -155,7 +155,7 @@
         "fapesb-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fapesb-editais:f83ea7be3d2aaf8c"
+        "evidence:fapesb-editais:3d626673adb1cc1f"
       ]
     },
     {
@@ -168,20 +168,7 @@
         "bndes-floresta-viva:success:200"
       ],
       "evidence_ids": [
-        "evidence:bndes-floresta-viva:54208ef82cdfb82e"
-      ]
-    },
-    {
-      "source_id": "mma-fnma",
-      "field": "content_changed",
-      "before": null,
-      "after": null,
-      "status": "UPDATED",
-      "observation_ids": [
-        "mma-fnma:success:200"
-      ],
-      "evidence_ids": [
-        "evidence:mma-fnma:2843ea9b4a7c0dc4"
+        "evidence:bndes-floresta-viva:b19eeced45e56b77"
       ]
     },
     {
@@ -194,7 +181,7 @@
         "capes-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:eb7256f2dce04e4c"
+        "evidence:capes-editais:7cc4e42da7b44da9"
       ]
     },
     {
@@ -207,7 +194,7 @@
         "finep-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:finep-chamadas:a8711e395e11fdcf"
+        "evidence:finep-chamadas:906798f6759842b7"
       ]
     },
     {
@@ -220,7 +207,7 @@
         "petrobras-socioambiental:success:200"
       ],
       "evidence_ids": [
-        "evidence:petrobras-socioambiental:fd5ee27771c1938e"
+        "evidence:petrobras-socioambiental:6e74350dd652c99e"
       ]
     },
     {
@@ -230,7 +217,7 @@
       "after": null,
       "status": "SOURCE_UNAVAILABLE",
       "observation_ids": [
-        "transferegov-parcerias:failed:403"
+        "transferegov-parcerias:failed:404"
       ],
       "evidence_ids": []
     },
@@ -244,7 +231,7 @@
         "funbio-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:3319db0eba864331"
+        "evidence:funbio-chamadas:7a339e64deda600f"
       ]
     },
     {
@@ -257,7 +244,7 @@
         "fundacao-boticario-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fundacao-boticario-editais:29b2fbc33c8bbeff"
+        "evidence:fundacao-boticario-editais:63a1de75dc8da262"
       ]
     },
     {
@@ -270,7 +257,20 @@
         "bnb-fundeci:success:200"
       ],
       "evidence_ids": [
-        "evidence:bnb-fundeci:506269a056c209e0"
+        "evidence:bnb-fundeci:11c38278834ed030"
+      ]
+    },
+    {
+      "source_id": "sudene-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "sudene-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:sudene-editais:a2e9804f9f98c02e"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "ics-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:ics-chamadas:7e088d774b2a5fd2"
+        "evidence:ics-chamadas:16d2922e1a57fb4d"
       ]
     },
     {
@@ -307,7 +307,7 @@
         "fundo-brasil-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:fundo-brasil-editais:77d8fe521327aac1"
+        "evidence:fundo-brasil-editais:a231b28c6a11a209"
       ]
     },
     {
@@ -320,7 +320,7 @@
         "sos-mata-atlantica-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:sos-mata-atlantica-editais:8ed67fb8f574f973"
+        "evidence:sos-mata-atlantica-editais:b92000bdf6655181"
       ]
     },
     {
@@ -333,7 +333,7 @@
         "caixa-fsa-chamadas:success:200"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:8b1668d250b16d6b"
+        "evidence:caixa-fsa-chamadas:67fed6aa5e57488e"
       ]
     },
     {
@@ -346,30 +346,34 @@
         "facepe-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:facepe-editais:7484336869337d03"
+        "evidence:facepe-editais:292970b071d233d5"
       ]
     },
     {
       "source_id": "minc-cultbr-editais",
-      "field": "source_unavailable",
+      "field": "content_changed",
       "before": null,
       "after": null,
-      "status": "SOURCE_UNAVAILABLE",
+      "status": "UPDATED",
       "observation_ids": [
-        "minc-cultbr-editais:failed:403"
+        "minc-cultbr-editais:success:200"
       ],
-      "evidence_ids": []
+      "evidence_ids": [
+        "evidence:minc-cultbr-editais:709e065cfec72872"
+      ]
     },
     {
       "source_id": "pncp-editais",
-      "field": "source_unavailable",
+      "field": "content_changed",
       "before": null,
       "after": null,
-      "status": "SOURCE_UNAVAILABLE",
+      "status": "UPDATED",
       "observation_ids": [
-        "pncp-editais:failed:network"
+        "pncp-editais:success:200"
       ],
-      "evidence_ids": []
+      "evidence_ids": [
+        "evidence:pncp-editais:b076e440cf3e0282"
+      ]
     },
     {
       "source_id": "observatorio-3setor-editais",
@@ -381,7 +385,7 @@
         "observatorio-3setor-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:observatorio-3setor-editais:898b9d6b39870eee"
+        "evidence:observatorio-3setor-editais:10447871923efe20"
       ]
     },
     {
@@ -394,17 +398,556 @@
         "ingesto-editais:success:200"
       ],
       "evidence_ids": [
-        "evidence:ingesto-editais:46d0a6ec39655b7a"
+        "evidence:ingesto-editais:6e8932183bcb1ca5"
       ]
     },
     {
       "source_id": "ibge-localidades-api",
-      "field": "source_unavailable",
+      "field": "item_added",
       "before": null,
-      "after": null,
-      "status": "SOURCE_UNAVAILABLE",
+      "after": "{\"UF-id\": 11, \"UF-nome\": \"Rondônia\", \"UF-sigla\": \"RO\", \"mesorregiao-id\": 1102, \"mesorregiao-nome\": \"Leste Rondoniense\", \"microrregiao-id\": 11006, \"microrregiao-nome\": \"Cacoal\", \"municipio-id\": 1100015, \"municipio-nome\": \"Alta Floresta D'Oes",
+      "status": "UPDATED",
       "observation_ids": [
-        "ibge-localidades-api:failed:503"
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 11, \"UF-nome\": \"Rondônia\", \"UF-sigla\": \"RO\", \"mesorregiao-id\": 1102, \"mesorregiao-nome\": \"Leste Rondoniense\", \"microrregiao-id\": 11005, \"microrregiao-nome\": \"Alvorada D'Oeste\", \"municipio-id\": 1100346, \"municipio-nome\": \"Alvorada ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 11, \"UF-nome\": \"Rondônia\", \"UF-sigla\": \"RO\", \"mesorregiao-id\": 1102, \"mesorregiao-nome\": \"Leste Rondoniense\", \"microrregiao-id\": 11006, \"microrregiao-nome\": \"Cacoal\", \"municipio-id\": 1100379, \"municipio-nome\": \"Alto Alegre dos Par",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 11, \"UF-nome\": \"Rondônia\", \"UF-sigla\": \"RO\", \"mesorregiao-id\": 1102, \"mesorregiao-nome\": \"Leste Rondoniense\", \"microrregiao-id\": 11003, \"microrregiao-nome\": \"Ariquemes\", \"municipio-id\": 1100403, \"municipio-nome\": \"Alto Paraíso\", \"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 12, \"UF-nome\": \"Acre\", \"UF-sigla\": \"AC\", \"mesorregiao-id\": 1202, \"mesorregiao-nome\": \"Vale do Acre\", \"microrregiao-id\": 12004, \"microrregiao-nome\": \"Rio Branco\", \"municipio-id\": 1200013, \"municipio-nome\": \"Acrelândia\", \"regiao-id\"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 13, \"UF-nome\": \"Amazonas\", \"UF-sigla\": \"AM\", \"mesorregiao-id\": 1303, \"mesorregiao-nome\": \"Centro Amazonense\", \"microrregiao-id\": 13005, \"microrregiao-nome\": \"Tefé\", \"municipio-id\": 1300029, \"municipio-nome\": \"Alvarães\", \"regiao-id",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 13, \"UF-nome\": \"Amazonas\", \"UF-sigla\": \"AM\", \"mesorregiao-id\": 1302, \"mesorregiao-nome\": \"Sudoeste Amazonense\", \"microrregiao-id\": 13003, \"microrregiao-nome\": \"Alto Solimões\", \"municipio-id\": 1300060, \"municipio-nome\": \"Amaturá\", ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 14, \"UF-nome\": \"Roraima\", \"UF-sigla\": \"RR\", \"mesorregiao-id\": 1401, \"mesorregiao-nome\": \"Norte de Roraima\", \"microrregiao-id\": 14001, \"microrregiao-nome\": \"Boa Vista\", \"municipio-id\": 1400027, \"municipio-nome\": \"Amajari\", \"regiao-",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 14, \"UF-nome\": \"Roraima\", \"UF-sigla\": \"RR\", \"mesorregiao-id\": 1401, \"mesorregiao-nome\": \"Norte de Roraima\", \"microrregiao-id\": 14001, \"microrregiao-nome\": \"Boa Vista\", \"municipio-id\": 1400050, \"municipio-nome\": \"Alto Alegre\", \"reg",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1504, \"mesorregiao-nome\": \"Nordeste Paraense\", \"microrregiao-id\": 15011, \"microrregiao-nome\": \"Cametá\", \"municipio-id\": 1500107, \"municipio-nome\": \"Abaetetuba\", \"regiao-id",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1506, \"mesorregiao-nome\": \"Sudeste Paraense\", \"microrregiao-id\": 15017, \"microrregiao-nome\": \"Paragominas\", \"municipio-id\": 1500131, \"municipio-nome\": \"Abel Figueiredo\", \"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1504, \"mesorregiao-nome\": \"Nordeste Paraense\", \"microrregiao-id\": 15012, \"microrregiao-nome\": \"Tomé-Açu\", \"municipio-id\": 1500206, \"municipio-nome\": \"Acará\", \"regiao-id\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1502, \"mesorregiao-nome\": \"Marajó\", \"microrregiao-id\": 15005, \"microrregiao-nome\": \"Furos de Breves\", \"municipio-id\": 1500305, \"municipio-nome\": \"Afuá\", \"regiao-id\": 1, \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1506, \"mesorregiao-nome\": \"Sudeste Paraense\", \"microrregiao-id\": 15019, \"microrregiao-nome\": \"Parauapebas\", \"municipio-id\": 1500347, \"municipio-nome\": \"Água Azul do Norte\"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1501, \"mesorregiao-nome\": \"Baixo Amazonas\", \"microrregiao-id\": 15002, \"microrregiao-nome\": \"Santarém\", \"municipio-id\": 1500404, \"municipio-nome\": \"Alenquer\", \"regiao-id\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1501, \"mesorregiao-nome\": \"Baixo Amazonas\", \"microrregiao-id\": 15003, \"microrregiao-nome\": \"Almeirim\", \"municipio-id\": 1500503, \"municipio-nome\": \"Almeirim\", \"regiao-id\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 15, \"UF-nome\": \"Pará\", \"UF-sigla\": \"PA\", \"mesorregiao-id\": 1505, \"mesorregiao-nome\": \"Sudoeste Paraense\", \"microrregiao-id\": 15015, \"microrregiao-nome\": \"Altamira\", \"municipio-id\": 1500602, \"municipio-nome\": \"Altamira\", \"regiao-id",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 16, \"UF-nome\": \"Amapá\", \"UF-sigla\": \"AP\", \"mesorregiao-id\": 1601, \"mesorregiao-nome\": \"Norte do Amapá\", \"microrregiao-id\": 16002, \"microrregiao-nome\": \"Amapá\", \"municipio-id\": 1600105, \"municipio-nome\": \"Amapá\", \"regiao-id\": 1, \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 17, \"UF-nome\": \"Tocantins\", \"UF-sigla\": \"TO\", \"mesorregiao-id\": 1701, \"mesorregiao-nome\": \"Ocidental do Tocantins\", \"microrregiao-id\": 17003, \"microrregiao-nome\": \"Miracema do Tocantins\", \"municipio-id\": 1700251, \"municipio-nome\":",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 17, \"UF-nome\": \"Tocantins\", \"UF-sigla\": \"TO\", \"mesorregiao-id\": 1701, \"mesorregiao-nome\": \"Ocidental do Tocantins\", \"microrregiao-id\": 17001, \"microrregiao-nome\": \"Bico do Papagaio\", \"municipio-id\": 1700301, \"municipio-nome\": \"Agu",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 17, \"UF-nome\": \"Tocantins\", \"UF-sigla\": \"TO\", \"mesorregiao-id\": 1701, \"mesorregiao-nome\": \"Ocidental do Tocantins\", \"microrregiao-id\": 17005, \"microrregiao-nome\": \"Gurupi\", \"municipio-id\": 1700350, \"municipio-nome\": \"Aliança do To",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 17, \"UF-nome\": \"Tocantins\", \"UF-sigla\": \"TO\", \"mesorregiao-id\": 1702, \"mesorregiao-nome\": \"Oriental do Tocantins\", \"microrregiao-id\": 17008, \"microrregiao-nome\": \"Dianópolis\", \"municipio-id\": 1700400, \"municipio-nome\": \"Almas\", \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 17, \"UF-nome\": \"Tocantins\", \"UF-sigla\": \"TO\", \"mesorregiao-id\": 1701, \"mesorregiao-nome\": \"Ocidental do Tocantins\", \"microrregiao-id\": 17005, \"microrregiao-nome\": \"Gurupi\", \"municipio-id\": 1700707, \"municipio-nome\": \"Alvorada\", \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2102, \"mesorregiao-nome\": \"Oeste Maranhense\", \"microrregiao-id\": 21009, \"microrregiao-nome\": \"Imperatriz\", \"municipio-id\": 2100055, \"municipio-nome\": \"Açailândia\", \"re",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2104, \"mesorregiao-nome\": \"Leste Maranhense\", \"microrregiao-id\": 21016, \"microrregiao-nome\": \"Coelho Neto\", \"municipio-id\": 2100105, \"municipio-nome\": \"Afonso Cunha\", ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2104, \"mesorregiao-nome\": \"Leste Maranhense\", \"microrregiao-id\": 21013, \"microrregiao-nome\": \"Baixo Parnaíba Maranhense\", \"municipio-id\": 2100154, \"municipio-nome\": \"Á",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2101, \"mesorregiao-nome\": \"Norte Maranhense\", \"microrregiao-id\": 21001, \"microrregiao-nome\": \"Litoral Ocidental Maranhense\", \"municipio-id\": 2100204, \"municipio-nome\":",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2104, \"mesorregiao-nome\": \"Leste Maranhense\", \"microrregiao-id\": 21016, \"microrregiao-nome\": \"Coelho Neto\", \"municipio-id\": 2100303, \"municipio-nome\": \"Aldeias Altas\",",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2102, \"mesorregiao-nome\": \"Oeste Maranhense\", \"microrregiao-id\": 21008, \"microrregiao-nome\": \"Pindaré\", \"municipio-id\": 2100402, \"municipio-nome\": \"Altamira do Maranhã",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2104, \"mesorregiao-nome\": \"Leste Maranhense\", \"microrregiao-id\": 21015, \"microrregiao-nome\": \"Codó\", \"municipio-id\": 2100436, \"municipio-nome\": \"Alto Alegre do Maranhã",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2102, \"mesorregiao-nome\": \"Oeste Maranhense\", \"microrregiao-id\": 21008, \"microrregiao-nome\": \"Pindaré\", \"municipio-id\": 2100477, \"municipio-nome\": \"Alto Alegre do Pind",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2105, \"mesorregiao-nome\": \"Sul Maranhense\", \"microrregiao-id\": 21020, \"microrregiao-nome\": \"Gerais de Balsas\", \"municipio-id\": 2100501, \"municipio-nome\": \"Alto Parnaíb",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2102, \"mesorregiao-nome\": \"Oeste Maranhense\", \"microrregiao-id\": 21007, \"microrregiao-nome\": \"Gurupi\", \"municipio-id\": 2100550, \"municipio-nome\": \"Amapá do Maranhão\", ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 21, \"UF-nome\": \"Maranhão\", \"UF-sigla\": \"MA\", \"mesorregiao-id\": 2102, \"mesorregiao-nome\": \"Oeste Maranhense\", \"microrregiao-id\": 21009, \"microrregiao-nome\": \"Imperatriz\", \"municipio-id\": 2100600, \"municipio-nome\": \"Amarante do Mara",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2204, \"mesorregiao-nome\": \"Sudeste Piauiense\", \"microrregiao-id\": 22015, \"microrregiao-nome\": \"Alto Médio Canindé\", \"municipio-id\": 2200053, \"municipio-nome\": \"Acauã\", \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2202, \"mesorregiao-nome\": \"Centro-Norte Piauiense\", \"microrregiao-id\": 22005, \"microrregiao-nome\": \"Médio Parnaíba Piauiense\", \"municipio-id\": 2200103, \"municipio-nome\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2202, \"mesorregiao-nome\": \"Centro-Norte Piauiense\", \"microrregiao-id\": 22005, \"microrregiao-nome\": \"Médio Parnaíba Piauiense\", \"municipio-id\": 2200202, \"municipio-nome\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2204, \"mesorregiao-nome\": \"Sudeste Piauiense\", \"microrregiao-id\": 22014, \"microrregiao-nome\": \"Pio IX\", \"municipio-id\": 2200251, \"municipio-nome\": \"Alagoinha do Piauí\", \"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2204, \"mesorregiao-nome\": \"Sudeste Piauiense\", \"microrregiao-id\": 22014, \"microrregiao-nome\": \"Pio IX\", \"municipio-id\": 2200277, \"municipio-nome\": \"Alegrete do Piauí\", \"r",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2202, \"mesorregiao-nome\": \"Centro-Norte Piauiense\", \"microrregiao-id\": 22004, \"microrregiao-nome\": \"Campo Maior\", \"municipio-id\": 2200301, \"municipio-nome\": \"Alto Longá\",",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2202, \"mesorregiao-nome\": \"Centro-Norte Piauiense\", \"microrregiao-id\": 22003, \"microrregiao-nome\": \"Teresina\", \"municipio-id\": 2200400, \"municipio-nome\": \"Altos\", \"regiao",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2203, \"mesorregiao-nome\": \"Sudoeste Piauiense\", \"microrregiao-id\": 22010, \"microrregiao-nome\": \"Alto Médio Gurguéia\", \"municipio-id\": 2200459, \"municipio-nome\": \"Alvorada",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 22, \"UF-nome\": \"Piauí\", \"UF-sigla\": \"PI\", \"mesorregiao-id\": 2202, \"mesorregiao-nome\": \"Centro-Norte Piauiense\", \"microrregiao-id\": 22005, \"microrregiao-nome\": \"Médio Parnaíba Piauiense\", \"municipio-id\": 2200509, \"municipio-nome\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2307, \"mesorregiao-nome\": \"Sul Cearense\", \"microrregiao-id\": 23033, \"microrregiao-nome\": \"Brejo Santo\", \"municipio-id\": 2300101, \"municipio-nome\": \"Abaiara\", \"regiao-id\":",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2302, \"mesorregiao-nome\": \"Norte Cearense\", \"microrregiao-id\": 23013, \"microrregiao-nome\": \"Baturité\", \"municipio-id\": 2300150, \"municipio-nome\": \"Acarape\", \"regiao-id\": ",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2301, \"mesorregiao-nome\": \"Noroeste Cearense\", \"microrregiao-id\": 23001, \"microrregiao-nome\": \"Litoral de Camocim e Acaraú\", \"municipio-id\": 2300200, \"municipio-nome\": \"A",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2304, \"mesorregiao-nome\": \"Sertões Cearenses\", \"microrregiao-id\": 23021, \"microrregiao-nome\": \"Sertão de Senador Pompeu\", \"municipio-id\": 2300309, \"municipio-nome\": \"Acop",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2304, \"mesorregiao-nome\": \"Sertões Cearenses\", \"microrregiao-id\": 23020, \"microrregiao-nome\": \"Sertão de Inhamuns\", \"municipio-id\": 2300408, \"municipio-nome\": \"Aiuaba\", \"",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2301, \"mesorregiao-nome\": \"Noroeste Cearense\", \"microrregiao-id\": 23004, \"microrregiao-nome\": \"Meruoca\", \"municipio-id\": 2300507, \"municipio-nome\": \"Alcântaras\", \"regiao-",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "item_added",
+      "before": null,
+      "after": "{\"UF-id\": 23, \"UF-nome\": \"Ceará\", \"UF-sigla\": \"CE\", \"mesorregiao-id\": 2307, \"mesorregiao-nome\": \"Sul Cearense\", \"microrregiao-id\": 23030, \"microrregiao-nome\": \"Caririaçu\", \"municipio-id\": 2300606, \"municipio-nome\": \"Altaneira\", \"regiao-id\":",
+      "status": "UPDATED",
+      "observation_ids": [
+        "ibge-localidades-api:success:200"
       ],
       "evidence_ids": []
     }
@@ -413,49 +956,49 @@
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:dfa03233a2b17da0d75b16613108e603acafb1fda322abaeee35d6832fd5f0b8",
+      "content_hash": "sha256:640bcf073984d537a38d1dbc177cfeeda9987b11c38e2ab495438612d99a875e",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:a3435eb8fd49c26d3f44bf5616d8780911951b6a592f39e253dcb37556c796ee",
+      "content_hash": "sha256:a849dee570f1851b9fe3456ff2550f73aed8f09a87c8c6deb22f87c83c96d536",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:3d9ed03145aa8ad83ccf685adf8803c83c974ae941e417694abb878f3f1c73f6",
+      "content_hash": "sha256:9f5b3b93ffbace227eb876eb1af1fcd1f517a6afc38df0bca37ff88d091c8884",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:3ba40da728a87053df09b125866f24711bbd35fa5652e2324291b473fbe7d031",
+      "content_hash": "sha256:67d5a29d5548eba85768a865af576677b989de0b071379beac523b29c93c1072",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:345dc90dd4638100d7b6ae4b33d6a8c38d42d69592a744f8a006d3320fa7e628",
+      "content_hash": "sha256:f69a3ac9c1a023420e6552fca4594ab953e12d7d9e4657b659ad2d6fdb483592",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:1e2015c107831fd79776280be739be43fc0625f2dcabf73693bf23360d49a35b",
+      "content_hash": "sha256:5853f7b0c1039e6ff8a9ff3b316eb5477549797544f8c7afe1b24b5245b7fd8f",
       "media_type": "application/json"
     },
     {
       "kind": "signals",
       "ref": "data/signals.json",
-      "content_hash": "sha256:4641bed84d84c918bacdd0b30f2b8f4516f7d971145257f5a7d4c94db80f93f2",
+      "content_hash": "sha256:c390b0200ddd0afba6ac43ba4c58252fdf500ffa7e1f497a378415c4c11a7d44",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:e331d44f42a40877dc7162c6ddeaacce59c9522f51d23ff56aa9d99c4b170695",
+      "content_hash": "sha256:d134b2f82a03fc8b5c04234643e55c248b95eb4eea52551affb10ceb250da121",
       "media_type": "text/csv"
     }
   ],
@@ -478,7 +1021,7 @@
     "sudene-editais": "success",
     "embratur-editais": "success",
     "prosas-editais": "success",
-    "capta-editais": "success",
+    "capta-editais": "failed",
     "capitaai-meio-ambiente": "success",
     "ics-chamadas": "success",
     "gife-editais": "failed",
@@ -488,18 +1031,18 @@
     "fapesp-oportunidades": "success",
     "faperj-editais": "success",
     "facepe-editais": "success",
-    "minc-cultbr-editais": "failed",
-    "pncp-editais": "failed",
+    "minc-cultbr-editais": "success",
+    "pncp-editais": "success",
     "observatorio-3setor-editais": "success",
     "ingesto-editais": "success",
-    "ibge-localidades-api": "failed",
+    "ibge-localidades-api": "success",
     "mapbiomas-platform": "success"
   },
   "errors": [
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 403,
+      "http_status": 404,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
@@ -509,34 +1052,6 @@
       "source_id": "gife-editais",
       "status": "failed",
       "http_status": 403,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "HTTP failure was preserved; no retry or access bypass was attempted."
-      ]
-    },
-    {
-      "source_id": "minc-cultbr-editais",
-      "status": "failed",
-      "http_status": 403,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "HTTP failure was preserved; no retry or access bypass was attempted."
-      ]
-    },
-    {
-      "source_id": "pncp-editais",
-      "status": "failed",
-      "http_status": null,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Network failure: ReadTimeout.",
-        "No retry or access bypass was attempted."
-      ]
-    },
-    {
-      "source_id": "ibge-localidades-api",
-      "status": "failed",
-      "http_status": 503,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
@@ -561,12 +1076,12 @@
       ]
     },
     {
-      "source_id": "fundo-casa-editais",
+      "source_id": "sudene-editais",
       "status": "failed",
       "http_status": null,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail network failure: ConnectionError."
       ]
     },
     {
@@ -579,21 +1094,12 @@
       ]
     },
     {
-      "source_id": "sudene-editais",
-      "status": "failed",
-      "http_status": null,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Detail network failure: ReadTimeout."
-      ]
-    },
-    {
       "source_id": "capta-editais",
       "status": "failed",
-      "http_status": null,
+      "http_status": 522,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail network failure: ReadTimeout."
+        "Detail fetch returned HTTP 522."
       ]
     }
   ],
