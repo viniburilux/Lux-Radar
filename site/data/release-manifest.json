@@ -1,6 +1,6 @@
 {
-  "release_id": "weekly-32996174558",
-  "created_at": "2026-08-26T17:48:11Z",
+  "release_id": "signal-engine-v1-global-final",
+  "created_at": "2026-08-27T16:35:53Z",
   "default_lens": "sustainability",
   "source_ids": [
     "fapesb-editais",
@@ -34,128 +34,428 @@
     "minc-cultbr-editais",
     "pncp-editais",
     "observatorio-3setor-editais",
-    "ingesto-editais"
+    "ingesto-editais",
+    "ibge-localidades-api",
+    "mapbiomas-platform"
   ],
   "observation_window": {
-    "started_at": "2026-08-26T17:48:11Z",
-    "ended_at": "2026-08-26T17:49:56Z"
+    "started_at": "2026-08-27T16:35:53Z",
+    "ended_at": "2026-08-27T16:42:51Z"
   },
   "record_counts": {
-    "observations": 217,
-    "evidence": 215,
-    "normalized": 808,
-    "opportunities": 578,
-    "current_opportunities": 14,
-    "signals_history": 564,
-    "moved_to_history_or_signals": 564,
-    "closing_soon": 8,
+    "observations": 223,
+    "evidence": 217,
+    "normalized": 813,
+    "opportunities": 581,
+    "current_opportunities": 15,
+    "signals_history": 566,
+    "moved_to_history_or_signals": 566,
+    "closing_soon": 9,
     "new_current": 0,
-    "deduplicated": 133,
-    "collected": 658,
-    "new": 11,
-    "updated": 95,
+    "deduplicated": 134,
+    "collected": 660,
+    "new": 0,
+    "updated": 60,
     "closed": 0,
-    "unchanged": 472,
-    "failed": 8,
-    "total_candidates": 400,
+    "unchanged": 521,
+    "failed": 11,
+    "total_candidates": 398,
     "total_verified": 0,
-    "total_closed": 71,
-    "total_unknown": 54,
+    "total_closed": 73,
+    "total_unknown": 56,
     "total_insufficient_evidence": 39,
-    "sustainability_records": 45,
-    "sustainability_lens_records": 97,
-    "non_sustainability_records": 533,
+    "sustainability_records": 47,
+    "sustainability_lens_records": 99,
+    "non_sustainability_records": 534,
     "unclassified_records": 267,
     "domain_counts": {
       "biodiversity": 12,
       "circular_economy": 8,
       "climate": 24,
-      "culture": 21,
-      "economy": 30,
+      "culture": 22,
+      "economy": 32,
       "education": 83,
-      "energy": 17,
-      "financing": 105,
-      "innovation": 62,
+      "energy": 18,
+      "financing": 104,
+      "innovation": 63,
       "public_policy": 3,
-      "research": 106,
+      "research": 110,
       "social_impact": 23,
-      "sport": 8,
-      "sustainability": 45,
-      "technology": 38,
+      "sport": 10,
+      "sustainability": 47,
+      "technology": 37,
       "territorial_development": 4,
-      "territory": 26,
+      "territory": 27,
       "tourism": 4,
       "water": 8
     }
   },
   "funnel": {
-    "normalized_records": 808,
-    "canonical_records": 578,
-    "potential_opportunities": 401,
-    "with_temporal_evidence": 100,
-    "verifiable_records": 14,
-    "active": 0,
-    "closing_soon": 8,
-    "upcoming": 6,
-    "remaining_outside_current": 564
+    "normalized_records": 813,
+    "canonical_records": 581,
+    "potential_opportunities": 405,
+    "with_temporal_evidence": 103,
+    "verifiable_records": 15,
+    "active": 1,
+    "closing_soon": 9,
+    "upcoming": 5,
+    "remaining_outside_current": 566
   },
   "reason_codes": {
-    "not_opportunity": 123,
-    "missing_deadline": 299,
+    "not_opportunity": 120,
+    "missing_deadline": 300,
     "deadline_expired": 48,
-    "status_explicitly_closed": 23,
-    "current_opportunity": 14,
+    "status_explicitly_closed": 25,
+    "current_opportunity": 15,
     "primary_source_not_verified": 1,
     "aggregator_only": 16,
-    "not_seen_in_release": 54
+    "not_seen_in_release": 56
   },
   "lifecycle_counts": {
     "SIGNAL": 493,
-    "HISTORICAL": 71,
-    "UPCOMING": 6,
-    "CLOSING_SOON": 8
+    "HISTORICAL": 73,
+    "CLOSING_SOON": 9,
+    "UPCOMING": 5,
+    "ACTIVE": 1
   },
+  "signal_counts": {
+    "total": 615,
+    "new": 0,
+    "updated": 81,
+    "unchanged": 534,
+    "source_signals": 34,
+    "record_signals": 581,
+    "by_type": {
+      "record_signal": 493,
+      "historical_content": 73,
+      "opportunity": 15,
+      "source_observation": 27,
+      "research_funding": 1,
+      "funding_opportunity": 1,
+      "news_signal": 1,
+      "discovery_signal": 1,
+      "procurement": 1,
+      "territorial_data": 1,
+      "environmental_data": 1
+    },
+    "by_change": {
+      "UNCHANGED": 534,
+      "UPDATED": 76,
+      "SOURCE_UNAVAILABLE": 5
+    }
+  },
+  "temporal_changes": [
+    {
+      "source_id": "fapesb-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "fapesb-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:fapesb-editais:f83ea7be3d2aaf8c"
+      ]
+    },
+    {
+      "source_id": "bndes-floresta-viva",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "bndes-floresta-viva:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:bndes-floresta-viva:54208ef82cdfb82e"
+      ]
+    },
+    {
+      "source_id": "mma-fnma",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "mma-fnma:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:mma-fnma:2843ea9b4a7c0dc4"
+      ]
+    },
+    {
+      "source_id": "capes-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "capes-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:eb7256f2dce04e4c"
+      ]
+    },
+    {
+      "source_id": "finep-chamadas",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "finep-chamadas:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:finep-chamadas:a8711e395e11fdcf"
+      ]
+    },
+    {
+      "source_id": "petrobras-socioambiental",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "petrobras-socioambiental:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:petrobras-socioambiental:fd5ee27771c1938e"
+      ]
+    },
+    {
+      "source_id": "transferegov-parcerias",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "transferegov-parcerias:failed:403"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "funbio-chamadas",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "funbio-chamadas:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:3319db0eba864331"
+      ]
+    },
+    {
+      "source_id": "fundacao-boticario-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "fundacao-boticario-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:fundacao-boticario-editais:29b2fbc33c8bbeff"
+      ]
+    },
+    {
+      "source_id": "bnb-fundeci",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "bnb-fundeci:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:bnb-fundeci:506269a056c209e0"
+      ]
+    },
+    {
+      "source_id": "ics-chamadas",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "ics-chamadas:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:ics-chamadas:7e088d774b2a5fd2"
+      ]
+    },
+    {
+      "source_id": "gife-editais",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "gife-editais:failed:403"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "fundo-brasil-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "fundo-brasil-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:fundo-brasil-editais:77d8fe521327aac1"
+      ]
+    },
+    {
+      "source_id": "sos-mata-atlantica-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "sos-mata-atlantica-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:sos-mata-atlantica-editais:8ed67fb8f574f973"
+      ]
+    },
+    {
+      "source_id": "caixa-fsa-chamadas",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "caixa-fsa-chamadas:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:caixa-fsa-chamadas:8b1668d250b16d6b"
+      ]
+    },
+    {
+      "source_id": "facepe-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "facepe-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:facepe-editais:7484336869337d03"
+      ]
+    },
+    {
+      "source_id": "minc-cultbr-editais",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "minc-cultbr-editais:failed:403"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "pncp-editais",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "pncp-editais:failed:network"
+      ],
+      "evidence_ids": []
+    },
+    {
+      "source_id": "observatorio-3setor-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "observatorio-3setor-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:observatorio-3setor-editais:898b9d6b39870eee"
+      ]
+    },
+    {
+      "source_id": "ingesto-editais",
+      "field": "content_changed",
+      "before": null,
+      "after": null,
+      "status": "UPDATED",
+      "observation_ids": [
+        "ingesto-editais:success:200"
+      ],
+      "evidence_ids": [
+        "evidence:ingesto-editais:46d0a6ec39655b7a"
+      ]
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "field": "source_unavailable",
+      "before": null,
+      "after": null,
+      "status": "SOURCE_UNAVAILABLE",
+      "observation_ids": [
+        "ibge-localidades-api:failed:503"
+      ],
+      "evidence_ids": []
+    }
+  ],
   "artifacts": [
     {
       "kind": "observations",
       "ref": "data/observations.json",
-      "content_hash": "sha256:efc91a1fc9b58b5881cf2958b87930e04fa77600a860e3e1d9b81a87c9c0c155",
+      "content_hash": "sha256:dfa03233a2b17da0d75b16613108e603acafb1fda322abaeee35d6832fd5f0b8",
       "media_type": "application/json"
     },
     {
       "kind": "evidence",
       "ref": "data/evidence.json",
-      "content_hash": "sha256:a9872dcd19da84b8a406d894353a80f7646efae7401fb5c99b59d71529d7c34f",
+      "content_hash": "sha256:a3435eb8fd49c26d3f44bf5616d8780911951b6a592f39e253dcb37556c796ee",
       "media_type": "application/json"
     },
     {
       "kind": "normalized",
       "ref": "data/normalized.json",
-      "content_hash": "sha256:67febbd84d4808c5aa1b02eaf7ffef7d52a88cf4f5a8a7d12f817c4eb5c94f2f",
+      "content_hash": "sha256:3d9ed03145aa8ad83ccf685adf8803c83c974ae941e417694abb878f3f1c73f6",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities",
       "ref": "data/opportunities.json",
-      "content_hash": "sha256:e81f4161dfcc2fb855d2ce8c814de0b5dd48b2eaf7d0e9abcf8adefe743a54c1",
+      "content_hash": "sha256:3ba40da728a87053df09b125866f24711bbd35fa5652e2324291b473fbe7d031",
       "media_type": "application/json"
     },
     {
       "kind": "current-opportunities",
       "ref": "data/current-opportunities.json",
-      "content_hash": "sha256:447676dbda0414fb8bba274c36bfb742c1edd33b3b37ed66888676bbc86d19b8",
+      "content_hash": "sha256:345dc90dd4638100d7b6ae4b33d6a8c38d42d69592a744f8a006d3320fa7e628",
       "media_type": "application/json"
     },
     {
       "kind": "signals-history",
       "ref": "data/signals-history.json",
-      "content_hash": "sha256:e12b3c7d197ba958b3b5a63248db47352b0d1abfca9d9a66b1251b70fc59012a",
+      "content_hash": "sha256:1e2015c107831fd79776280be739be43fc0625f2dcabf73693bf23360d49a35b",
+      "media_type": "application/json"
+    },
+    {
+      "kind": "signals",
+      "ref": "data/signals.json",
+      "content_hash": "sha256:4641bed84d84c918bacdd0b30f2b8f4516f7d971145257f5a7d4c94db80f93f2",
       "media_type": "application/json"
     },
     {
       "kind": "opportunities_csv",
       "ref": "data/opportunities.csv",
-      "content_hash": "sha256:014f5803158d4316dfd288b66c7b33ce732facbd7414387c5b13e0002598c578",
+      "content_hash": "sha256:e331d44f42a40877dc7162c6ddeaacce59c9522f51d23ff56aa9d99c4b170695",
       "media_type": "text/csv"
     }
   ],
@@ -165,7 +465,7 @@
     "mma-fnma": "success",
     "mma-fundo-clima": "success",
     "cnpq-chamadas": "success",
-    "capes-editais": "failed",
+    "capes-editais": "success",
     "fundo-amazonia": "success",
     "finep-chamadas": "success",
     "petrobras-socioambiental": "success",
@@ -178,7 +478,7 @@
     "sudene-editais": "success",
     "embratur-editais": "success",
     "prosas-editais": "success",
-    "capta-editais": "failed",
+    "capta-editais": "success",
     "capitaai-meio-ambiente": "success",
     "ics-chamadas": "success",
     "gife-editais": "failed",
@@ -188,16 +488,18 @@
     "fapesp-oportunidades": "success",
     "faperj-editais": "success",
     "facepe-editais": "success",
-    "minc-cultbr-editais": "success",
-    "pncp-editais": "success",
+    "minc-cultbr-editais": "failed",
+    "pncp-editais": "failed",
     "observatorio-3setor-editais": "success",
-    "ingesto-editais": "success"
+    "ingesto-editais": "success",
+    "ibge-localidades-api": "failed",
+    "mapbiomas-platform": "success"
   },
   "errors": [
     {
       "source_id": "transferegov-parcerias",
       "status": "failed",
-      "http_status": 404,
+      "http_status": 403,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
@@ -207,6 +509,34 @@
       "source_id": "gife-editais",
       "status": "failed",
       "http_status": 403,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "minc-cultbr-editais",
+      "status": "failed",
+      "http_status": 403,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "HTTP failure was preserved; no retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "pncp-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Network failure: ReadTimeout.",
+        "No retry or access bypass was attempted."
+      ]
+    },
+    {
+      "source_id": "ibge-localidades-api",
+      "status": "failed",
+      "http_status": 503,
       "reason_code": "parser_failure",
       "limitations": [
         "HTTP failure was preserved; no retry or access bypass was attempted."
@@ -231,39 +561,39 @@
       ]
     },
     {
+      "source_id": "fundo-casa-editais",
+      "status": "failed",
+      "http_status": null,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail network failure: ReadTimeout."
+      ]
+    },
+    {
+      "source_id": "capta-editais",
+      "status": "failed",
+      "http_status": 403,
+      "reason_code": "parser_failure",
+      "limitations": [
+        "Detail fetch returned HTTP 403."
+      ]
+    },
+    {
       "source_id": "sudene-editais",
       "status": "failed",
       "http_status": null,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail network failure: ConnectionError."
+        "Detail network failure: ReadTimeout."
       ]
     },
     {
       "source_id": "capta-editais",
       "status": "failed",
-      "http_status": 403,
+      "http_status": null,
       "reason_code": "parser_failure",
       "limitations": [
-        "Detail fetch returned HTTP 403."
-      ]
-    },
-    {
-      "source_id": "capta-editais",
-      "status": "failed",
-      "http_status": 403,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Detail fetch returned HTTP 403."
-      ]
-    },
-    {
-      "source_id": "capta-editais",
-      "status": "failed",
-      "http_status": 522,
-      "reason_code": "parser_failure",
-      "limitations": [
-        "Detail fetch returned HTTP 522."
+        "Detail network failure: ReadTimeout."
       ]
     }
   ],
