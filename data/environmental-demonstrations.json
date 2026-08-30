@@ -1,107 +1,16 @@
 {
-  "release_id": "weekly-33258526360",
+  "release_id": "weekly-33317217950",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 785 focos no município Novo Progresso (PA); o sistema associou contexto meteorológico por proximidade de 4.52 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-29T14:47:43Z",
-      "occurred_at": "2026-08-29T00:00:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 785,
-        "biome": "Amazônia",
-        "territory_id": "1505031",
-        "climate_context": {
-          "distance_km": 4.52,
-          "observed_at": "2026-08-29T00:00",
-          "location": {
-            "latitude": -6.783831,
-            "longitude": -55.60605
-          },
-          "values": {
-            "temperature_2m": 27.3,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 61,
-            "wind_speed_10m": 9.0
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -6.77,
-        "longitude": -55.6445
-      },
-      "territory": {
-        "municipality_id": "1505031",
-        "municipality": "Novo Progresso",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [
-        "signal:environment:inpe-queimadas:4d94591cceae5edf"
-      ],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:360a0fc8e75a7f97",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:de26b50465df9787"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260829.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 785 focos no município Novo Progresso (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 461 focos no município Apuí (AM), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-29T14:47:43Z",
-      "occurred_at": "2026-08-29T00:00:00Z",
+      "observed_at": "2026-08-30T14:34:20Z",
+      "occurred_at": "2026-08-30T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -119,21 +28,21 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 785,
-        "territory_id": "1505031",
+        "fire_count": 461,
+        "territory_id": "1300144",
         "biome": "Amazônia",
-        "frp_total": 38454.6,
-        "latest_occurred_at": "2026-08-29T13:40:00Z"
+        "frp_total": 10123.8,
+        "latest_occurred_at": "2026-08-30T13:40:00Z"
       },
       "location": {
-        "latitude": -6.77,
-        "longitude": -55.6445
+        "latitude": -7.2933,
+        "longitude": -60.5905
       },
       "territory": {
-        "municipality_id": "1505031",
-        "municipality": "Novo Progresso",
-        "state": "PA",
-        "state_name": "Pará",
+        "municipality_id": "1300144",
+        "municipality": "Apuí",
+        "state": "AM",
+        "state_name": "Amazonas",
         "region": "N",
         "region_name": "Norte",
         "match_method": "municipality_id"
@@ -142,15 +51,13 @@
         "entity_type": "composite_environmental_signal",
         "key": "fire-concentration-territory"
       },
-      "related_signals": [
-        "signal:environment:inpe-queimadas:4d94591cceae5edf"
-      ],
+      "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:360a0fc8e75a7f97",
+        "evidence:inpe-queimadas:environment:dfea0291f3311e27",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260829.csv",
+        "inpe-queimadas:success:focos_diario_br_20260830.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -169,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-29T14:47:43Z",
+      "observed_at": "2026-08-30T14:34:20Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
