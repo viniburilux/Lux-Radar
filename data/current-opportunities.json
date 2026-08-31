@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-33317217950",
+  "release_id": "weekly-33418787055",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
+        "evidence:cnpq-chamadas:detail:4e15c80d8bd25f1e"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
+        "evidence:cnpq-chamadas:detail:4e15c80d8bd25f1e"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:e8ed018c9957aa7a"
+          "cnpq-chamadas:detail:4e15c80d8bd25f1e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -97,260 +97,6 @@
         "education",
         "financing",
         "innovation",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-eff97b8786bdf420",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
-      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
-      "organization": "CAPES",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-11-30T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
-      "evidence": [
-        "evidence:capes-editais:detail:669c06e55632f503"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:669c06e55632f503"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:669c06e55632f503"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
-      "evidence": [
-        "evidence:capes-editais:detail:bce0e849fce15587"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:bce0e849fce15587"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:bce0e849fce15587"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
         "research"
       ],
       "lifecycle_state": "UPCOMING",
@@ -411,9 +157,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:8004283b2f9f46bf"
       ],
@@ -545,6 +291,260 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-eff97b8786bdf420",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
+      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
+      "organization": "CAPES",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-11-30T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-31T17:17:58Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
+      "evidence": [
+        "evidence:capes-editais:detail:1e1f2aa89dbb86ab"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:1e1f2aa89dbb86ab"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:1e1f2aa89dbb86ab"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-31T17:17:58Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
+      "evidence": [
+        "evidence:capes-editais:detail:bcf866a9b267304c"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:bcf866a9b267304c"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:bcf866a9b267304c"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-7f9057cba96257f6",
       "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
       "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
@@ -587,9 +587,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -685,19 +685,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:ae866a329fe403fb"
+        "evidence:funbio-chamadas:detail:628fc0ef94b7aed7"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:ae866a329fe403fb"
+        "evidence:funbio-chamadas:detail:628fc0ef94b7aed7"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:ae866a329fe403fb"
+          "funbio-chamadas:detail:628fc0ef94b7aed7"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -782,19 +782,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:8602a8c29b1a7bb6"
+        "evidence:funbio-chamadas:detail:67474608c1a67133"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:8602a8c29b1a7bb6"
+        "evidence:funbio-chamadas:detail:67474608c1a67133"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:8602a8c29b1a7bb6"
+          "funbio-chamadas:detail:67474608c1a67133"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -879,19 +879,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:5da3b2906352c087"
+        "evidence:funbio-chamadas:detail:2a7afd69eca73128"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:5da3b2906352c087"
+        "evidence:funbio-chamadas:detail:2a7afd69eca73128"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:5da3b2906352c087"
+          "funbio-chamadas:detail:2a7afd69eca73128"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -980,19 +980,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:4daf1a18d364a23c"
+        "evidence:funbio-chamadas:detail:83b54ee659ff9d79"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:4daf1a18d364a23c"
+        "evidence:funbio-chamadas:detail:83b54ee659ff9d79"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:4daf1a18d364a23c"
+          "funbio-chamadas:detail:83b54ee659ff9d79"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1078,19 +1078,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:1838a1a5edd39c8b"
+        "evidence:funbio-chamadas:detail:9979e40d1b88cd09"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:1838a1a5edd39c8b"
+        "evidence:funbio-chamadas:detail:9979e40d1b88cd09"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:1838a1a5edd39c8b"
+          "funbio-chamadas:detail:9979e40d1b88cd09"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1148,120 +1148,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-802caeeeda7744bc",
-      "canonical_key": "pdf:https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
-      "title": "Prêmio ABDE-BID - ABDE",
-      "description": "O Prêmio ABDE-BID de Artigos de Desenvolvimento, promovido pela Associação Brasileira de Desenvolvimento (ABDE) e pelo Banco Interamericano de Desenvolvimento",
-      "organization": "Capta / ISPN",
-      "type": "grant",
-      "domains": [
-        "financing"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "communities",
-        "financing",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil",
-        "Amazônia",
-        "Brazil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 8000.0,
-        "currency": "BRL",
-        "raw": "R$ 8.000,00"
-      },
-      "deadline": "2026-09-13T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://abde.org.br/premio-abde-bid/",
-      "official_pdf_url": "https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
-      "source_id": "capta-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
-      "evidence": [
-        "evidence:capta-editais:detail:cbdee145a1710c87"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:cbdee145a1710c87"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:cbdee145a1710c87"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capta-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-08-28T21:01:57Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-29T14:47:43Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "financing"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-4c17aec51c980e91",
       "canonical_key": "pdf:https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
       "title": "Edital de Projetos - Aperam",
@@ -1309,19 +1195,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:capta-editais:detail:1bd7584441289309"
+        "evidence:capta-editais:detail:71c465a3878d2c0e"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:1bd7584441289309"
+        "evidence:capta-editais:detail:71c465a3878d2c0e"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:1bd7584441289309"
+          "capta-editais:detail:71c465a3878d2c0e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1410,19 +1296,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:prosas-editais:detail:3e0026a5e10571d3"
+        "evidence:prosas-editais:detail:662b34553de6b83a"
       ],
       "evidence_ids": [
-        "evidence:prosas-editais:detail:3e0026a5e10571d3"
+        "evidence:prosas-editais:detail:662b34553de6b83a"
       ],
       "provenance": {
         "observation_ids": [
           "prosas-editais:success:200",
-          "prosas-editais:detail:3e0026a5e10571d3"
+          "prosas-editais:detail:662b34553de6b83a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1452,6 +1338,220 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-802caeeeda7744bc",
+      "canonical_key": "pdf:https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
+      "title": "Prêmio ABDE-BID - ABDE",
+      "description": "O Prêmio ABDE-BID de Artigos de Desenvolvimento, promovido pela Associação Brasileira de Desenvolvimento (ABDE) e pelo Banco Interamericano de Desenvolvimento",
+      "organization": "Capta / ISPN",
+      "type": "grant",
+      "domains": [
+        "financing"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "communities",
+        "financing",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil",
+        "Amazônia",
+        "Brazil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 8000.0,
+        "currency": "BRL",
+        "raw": "R$ 8.000,00"
+      },
+      "deadline": "2026-09-13T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://abde.org.br/premio-abde-bid/",
+      "official_pdf_url": "https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-31T17:17:58Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
+      "evidence": [
+        "evidence:capta-editais:detail:3f525f3a138b99c5"
+      ],
+      "evidence_ids": [
+        "evidence:capta-editais:detail:3f525f3a138b99c5"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capta-editais:success:200",
+          "capta-editais:detail:3f525f3a138b99c5"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capta-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-08-28T21:01:57Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-29T14:47:43Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "financing"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-d9604c6f19d72821",
+      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "title": "Programa Pé-de-Meia",
+      "description": "CAIXA › Programas Sociais › Pé de Meia",
+      "organization": "Fundo Socioambiental CAIXA",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing"
+      ],
+      "source_domains": [
+        "financing",
+        "social_impact",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [
+        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
+        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
+      ],
+      "funding": {
+        "amount": 200.0,
+        "currency": "BRL",
+        "raw": "R$ 200,00"
+      },
+      "deadline": "2026-12-04T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "official_pdf_url": null,
+      "source_id": "caixa-fsa-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-08-31T17:17:58Z",
+      "first_seen_at": "2026-08-26T05:01:48Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
+      "evidence": [
+        "evidence:caixa-fsa-chamadas:detail:9ba2a4fbb1cda0ed"
+      ],
+      "evidence_ids": [
+        "evidence:caixa-fsa-chamadas:detail:9ba2a4fbb1cda0ed"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "caixa-fsa-chamadas:success:200",
+          "caixa-fsa-chamadas:detail:9ba2a4fbb1cda0ed"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "caixa-fsa-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing"
+      ],
+      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -1510,19 +1610,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
+      "updated_at": "2026-08-31T17:17:58Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
+      "last_seen_at": "2026-08-31T17:17:58Z",
       "evidence": [
-        "evidence:capta-editais:detail:80b3518b4e036c6a"
+        "evidence:capta-editais:detail:50f1fb9d7fb0bf7f"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:80b3518b4e036c6a"
+        "evidence:capta-editais:detail:50f1fb9d7fb0bf7f"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:80b3518b4e036c6a"
+          "capta-editais:detail:50f1fb9d7fb0bf7f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1565,106 +1665,6 @@
         "research"
       ],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-d9604c6f19d72821",
-      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "title": "Programa Pé-de-Meia",
-      "description": "CAIXA › Programas Sociais › Pé de Meia",
-      "organization": "Fundo Socioambiental CAIXA",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing"
-      ],
-      "source_domains": [
-        "financing",
-        "social_impact",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "BR"
-      ],
-      "eligibility": [
-        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
-        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
-      ],
-      "funding": {
-        "amount": 200.0,
-        "currency": "BRL",
-        "raw": "R$ 200,00"
-      },
-      "deadline": "2026-12-04T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "official_pdf_url": null,
-      "source_id": "caixa-fsa-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-08-30T14:34:20Z",
-      "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-08-30T14:34:20Z",
-      "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:f19223081ec5c34f"
-      ],
-      "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:f19223081ec5c34f"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:f19223081ec5c34f"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "caixa-fsa-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing"
-      ],
-      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",

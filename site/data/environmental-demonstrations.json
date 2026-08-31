@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-33317217950",
+  "release_id": "weekly-33418787055",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 461 focos no município Apuí (AM), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 705 focos no município Formosa do Rio Preto (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-30T14:34:20Z",
-      "occurred_at": "2026-08-30T00:00:00Z",
+      "observed_at": "2026-08-31T17:17:58Z",
+      "occurred_at": "2026-08-31T00:11:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,23 +28,23 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 461,
-        "territory_id": "1300144",
-        "biome": "Amazônia",
-        "frp_total": 10123.8,
-        "latest_occurred_at": "2026-08-30T13:40:00Z"
+        "fire_count": 705,
+        "territory_id": "2911105",
+        "biome": "Cerrado",
+        "frp_total": 28004.3,
+        "latest_occurred_at": "2026-08-31T16:40:00Z"
       },
       "location": {
-        "latitude": -7.2933,
-        "longitude": -60.5905
+        "latitude": -11.2206,
+        "longitude": -45.091801
       },
       "territory": {
-        "municipality_id": "1300144",
-        "municipality": "Apuí",
-        "state": "AM",
-        "state_name": "Amazonas",
-        "region": "N",
-        "region_name": "Norte",
+        "municipality_id": "2911105",
+        "municipality": "Formosa do Rio Preto",
+        "state": "BA",
+        "state_name": "Bahia",
+        "region": "NE",
+        "region_name": "Nordeste",
         "match_method": "municipality_id"
       },
       "subject": {
@@ -53,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:dfea0291f3311e27",
+        "evidence:inpe-queimadas:environment:49f6564e8e39ce46",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260830.csv",
+        "inpe-queimadas:success:focos_diario_br_20260831.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-08-30T14:34:20Z",
+      "observed_at": "2026-08-31T17:17:58Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
