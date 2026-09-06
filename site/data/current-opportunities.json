@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-33967902790",
+  "release_id": "weekly-34035643610",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
       ],
@@ -148,19 +148,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:capes-editais:detail:ef864d5cc9fa8770"
+        "evidence:capes-editais:detail:2b36e23d17957950"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:ef864d5cc9fa8770"
+        "evidence:capes-editais:detail:2b36e23d17957950"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:ef864d5cc9fa8770"
+          "capes-editais:detail:2b36e23d17957950"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -275,19 +275,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:capes-editais:detail:b5880f64778c4750"
+        "evidence:capes-editais:detail:2bb5eecc1fa76914"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:b5880f64778c4750"
+        "evidence:capes-editais:detail:2bb5eecc1fa76914"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:b5880f64778c4750"
+          "capes-editais:detail:2bb5eecc1fa76914"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -402,9 +402,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -500,19 +500,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:8649211c80747375"
+        "evidence:funbio-chamadas:detail:319567f2649882ef"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:8649211c80747375"
+        "evidence:funbio-chamadas:detail:319567f2649882ef"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:8649211c80747375"
+          "funbio-chamadas:detail:319567f2649882ef"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -542,207 +542,6 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-2a58d116be92a7bf",
-      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
-      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
-      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
-      "organization": "FUNBIO",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar",
-        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
-      ],
-      "funding": {
-        "amount": 1750000.0,
-        "currency": "BRL",
-        "raw": "R$ 1.750.000,00"
-      },
-      "deadline": "2026-09-14T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:dd56992ed4c37f2d"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:dd56992ed4c37f2d"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:dd56992ed4c37f2d"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-9768f23f518f414c",
-      "canonical_key": "url:https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
-      "title": "Seleção de Unidades de Conservação Costeiras e Marinhas Estaduais do Brasil para Inclusão ao Fundo Marinho",
-      "description": "Seleção via Manifestação de Interesse de UC's Costeiras e Marinhas Estaduais do litoral do Brasil para execução de recursos do Fundo Marinho",
-      "organization": "FUNBIO",
-      "type": "grant",
-      "domains": [
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 6650000.0,
-        "currency": "BRL",
-        "raw": "R$ 6.650.000,00"
-      },
-      "deadline": "2026-09-16T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:f10f8332456dbf33"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:f10f8332456dbf33"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:f10f8332456dbf33"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -796,19 +595,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:97ca5676e32cc70c"
+        "evidence:funbio-chamadas:detail:4e82caf4e39fc617"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:97ca5676e32cc70c"
+        "evidence:funbio-chamadas:detail:4e82caf4e39fc617"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:97ca5676e32cc70c"
+          "funbio-chamadas:detail:4e82caf4e39fc617"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -893,19 +692,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:b0462d0e765be5d4"
+        "evidence:funbio-chamadas:detail:c8d31db5ace1d150"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:b0462d0e765be5d4"
+        "evidence:funbio-chamadas:detail:c8d31db5ace1d150"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:b0462d0e765be5d4"
+          "funbio-chamadas:detail:c8d31db5ace1d150"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -963,6 +762,207 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-9768f23f518f414c",
+      "canonical_key": "url:https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
+      "title": "Seleção de Unidades de Conservação Costeiras e Marinhas Estaduais do Brasil para Inclusão ao Fundo Marinho",
+      "description": "Seleção via Manifestação de Interesse de UC's Costeiras e Marinhas Estaduais do litoral do Brasil para execução de recursos do Fundo Marinho",
+      "organization": "FUNBIO",
+      "type": "grant",
+      "domains": [
+        "financing",
+        "social_impact",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 6650000.0,
+        "currency": "BRL",
+        "raw": "R$ 6.650.000,00"
+      },
+      "deadline": "2026-09-16T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-06T13:17:36Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:54f0069cfe2faeca"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:54f0069cfe2faeca"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:54f0069cfe2faeca"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "financing",
+        "social_impact",
+        "sustainability"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-2a58d116be92a7bf",
+      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
+      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
+      "organization": "FUNBIO",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar",
+        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
+      ],
+      "funding": {
+        "amount": 1750000.0,
+        "currency": "BRL",
+        "raw": "R$ 1.750.000,00"
+      },
+      "deadline": "2026-09-14T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-06T13:17:36Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:408543077cb1da62"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:408543077cb1da62"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:408543077cb1da62"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-ae4c285a815b4fad",
       "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
       "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
@@ -1008,9 +1008,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -1046,7 +1046,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-75d2646e36b42f5f",
@@ -1094,9 +1094,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -1132,7 +1132,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-0de12731dedb4323",
@@ -1186,9 +1186,9 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
         "evidence:capta-editais:detail:101012d3a96c3628"
       ],
@@ -1319,19 +1319,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:capta-editais:detail:49b2687b0e1e9aba"
+        "evidence:capta-editais:detail:2fff5e464a514a74"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:49b2687b0e1e9aba"
+        "evidence:capta-editais:detail:2fff5e464a514a74"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:49b2687b0e1e9aba"
+          "capta-editais:detail:2fff5e464a514a74"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1440,19 +1440,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:capta-editais:detail:21fa15b645f1a8bf"
+        "evidence:capta-editais:detail:7459a682644fa1d1"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:21fa15b645f1a8bf"
+        "evidence:capta-editais:detail:7459a682644fa1d1"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:21fa15b645f1a8bf"
+          "capta-editais:detail:7459a682644fa1d1"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1520,105 +1520,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-f6c50decb60752bd",
-      "canonical_key": "url:https://climaesociedade.org/conheca-as-propostas-finalistas-do-edital-de-adaptacao-baseada-em-comunidades",
-      "title": "Conheça as propostas finalistas do edital de Adaptação baseada em Comunidades",
-      "description": "Candidate observed on an official source page; detail verification pending.",
-      "organization": "Instituto Clima e Sociedade (iCS)",
-      "type": "event",
-      "domains": [
-        "territory"
-      ],
-      "source_domains": [
-        "climate",
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
-      "territories": [
-        "Bahia",
-        "Brasil",
-        "Amazônia",
-        "Xingu"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-10-04T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://climaesociedade.org/conheca-as-propostas-finalistas-do-edital-de-adaptacao-baseada-em-comunidades/",
-      "official_pdf_url": null,
-      "source_id": "ics-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
-      "first_seen_at": "2026-09-02T13:57:36Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
-      "evidence": [
-        "evidence:ics-chamadas:detail:53c6ea1f9cd37680"
-      ],
-      "evidence_ids": [
-        "evidence:ics-chamadas:detail:53c6ea1f9cd37680"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "ics-chamadas:success:200",
-          "ics-chamadas:detail:53c6ea1f9cd37680"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "ics-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-09-02T13:57:36Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        },
-        {
-          "at": "2026-09-03T13:59:25Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-04T13:52:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "territory"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-d9604c6f19d72821",
       "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
       "title": "Programa Pé-de-Meia",
@@ -1668,19 +1569,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
+      "updated_at": "2026-09-06T13:17:36Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-06T13:17:36Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:1f136c46487d38c5"
+        "evidence:caixa-fsa-chamadas:detail:20bdcdcaf82079e7"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:1f136c46487d38c5"
+        "evidence:caixa-fsa-chamadas:detail:20bdcdcaf82079e7"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:1f136c46487d38c5"
+          "caixa-fsa-chamadas:detail:20bdcdcaf82079e7"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1717,206 +1618,6 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-f73bf4a3d63afd38",
-      "canonical_key": "pdf:https://fapitec.se.gov.br/wp-content/uploads/2026/08/Edital-no-11-2026-Programa-de-Apoio-as-Empresas-Juniores.pdf",
-      "title": "Edital FAPITEC SE 2026: Apoio a Empresas Juniores",
-      "description": "Empresas juniores podem captar recursos no Edital nº 11/2026 da FAPITEC Sergipe para inovação tecnológica. Descubra regras, critérios e o passo a passo.",
-      "organization": "Capitaai",
-      "type": "grant",
-      "domains": [
-        "financing",
-        "innovation"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "conservation",
-        "financing",
-        "sustainability"
-      ],
-      "territories": [
-        "Bahia",
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 97.0,
-        "currency": "BRL",
-        "raw": "R$ 97"
-      },
-      "deadline": "2026-10-08T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://capitaai.com.br/captacao/edital-fapitecsefuntec-112026-programa-apoio-empresas-juniores-fundaca-9o00dv",
-      "official_pdf_url": "https://fapitec.se.gov.br/wp-content/uploads/2026/08/Edital-no-11-2026-Programa-de-Apoio-as-Empresas-Juniores.pdf",
-      "source_id": "capitaai-meio-ambiente",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-05T13:05:59Z",
-      "first_seen_at": "2026-08-26T06:04:36Z",
-      "last_seen_at": "2026-09-05T13:05:59Z",
-      "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:32e7f89eb8a7c24b"
-      ],
-      "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:32e7f89eb8a7c24b"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:32e7f89eb8a7c24b"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
-          "Official PDF network failure: ConnectTimeout."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capitaai-meio-ambiente"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T06:04:36Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-27T16:23:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-28T21:01:57Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-29T14:47:43Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-30T14:34:20Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-31T17:17:58Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-01T14:23:49Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-02T13:57:36Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-03T13:59:25Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-04T13:52:21Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "financing",
-        "innovation"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
     }
   ]
 }
