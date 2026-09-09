@@ -1,6 +1,518 @@
 {
-  "release_id": "weekly-34235357234",
+  "release_id": "weekly-34360865408",
   "opportunities": [
+    {
+      "opportunity_id": "opportunity-b49d91da43e099ef",
+      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
+      "organization": "CNPq",
+      "type": "grant",
+      "domains": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "source_domains": [
+        "innovation",
+        "research",
+        "sustainability"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+      ],
+      "funding": {
+        "amount": 4925000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.925.000,00"
+      },
+      "deadline": "2026-12-15T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "source_id": "cnpq-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "cnpq-chamadas:success:200",
+          "cnpq-chamadas:detail:e8ed018c9957aa7a"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "cnpq-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
+    },
+    {
+      "opportunity_id": "opportunity-eff97b8786bdf420",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
+      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
+      "organization": "CAPES",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-11-30T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:capes-editais:detail:c81410c20ec15419"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:c81410c20ec15419"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:c81410c20ec15419"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
+    },
+    {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:capes-editais:detail:627e7413bcbc6e04"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:627e7413bcbc6e04"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:627e7413bcbc6e04"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
+    },
+    {
+      "opportunity_id": "opportunity-7f9057cba96257f6",
+      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
+      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-18T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:8d46773935fe64ac"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
+    },
     {
       "opportunity_id": "opportunity-86e8e1e2db000e88",
       "canonical_key": "url:https://chamadas.funbio.org.br/raisfortalecimento1",
@@ -48,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:6524f790b7dad449"
+        "evidence:funbio-chamadas:detail:9aae456b351daa14"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:6524f790b7dad449"
+        "evidence:funbio-chamadas:detail:9aae456b351daa14"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:6524f790b7dad449"
+          "funbio-chamadas:detail:9aae456b351daa14"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -145,19 +657,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:2ab78a6aafbb7ceb"
+        "evidence:funbio-chamadas:detail:70993c641fe5d9fc"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:2ab78a6aafbb7ceb"
+        "evidence:funbio-chamadas:detail:70993c641fe5d9fc"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:2ab78a6aafbb7ceb"
+          "funbio-chamadas:detail:70993c641fe5d9fc"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -245,19 +757,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:3f9fdf658cedb733"
+        "evidence:funbio-chamadas:detail:70c92c10cd67a35a"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:3f9fdf658cedb733"
+        "evidence:funbio-chamadas:detail:70c92c10cd67a35a"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:3f9fdf658cedb733"
+          "funbio-chamadas:detail:70c92c10cd67a35a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -288,6 +800,104 @@
       "lens_matches": [
         "financing",
         "social_impact",
+        "sustainability"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ef834203239b495d",
+      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
+      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
+      "organization": "FUNBIO",
+      "type": "innovation_program",
+      "domains": [
+        "innovation",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 500000.0,
+        "currency": "BRL",
+        "raw": "R$ 500.000,00"
+      },
+      "deadline": "2026-09-25T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:48467f8585f24833"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:48467f8585f24833"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:48467f8585f24833"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "innovation",
         "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
@@ -343,19 +953,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:9e25c28f76f829ee"
+        "evidence:funbio-chamadas:detail:ada05a9a05f00d1e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:9e25c28f76f829ee"
+        "evidence:funbio-chamadas:detail:ada05a9a05f00d1e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:9e25c28f76f829ee"
+          "funbio-chamadas:detail:ada05a9a05f00d1e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -413,104 +1023,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-ef834203239b495d",
-      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
-      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
-      "organization": "FUNBIO",
-      "type": "innovation_program",
-      "domains": [
-        "innovation",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 500000.0,
-        "currency": "BRL",
-        "raw": "R$ 500.000,00"
-      },
-      "deadline": "2026-09-25T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:dc24b1d062dfe859"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:dc24b1d062dfe859"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:dc24b1d062dfe859"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "innovation",
-        "sustainability"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-ae4c285a815b4fad",
       "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
       "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
@@ -556,9 +1068,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -642,9 +1154,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -734,9 +1246,9 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
         "evidence:capta-editais:detail:101012d3a96c3628"
       ],
@@ -820,6 +1332,125 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-4c17aec51c980e91",
+      "canonical_key": "pdf:https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
+      "title": "Edital de Projetos - Aperam",
+      "description": "Home > Sustentabilidade > Social > Fundação Aperam Acesita > Edital de Projetos",
+      "organization": "Capta / ISPN",
+      "type": "research_call",
+      "domains": [
+        "energy",
+        "research",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "communities",
+        "financing",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "podem participar do processo seletivo instituições localizadas nos municípios de Capelinha, Carbonita, Itamarandiba, Minas Novas, Turmalina e Veredinha, região de abrangência da Aperam BioEnergia"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://brasil.aperam.com/sustentabilidade/social/fundacao-aperam-acesita/editaldeprojetos/",
+      "official_pdf_url": "https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-09T14:01:36Z",
+      "first_seen_at": "2026-08-27T16:23:11Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
+      "evidence": [
+        "evidence:capta-editais:detail:30a88a70aff97e4c"
+      ],
+      "evidence_ids": [
+        "evidence:capta-editais:detail:30a88a70aff97e4c"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capta-editais:success:200",
+          "capta-editais:detail:30a88a70aff97e4c"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capta-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-27T16:23:11Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        },
+        {
+          "at": "2026-08-28T21:01:57Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-29T14:47:43Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-02T13:57:36Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-03T13:59:25Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "energy",
+        "research",
+        "sustainability"
+      ],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-802caeeeda7744bc",
       "canonical_key": "pdf:https://abde.org.br/wp-content/uploads/2026/07/Regulamento-Premio-ABDE-BID-12a-Edicao-retificado.pdf",
       "title": "Prêmio ABDE-BID - ABDE",
@@ -869,19 +1500,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:capta-editais:detail:25021e532d1df1fb"
+        "evidence:capta-editais:detail:63f8490247f14037"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:25021e532d1df1fb"
+        "evidence:capta-editais:detail:63f8490247f14037"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:25021e532d1df1fb"
+          "capta-editais:detail:63f8490247f14037"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -949,125 +1580,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-4c17aec51c980e91",
-      "canonical_key": "pdf:https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
-      "title": "Edital de Projetos - Aperam",
-      "description": "Home > Sustentabilidade > Social > Fundação Aperam Acesita > Edital de Projetos",
-      "organization": "Capta / ISPN",
-      "type": "research_call",
-      "domains": [
-        "energy",
-        "research",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "communities",
-        "financing",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "podem participar do processo seletivo instituições localizadas nos municípios de Capelinha, Carbonita, Itamarandiba, Minas Novas, Turmalina e Veredinha, região de abrangência da Aperam BioEnergia"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://brasil.aperam.com/sustentabilidade/social/fundacao-aperam-acesita/editaldeprojetos/",
-      "official_pdf_url": "https://brasil.aperam.com/wp-content/uploads/documentos-edital/EDITAL%20DE%20PROJETOS%20FUNDA%C3%87%C3%83O%20APERAM%20ACESITA%20-%20SOCIAL%202025.pdf",
-      "source_id": "capta-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
-      "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
-      "evidence": [
-        "evidence:capta-editais:detail:5f03ab5922f00e95"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:5f03ab5922f00e95"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:5f03ab5922f00e95"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capta-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-27T16:23:11Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        },
-        {
-          "at": "2026-08-28T21:01:57Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-29T14:47:43Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-02T13:57:36Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-03T13:59:25Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "energy",
-        "research",
-        "sustainability"
-      ],
-      "lifecycle_state": "ACTIVE",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-f6c50decb60752bd",
       "canonical_key": "url:https://climaesociedade.org/conheca-as-propostas-finalistas-do-edital-de-adaptacao-baseada-em-comunidades",
       "title": "Conheça as propostas finalistas do edital de Adaptação baseada em Comunidades",
@@ -1112,19 +1624,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
+      "updated_at": "2026-09-09T14:01:36Z",
       "first_seen_at": "2026-09-02T13:57:36Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
+      "last_seen_at": "2026-09-09T14:01:36Z",
       "evidence": [
-        "evidence:ics-chamadas:detail:1c39612dc487c266"
+        "evidence:ics-chamadas:detail:a0bf2140807ad624"
       ],
       "evidence_ids": [
-        "evidence:ics-chamadas:detail:1c39612dc487c266"
+        "evidence:ics-chamadas:detail:a0bf2140807ad624"
       ],
       "provenance": {
         "observation_ids": [
           "ics-chamadas:success:200",
-          "ics-chamadas:detail:1c39612dc487c266"
+          "ics-chamadas:detail:a0bf2140807ad624"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1181,106 +1693,6 @@
         "territory"
       ],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
-    },
-    {
-      "opportunity_id": "opportunity-d9604c6f19d72821",
-      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "title": "Programa Pé-de-Meia",
-      "description": "CAIXA › Programas Sociais › Pé de Meia",
-      "organization": "Fundo Socioambiental CAIXA",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing"
-      ],
-      "source_domains": [
-        "financing",
-        "social_impact",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "BR"
-      ],
-      "eligibility": [
-        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
-        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
-      ],
-      "funding": {
-        "amount": 200.0,
-        "currency": "BRL",
-        "raw": "R$ 200,00"
-      },
-      "deadline": "2026-12-04T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "official_pdf_url": null,
-      "source_id": "caixa-fsa-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-08T13:59:18Z",
-      "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-08T13:59:18Z",
-      "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:6efc0d716e0ea279"
-      ],
-      "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:6efc0d716e0ea279"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:6efc0d716e0ea279"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "caixa-fsa-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing"
-      ],
-      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
