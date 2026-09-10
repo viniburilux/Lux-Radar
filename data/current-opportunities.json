@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-34360865408",
+  "release_id": "weekly-34485773799",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
       ],
@@ -118,7 +118,147 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-10T13:56:25Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
+      "evidence": [
+        "evidence:capes-editais:detail:b0da1f2fad0b02cd"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:b0da1f2fad0b02cd"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:b0da1f2fad0b02cd"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-eff97b8786bdf420",
@@ -163,19 +303,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:capes-editais:detail:c81410c20ec15419"
+        "evidence:capes-editais:detail:bb9906f308485af9"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:c81410c20ec15419"
+        "evidence:capes-editais:detail:bb9906f308485af9"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:c81410c20ec15419"
+          "capes-editais:detail:bb9906f308485af9"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -262,147 +402,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
-    },
-    {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
-      "evidence": [
-        "evidence:capes-editais:detail:627e7413bcbc6e04"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:627e7413bcbc6e04"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:627e7413bcbc6e04"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-7f9057cba96257f6",
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -511,7 +511,91 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-61cf5b9a774d7595",
+      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "title": "TCSA Porto Sul - Chamada 10/2026",
+      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
+      "organization": "FUNBIO",
+      "type": "call",
+      "domains": [],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 4000000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.000.000,00"
+      },
+      "deadline": "2026-11-09T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-10T13:56:25Z",
+      "first_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:3391e72fa700ebb5"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:3391e72fa700ebb5"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:3391e72fa700ebb5"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "NEW"
     },
     {
       "opportunity_id": "opportunity-86e8e1e2db000e88",
@@ -560,19 +644,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:9aae456b351daa14"
+        "evidence:funbio-chamadas:detail:dfd24c14452d0895"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:9aae456b351daa14"
+        "evidence:funbio-chamadas:detail:dfd24c14452d0895"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:9aae456b351daa14"
+          "funbio-chamadas:detail:dfd24c14452d0895"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -608,14 +692,15 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-2a58d116be92a7bf",
-      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
-      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
-      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
+      "opportunity_id": "opportunity-ef834203239b495d",
+      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
+      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
       "organization": "FUNBIO",
-      "type": "research_call",
+      "type": "innovation_program",
       "domains": [
-        "research"
+        "innovation",
+        "sustainability"
       ],
       "source_domains": [
         "biodiversity",
@@ -625,18 +710,15 @@
         "water"
       ],
       "territories": [
-        "Bahia"
+        "Brasil"
       ],
-      "eligibility": [
-        "Quem pode participar",
-        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
-      ],
+      "eligibility": [],
       "funding": {
-        "amount": 1750000.0,
+        "amount": 500000.0,
         "currency": "BRL",
-        "raw": "R$ 1.750.000,00"
+        "raw": "R$ 500.000,00"
       },
-      "deadline": "2026-09-14T23:59:59Z",
+      "deadline": "2026-09-25T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -645,11 +727,11 @@
           "title": true,
           "organization": true,
           "deadline": true,
-          "eligibility": true,
+          "eligibility": false,
           "official_url": true
         }
       },
-      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "source_role": "primary",
@@ -657,19 +739,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:70993c641fe5d9fc"
+        "evidence:funbio-chamadas:detail:71a9ec35cd437fae"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:70993c641fe5d9fc"
+        "evidence:funbio-chamadas:detail:71a9ec35cd437fae"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:70993c641fe5d9fc"
+          "funbio-chamadas:detail:71a9ec35cd437fae"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -684,13 +766,13 @@
         {
           "at": "2026-08-26T03:47:16Z",
           "event": "first_seen",
-          "status": "VERIFIED"
+          "status": "INSUFFICIENT_EVIDENCE"
         },
         {
           "at": "2026-08-26T05:01:48Z",
           "event": "updated",
           "before": {
-            "status": "VERIFIED"
+            "status": "INSUFFICIENT_EVIDENCE"
           },
           "after": {
             "status": "OPEN"
@@ -698,7 +780,8 @@
         }
       ],
       "lens_matches": [
-        "research"
+        "innovation",
+        "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
@@ -757,19 +840,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:70c92c10cd67a35a"
+        "evidence:funbio-chamadas:detail:546881af7e7e508d"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:70c92c10cd67a35a"
+        "evidence:funbio-chamadas:detail:546881af7e7e508d"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:70c92c10cd67a35a"
+          "funbio-chamadas:detail:546881af7e7e508d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -809,15 +892,14 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-ef834203239b495d",
-      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
-      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
+      "opportunity_id": "opportunity-2a58d116be92a7bf",
+      "canonical_key": "url:https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
+      "title": "Fortalecimento de Conselhos Gestores das UCs apoiadas pelo projeto G7",
+      "description": "Participe desta chamada de projetos para desenvolver Estratégias para Fortalecimento de Conselhos Gestores e Apoio às Ações de Gestão e Uso Público em UCs apoiadas pelo projeto G7.",
       "organization": "FUNBIO",
-      "type": "innovation_program",
+      "type": "research_call",
       "domains": [
-        "innovation",
-        "sustainability"
+        "research"
       ],
       "source_domains": [
         "biodiversity",
@@ -827,15 +909,18 @@
         "water"
       ],
       "territories": [
-        "Brasil"
+        "Bahia"
       ],
-      "eligibility": [],
+      "eligibility": [
+        "Quem pode participar",
+        "Podem participar desta Chamada de Projetos instituições sem fins lucrativos"
+      ],
       "funding": {
-        "amount": 500000.0,
+        "amount": 1750000.0,
         "currency": "BRL",
-        "raw": "R$ 500.000,00"
+        "raw": "R$ 1.750.000,00"
       },
-      "deadline": "2026-09-25T23:59:59Z",
+      "deadline": "2026-09-14T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -844,11 +929,11 @@
           "title": true,
           "organization": true,
           "deadline": true,
-          "eligibility": false,
+          "eligibility": true,
           "official_url": true
         }
       },
-      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "official_url": "https://chamadas.funbio.org.br/fortalecimentoconselhosgestoresg7",
       "official_pdf_url": null,
       "source_id": "funbio-chamadas",
       "source_role": "primary",
@@ -856,19 +941,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:48467f8585f24833"
+        "evidence:funbio-chamadas:detail:acae26c96de35a17"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:48467f8585f24833"
+        "evidence:funbio-chamadas:detail:acae26c96de35a17"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:48467f8585f24833"
+          "funbio-chamadas:detail:acae26c96de35a17"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -883,13 +968,13 @@
         {
           "at": "2026-08-26T03:47:16Z",
           "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
+          "status": "VERIFIED"
         },
         {
           "at": "2026-08-26T05:01:48Z",
           "event": "updated",
           "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
+            "status": "VERIFIED"
           },
           "after": {
             "status": "OPEN"
@@ -897,8 +982,7 @@
         }
       ],
       "lens_matches": [
-        "innovation",
-        "sustainability"
+        "research"
       ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
@@ -953,19 +1037,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:ada05a9a05f00d1e"
+        "evidence:funbio-chamadas:detail:0c0f4a5705899714"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:ada05a9a05f00d1e"
+        "evidence:funbio-chamadas:detail:0c0f4a5705899714"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:ada05a9a05f00d1e"
+          "funbio-chamadas:detail:0c0f4a5705899714"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1023,92 +1107,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-ae4c285a815b4fad",
-      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
-      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
-      "organization": "Embratur",
-      "type": "research_call",
-      "domains": [
-        "research",
-        "tourism"
-      ],
-      "source_domains": [
-        "communities",
-        "innovation",
-        "sustainability",
-        "territory",
-        "tourism"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "source_id": "embratur-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
-      "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
-      "evidence": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "evidence_ids": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "embratur-editais:success:200",
-          "embratur-editais:detail:66ad14bf9b3ecc7a"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "embratur-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "research",
-        "tourism"
-      ],
-      "lifecycle_state": "ACTIVE",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-75d2646e36b42f5f",
       "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
       "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
@@ -1154,9 +1152,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -1167,6 +1165,92 @@
         "observation_ids": [
           "embratur-editais:success:200",
           "embratur-editais:detail:8e7ba2570bafbba6"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "embratur-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-09-05T13:05:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "research",
+        "tourism"
+      ],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ae4c285a815b4fad",
+      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
+      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
+      "organization": "Embratur",
+      "type": "research_call",
+      "domains": [
+        "research",
+        "tourism"
+      ],
+      "source_domains": [
+        "communities",
+        "innovation",
+        "sustainability",
+        "territory",
+        "tourism"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "source_id": "embratur-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-10T13:56:25Z",
+      "first_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
+      "evidence": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "embratur-editais:success:200",
+          "embratur-editais:detail:66ad14bf9b3ecc7a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1246,9 +1330,9 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
         "evidence:capta-editais:detail:101012d3a96c3628"
       ],
@@ -1379,19 +1463,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:capta-editais:detail:30a88a70aff97e4c"
+        "evidence:capta-editais:detail:da0e7dde8595db5a"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:30a88a70aff97e4c"
+        "evidence:capta-editais:detail:da0e7dde8595db5a"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:30a88a70aff97e4c"
+          "capta-editais:detail:da0e7dde8595db5a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1500,19 +1584,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:capta-editais:detail:63f8490247f14037"
+        "evidence:capta-editais:detail:5ddbdbf0bb8e9a90"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:63f8490247f14037"
+        "evidence:capta-editais:detail:5ddbdbf0bb8e9a90"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:63f8490247f14037"
+          "capta-editais:detail:5ddbdbf0bb8e9a90"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1624,19 +1708,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-09T14:01:36Z",
+      "updated_at": "2026-09-10T13:56:25Z",
       "first_seen_at": "2026-09-02T13:57:36Z",
-      "last_seen_at": "2026-09-09T14:01:36Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
       "evidence": [
-        "evidence:ics-chamadas:detail:a0bf2140807ad624"
+        "evidence:ics-chamadas:detail:18080efcc77e6daa"
       ],
       "evidence_ids": [
-        "evidence:ics-chamadas:detail:a0bf2140807ad624"
+        "evidence:ics-chamadas:detail:18080efcc77e6daa"
       ],
       "provenance": {
         "observation_ids": [
           "ics-chamadas:success:200",
-          "ics-chamadas:detail:a0bf2140807ad624"
+          "ics-chamadas:detail:18080efcc77e6daa"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1697,6 +1781,126 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-d9604c6f19d72821",
+      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "title": "Programa Pé-de-Meia",
+      "description": "CAIXA › Programas Sociais › Pé de Meia",
+      "organization": "Fundo Socioambiental CAIXA",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing"
+      ],
+      "source_domains": [
+        "financing",
+        "social_impact",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [
+        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
+        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
+      ],
+      "funding": {
+        "amount": 200.0,
+        "currency": "BRL",
+        "raw": "R$ 200,00"
+      },
+      "deadline": "2026-12-04T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "official_pdf_url": null,
+      "source_id": "caixa-fsa-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-10T13:56:25Z",
+      "first_seen_at": "2026-08-26T05:01:48Z",
+      "last_seen_at": "2026-09-10T13:56:25Z",
+      "evidence": [
+        "evidence:caixa-fsa-chamadas:detail:765ba3b945018678"
+      ],
+      "evidence_ids": [
+        "evidence:caixa-fsa-chamadas:detail:765ba3b945018678"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "caixa-fsa-chamadas:success:200",
+          "caixa-fsa-chamadas:detail:765ba3b945018678"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "caixa-fsa-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "OPEN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-34360865408",
+  "release_id": "weekly-34485773799",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 253 focos no município Pilão Arcado (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 283 focos no município Baianópolis (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-09T14:01:36Z",
-      "occurred_at": "2026-09-09T00:20:00Z",
+      "observed_at": "2026-09-10T13:56:25Z",
+      "occurred_at": "2026-09-10T00:05:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,19 +28,19 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 253,
-        "territory_id": "2924405",
+        "fire_count": 283,
+        "territory_id": "2902500",
         "biome": "Cerrado",
-        "frp_total": 3737.1,
-        "latest_occurred_at": "2026-09-09T12:40:00Z"
+        "frp_total": 14248.9,
+        "latest_occurred_at": "2026-09-10T12:40:00Z"
       },
       "location": {
-        "latitude": -9.7695,
-        "longitude": -43.506
+        "latitude": -12.8482,
+        "longitude": -44.341702
       },
       "territory": {
-        "municipality_id": "2924405",
-        "municipality": "Pilão Arcado",
+        "municipality_id": "2902500",
+        "municipality": "Baianópolis",
         "state": "BA",
         "state_name": "Bahia",
         "region": "NE",
@@ -53,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:11e7ab6e5f6b845f",
+        "evidence:inpe-queimadas:environment:b1e0062ecd3d6bb8",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260909.csv",
+        "inpe-queimadas:success:focos_diario_br_20260910.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-09T14:01:36Z",
+      "observed_at": "2026-09-10T13:56:25Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -120,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:73bbbd53b3957493",
+        "evidence:gbif-occurrences:environment:3632e68f74dba76a",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
