@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-34485773799",
+  "release_id": "weekly-34607145070",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:e8ed018c9957aa7a"
       ],
@@ -121,146 +121,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
-      "evidence": [
-        "evidence:capes-editais:detail:b0da1f2fad0b02cd"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:b0da1f2fad0b02cd"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:b0da1f2fad0b02cd"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
       "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
@@ -303,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:capes-editais:detail:bb9906f308485af9"
+        "evidence:capes-editais:detail:79b8518efc8e5ed6"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:bb9906f308485af9"
+        "evidence:capes-editais:detail:79b8518efc8e5ed6"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:bb9906f308485af9"
+          "capes-editais:detail:79b8518efc8e5ed6"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -396,6 +256,146 @@
       "lens_matches": [
         "education",
         "financing",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-11T13:56:07Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
+      "evidence": [
+        "evidence:capes-editais:detail:053221d4b03a06a0"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:053221d4b03a06a0"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:053221d4b03a06a0"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
         "research"
       ],
       "lifecycle_state": "UPCOMING",
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -514,90 +514,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-61cf5b9a774d7595",
-      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "title": "TCSA Porto Sul - Chamada 10/2026",
-      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
-      "organization": "FUNBIO",
-      "type": "call",
-      "domains": [],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 4000000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.000.000,00"
-      },
-      "deadline": "2026-11-09T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
-      "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:3391e72fa700ebb5"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:3391e72fa700ebb5"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:3391e72fa700ebb5"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "NEW"
-    },
-    {
       "opportunity_id": "opportunity-86e8e1e2db000e88",
       "canonical_key": "url:https://chamadas.funbio.org.br/raisfortalecimento1",
       "title": "Participe da 1ª Chamada do Projeto RAÍS -\"Fortalecimento de Organizações Comunitárias em Barcarena e Abaetetuba-PA\"",
@@ -644,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:dfd24c14452d0895"
+        "evidence:funbio-chamadas:detail:457ac0c81a7aee2e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:dfd24c14452d0895"
+        "evidence:funbio-chamadas:detail:457ac0c81a7aee2e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:dfd24c14452d0895"
+          "funbio-chamadas:detail:457ac0c81a7aee2e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -685,206 +601,6 @@
         }
       ],
       "lens_matches": [],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-ef834203239b495d",
-      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
-      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
-      "organization": "FUNBIO",
-      "type": "innovation_program",
-      "domains": [
-        "innovation",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 500000.0,
-        "currency": "BRL",
-        "raw": "R$ 500.000,00"
-      },
-      "deadline": "2026-09-25T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:71a9ec35cd437fae"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:71a9ec35cd437fae"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:71a9ec35cd437fae"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "innovation",
-        "sustainability"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-9768f23f518f414c",
-      "canonical_key": "url:https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
-      "title": "Seleção de Unidades de Conservação Costeiras e Marinhas Estaduais do Brasil para Inclusão ao Fundo Marinho",
-      "description": "Seleção via Manifestação de Interesse de UC's Costeiras e Marinhas Estaduais do litoral do Brasil para execução de recursos do Fundo Marinho",
-      "organization": "FUNBIO",
-      "type": "grant",
-      "domains": [
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 6650000.0,
-        "currency": "BRL",
-        "raw": "R$ 6.650.000,00"
-      },
-      "deadline": "2026-09-16T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:546881af7e7e508d"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:546881af7e7e508d"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:546881af7e7e508d"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
@@ -941,19 +657,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:acae26c96de35a17"
+        "evidence:funbio-chamadas:detail:d68d4d97325523c0"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:acae26c96de35a17"
+        "evidence:funbio-chamadas:detail:d68d4d97325523c0"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:acae26c96de35a17"
+          "funbio-chamadas:detail:d68d4d97325523c0"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -983,6 +699,290 @@
       ],
       "lens_matches": [
         "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-61cf5b9a774d7595",
+      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "title": "TCSA Porto Sul - Chamada 10/2026",
+      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
+      "organization": "FUNBIO",
+      "type": "call",
+      "domains": [],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 4000000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.000.000,00"
+      },
+      "deadline": "2026-11-09T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-11T13:56:07Z",
+      "first_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:19cd2e41146c0bed"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:19cd2e41146c0bed"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:19cd2e41146c0bed"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-9768f23f518f414c",
+      "canonical_key": "url:https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
+      "title": "Seleção de Unidades de Conservação Costeiras e Marinhas Estaduais do Brasil para Inclusão ao Fundo Marinho",
+      "description": "Seleção via Manifestação de Interesse de UC's Costeiras e Marinhas Estaduais do litoral do Brasil para execução de recursos do Fundo Marinho",
+      "organization": "FUNBIO",
+      "type": "grant",
+      "domains": [
+        "financing",
+        "social_impact",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 6650000.0,
+        "currency": "BRL",
+        "raw": "R$ 6.650.000,00"
+      },
+      "deadline": "2026-09-16T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/selecao-de-ucs-estaduais-fundo-marinho",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-11T13:56:07Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:6f223f676ca3df38"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:6f223f676ca3df38"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:6f223f676ca3df38"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "financing",
+        "social_impact",
+        "sustainability"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ef834203239b495d",
+      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
+      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
+      "organization": "FUNBIO",
+      "type": "innovation_program",
+      "domains": [
+        "innovation",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 500000.0,
+        "currency": "BRL",
+        "raw": "R$ 500.000,00"
+      },
+      "deadline": "2026-09-25T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-11T13:56:07Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:9dfb3edd7461a67f"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:9dfb3edd7461a67f"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:9dfb3edd7461a67f"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "innovation",
+        "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
@@ -1037,19 +1037,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:0c0f4a5705899714"
+        "evidence:funbio-chamadas:detail:cbca0f138da46495"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:0c0f4a5705899714"
+        "evidence:funbio-chamadas:detail:cbca0f138da46495"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:0c0f4a5705899714"
+          "funbio-chamadas:detail:cbca0f138da46495"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1152,9 +1152,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -1238,9 +1238,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -1330,19 +1330,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:capta-editais:detail:101012d3a96c3628"
+        "evidence:capta-editais:detail:c580f367e56d8f30"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:101012d3a96c3628"
+        "evidence:capta-editais:detail:c580f367e56d8f30"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:101012d3a96c3628"
+          "capta-editais:detail:c580f367e56d8f30"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1463,19 +1463,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:capta-editais:detail:da0e7dde8595db5a"
+        "evidence:capta-editais:detail:17f7e2e5afbb56e2"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:da0e7dde8595db5a"
+        "evidence:capta-editais:detail:17f7e2e5afbb56e2"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:da0e7dde8595db5a"
+          "capta-editais:detail:17f7e2e5afbb56e2"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1584,19 +1584,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:capta-editais:detail:5ddbdbf0bb8e9a90"
+        "evidence:capta-editais:detail:ca8873920f8de92e"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:5ddbdbf0bb8e9a90"
+        "evidence:capta-editais:detail:ca8873920f8de92e"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:5ddbdbf0bb8e9a90"
+          "capta-editais:detail:ca8873920f8de92e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1708,19 +1708,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-09-02T13:57:36Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:ics-chamadas:detail:18080efcc77e6daa"
+        "evidence:ics-chamadas:detail:9b78ebd425968550"
       ],
       "evidence_ids": [
-        "evidence:ics-chamadas:detail:18080efcc77e6daa"
+        "evidence:ics-chamadas:detail:9b78ebd425968550"
       ],
       "provenance": {
         "observation_ids": [
           "ics-chamadas:success:200",
-          "ics-chamadas:detail:18080efcc77e6daa"
+          "ics-chamadas:detail:9b78ebd425968550"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1832,19 +1832,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-10T13:56:25Z",
+      "updated_at": "2026-09-11T13:56:07Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-09-11T13:56:07Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:765ba3b945018678"
+        "evidence:caixa-fsa-chamadas:detail:ff5e95f7a30d5ccf"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:765ba3b945018678"
+        "evidence:caixa-fsa-chamadas:detail:ff5e95f7a30d5ccf"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:765ba3b945018678"
+          "caixa-fsa-chamadas:detail:ff5e95f7a30d5ccf"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1900,7 +1900,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
     }
   ]
 }
