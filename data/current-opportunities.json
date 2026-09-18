@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-35234172396",
+  "release_id": "weekly-35353314652",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:22337b8a43a3bee6"
+        "evidence:cnpq-chamadas:detail:91825b773ff67ba3"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:22337b8a43a3bee6"
+        "evidence:cnpq-chamadas:detail:91825b773ff67ba3"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:22337b8a43a3bee6"
+          "cnpq-chamadas:detail:91825b773ff67ba3"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -121,6 +121,115 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-7f9057cba96257f6",
+      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
+      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-18T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-18T13:58:05Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
+      "evidence": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:8d46773935fe64ac"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
       "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
@@ -163,19 +272,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:capes-editais:detail:74e2928ce589d40d"
+        "evidence:capes-editais:detail:a9ebcda1a86ced0e"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:74e2928ce589d40d"
+        "evidence:capes-editais:detail:a9ebcda1a86ced0e"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:74e2928ce589d40d"
+          "capes-editais:detail:a9ebcda1a86ced0e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -265,115 +374,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-7f9057cba96257f6",
-      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
-      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "education",
-        "research",
-        "territory"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "BR"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-18T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
-      "evidence": [
-        "evidence:capes-editais:detail:8d46773935fe64ac"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:8d46773935fe64ac"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:8d46773935fe64ac"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "research",
-        "territory"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
       "title": "Programa Capes/MES-Cuba - Projetos",
@@ -414,19 +414,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:capes-editais:detail:10bc4390cf9afa29"
+        "evidence:capes-editais:detail:d5a0b767adf9ea80"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:10bc4390cf9afa29"
+        "evidence:capes-editais:detail:d5a0b767adf9ea80"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:10bc4390cf9afa29"
+          "capes-editais:detail:d5a0b767adf9ea80"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:5cf7f9da996bc633"
+        "evidence:funbio-chamadas:detail:66d7881102ae2a6f"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:5cf7f9da996bc633"
+        "evidence:funbio-chamadas:detail:66d7881102ae2a6f"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:5cf7f9da996bc633"
+          "funbio-chamadas:detail:66d7881102ae2a6f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -644,19 +644,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:3e120174e35534bd"
+        "evidence:funbio-chamadas:detail:1da9792693f9ec49"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:3e120174e35534bd"
+        "evidence:funbio-chamadas:detail:1da9792693f9ec49"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:3e120174e35534bd"
+          "funbio-chamadas:detail:1da9792693f9ec49"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -739,19 +739,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:e5caf0d823f03019"
+        "evidence:funbio-chamadas:detail:ec2f36f76c3620d4"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:e5caf0d823f03019"
+        "evidence:funbio-chamadas:detail:ec2f36f76c3620d4"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:e5caf0d823f03019"
+          "funbio-chamadas:detail:ec2f36f76c3620d4"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -836,19 +836,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:6ef0c156cc2f38fd"
+        "evidence:funbio-chamadas:detail:b52be7062d39d324"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:6ef0c156cc2f38fd"
+        "evidence:funbio-chamadas:detail:b52be7062d39d324"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:6ef0c156cc2f38fd"
+          "funbio-chamadas:detail:b52be7062d39d324"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -951,9 +951,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -1037,9 +1037,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -1072,143 +1072,6 @@
         "tourism"
       ],
       "lifecycle_state": "ACTIVE",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-0de12731dedb4323",
-      "canonical_key": "url:https://periferiasfortes.phi.org.br",
-      "title": "Programa BNDES Periferias Fortes Norte",
-      "description": "Programa que apoia organizações periféricas do Norte e Maranhão com capacitação, mentorias e recursos de até R$ 300 mil.",
-      "organization": "Capta / ISPN",
-      "type": "innovation_program",
-      "domains": [
-        "innovation",
-        "territory"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "communities",
-        "financing",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Amazon"
-      ],
-      "eligibility": [
-        "Quem pode participar Estamos em busca de organizações que estão em favelas, ocupações, comunidades, quebradas, grotas, baixadas, alagados, vilas,ressacas, mocambos, palafitas, loteamentos informais, vilas de malocas, entre outros, nos municípios dos estados da região Norte e Maranhão",
-        "podem participar"
-      ],
-      "funding": {
-        "amount": 100.0,
-        "currency": "BRL",
-        "raw": "R$ 100"
-      },
-      "deadline": "2026-09-20T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://periferiasfortes.phi.org.br/",
-      "official_pdf_url": null,
-      "source_id": "capta-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
-      "evidence": [
-        "evidence:capta-editais:detail:d5801355121cacb6"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:d5801355121cacb6"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:d5801355121cacb6"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capta-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-08-27T16:23:11Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-02T13:57:36Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-03T13:59:25Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-04T13:52:21Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "innovation",
-        "territory"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -1262,19 +1125,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:capta-editais:detail:141086c7d8157046"
+        "evidence:capta-editais:detail:9075133a1582bf12"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:141086c7d8157046"
+        "evidence:capta-editais:detail:9075133a1582bf12"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:141086c7d8157046"
+          "capta-editais:detail:9075133a1582bf12"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1386,19 +1249,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-09-17T14:32:07Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:719c1ac3c10e095d"
+        "evidence:capitaai-meio-ambiente:detail:2c010dbcbbc1746a"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:719c1ac3c10e095d"
+        "evidence:capitaai-meio-ambiente:detail:2c010dbcbbc1746a"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:719c1ac3c10e095d"
+          "capitaai-meio-ambiente:detail:2c010dbcbbc1746a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1424,7 +1287,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     },
     {
       "opportunity_id": "opportunity-d9604c6f19d72821",
@@ -1476,19 +1339,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-17T14:32:07Z",
+      "updated_at": "2026-09-18T13:58:05Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-17T14:32:07Z",
+      "last_seen_at": "2026-09-18T13:58:05Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:93acf37666beb21e"
+        "evidence:caixa-fsa-chamadas:detail:67ca17010bd8dfca"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:93acf37666beb21e"
+        "evidence:caixa-fsa-chamadas:detail:67ca17010bd8dfca"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:93acf37666beb21e"
+          "caixa-fsa-chamadas:detail:67ca17010bd8dfca"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1559,7 +1422,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
+      "change_type": "UNCHANGED"
     }
   ]
 }

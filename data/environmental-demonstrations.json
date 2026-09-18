@@ -1,16 +1,107 @@
 {
-  "release_id": "weekly-35234172396",
+  "release_id": "weekly-35353314652",
   "demonstrations": [
+    {
+      "signal_id": "signal:composite:fire-territory-climate",
+      "canonical_key": "composite:fire-territory-climate",
+      "signal_type": "COMPOSITE_ENVIRONMENTAL",
+      "title": "Atividade de fogo recente + território + clima",
+      "summary": "Foram observados 552 focos no município Novo Santo Antônio (MT); o sistema associou contexto meteorológico por proximidade de 1.22 km, sem afirmar causalidade.",
+      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
+      "source_url": "https://github.com/viniburilux/Lux-Radar",
+      "observed_at": "2026-09-18T13:58:05Z",
+      "occurred_at": "2026-09-18T00:00:00Z",
+      "status": "OBSERVED",
+      "change_type": "UNCHANGED",
+      "domains": [
+        "sustainability"
+      ],
+      "lens_matches": [
+        "sustainability"
+      ],
+      "current_view": false,
+      "observed_item_count": 1,
+      "observed_items": [
+        {
+          "key": "fire-territory-climate",
+          "label": "Atividade de fogo recente + território + clima"
+        }
+      ],
+      "observed_fields": {
+        "fire_count": 552,
+        "biome": "Cerrado",
+        "territory_id": "5106315",
+        "climate_context": {
+          "distance_km": 1.22,
+          "observed_at": "2026-09-18T00:00",
+          "location": {
+            "latitude": -12.267135,
+            "longitude": -50.756775
+          },
+          "values": {
+            "temperature_2m": 29.9,
+            "precipitation": 0.0,
+            "relative_humidity_2m": 53,
+            "wind_speed_10m": 8.3
+          },
+          "units": {
+            "time": "iso8601",
+            "temperature_2m": "°C",
+            "precipitation": "mm",
+            "relative_humidity_2m": "%",
+            "wind_speed_10m": "km/h"
+          },
+          "forecast": true
+        }
+      },
+      "location": {
+        "latitude": -12.2633,
+        "longitude": -50.7463
+      },
+      "territory": {
+        "municipality_id": "5106315",
+        "municipality": "Novo Santo Antônio",
+        "state": "MT",
+        "state_name": "Mato Grosso",
+        "region": "CO",
+        "region_name": "Centro-Oeste",
+        "match_method": "municipality_id"
+      },
+      "subject": {
+        "entity_type": "composite_environmental_signal",
+        "key": "fire-territory-climate"
+      },
+      "related_signals": [
+        "signal:environment:inpe-queimadas:9c298f21f1c65555"
+      ],
+      "evidence_ids": [
+        "evidence:inpe-queimadas:environment:15f73633214d1080",
+        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
+        "evidence:open-meteo:environment:5915d854e76219e1"
+      ],
+      "observation_ids": [
+        "inpe-queimadas:success:focos_diario_br_20260918.csv",
+        "ibge-localidades-api:success:200",
+        "open-meteo:success:4locations"
+      ],
+      "limitations": [
+        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
+      ],
+      "provenance": {
+        "method": "deterministic cross-source composition",
+        "source_role": "derived"
+      }
+    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 820 focos no município Novo Santo Antônio (MT), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 552 focos no município Novo Santo Antônio (MT), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-17T14:32:07Z",
-      "occurred_at": "2026-09-17T00:20:00Z",
+      "observed_at": "2026-09-18T13:58:05Z",
+      "occurred_at": "2026-09-18T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,15 +119,15 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 820,
+        "fire_count": 552,
         "territory_id": "5106315",
         "biome": "Cerrado",
-        "frp_total": 25427.8,
-        "latest_occurred_at": "2026-09-17T13:40:00Z"
+        "frp_total": 15542.7,
+        "latest_occurred_at": "2026-09-18T12:40:00Z"
       },
       "location": {
-        "latitude": -12.5104,
-        "longitude": -50.8021
+        "latitude": -12.2633,
+        "longitude": -50.7463
       },
       "territory": {
         "municipality_id": "5106315",
@@ -52,15 +143,14 @@
         "key": "fire-concentration-territory"
       },
       "related_signals": [
-        "signal:environment:inpe-queimadas:acd272bb6156add9",
-        "signal:environment:inpe-queimadas:6ec3c216a95886e8"
+        "signal:environment:inpe-queimadas:9c298f21f1c65555"
       ],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:f89f099fad57584b",
+        "evidence:inpe-queimadas:environment:15f73633214d1080",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260917.csv",
+        "inpe-queimadas:success:focos_diario_br_20260918.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -79,7 +169,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-17T14:32:07Z",
+      "observed_at": "2026-09-18T13:58:05Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -123,7 +213,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:8c32aaef19cd5d7a",
+        "evidence:gbif-occurrences:environment:9d549e4f1d5a4797",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
