@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-35446145117",
+  "release_id": "weekly-35514577952",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 365 focos no município Portel (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 709 focos no município Marcelândia (MT), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-19T13:34:11Z",
-      "occurred_at": "2026-09-19T00:00:00Z",
+      "observed_at": "2026-09-20T13:48:38Z",
+      "occurred_at": "2026-09-20T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,23 +28,23 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 365,
-        "territory_id": "1505809",
+        "fire_count": 709,
+        "territory_id": "5105580",
         "biome": "Amazônia",
-        "frp_total": 8474.2,
-        "latest_occurred_at": "2026-09-19T07:24:00Z"
+        "frp_total": 24108.8,
+        "latest_occurred_at": "2026-09-20T12:40:00Z"
       },
       "location": {
-        "latitude": -2.8284,
-        "longitude": -50.4863
+        "latitude": -11.2118,
+        "longitude": -54.0797
       },
       "territory": {
-        "municipality_id": "1505809",
-        "municipality": "Portel",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
+        "municipality_id": "5105580",
+        "municipality": "Marcelândia",
+        "state": "MT",
+        "state_name": "Mato Grosso",
+        "region": "CO",
+        "region_name": "Centro-Oeste",
         "match_method": "municipality_id"
       },
       "subject": {
@@ -53,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:c6133880c8dd3ec9",
+        "evidence:inpe-queimadas:environment:99511e97af0f86c2",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260919.csv",
+        "inpe-queimadas:success:focos_diario_br_20260920.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-19T13:34:11Z",
+      "observed_at": "2026-09-20T13:48:38Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -120,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:602c3d4ca5ef1940",
+        "evidence:gbif-occurrences:environment:e6541dcbc036d47c",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
