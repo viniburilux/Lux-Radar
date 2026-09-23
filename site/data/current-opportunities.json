@@ -1,6 +1,125 @@
 {
-  "release_id": "weekly-35739008439",
+  "release_id": "weekly-35874821636",
   "opportunities": [
+    {
+      "opportunity_id": "opportunity-b49d91da43e099ef",
+      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
+      "organization": "CNPq",
+      "type": "grant",
+      "domains": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "source_domains": [
+        "innovation",
+        "research",
+        "sustainability"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+      ],
+      "funding": {
+        "amount": 4925000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.925.000,00"
+      },
+      "deadline": "2026-12-15T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "source_id": "cnpq-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-23T14:33:59Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
+      "evidence": [
+        "evidence:cnpq-chamadas:detail:81966addb74c6700"
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:81966addb74c6700"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "cnpq-chamadas:success:200",
+          "cnpq-chamadas:detail:81966addb74c6700"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "cnpq-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
     {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
@@ -44,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:capes-editais:detail:b248682825500480"
+        "evidence:capes-editais:detail:f265fac89d991a75"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:b248682825500480"
+        "evidence:capes-editais:detail:f265fac89d991a75"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:b248682825500480"
+          "capes-editais:detail:f265fac89d991a75"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -186,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:capes-editais:detail:53410d54063844ca"
+        "evidence:capes-editais:detail:241a66abeccb13ab"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:53410d54063844ca"
+        "evidence:capes-editais:detail:241a66abeccb13ab"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:53410d54063844ca"
+          "capes-editais:detail:241a66abeccb13ab"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -286,125 +405,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-b49d91da43e099ef",
-      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
-      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
-      "organization": "CNPq",
-      "type": "grant",
-      "domains": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "source_domains": [
-        "innovation",
-        "research",
-        "sustainability"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-      ],
-      "funding": {
-        "amount": 4925000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.925.000,00"
-      },
-      "deadline": "2026-12-15T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "source_id": "cnpq-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
-      "evidence": [
-        "evidence:cnpq-chamadas:detail:81966addb74c6700"
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:81966addb74c6700"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:81966addb74c6700"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "cnpq-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-7f9057cba96257f6",
       "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
       "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:2d2d336833d21000"
+        "evidence:funbio-chamadas:detail:e990b4dfede0701c"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:2d2d336833d21000"
+        "evidence:funbio-chamadas:detail:e990b4dfede0701c"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:2d2d336833d21000"
+          "funbio-chamadas:detail:e990b4dfede0701c"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -654,19 +654,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:e20d3afad877c8b2"
+        "evidence:funbio-chamadas:detail:4e6b22fccc606f91"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:e20d3afad877c8b2"
+        "evidence:funbio-chamadas:detail:4e6b22fccc606f91"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:e20d3afad877c8b2"
+          "funbio-chamadas:detail:4e6b22fccc606f91"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -686,104 +686,6 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-ef834203239b495d",
-      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
-      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
-      "organization": "FUNBIO",
-      "type": "innovation_program",
-      "domains": [
-        "innovation",
-        "sustainability"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 500000.0,
-        "currency": "BRL",
-        "raw": "R$ 500.000,00"
-      },
-      "deadline": "2026-09-25T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:77b3530e2975f438"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:77b3530e2975f438"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:77b3530e2975f438"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "innovation",
-        "sustainability"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -836,19 +738,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:3c134e29cb6ba0da"
+        "evidence:funbio-chamadas:detail:62d4af302d10958d"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:3c134e29cb6ba0da"
+        "evidence:funbio-chamadas:detail:62d4af302d10958d"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:3c134e29cb6ba0da"
+          "funbio-chamadas:detail:62d4af302d10958d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -906,6 +808,104 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-ef834203239b495d",
+      "canonical_key": "url:https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "title": "Manifestação de Interesse 03/2026 - Apoio às Unidades de Conservação Estaduais e Municipais do Litoral do Paraná",
+      "description": "Apoio às UCs estaduais e municipais do Litoral do Paraná, em Antonina, Guaraqueçaba, Morretes, Paranaguá, Guaratuba, Matinhos e Pontal, para criação e fortalecimento de conselhos",
+      "organization": "FUNBIO",
+      "type": "innovation_program",
+      "domains": [
+        "innovation",
+        "sustainability"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {
+        "amount": 500000.0,
+        "currency": "BRL",
+        "raw": "R$ 500.000,00"
+      },
+      "deadline": "2026-09-25T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/conselho-ucs-municipais-estaduais",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-23T14:33:59Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:56a667a492724691"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:56a667a492724691"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:56a667a492724691"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "innovation",
+        "sustainability"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-ae4c285a815b4fad",
       "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
       "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
@@ -951,9 +951,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -1037,9 +1037,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -1125,19 +1125,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:capta-editais:detail:52478a3cf14a1b53"
+        "evidence:capta-editais:detail:235050442dc56712"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:52478a3cf14a1b53"
+        "evidence:capta-editais:detail:235050442dc56712"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:52478a3cf14a1b53"
+          "capta-editais:detail:235050442dc56712"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1250,19 +1250,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-09-17T14:32:07Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:4a6d03069ac9b4c8"
+        "evidence:capitaai-meio-ambiente:detail:e5490e339cffb584"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:4a6d03069ac9b4c8"
+        "evidence:capitaai-meio-ambiente:detail:e5490e339cffb584"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:4a6d03069ac9b4c8"
+          "capitaai-meio-ambiente:detail:e5490e339cffb584"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1340,19 +1340,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-22T14:15:25Z",
+      "updated_at": "2026-09-23T14:33:59Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-22T14:15:25Z",
+      "last_seen_at": "2026-09-23T14:33:59Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:a6f8bb94d3db0787"
+        "evidence:caixa-fsa-chamadas:detail:7729872e04f97118"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:a6f8bb94d3db0787"
+        "evidence:caixa-fsa-chamadas:detail:7729872e04f97118"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:a6f8bb94d3db0787"
+          "caixa-fsa-chamadas:detail:7729872e04f97118"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [

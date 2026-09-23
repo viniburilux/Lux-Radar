@@ -1,105 +1,16 @@
 {
-  "release_id": "weekly-35739008439",
+  "release_id": "weekly-35874821636",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 956 focos no município Jacareacanga (PA); o sistema associou contexto meteorológico por proximidade de 3.9 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-22T14:15:25Z",
-      "occurred_at": "2026-09-22T00:00:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 956,
-        "biome": "Amazônia",
-        "territory_id": "1503754",
-        "climate_context": {
-          "distance_km": 3.9,
-          "observed_at": "2026-09-22T00:00",
-          "location": {
-            "latitude": -6.0808434,
-            "longitude": -57.846405
-          },
-          "values": {
-            "temperature_2m": 27.4,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 66,
-            "wind_speed_10m": 10.9
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -6.0549,
-        "longitude": -57.8227
-      },
-      "territory": {
-        "municipality_id": "1503754",
-        "municipality": "Jacareacanga",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:db2ebd56e2befde4",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:618eb69ff8d99033"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260922.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 956 focos no município Jacareacanga (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 608 focos no município Altamira (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-22T14:15:25Z",
-      "occurred_at": "2026-09-22T00:00:00Z",
+      "observed_at": "2026-09-23T14:33:59Z",
+      "occurred_at": "2026-09-23T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,19 +28,19 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 956,
-        "territory_id": "1503754",
+        "fire_count": 608,
+        "territory_id": "1500602",
         "biome": "Amazônia",
-        "frp_total": 14359.6,
-        "latest_occurred_at": "2026-09-22T13:40:00Z"
+        "frp_total": 6363.2,
+        "latest_occurred_at": "2026-09-23T13:10:00Z"
       },
       "location": {
-        "latitude": -6.0549,
-        "longitude": -57.8227
+        "latitude": -6.6816,
+        "longitude": -55.0502
       },
       "territory": {
-        "municipality_id": "1503754",
-        "municipality": "Jacareacanga",
+        "municipality_id": "1500602",
+        "municipality": "Altamira",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -140,13 +51,15 @@
         "entity_type": "composite_environmental_signal",
         "key": "fire-concentration-territory"
       },
-      "related_signals": [],
+      "related_signals": [
+        "signal:environment:inpe-queimadas:28e2fe38d563af90"
+      ],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:db2ebd56e2befde4",
+        "evidence:inpe-queimadas:environment:e4b785c50cdc027b",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260922.csv",
+        "inpe-queimadas:success:focos_diario_br_20260923.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +78,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-22T14:15:25Z",
+      "observed_at": "2026-09-23T14:33:59Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +122,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:406b9125440e9c5c",
+        "evidence:gbif-occurrences:environment:0b87c2eb0f93b1f7",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
