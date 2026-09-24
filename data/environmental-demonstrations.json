@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-35874821636",
+  "release_id": "weekly-36013332733",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 608 focos no município Altamira (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 491 focos no município Novo Aripuanã (AM), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-23T14:33:59Z",
-      "occurred_at": "2026-09-23T00:00:00Z",
+      "observed_at": "2026-09-24T14:30:55Z",
+      "occurred_at": "2026-09-24T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,21 +28,21 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 608,
-        "territory_id": "1500602",
+        "fire_count": 491,
+        "territory_id": "1303304",
         "biome": "Amazônia",
-        "frp_total": 6363.2,
-        "latest_occurred_at": "2026-09-23T13:10:00Z"
+        "frp_total": 8666.3,
+        "latest_occurred_at": "2026-09-24T13:40:00Z"
       },
       "location": {
-        "latitude": -6.6816,
-        "longitude": -55.0502
+        "latitude": -6.4486,
+        "longitude": -59.9717
       },
       "territory": {
-        "municipality_id": "1500602",
-        "municipality": "Altamira",
-        "state": "PA",
-        "state_name": "Pará",
+        "municipality_id": "1303304",
+        "municipality": "Novo Aripuanã",
+        "state": "AM",
+        "state_name": "Amazonas",
         "region": "N",
         "region_name": "Norte",
         "match_method": "municipality_id"
@@ -52,14 +52,14 @@
         "key": "fire-concentration-territory"
       },
       "related_signals": [
-        "signal:environment:inpe-queimadas:28e2fe38d563af90"
+        "signal:environment:inpe-queimadas:299766b9c87d4449"
       ],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:e4b785c50cdc027b",
+        "evidence:inpe-queimadas:environment:c9c9f0bcd62b67f9",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260923.csv",
+        "inpe-queimadas:success:focos_diario_br_20260924.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -78,7 +78,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-23T14:33:59Z",
+      "observed_at": "2026-09-24T14:30:55Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -122,7 +122,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:0b87c2eb0f93b1f7",
+        "evidence:gbif-occurrences:environment:1cb41f590c343389",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
