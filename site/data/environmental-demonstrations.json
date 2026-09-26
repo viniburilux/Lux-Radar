@@ -1,105 +1,16 @@
 {
-  "release_id": "weekly-36150252324",
+  "release_id": "weekly-36246849078",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 641 focos no município Novo Santo Antônio (MT); o sistema associou contexto meteorológico por proximidade de 30.2 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-25T14:51:21Z",
-      "occurred_at": "2026-09-25T00:10:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 641,
-        "biome": "Cerrado",
-        "territory_id": "5106315",
-        "climate_context": {
-          "distance_km": 30.2,
-          "observed_at": "2026-09-25T00:00",
-          "location": {
-            "latitude": -11.7750435,
-            "longitude": -50.92212
-          },
-          "values": {
-            "temperature_2m": 33.6,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 35,
-            "wind_speed_10m": 8.8
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -11.959,
-        "longitude": -50.7179
-      },
-      "territory": {
-        "municipality_id": "5106315",
-        "municipality": "Novo Santo Antônio",
-        "state": "MT",
-        "state_name": "Mato Grosso",
-        "region": "CO",
-        "region_name": "Centro-Oeste",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:1277123ba3676b49",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:560d2dfe30862746"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260925.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 641 focos no município Novo Santo Antônio (MT), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 380 focos no município Formoso do Araguaia (TO), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-25T14:51:21Z",
-      "occurred_at": "2026-09-25T00:10:00Z",
+      "observed_at": "2026-09-26T13:57:17Z",
+      "occurred_at": "2026-09-26T01:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,23 +28,23 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 641,
-        "territory_id": "5106315",
+        "fire_count": 380,
+        "territory_id": "1708205",
         "biome": "Cerrado",
-        "frp_total": 23563.4,
-        "latest_occurred_at": "2026-09-25T13:40:00Z"
+        "frp_total": 7610.2,
+        "latest_occurred_at": "2026-09-26T12:40:00Z"
       },
       "location": {
-        "latitude": -11.959,
-        "longitude": -50.7179
+        "latitude": -11.8659,
+        "longitude": -50.5791
       },
       "territory": {
-        "municipality_id": "5106315",
-        "municipality": "Novo Santo Antônio",
-        "state": "MT",
-        "state_name": "Mato Grosso",
-        "region": "CO",
-        "region_name": "Centro-Oeste",
+        "municipality_id": "1708205",
+        "municipality": "Formoso do Araguaia",
+        "state": "TO",
+        "state_name": "Tocantins",
+        "region": "N",
+        "region_name": "Norte",
         "match_method": "municipality_id"
       },
       "subject": {
@@ -142,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:1277123ba3676b49",
+        "evidence:inpe-queimadas:environment:1f990be504a5b9fd",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260925.csv",
+        "inpe-queimadas:success:focos_diario_br_20260926.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-25T14:51:21Z",
+      "observed_at": "2026-09-26T13:57:17Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -207,14 +118,81 @@
         "entity_type": "composite_environmental_signal",
         "key": "biodiversity-territory"
       },
-      "related_signals": [
-        "signal:environment:gbif-occurrences:16f1644258e0e213"
-      ],
+      "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:2e7f89d3627a774e",
+        "evidence:gbif-occurrences:environment:7bf70f51293f1fcd",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
+        "gbif-occurrences:success:200",
+        "ibge-localidades-api:success:200"
+      ],
+      "limitations": [
+        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
+      ],
+      "provenance": {
+        "method": "deterministic cross-source composition",
+        "source_role": "derived"
+      }
+    },
+    {
+      "signal_id": "signal:composite:cross-source-territory",
+      "canonical_key": "composite:cross-source-territory",
+      "signal_type": "COMPOSITE_ENVIRONMENTAL",
+      "title": "Fogo e biodiversidade observados no mesmo território",
+      "summary": "No snapshot, o município Botucatu aparece tanto no conjunto de focos INPE (4) quanto no conjunto amostrado de ocorrências GBIF (1). Isso descreve co-presença observacional; não afirma relação causal ou ameaça.",
+      "source_id": "inpe-queimadas+gbif-occurrences+ibge-localidades-api",
+      "source_url": "https://github.com/viniburilux/Lux-Radar",
+      "observed_at": "2026-09-26T13:57:17Z",
+      "occurred_at": "2026-09-26T04:12:00Z",
+      "status": "OBSERVED",
+      "change_type": "UNCHANGED",
+      "domains": [
+        "sustainability"
+      ],
+      "lens_matches": [
+        "sustainability"
+      ],
+      "current_view": false,
+      "observed_item_count": 1,
+      "observed_items": [
+        {
+          "key": "cross-source-territory",
+          "label": "Fogo e biodiversidade observados no mesmo território"
+        }
+      ],
+      "observed_fields": {
+        "fire_count": 4,
+        "biodiversity_count": 1,
+        "territory_id": "3507506"
+      },
+      "location": {
+        "latitude": -23.00298,
+        "longitude": -48.62236
+      },
+      "territory": {
+        "municipality_id": "3507506",
+        "municipality": "Botucatu",
+        "state": "SP",
+        "state_name": "São Paulo",
+        "region": "SE",
+        "region_name": "Sudeste",
+        "match_method": "municipality_id"
+      },
+      "subject": {
+        "entity_type": "composite_environmental_signal",
+        "key": "cross-source-territory"
+      },
+      "related_signals": [
+        "signal:environment:inpe-queimadas:1719f11bc36dd028"
+      ],
+      "evidence_ids": [
+        "evidence:inpe-queimadas:environment:1f990be504a5b9fd",
+        "evidence:gbif-occurrences:environment:7bf70f51293f1fcd",
+        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
+      ],
+      "observation_ids": [
+        "inpe-queimadas:success:focos_diario_br_20260926.csv",
         "gbif-occurrences:success:200",
         "ibge-localidades-api:success:200"
       ],
