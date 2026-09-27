@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-36246849078",
+  "release_id": "weekly-36327588053",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:9c086f068c780cd3"
+        "evidence:cnpq-chamadas:detail:ab36fca9a60d6efa"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:9c086f068c780cd3"
+        "evidence:cnpq-chamadas:detail:ab36fca9a60d6efa"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:9c086f068c780cd3"
+          "cnpq-chamadas:detail:ab36fca9a60d6efa"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:capes-editais:detail:68c8da9d23da64fb"
+        "evidence:capes-editais:detail:bdfab00d21c46346"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:68c8da9d23da64fb"
+        "evidence:capes-editais:detail:bdfab00d21c46346"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:68c8da9d23da64fb"
+          "capes-editais:detail:bdfab00d21c46346"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:capes-editais:detail:dbce761e7c8ab3a0"
+        "evidence:capes-editais:detail:0c3a8b89c304000e"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:dbce761e7c8ab3a0"
+        "evidence:capes-editais:detail:0c3a8b89c304000e"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:dbce761e7c8ab3a0"
+          "capes-editais:detail:0c3a8b89c304000e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:5760063b22420088"
+        "evidence:funbio-chamadas:detail:0a1c9d0ec937f146"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:5760063b22420088"
+        "evidence:funbio-chamadas:detail:0a1c9d0ec937f146"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:5760063b22420088"
+          "funbio-chamadas:detail:0a1c9d0ec937f146"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -654,19 +654,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:05b91c88a20b944a"
+        "evidence:funbio-chamadas:detail:2529f5ac6797ba72"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:05b91c88a20b944a"
+        "evidence:funbio-chamadas:detail:2529f5ac6797ba72"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:05b91c88a20b944a"
+          "funbio-chamadas:detail:2529f5ac6797ba72"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -686,92 +686,6 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-75d2646e36b42f5f",
-      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
-      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 03/2026 Processo nº 272100.003041/2025-96 Brasília, 02 de março de 2026. EDITAL DE CHAMAMENTO PÚBLICO Nº 03/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DA FEIRA ITB CHINA NA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil na feira internacional ITB China, que compõe a Agenda de Promoção Comercial da Agência no primeiro semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar da feira ITB China 2026, que compõe a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lançou o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plano Brasis se apresenta como o instrumento norteador da ",
-      "organization": "Embratur",
-      "type": "research_call",
-      "domains": [
-        "research",
-        "tourism"
-      ],
-      "source_domains": [
-        "communities",
-        "innovation",
-        "sustainability",
-        "territory",
-        "tourism"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "PÚBLICO-ALVO IDIOMA ITB China 26 a 28/05/2026Xangai, China Trade Inglês e Mandarim PERÍODO DE INSCRIÇÃO 02/03 a 11/03/2026 02/03/2026, 11:57 SEI/EMBRATUR - 1321652 - Edital https://sei"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "official_pdf_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "source_id": "embratur-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
-      "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
-      "evidence": [
-        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
-      ],
-      "evidence_ids": [
-        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "embratur-editais:success:200",
-          "embratur-editais:detail:8e7ba2570bafbba6"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "embratur-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "research",
-        "tourism"
-      ],
-      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -823,9 +737,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -836,6 +750,92 @@
         "observation_ids": [
           "embratur-editais:success:200",
           "embratur-editais:detail:66ad14bf9b3ecc7a"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "embratur-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-09-05T13:05:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "research",
+        "tourism"
+      ],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-75d2646e36b42f5f",
+      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
+      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 03/2026 Processo nº 272100.003041/2025-96 Brasília, 02 de março de 2026. EDITAL DE CHAMAMENTO PÚBLICO Nº 03/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DA FEIRA ITB CHINA NA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil na feira internacional ITB China, que compõe a Agenda de Promoção Comercial da Agência no primeiro semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar da feira ITB China 2026, que compõe a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lançou o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plano Brasis se apresenta como o instrumento norteador da ",
+      "organization": "Embratur",
+      "type": "research_call",
+      "domains": [
+        "research",
+        "tourism"
+      ],
+      "source_domains": [
+        "communities",
+        "innovation",
+        "sustainability",
+        "territory",
+        "tourism"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "PÚBLICO-ALVO IDIOMA ITB China 26 a 28/05/2026Xangai, China Trade Inglês e Mandarim PERÍODO DE INSCRIÇÃO 02/03 a 11/03/2026 02/03/2026, 11:57 SEI/EMBRATUR - 1321652 - Edital https://sei"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "official_pdf_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "source_id": "embratur-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-27T14:54:19Z",
+      "first_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
+      "evidence": [
+        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "embratur-editais:success:200",
+          "embratur-editais:detail:8e7ba2570bafbba6"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -911,19 +911,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:capta-editais:detail:a709b3c74ce68f7a"
+        "evidence:capta-editais:detail:fd752c66a4790ae8"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:a709b3c74ce68f7a"
+        "evidence:capta-editais:detail:fd752c66a4790ae8"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:a709b3c74ce68f7a"
+          "capta-editais:detail:fd752c66a4790ae8"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1003,7 +1003,6 @@
       "territories": [
         "Bahia",
         "Brasil",
-        "Amazônia",
         "Europe",
         "Europa"
       ],
@@ -1036,19 +1035,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-09-17T14:32:07Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:304b629960c48de8"
+        "evidence:capitaai-meio-ambiente:detail:d667d1c8f4549f15"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:304b629960c48de8"
+        "evidence:capitaai-meio-ambiente:detail:d667d1c8f4549f15"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:304b629960c48de8"
+          "capitaai-meio-ambiente:detail:d667d1c8f4549f15"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1126,19 +1125,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-26T13:57:17Z",
+      "updated_at": "2026-09-27T14:54:19Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-26T13:57:17Z",
+      "last_seen_at": "2026-09-27T14:54:19Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:5e93b34d0037419d"
+        "evidence:caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:5e93b34d0037419d"
+        "evidence:caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:5e93b34d0037419d"
+          "caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
