@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-36327588053",
+  "release_id": "weekly-36461153853",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ab36fca9a60d6efa"
       ],
@@ -121,6 +121,146 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-09-28T17:52:13Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
+      "evidence": [
+        "evidence:capes-editais:detail:4b3adaee46eae0da"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:4b3adaee46eae0da"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:4b3adaee46eae0da"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
       "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
@@ -163,19 +303,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
-        "evidence:capes-editais:detail:bdfab00d21c46346"
+        "evidence:capes-editais:detail:1a631e4cd8db4deb"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:bdfab00d21c46346"
+        "evidence:capes-editais:detail:1a631e4cd8db4deb"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:bdfab00d21c46346"
+          "capes-editais:detail:1a631e4cd8db4deb"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -256,146 +396,6 @@
       "lens_matches": [
         "education",
         "financing",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
-      "evidence": [
-        "evidence:capes-editais:detail:0c3a8b89c304000e"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:0c3a8b89c304000e"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:0c3a8b89c304000e"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
         "research"
       ],
       "lifecycle_state": "UPCOMING",
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:0a1c9d0ec937f146"
+        "evidence:funbio-chamadas:detail:575a5ee769884f8a"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:0a1c9d0ec937f146"
+        "evidence:funbio-chamadas:detail:575a5ee769884f8a"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:0a1c9d0ec937f146"
+          "funbio-chamadas:detail:575a5ee769884f8a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -654,19 +654,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:2529f5ac6797ba72"
+        "evidence:funbio-chamadas:detail:cceb0603d2cfbeba"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:2529f5ac6797ba72"
+        "evidence:funbio-chamadas:detail:cceb0603d2cfbeba"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:2529f5ac6797ba72"
+          "funbio-chamadas:detail:cceb0603d2cfbeba"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -737,9 +737,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -823,9 +823,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -911,19 +911,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
-        "evidence:capta-editais:detail:fd752c66a4790ae8"
+        "evidence:capta-editais:detail:f49a52aabc75d780"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:fd752c66a4790ae8"
+        "evidence:capta-editais:detail:f49a52aabc75d780"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:fd752c66a4790ae8"
+          "capta-editais:detail:f49a52aabc75d780"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1035,19 +1035,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
+      "updated_at": "2026-09-28T17:52:13Z",
       "first_seen_at": "2026-09-17T14:32:07Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
+      "last_seen_at": "2026-09-28T17:52:13Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:d667d1c8f4549f15"
+        "evidence:capitaai-meio-ambiente:detail:8b0964c71ff734bc"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:d667d1c8f4549f15"
+        "evidence:capitaai-meio-ambiente:detail:8b0964c71ff734bc"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:d667d1c8f4549f15"
+          "capitaai-meio-ambiente:detail:8b0964c71ff734bc"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1070,141 +1070,6 @@
         "research"
       ],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-d9604c6f19d72821",
-      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "title": "Programa Pé-de-Meia",
-      "description": "CAIXA › Programas Sociais › Pé de Meia",
-      "organization": "Fundo Socioambiental CAIXA",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing"
-      ],
-      "source_domains": [
-        "financing",
-        "social_impact",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "BR"
-      ],
-      "eligibility": [
-        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
-        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
-      ],
-      "funding": {
-        "amount": 200.0,
-        "currency": "BRL",
-        "raw": "R$ 200,00"
-      },
-      "deadline": "2026-12-04T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
-      "official_pdf_url": null,
-      "source_id": "caixa-fsa-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-09-27T14:54:19Z",
-      "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-09-27T14:54:19Z",
-      "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
-      ],
-      "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:172c3f3a6f7b4ca8"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "caixa-fsa-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "first_seen",
-          "status": "INSUFFICIENT_EVIDENCE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "INSUFFICIENT_EVIDENCE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-16T14:27:31Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-17T14:32:07Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing"
-      ],
-      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
