@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-36461153853",
+  "release_id": "weekly-36596157691",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 458 focos no município Formoso do Araguaia (TO), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 677 focos no município Barra (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-28T17:52:13Z",
-      "occurred_at": "2026-09-28T00:10:00Z",
+      "observed_at": "2026-09-29T16:13:54Z",
+      "occurred_at": "2026-09-29T00:15:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,23 +28,23 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 458,
-        "territory_id": "1708205",
+        "fire_count": 677,
+        "territory_id": "2902708",
         "biome": "Cerrado",
-        "frp_total": 31492.0,
-        "latest_occurred_at": "2026-09-28T16:40:00Z"
+        "frp_total": 16357.1,
+        "latest_occurred_at": "2026-09-29T14:50:00Z"
       },
       "location": {
-        "latitude": -12.155,
-        "longitude": -50.352
+        "latitude": -11.48,
+        "longitude": -43.45
       },
       "territory": {
-        "municipality_id": "1708205",
-        "municipality": "Formoso do Araguaia",
-        "state": "TO",
-        "state_name": "Tocantins",
-        "region": "N",
-        "region_name": "Norte",
+        "municipality_id": "2902708",
+        "municipality": "Barra",
+        "state": "BA",
+        "state_name": "Bahia",
+        "region": "NE",
+        "region_name": "Nordeste",
         "match_method": "municipality_id"
       },
       "subject": {
@@ -53,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:48913247c2103148",
+        "evidence:inpe-queimadas:environment:d85c3249072a0e49",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260928.csv",
+        "inpe-queimadas:success:focos_diario_br_20260929.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-28T17:52:13Z",
+      "observed_at": "2026-09-29T16:13:54Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -120,10 +120,79 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:19b0f848ec051123",
+        "evidence:gbif-occurrences:environment:aaa37f69d72662a6",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
+        "gbif-occurrences:success:200",
+        "ibge-localidades-api:success:200"
+      ],
+      "limitations": [
+        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
+      ],
+      "provenance": {
+        "method": "deterministic cross-source composition",
+        "source_role": "derived"
+      }
+    },
+    {
+      "signal_id": "signal:composite:cross-source-territory",
+      "canonical_key": "composite:cross-source-territory",
+      "signal_type": "COMPOSITE_ENVIRONMENTAL",
+      "title": "Fogo e biodiversidade observados no mesmo território",
+      "summary": "No snapshot, o município Botucatu aparece tanto no conjunto de focos INPE (6) quanto no conjunto amostrado de ocorrências GBIF (1). Isso descreve co-presença observacional; não afirma relação causal ou ameaça.",
+      "source_id": "inpe-queimadas+gbif-occurrences+ibge-localidades-api",
+      "source_url": "https://github.com/viniburilux/Lux-Radar",
+      "observed_at": "2026-09-29T16:13:54Z",
+      "occurred_at": "2026-09-29T04:19:00Z",
+      "status": "OBSERVED",
+      "change_type": "UNCHANGED",
+      "domains": [
+        "sustainability"
+      ],
+      "lens_matches": [
+        "sustainability"
+      ],
+      "current_view": false,
+      "observed_item_count": 1,
+      "observed_items": [
+        {
+          "key": "cross-source-territory",
+          "label": "Fogo e biodiversidade observados no mesmo território"
+        }
+      ],
+      "observed_fields": {
+        "fire_count": 6,
+        "biodiversity_count": 1,
+        "territory_id": "3507506"
+      },
+      "location": {
+        "latitude": -23.00965,
+        "longitude": -48.61912
+      },
+      "territory": {
+        "municipality_id": "3507506",
+        "municipality": "Botucatu",
+        "state": "SP",
+        "state_name": "São Paulo",
+        "region": "SE",
+        "region_name": "Sudeste",
+        "match_method": "municipality_id"
+      },
+      "subject": {
+        "entity_type": "composite_environmental_signal",
+        "key": "cross-source-territory"
+      },
+      "related_signals": [
+        "signal:environment:inpe-queimadas:b40ddb56dade5b44"
+      ],
+      "evidence_ids": [
+        "evidence:inpe-queimadas:environment:d85c3249072a0e49",
+        "evidence:gbif-occurrences:environment:aaa37f69d72662a6",
+        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
+      ],
+      "observation_ids": [
+        "inpe-queimadas:success:focos_diario_br_20260929.csv",
         "gbif-occurrences:success:200",
         "ibge-localidades-api:success:200"
       ],
