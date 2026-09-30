@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-36596157691",
+  "release_id": "weekly-36742089552",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 677 focos no município Barra (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 471 focos no município Barra (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-29T16:13:54Z",
-      "occurred_at": "2026-09-29T00:15:00Z",
+      "observed_at": "2026-09-30T16:09:20Z",
+      "occurred_at": "2026-09-30T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,15 +28,15 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 677,
+        "fire_count": 471,
         "territory_id": "2902708",
         "biome": "Cerrado",
-        "frp_total": 16357.1,
-        "latest_occurred_at": "2026-09-29T14:50:00Z"
+        "frp_total": 24147.6,
+        "latest_occurred_at": "2026-09-30T14:50:00Z"
       },
       "location": {
-        "latitude": -11.48,
-        "longitude": -43.45
+        "latitude": -11.4311,
+        "longitude": -43.4121
       },
       "territory": {
         "municipality_id": "2902708",
@@ -53,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:d85c3249072a0e49",
+        "evidence:inpe-queimadas:environment:9da568562a053ed1",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260929.csv",
+        "inpe-queimadas:success:focos_diario_br_20260930.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-29T16:13:54Z",
+      "observed_at": "2026-09-30T16:09:20Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -120,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:aaa37f69d72662a6",
+        "evidence:gbif-occurrences:environment:5d38874f73f688f2",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
@@ -140,11 +140,11 @@
       "canonical_key": "composite:cross-source-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Fogo e biodiversidade observados no mesmo território",
-      "summary": "No snapshot, o município Botucatu aparece tanto no conjunto de focos INPE (6) quanto no conjunto amostrado de ocorrências GBIF (1). Isso descreve co-presença observacional; não afirma relação causal ou ameaça.",
+      "summary": "No snapshot, o município Botucatu aparece tanto no conjunto de focos INPE (4) quanto no conjunto amostrado de ocorrências GBIF (1). Isso descreve co-presença observacional; não afirma relação causal ou ameaça.",
       "source_id": "inpe-queimadas+gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-09-29T16:13:54Z",
-      "occurred_at": "2026-09-29T04:19:00Z",
+      "observed_at": "2026-09-30T16:09:20Z",
+      "occurred_at": "2026-09-30T04:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -162,13 +162,13 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 6,
+        "fire_count": 4,
         "biodiversity_count": 1,
         "territory_id": "3507506"
       },
       "location": {
-        "latitude": -23.00965,
-        "longitude": -48.61912
+        "latitude": -23.00389,
+        "longitude": -48.61642
       },
       "territory": {
         "municipality_id": "3507506",
@@ -183,16 +183,14 @@
         "entity_type": "composite_environmental_signal",
         "key": "cross-source-territory"
       },
-      "related_signals": [
-        "signal:environment:inpe-queimadas:b40ddb56dade5b44"
-      ],
+      "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:d85c3249072a0e49",
-        "evidence:gbif-occurrences:environment:aaa37f69d72662a6",
+        "evidence:inpe-queimadas:environment:9da568562a053ed1",
+        "evidence:gbif-occurrences:environment:5d38874f73f688f2",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20260929.csv",
+        "inpe-queimadas:success:focos_diario_br_20260930.csv",
         "gbif-occurrences:success:200",
         "ibge-localidades-api:success:200"
       ],
