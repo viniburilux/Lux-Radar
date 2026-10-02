@@ -1,105 +1,16 @@
 {
-  "release_id": "weekly-36894533865",
+  "release_id": "weekly-37031006849",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 718 focos no município Novo Repartimento (PA); o sistema associou contexto meteorológico por proximidade de 148.96 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-01T16:47:03Z",
-      "occurred_at": "2026-10-01T00:15:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 718,
-        "biome": "Amazônia",
-        "territory_id": "1505064",
-        "climate_context": {
-          "distance_km": 148.96,
-          "observed_at": "2026-10-01T00:00",
-          "location": {
-            "latitude": -2.9876976,
-            "longitude": -51.014496
-          },
-          "values": {
-            "temperature_2m": 27.0,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 80,
-            "wind_speed_10m": 9.0
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -4.29,
-        "longitude": -50.7
-      },
-      "territory": {
-        "municipality_id": "1505064",
-        "municipality": "Novo Repartimento",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:35e2c40a636540ee",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:0b7a0c724ce31d27"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261001.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 718 focos no município Novo Repartimento (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 1345 focos no município Barra (BA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-01T16:47:03Z",
-      "occurred_at": "2026-10-01T00:15:00Z",
+      "observed_at": "2026-10-02T16:01:10Z",
+      "occurred_at": "2026-10-02T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,23 +28,23 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 718,
-        "territory_id": "1505064",
-        "biome": "Amazônia",
-        "frp_total": 33492.4,
-        "latest_occurred_at": "2026-10-01T07:15:00Z"
+        "fire_count": 1345,
+        "territory_id": "2902708",
+        "biome": "Cerrado",
+        "frp_total": 73835.7,
+        "latest_occurred_at": "2026-10-02T14:40:00Z"
       },
       "location": {
-        "latitude": -4.29,
-        "longitude": -50.7
+        "latitude": -11.4691,
+        "longitude": -43.4299
       },
       "territory": {
-        "municipality_id": "1505064",
-        "municipality": "Novo Repartimento",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
+        "municipality_id": "2902708",
+        "municipality": "Barra",
+        "state": "BA",
+        "state_name": "Bahia",
+        "region": "NE",
+        "region_name": "Nordeste",
         "match_method": "municipality_id"
       },
       "subject": {
@@ -142,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:35e2c40a636540ee",
+        "evidence:inpe-queimadas:environment:ec9697e87daae7c0",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261001.csv",
+        "inpe-queimadas:success:focos_diario_br_20261002.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-01T16:47:03Z",
+      "observed_at": "2026-10-02T16:01:10Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:ce2fd1e03bc4fa80",
+        "evidence:gbif-occurrences:environment:9eb04ff32fd54439",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
