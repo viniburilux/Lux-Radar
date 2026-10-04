@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-37129665301",
+  "release_id": "weekly-37211452855",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:3012be88363f9c2c"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
-        "evidence:capes-editais:detail:47165157aa721a59"
+        "evidence:capes-editais:detail:7a6ca7a69c35d1ab"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:47165157aa721a59"
+        "evidence:capes-editais:detail:7a6ca7a69c35d1ab"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:47165157aa721a59"
+          "capes-editais:detail:7a6ca7a69c35d1ab"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
-        "evidence:capes-editais:detail:8f84af98e3350f80"
+        "evidence:capes-editais:detail:c057d2917c2e61e3"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:8f84af98e3350f80"
+        "evidence:capes-editais:detail:c057d2917c2e61e3"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:8f84af98e3350f80"
+          "capes-editais:detail:c057d2917c2e61e3"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -514,90 +514,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-61cf5b9a774d7595",
-      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "title": "TCSA Porto Sul - Chamada 10/2026",
-      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
-      "organization": "FUNBIO",
-      "type": "call",
-      "domains": [],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 4000000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.000.000,00"
-      },
-      "deadline": "2026-11-09T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
-      "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:124d3b077ada4a45"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:124d3b077ada4a45"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:124d3b077ada4a45"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-86e8e1e2db000e88",
       "canonical_key": "url:https://chamadas.funbio.org.br/raisfortalecimento1",
       "title": "Participe da 1ª Chamada do Projeto RAÍS -\"Fortalecimento de Organizações Comunitárias em Barcarena e Abaetetuba-PA\"",
@@ -644,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:cff596384db6e5af"
+        "evidence:funbio-chamadas:detail:240159cc5dcd9d73"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:cff596384db6e5af"
+        "evidence:funbio-chamadas:detail:240159cc5dcd9d73"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:cff596384db6e5af"
+          "funbio-chamadas:detail:240159cc5dcd9d73"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -686,6 +602,90 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-61cf5b9a774d7595",
+      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "title": "TCSA Porto Sul - Chamada 10/2026",
+      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
+      "organization": "FUNBIO",
+      "type": "call",
+      "domains": [],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 4000000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.000.000,00"
+      },
+      "deadline": "2026-11-09T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-04T15:01:47Z",
+      "first_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:d39c2db5f9987b87"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:d39c2db5f9987b87"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:d39c2db5f9987b87"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -737,9 +737,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -823,9 +823,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -911,19 +911,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-27T16:23:11Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
-        "evidence:capta-editais:detail:e422c182e03825b9"
+        "evidence:capta-editais:detail:077fe8eec4764eba"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:e422c182e03825b9"
+        "evidence:capta-editais:detail:077fe8eec4764eba"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:e422c182e03825b9"
+          "capta-editais:detail:077fe8eec4764eba"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1032,19 +1032,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
+      "updated_at": "2026-10-04T15:01:47Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
+      "last_seen_at": "2026-10-04T15:01:47Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:8237a0250d7a55e5"
+        "evidence:caixa-fsa-chamadas:detail:4f8ba9061968d3a4"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:8237a0250d7a55e5"
+        "evidence:caixa-fsa-chamadas:detail:4f8ba9061968d3a4"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:8237a0250d7a55e5"
+          "caixa-fsa-chamadas:detail:4f8ba9061968d3a4"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1141,476 +1141,6 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-f73bf4a3d63afd38",
-      "canonical_key": "pdf:https://fapitec.se.gov.br/wp-content/uploads/2026/08/Edital-no-11-2026-Programa-de-Apoio-as-Empresas-Juniores.pdf",
-      "title": "Edital FAPITEC SE 2026: Apoio a Empresas Juniores",
-      "description": "Empresas juniores podem captar recursos no Edital nº 11/2026 da FAPITEC Sergipe para inovação tecnológica. Descubra regras, critérios e o passo a passo.",
-      "organization": "Capitaai",
-      "type": "grant",
-      "domains": [
-        "financing",
-        "innovation"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "conservation",
-        "financing",
-        "sustainability"
-      ],
-      "territories": [
-        "Bahia",
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {
-        "amount": 97.0,
-        "currency": "BRL",
-        "raw": "R$ 97"
-      },
-      "deadline": "2026-10-08T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://capitaai.com.br/captacao/edital-fapitecsefuntec-112026-programa-apoio-empresas-juniores-fundaca-9o00dv",
-      "official_pdf_url": "https://fapitec.se.gov.br/wp-content/uploads/2026/08/Edital-no-11-2026-Programa-de-Apoio-as-Empresas-Juniores.pdf",
-      "source_id": "capitaai-meio-ambiente",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-03T14:27:51Z",
-      "first_seen_at": "2026-08-26T06:04:36Z",
-      "last_seen_at": "2026-10-03T14:27:51Z",
-      "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:08ad4498cf93b4a9"
-      ],
-      "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:08ad4498cf93b4a9"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:08ad4498cf93b4a9"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
-          "Official PDF network failure: ConnectTimeout."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capitaai-meio-ambiente"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T06:04:36Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-27T16:23:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-28T21:01:57Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-29T14:47:43Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-30T14:34:20Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-31T17:17:58Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-01T14:23:49Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-02T13:57:36Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-03T13:59:25Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-04T13:52:21Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-06T13:17:36Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-07T15:23:29Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-11T13:56:07Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-12T13:14:17Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-13T13:58:05Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-14T16:02:59Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-15T14:32:53Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-16T14:27:31Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-17T14:32:07Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-18T13:58:05Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-19T13:34:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-20T13:48:38Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-21T16:05:14Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-22T14:15:25Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-23T14:33:59Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-24T14:30:55Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-25T14:51:21Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-26T13:57:17Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-27T14:54:19Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-28T17:52:13Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-29T16:13:54Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-09-30T16:09:20Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-10-01T16:47:03Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "CLOSED"
-          }
-        },
-        {
-          "at": "2026-10-03T14:27:51Z",
-          "event": "updated",
-          "before": {
-            "status": "CLOSED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "financing",
-        "innovation"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
     }
   ]
 }
