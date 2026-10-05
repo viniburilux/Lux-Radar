@@ -1,105 +1,16 @@
 {
-  "release_id": "weekly-37211452855",
+  "release_id": "weekly-37359808830",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 862 focos no município Uruará (PA); o sistema associou contexto meteorológico por proximidade de 52.14 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-04T15:01:47Z",
-      "occurred_at": "2026-10-04T00:00:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 862,
-        "biome": "Amazônia",
-        "territory_id": "1508159",
-        "climate_context": {
-          "distance_km": 52.14,
-          "observed_at": "2026-10-04T00:00",
-          "location": {
-            "latitude": -2.7768013,
-            "longitude": -54.072296
-          },
-          "values": {
-            "temperature_2m": 27.9,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 62,
-            "wind_speed_10m": 10.0
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -3.1116,
-        "longitude": -53.7436
-      },
-      "territory": {
-        "municipality_id": "1508159",
-        "municipality": "Uruará",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:deb15004f7cb4b8f",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:f2ee0b5a4a06718b"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261004.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 862 focos no município Uruará (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 861 focos no município Santarém (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-04T15:01:47Z",
-      "occurred_at": "2026-10-04T00:00:00Z",
+      "observed_at": "2026-10-05T18:57:21Z",
+      "occurred_at": "2026-10-05T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,19 +28,19 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 862,
-        "territory_id": "1508159",
+        "fire_count": 861,
+        "territory_id": "1506807",
         "biome": "Amazônia",
-        "frp_total": 27034.9,
-        "latest_occurred_at": "2026-10-04T13:15:00Z"
+        "frp_total": 22335.9,
+        "latest_occurred_at": "2026-10-05T15:20:00Z"
       },
       "location": {
-        "latitude": -3.1116,
-        "longitude": -53.7436
+        "latitude": -2.9817,
+        "longitude": -54.1091
       },
       "territory": {
-        "municipality_id": "1508159",
-        "municipality": "Uruará",
+        "municipality_id": "1506807",
+        "municipality": "Santarém",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -142,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:deb15004f7cb4b8f",
+        "evidence:inpe-queimadas:environment:8cca38d10662eab0",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261004.csv",
+        "inpe-queimadas:success:focos_diario_br_20261005.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-04T15:01:47Z",
+      "observed_at": "2026-10-05T18:57:21Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:0281844ae5c8c4d4",
+        "evidence:gbif-occurrences:environment:19e65134c35a2e62",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
