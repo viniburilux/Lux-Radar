@@ -1,105 +1,16 @@
 {
-  "release_id": "weekly-37656250711",
+  "release_id": "weekly-37813709211",
   "demonstrations": [
-    {
-      "signal_id": "signal:composite:fire-territory-climate",
-      "canonical_key": "composite:fire-territory-climate",
-      "signal_type": "COMPOSITE_ENVIRONMENTAL",
-      "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 1420 focos no município Uruará (PA); o sistema associou contexto meteorológico por proximidade de 45.95 km, sem afirmar causalidade.",
-      "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
-      "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-07T17:05:10Z",
-      "occurred_at": "2026-10-07T00:00:00Z",
-      "status": "OBSERVED",
-      "change_type": "UNCHANGED",
-      "domains": [
-        "sustainability"
-      ],
-      "lens_matches": [
-        "sustainability"
-      ],
-      "current_view": false,
-      "observed_item_count": 1,
-      "observed_items": [
-        {
-          "key": "fire-territory-climate",
-          "label": "Atividade de fogo recente + território + clima"
-        }
-      ],
-      "observed_fields": {
-        "fire_count": 1420,
-        "biome": "Amazônia",
-        "territory_id": "1508159",
-        "climate_context": {
-          "distance_km": 45.95,
-          "observed_at": "2026-10-07T00:00",
-          "location": {
-            "latitude": -3.0579965,
-            "longitude": -54.174072
-          },
-          "values": {
-            "temperature_2m": 27.7,
-            "precipitation": 0.0,
-            "relative_humidity_2m": 54,
-            "wind_speed_10m": 12.1
-          },
-          "units": {
-            "time": "iso8601",
-            "temperature_2m": "°C",
-            "precipitation": "mm",
-            "relative_humidity_2m": "%",
-            "wind_speed_10m": "km/h"
-          },
-          "forecast": true
-        }
-      },
-      "location": {
-        "latitude": -3.1115,
-        "longitude": -53.7637
-      },
-      "territory": {
-        "municipality_id": "1508159",
-        "municipality": "Uruará",
-        "state": "PA",
-        "state_name": "Pará",
-        "region": "N",
-        "region_name": "Norte",
-        "match_method": "municipality_id"
-      },
-      "subject": {
-        "entity_type": "composite_environmental_signal",
-        "key": "fire-territory-climate"
-      },
-      "related_signals": [],
-      "evidence_ids": [
-        "evidence:inpe-queimadas:environment:6788028ec61dd93d",
-        "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:fa997780709f0d37"
-      ],
-      "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261007.csv",
-        "ibge-localidades-api:success:200",
-        "open-meteo:success:4locations"
-      ],
-      "limitations": [
-        "Composição descritiva; não implica causalidade, risco, anomalia ou oportunidade."
-      ],
-      "provenance": {
-        "method": "deterministic cross-source composition",
-        "source_role": "derived"
-      }
-    },
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 1420 focos no município Uruará (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 2306 focos no município Uruará (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-07T17:05:10Z",
-      "occurred_at": "2026-10-07T00:00:00Z",
+      "observed_at": "2026-10-08T17:04:33Z",
+      "occurred_at": "2026-10-08T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,15 +28,15 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 1420,
+        "fire_count": 2306,
         "territory_id": "1508159",
         "biome": "Amazônia",
-        "frp_total": 24021.1,
-        "latest_occurred_at": "2026-10-07T15:40:00Z"
+        "frp_total": 20715.5,
+        "latest_occurred_at": "2026-10-08T15:40:00Z"
       },
       "location": {
-        "latitude": -3.1115,
-        "longitude": -53.7637
+        "latitude": -3.1114,
+        "longitude": -53.7839
       },
       "territory": {
         "municipality_id": "1508159",
@@ -142,11 +53,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:6788028ec61dd93d",
+        "evidence:inpe-queimadas:environment:85671eee203ff8aa",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261007.csv",
+        "inpe-queimadas:success:focos_diario_br_20261008.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +76,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-07T17:05:10Z",
+      "observed_at": "2026-10-08T17:04:33Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +120,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:c0608d8969f5abbc",
+        "evidence:gbif-occurrences:environment:a4a1455824dccd87",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
