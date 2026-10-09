@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-37813709211",
+  "release_id": "weekly-37960981858",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-concentration-territory",
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 2306 focos no município Uruará (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 1506 focos no município Uruará (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-08T17:04:33Z",
-      "occurred_at": "2026-10-08T00:00:00Z",
+      "observed_at": "2026-10-09T16:42:10Z",
+      "occurred_at": "2026-10-09T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,15 +28,15 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 2306,
+        "fire_count": 1506,
         "territory_id": "1508159",
         "biome": "Amazônia",
-        "frp_total": 20715.5,
-        "latest_occurred_at": "2026-10-08T15:40:00Z"
+        "frp_total": 17805.4,
+        "latest_occurred_at": "2026-10-09T15:30:00Z"
       },
       "location": {
-        "latitude": -3.1114,
-        "longitude": -53.7839
+        "latitude": -3.1109,
+        "longitude": -53.9249
       },
       "territory": {
         "municipality_id": "1508159",
@@ -51,13 +51,15 @@
         "entity_type": "composite_environmental_signal",
         "key": "fire-concentration-territory"
       },
-      "related_signals": [],
+      "related_signals": [
+        "signal:environment:inpe-queimadas:971a73215be6e661"
+      ],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:85671eee203ff8aa",
+        "evidence:inpe-queimadas:environment:a576b4e6417ccc75",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261008.csv",
+        "inpe-queimadas:success:focos_diario_br_20261009.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -76,7 +78,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-08T17:04:33Z",
+      "observed_at": "2026-10-09T16:42:10Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -120,7 +122,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:a4a1455824dccd87",
+        "evidence:gbif-occurrences:environment:5abe1b4534bfd0a2",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
