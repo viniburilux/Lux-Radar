@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-37960981858",
+  "release_id": "weekly-38064379297",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:7089ec19c1b516a5"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
-        "evidence:capes-editais:detail:3d6140475a4d983a"
+        "evidence:capes-editais:detail:2bb4205732adeff5"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:3d6140475a4d983a"
+        "evidence:capes-editais:detail:2bb4205732adeff5"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:3d6140475a4d983a"
+          "capes-editais:detail:2bb4205732adeff5"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
-        "evidence:capes-editais:detail:db32a046fa2ce84d"
+        "evidence:capes-editais:detail:01151cb735b68684"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:db32a046fa2ce84d"
+        "evidence:capes-editais:detail:01151cb735b68684"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:db32a046fa2ce84d"
+          "capes-editais:detail:01151cb735b68684"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:4ab85ef35d3a35aa"
+        "evidence:funbio-chamadas:detail:044adcf441ef3fb7"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:4ab85ef35d3a35aa"
+        "evidence:funbio-chamadas:detail:044adcf441ef3fb7"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:4ab85ef35d3a35aa"
+          "funbio-chamadas:detail:044adcf441ef3fb7"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -643,9 +643,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -729,9 +729,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -839,19 +839,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-09T16:42:10Z",
+      "updated_at": "2026-10-10T15:37:59Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-09T16:42:10Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:5f5eba813a000c29"
+        "evidence:caixa-fsa-chamadas:detail:efe566397fbcb135"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:5f5eba813a000c29"
+        "evidence:caixa-fsa-chamadas:detail:efe566397fbcb135"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:5f5eba813a000c29"
+          "caixa-fsa-chamadas:detail:efe566397fbcb135"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -948,6 +948,93 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-3b8fb40c97e37882",
+      "canonical_key": "pdf:https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
+      "title": "Brasilcap abre edital para projetos sociais, culturais, esportivos e de saúde",
+      "description": "Chamada da empresa Brasilcap do grupo BB Seguros prioriza iniciativas aprovadas em leis de incentivo fiscal; inscrições até 16 de outubro",
+      "organization": "Observatório do Terceiro Setor",
+      "type": "research_call",
+      "domains": [
+        "culture",
+        "research",
+        "sport"
+      ],
+      "source_domains": [
+        "financing",
+        "social_impact",
+        "sustainability"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "Podem participar instituições legalmente constituídas como pessoas jurídicas no Brasil, com capacidade técnica, operacional e jurídica para executar os projetos"
+      ],
+      "funding": {},
+      "deadline": "2026-10-16T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://observatorio3setor.org.br/brasilcap-abre-edital-para-projetos-sociais-culturais-esportivos-e-de-saude/",
+      "official_pdf_url": "https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
+      "source_id": "observatorio-3setor-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-10T15:37:59Z",
+      "first_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-10T15:37:59Z",
+      "evidence": [
+        "evidence:observatorio-3setor-editais:detail:be9d8ed94be982dd"
+      ],
+      "evidence_ids": [
+        "evidence:observatorio-3setor-editais:detail:be9d8ed94be982dd"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "observatorio-3setor-editais:success:200",
+          "observatorio-3setor-editais:detail:be9d8ed94be982dd"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
+          "Official PDF fetch returned HTTP 403."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "observatorio-3setor-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-10-10T15:37:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "research",
+        "sport"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "NEW"
     }
   ]
 }
