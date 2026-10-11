@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-38064379297",
+  "release_id": "weekly-38153827448",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:7089ec19c1b516a5"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
-        "evidence:capes-editais:detail:2bb4205732adeff5"
+        "evidence:capes-editais:detail:61a4d33e6db19497"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:2bb4205732adeff5"
+        "evidence:capes-editais:detail:61a4d33e6db19497"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:2bb4205732adeff5"
+          "capes-editais:detail:61a4d33e6db19497"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
-        "evidence:capes-editais:detail:01151cb735b68684"
+        "evidence:capes-editais:detail:4e3c73dedb82588e"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:01151cb735b68684"
+        "evidence:capes-editais:detail:4e3c73dedb82588e"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:01151cb735b68684"
+          "capes-editais:detail:4e3c73dedb82588e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:044adcf441ef3fb7"
+        "evidence:funbio-chamadas:detail:c197f0a2d7bf8a94"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:044adcf441ef3fb7"
+        "evidence:funbio-chamadas:detail:c197f0a2d7bf8a94"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:044adcf441ef3fb7"
+          "funbio-chamadas:detail:c197f0a2d7bf8a94"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -591,7 +591,7 @@
         }
       ],
       "lens_matches": [],
-      "lifecycle_state": "UPCOMING",
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -643,9 +643,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -729,9 +729,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -839,19 +839,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:efe566397fbcb135"
+        "evidence:caixa-fsa-chamadas:detail:669ce65f3c1242b8"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:efe566397fbcb135"
+        "evidence:caixa-fsa-chamadas:detail:669ce65f3c1242b8"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:efe566397fbcb135"
+          "caixa-fsa-chamadas:detail:669ce65f3c1242b8"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -994,19 +994,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-10T15:37:59Z",
+      "updated_at": "2026-10-11T16:03:17Z",
       "first_seen_at": "2026-10-10T15:37:59Z",
-      "last_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-11T16:03:17Z",
       "evidence": [
-        "evidence:observatorio-3setor-editais:detail:be9d8ed94be982dd"
+        "evidence:observatorio-3setor-editais:detail:d6b695e9747cf4e4"
       ],
       "evidence_ids": [
-        "evidence:observatorio-3setor-editais:detail:be9d8ed94be982dd"
+        "evidence:observatorio-3setor-editais:detail:d6b695e9747cf4e4"
       ],
       "provenance": {
         "observation_ids": [
           "observatorio-3setor-editais:success:200",
-          "observatorio-3setor-editais:detail:be9d8ed94be982dd"
+          "observatorio-3setor-editais:detail:d6b695e9747cf4e4"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1034,7 +1034,7 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "NEW"
+      "change_type": "UNCHANGED"
     }
   ]
 }
