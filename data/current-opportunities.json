@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-38298029890",
+  "release_id": "weekly-38436970597",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:7089ec19c1b516a5"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
-        "evidence:capes-editais:detail:93bdc4d7466e5a5e"
+        "evidence:capes-editais:detail:01e8d38338677447"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:93bdc4d7466e5a5e"
+        "evidence:capes-editais:detail:01e8d38338677447"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:93bdc4d7466e5a5e"
+          "capes-editais:detail:01e8d38338677447"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -265,6 +265,115 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-7f9057cba96257f6",
+      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
+      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-18T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-13T17:14:06Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
+      "evidence": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:8d46773935fe64ac"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
       "title": "Programa Capes/MES-Cuba - Projetos",
@@ -305,19 +414,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
-        "evidence:capes-editais:detail:af38cd7ab5abe2dd"
+        "evidence:capes-editais:detail:42465910933e5596"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:af38cd7ab5abe2dd"
+        "evidence:capes-editais:detail:42465910933e5596"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:af38cd7ab5abe2dd"
+          "capes-editais:detail:42465910933e5596"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -405,115 +514,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-7f9057cba96257f6",
-      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
-      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "education",
-        "research",
-        "territory"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "BR"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-18T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
-      "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
-      "evidence": [
-        "evidence:capes-editais:detail:8d46773935fe64ac"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:8d46773935fe64ac"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:8d46773935fe64ac"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:39:09Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "research",
-        "territory"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-61cf5b9a774d7595",
       "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
       "title": "TCSA Porto Sul - Chamada 10/2026",
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:74316e077312a2e2"
+        "evidence:funbio-chamadas:detail:4a02d49eb02ef361"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:74316e077312a2e2"
+        "evidence:funbio-chamadas:detail:4a02d49eb02ef361"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:74316e077312a2e2"
+          "funbio-chamadas:detail:4a02d49eb02ef361"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -643,9 +643,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -704,6 +704,98 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-67f24ce5673b2e5a",
+      "canonical_key": "pdf:https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
+      "title": "Brasilcap abre edital para projetos sociais, culturais, esportivos e de saúde",
+      "description": "Chamada da empresa Brasilcap do grupo BB Seguros prioriza iniciativas aprovadas em leis de incentivo fiscal; inscrições até 16 de outubro",
+      "organization": "Capta / ISPN",
+      "type": "research_call",
+      "domains": [
+        "culture",
+        "research",
+        "sport"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "communities",
+        "financing",
+        "social_impact",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "Podem participar instituições legalmente constituídas como pessoas jurídicas no Brasil, com capacidade técnica, operacional e jurídica para executar os projetos"
+      ],
+      "funding": {},
+      "deadline": "2026-10-16T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://observatorio3setor.org.br/brasilcap-abre-edital-para-projetos-sociais-culturais-esportivos-e-de-saude/",
+      "official_pdf_url": "https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-13T17:14:06Z",
+      "first_seen_at": "2026-10-10T15:37:59Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
+      "evidence": [
+        "evidence:capta-editais:detail:88dd8b3d8a90e517"
+      ],
+      "evidence_ids": [
+        "evidence:capta-editais:detail:88dd8b3d8a90e517"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capta-editais:success:200",
+          "capta-editais:detail:88dd8b3d8a90e517"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
+          "Official PDF fetch returned HTTP 403."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capta-editais",
+        "observatorio-3setor-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-10-10T15:37:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "research",
+        "sport"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-75d2646e36b42f5f",
       "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
       "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
@@ -749,9 +841,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -839,19 +931,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
+      "updated_at": "2026-10-13T17:14:06Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
+      "last_seen_at": "2026-10-13T17:14:06Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:5fcb1026c5bc7ee6"
+        "evidence:caixa-fsa-chamadas:detail:a15c9371fa294859"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:5fcb1026c5bc7ee6"
+        "evidence:caixa-fsa-chamadas:detail:a15c9371fa294859"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:5fcb1026c5bc7ee6"
+          "caixa-fsa-chamadas:detail:a15c9371fa294859"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -944,93 +1036,6 @@
         "financing"
       ],
       "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-3b8fb40c97e37882",
-      "canonical_key": "pdf:https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
-      "title": "Brasilcap abre edital para projetos sociais, culturais, esportivos e de saúde",
-      "description": "Chamada da empresa Brasilcap do grupo BB Seguros prioriza iniciativas aprovadas em leis de incentivo fiscal; inscrições até 16 de outubro",
-      "organization": "Observatório do Terceiro Setor",
-      "type": "research_call",
-      "domains": [
-        "culture",
-        "research",
-        "sport"
-      ],
-      "source_domains": [
-        "financing",
-        "social_impact",
-        "sustainability"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "Podem participar instituições legalmente constituídas como pessoas jurídicas no Brasil, com capacidade técnica, operacional e jurídica para executar os projetos"
-      ],
-      "funding": {},
-      "deadline": "2026-10-16T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://observatorio3setor.org.br/brasilcap-abre-edital-para-projetos-sociais-culturais-esportivos-e-de-saude/",
-      "official_pdf_url": "https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
-      "source_id": "observatorio-3setor-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-12T19:30:07Z",
-      "first_seen_at": "2026-10-10T15:37:59Z",
-      "last_seen_at": "2026-10-12T19:30:07Z",
-      "evidence": [
-        "evidence:observatorio-3setor-editais:detail:70005410352bfade"
-      ],
-      "evidence_ids": [
-        "evidence:observatorio-3setor-editais:detail:70005410352bfade"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "observatorio-3setor-editais:success:200",
-          "observatorio-3setor-editais:detail:70005410352bfade"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
-          "Official PDF fetch returned HTTP 403."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "observatorio-3setor-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-10-10T15:37:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "research",
-        "sport"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
