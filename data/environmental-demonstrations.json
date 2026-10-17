@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-38915430091",
+  "release_id": "weekly-39036173657",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-territory-climate",
       "canonical_key": "composite:fire-territory-climate",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 1619 focos no município Mojuí dos Campos (PA); o sistema associou contexto meteorológico por proximidade de 110.81 km, sem afirmar causalidade.",
+      "summary": "Foram observados 1038 focos no município Placas (PA); o sistema associou contexto meteorológico por proximidade de 152.83 km, sem afirmar causalidade.",
       "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-16T14:24:08Z",
-      "occurred_at": "2026-10-16T00:00:00Z",
+      "observed_at": "2026-10-17T13:21:00Z",
+      "occurred_at": "2026-10-17T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,21 +28,21 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 1619,
+        "fire_count": 1038,
         "biome": "Amazônia",
-        "territory_id": "1504752",
+        "territory_id": "1505650",
         "climate_context": {
-          "distance_km": 110.81,
-          "observed_at": "2026-10-16T00:00",
+          "distance_km": 152.83,
+          "observed_at": "2026-10-17T00:00",
           "location": {
-            "latitude": -3.6203866,
-            "longitude": -55.620453
+            "latitude": -3.550088,
+            "longitude": -55.429504
           },
           "values": {
-            "temperature_2m": 27.7,
+            "temperature_2m": 28.9,
             "precipitation": 0.0,
-            "relative_humidity_2m": 60,
-            "wind_speed_10m": 5.8
+            "relative_humidity_2m": 67,
+            "wind_speed_10m": 10.0
           },
           "units": {
             "time": "iso8601",
@@ -55,12 +55,12 @@
         }
       },
       "location": {
-        "latitude": -3.0713,
-        "longitude": -54.7874
+        "latitude": -4.1216,
+        "longitude": -54.1767
       },
       "territory": {
-        "municipality_id": "1504752",
-        "municipality": "Mojuí dos Campos",
+        "municipality_id": "1505650",
+        "municipality": "Placas",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -73,12 +73,12 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:9ae9003b458c00f5",
+        "evidence:inpe-queimadas:environment:d42951b72af22a20",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:79b8886932bb7dc1"
+        "evidence:open-meteo:environment:0122dc21a12fa079"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261016.csv",
+        "inpe-queimadas:success:focos_diario_br_20261017.csv",
         "ibge-localidades-api:success:200",
         "open-meteo:success:4locations"
       ],
@@ -95,11 +95,11 @@
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 1619 focos no município Mojuí dos Campos (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 1038 focos no município Placas (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-16T14:24:08Z",
-      "occurred_at": "2026-10-16T00:00:00Z",
+      "observed_at": "2026-10-17T13:21:00Z",
+      "occurred_at": "2026-10-17T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,19 +117,19 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 1619,
-        "territory_id": "1504752",
+        "fire_count": 1038,
+        "territory_id": "1505650",
         "biome": "Amazônia",
-        "frp_total": 26959.8,
-        "latest_occurred_at": "2026-10-16T05:36:00Z"
+        "frp_total": 33613.5,
+        "latest_occurred_at": "2026-10-17T07:07:00Z"
       },
       "location": {
-        "latitude": -3.0713,
-        "longitude": -54.7874
+        "latitude": -4.1216,
+        "longitude": -54.1767
       },
       "territory": {
-        "municipality_id": "1504752",
-        "municipality": "Mojuí dos Campos",
+        "municipality_id": "1505650",
+        "municipality": "Placas",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -142,11 +142,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:9ae9003b458c00f5",
+        "evidence:inpe-queimadas:environment:d42951b72af22a20",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261016.csv",
+        "inpe-queimadas:success:focos_diario_br_20261017.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +165,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-10-16T14:24:08Z",
+      "observed_at": "2026-10-17T13:21:00Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +209,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:24f1d33b48e95c7c",
+        "evidence:gbif-occurrences:environment:c97f742c81aca04a",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [

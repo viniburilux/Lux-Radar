@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-38915430091",
+  "release_id": "weekly-39036173657",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:e561c990437cf000"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
-        "evidence:capes-editais:detail:8a1ca6681336bdef"
+        "evidence:capes-editais:detail:0417048e22c57875"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:8a1ca6681336bdef"
+        "evidence:capes-editais:detail:0417048e22c57875"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:8a1ca6681336bdef"
+          "capes-editais:detail:0417048e22c57875"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
-        "evidence:capes-editais:detail:3884db994260278b"
+        "evidence:capes-editais:detail:d2fb9f3848eb8be7"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:3884db994260278b"
+        "evidence:capes-editais:detail:d2fb9f3848eb8be7"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:3884db994260278b"
+          "capes-editais:detail:d2fb9f3848eb8be7"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:2f847ea7c94916b8"
+        "evidence:funbio-chamadas:detail:e16fdb212aebb4cc"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:2f847ea7c94916b8"
+        "evidence:funbio-chamadas:detail:e16fdb212aebb4cc"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:2f847ea7c94916b8"
+          "funbio-chamadas:detail:e16fdb212aebb4cc"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -592,6 +592,92 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-75d2646e36b42f5f",
+      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
+      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 03/2026 Processo nº 272100.003041/2025-96 Brasília, 02 de março de 2026. EDITAL DE CHAMAMENTO PÚBLICO Nº 03/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DA FEIRA ITB CHINA NA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil na feira internacional ITB China, que compõe a Agenda de Promoção Comercial da Agência no primeiro semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar da feira ITB China 2026, que compõe a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lançou o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plano Brasis se apresenta como o instrumento norteador da ",
+      "organization": "Embratur",
+      "type": "research_call",
+      "domains": [
+        "research",
+        "tourism"
+      ],
+      "source_domains": [
+        "communities",
+        "innovation",
+        "sustainability",
+        "territory",
+        "tourism"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "PÚBLICO-ALVO IDIOMA ITB China 26 a 28/05/2026Xangai, China Trade Inglês e Mandarim PERÍODO DE INSCRIÇÃO 02/03 a 11/03/2026 02/03/2026, 11:57 SEI/EMBRATUR - 1321652 - Edital https://sei"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "official_pdf_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
+      "source_id": "embratur-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-17T13:21:00Z",
+      "first_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
+      "evidence": [
+        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "embratur-editais:success:200",
+          "embratur-editais:detail:8e7ba2570bafbba6"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "embratur-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-09-05T13:05:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "research",
+        "tourism"
+      ],
+      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -643,9 +729,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -704,38 +790,35 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-67f24ce5673b2e5a",
-      "canonical_key": "pdf:https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
-      "title": "Brasilcap abre edital para projetos sociais, culturais, esportivos e de saúde",
-      "description": "Chamada da empresa Brasilcap do grupo BB Seguros prioriza iniciativas aprovadas em leis de incentivo fiscal; inscrições até 16 de outubro",
-      "organization": "Capta / ISPN",
-      "type": "research_call",
+      "opportunity_id": "opportunity-d9604c6f19d72821",
+      "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "title": "Programa Pé-de-Meia",
+      "description": "CAIXA › Programas Sociais › Pé de Meia",
+      "organization": "Fundo Socioambiental CAIXA",
+      "type": "grant",
       "domains": [
-        "culture",
-        "research",
-        "sport"
+        "education",
+        "financing"
       ],
       "source_domains": [
-        "biodiversity",
-        "climate",
-        "communities",
         "financing",
         "social_impact",
         "sustainability",
         "territory"
       ],
       "territories": [
-        "Brasil"
+        "BR"
       ],
       "eligibility": [
-        "Podem participar instituições legalmente constituídas como pessoas jurídicas no Brasil, com capacidade técnica, operacional e jurídica para executar os projetos"
+        "Quem pode participar Topo Quem pode participar O Programa Pé-de-Meia é destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudant",
+        "destinado a estudantes matriculados no ensino médio da rede pública de ensino, e para participar, é necessário atender aos seguintes critérios: Ser estudante matriculado no ensino médio regular das redes públicas e ter entre 14 a 24 anos ou estudante da educação de jovens e adultos (EJA) das redes públicas e t"
       ],
       "funding": {
-        "amount": 100.0,
+        "amount": 200.0,
         "currency": "BRL",
-        "raw": "R$ 100"
+        "raw": "R$ 200,00"
       },
-      "deadline": "2026-10-16T23:59:59Z",
+      "deadline": "2026-12-04T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -748,142 +831,138 @@
           "official_url": true
         }
       },
-      "official_url": "https://observatorio3setor.org.br/brasilcap-abre-edital-para-projetos-sociais-culturais-esportivos-e-de-saude/",
-      "official_pdf_url": "https://cmsbrasilcap-prd.brasilcap.com/uploads/Edital_de_patrocinios_link_3_1_7093d2b3d3.pdf",
-      "source_id": "capta-editais",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
-      "first_seen_at": "2026-10-10T15:37:59Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
-      "evidence": [
-        "evidence:capta-editais:detail:d708b7cd7da1d59e"
-      ],
-      "evidence_ids": [
-        "evidence:capta-editais:detail:d708b7cd7da1d59e"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capta-editais:success:200",
-          "capta-editais:detail:d708b7cd7da1d59e"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document.",
-          "Official PDF fetch returned HTTP 403."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capta-editais",
-        "observatorio-3setor-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-10-10T15:37:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "research",
-        "sport"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-75d2646e36b42f5f",
-      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "title": "Edital de Chamamento Público nº 03/2026 — ITB China",
-      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 03/2026 Processo nº 272100.003041/2025-96 Brasília, 02 de março de 2026. EDITAL DE CHAMAMENTO PÚBLICO Nº 03/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DA FEIRA ITB CHINA NA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil na feira internacional ITB China, que compõe a Agenda de Promoção Comercial da Agência no primeiro semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar da feira ITB China 2026, que compõe a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lançou o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plano Brasis se apresenta como o instrumento norteador da ",
-      "organization": "Embratur",
-      "type": "research_call",
-      "domains": [
-        "research",
-        "tourism"
-      ],
-      "source_domains": [
-        "communities",
-        "innovation",
-        "sustainability",
-        "territory",
-        "tourism"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "PÚBLICO-ALVO IDIOMA ITB China 26 a 28/05/2026Xangai, China Trade Inglês e Mandarim PERÍODO DE INSCRIÇÃO 02/03 a 11/03/2026 02/03/2026, 11:57 SEI/EMBRATUR - 1321652 - Edital https://sei"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "official_pdf_url": "https://embratur.com.br/arquivo/2026-02/Edital-de-Chamamento-Publico-03-2026.pdf",
-      "source_id": "embratur-editais",
+      "official_url": "https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
+      "official_pdf_url": null,
+      "source_id": "caixa-fsa-chamadas",
       "source_role": "primary",
       "source_roles": [
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-16T14:24:08Z",
-      "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-16T14:24:08Z",
+      "updated_at": "2026-10-17T13:21:00Z",
+      "first_seen_at": "2026-08-26T05:01:48Z",
+      "last_seen_at": "2026-10-17T13:21:00Z",
       "evidence": [
-        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+        "evidence:caixa-fsa-chamadas:detail:ef81260d0955fb19"
       ],
       "evidence_ids": [
-        "evidence:embratur-editais:detail:8e7ba2570bafbba6"
+        "evidence:caixa-fsa-chamadas:detail:ef81260d0955fb19"
       ],
       "provenance": {
         "observation_ids": [
-          "embratur-editais:success:200",
-          "embratur-editais:detail:8e7ba2570bafbba6"
+          "caixa-fsa-chamadas:success:200",
+          "caixa-fsa-chamadas:detail:ef81260d0955fb19"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
         ]
       },
       "confidence": 0.55,
       "sources": [
-        "embratur-editais"
+        "caixa-fsa-chamadas"
       ],
       "history": [
         {
-          "at": "2026-09-05T13:05:59Z",
+          "at": "2026-08-26T05:01:48Z",
           "event": "first_seen",
-          "status": "OPEN"
+          "status": "INSUFFICIENT_EVIDENCE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "INSUFFICIENT_EVIDENCE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "OPEN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-16T14:27:31Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-17T14:32:07Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-28T17:52:13Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-29T16:13:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-30T16:09:20Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-10-01T16:47:03Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-10-16T14:24:08Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-10-17T13:21:00Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
         }
       ],
       "lens_matches": [
-        "research",
-        "tourism"
+        "education",
+        "financing"
       ],
-      "lifecycle_state": "ACTIVE",
+      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
+      "change_type": "UPDATED"
     }
   ]
 }
