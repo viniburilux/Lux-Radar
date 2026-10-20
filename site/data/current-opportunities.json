@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-39287560792",
+  "release_id": "weekly-39440356058",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:e561c990437cf000"
+        "evidence:cnpq-chamadas:detail:6acf15feaf83ab26"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:e561c990437cf000"
+        "evidence:cnpq-chamadas:detail:6acf15feaf83ab26"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:e561c990437cf000"
+          "cnpq-chamadas:detail:6acf15feaf83ab26"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
-        "evidence:capes-editais:detail:f3510863b6c9520d"
+        "evidence:capes-editais:detail:5166715dca697d78"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:f3510863b6c9520d"
+        "evidence:capes-editais:detail:5166715dca697d78"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:f3510863b6c9520d"
+          "capes-editais:detail:5166715dca697d78"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
-        "evidence:capes-editais:detail:d16b897bdc85b7a8"
+        "evidence:capes-editais:detail:bcfc9658587e6964"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:d16b897bdc85b7a8"
+        "evidence:capes-editais:detail:bcfc9658587e6964"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:d16b897bdc85b7a8"
+          "capes-editais:detail:bcfc9658587e6964"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -560,19 +560,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:602c45e2f1ed8002"
+        "evidence:funbio-chamadas:detail:8ae320457d15ec5f"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:602c45e2f1ed8002"
+        "evidence:funbio-chamadas:detail:8ae320457d15ec5f"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:602c45e2f1ed8002"
+          "funbio-chamadas:detail:8ae320457d15ec5f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -643,9 +643,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -749,9 +749,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -788,6 +788,172 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-69a9886432c75b80",
+      "canonical_key": "pdf:https://plan.org.br/wp-content/uploads/2026/10/Regulamento-Edital-Fundo-Acelere-o-Relogio-2026.pdf",
+      "title": "Blog",
+      "description": "Edital Acelere o Relógio da Igualdade recebe inscrições até 11 de novembro e contempla meninas, jovens mulheres, coletivos, movimentos sociais e organizações da sociedade civil",
+      "organization": "Capta / ISPN",
+      "type": "grant",
+      "domains": [
+        "financing"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "communities",
+        "financing",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil",
+        "Amazônia",
+        "Pantanal"
+      ],
+      "eligibility": [
+        "ELEGIBILIDADE"
+      ],
+      "funding": {
+        "amount": 600.0,
+        "currency": "BRL",
+        "raw": "R$ 600"
+      },
+      "deadline": "2026-11-11T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://captadores.org.br/editais/plan-brasil-lanca-fundo-de-r-600-mil-para-projetos-voltados-a-igualdade-de-genero/",
+      "official_pdf_url": "https://plan.org.br/wp-content/uploads/2026/10/Regulamento-Edital-Fundo-Acelere-o-Relogio-2026.pdf",
+      "source_id": "capta-editais",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-20T14:34:01Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
+      "evidence": [
+        "evidence:capta-editais:detail:56ee3747493bde5e"
+      ],
+      "evidence_ids": [
+        "evidence:capta-editais:detail:56ee3747493bde5e"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capta-editais:success:200",
+          "capta-editais:detail:56ee3747493bde5e"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capta-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-09-02T13:57:36Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-03T13:59:25Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-05T18:57:21Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-13T17:14:06Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-17T13:21:00Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-19T16:41:56Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-20T14:34:01Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "financing"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
     },
     {
       "opportunity_id": "opportunity-d9604c6f19d72821",
@@ -839,19 +1005,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-19T16:41:56Z",
+      "updated_at": "2026-10-20T14:34:01Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-19T16:41:56Z",
+      "last_seen_at": "2026-10-20T14:34:01Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:835a9860f3b75cdb"
+        "evidence:caixa-fsa-chamadas:detail:72c9734a2eb5b136"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:835a9860f3b75cdb"
+        "evidence:caixa-fsa-chamadas:detail:72c9734a2eb5b136"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:835a9860f3b75cdb"
+          "caixa-fsa-chamadas:detail:72c9734a2eb5b136"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
