@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-39798441849",
+  "release_id": "weekly-39970392641",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:6acf15feaf83ab26"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:capes-editais:detail:fc0eafe3e74c6e8b"
+        "evidence:capes-editais:detail:2e4d10632b5d65e4"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:fc0eafe3e74c6e8b"
+        "evidence:capes-editais:detail:2e4d10632b5d65e4"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:fc0eafe3e74c6e8b"
+          "capes-editais:detail:2e4d10632b5d65e4"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:capes-editais:detail:a0be3cad20887742"
+        "evidence:capes-editais:detail:3e823fd01b722d50"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:a0be3cad20887742"
+        "evidence:capes-editais:detail:3e823fd01b722d50"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:a0be3cad20887742"
+          "capes-editais:detail:3e823fd01b722d50"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -564,19 +564,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:745050423cebe8e0"
+        "evidence:funbio-chamadas:detail:934f988d4929ee9f"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:745050423cebe8e0"
+        "evidence:funbio-chamadas:detail:934f988d4929ee9f"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:745050423cebe8e0"
+          "funbio-chamadas:detail:934f988d4929ee9f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -652,19 +652,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:09d9acc6f406ee6b"
+        "evidence:funbio-chamadas:detail:514982608cb06edd"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:09d9acc6f406ee6b"
+        "evidence:funbio-chamadas:detail:514982608cb06edd"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:09d9acc6f406ee6b"
+          "funbio-chamadas:detail:514982608cb06edd"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -735,9 +735,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -841,9 +841,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -933,19 +933,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:capta-editais:detail:eb8b4d11a12e900d"
+        "evidence:capta-editais:detail:54a6d50288eda7d9"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:eb8b4d11a12e900d"
+        "evidence:capta-editais:detail:54a6d50288eda7d9"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:eb8b4d11a12e900d"
+          "capta-editais:detail:54a6d50288eda7d9"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1097,19 +1097,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-22T14:45:28Z",
+      "updated_at": "2026-10-23T14:31:55Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-22T14:45:28Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:03d1e3a63a07c584"
+        "evidence:caixa-fsa-chamadas:detail:92266b6dce8ba440"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:03d1e3a63a07c584"
+        "evidence:caixa-fsa-chamadas:detail:92266b6dce8ba440"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:03d1e3a63a07c584"
+          "caixa-fsa-chamadas:detail:92266b6dce8ba440"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1221,6 +1221,111 @@
       "current_view": true,
       "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-2295ab6bfc16022e",
+      "canonical_key": "pdf:https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
+      "title": "Edital PROFIX‑CB 2026 da FAPESC: guia para universidades",
+      "description": "Universidades e doutorandos podem captar até R$ 800 mil no edital PROFIX‑CB da FAPESC, com inscrições até prazo não informado. Veja como garantir aprovação.",
+      "organization": "Capitaai",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "conservation",
+        "financing",
+        "sustainability"
+      ],
+      "territories": [
+        "Bahia",
+        "Brasil",
+        "Amazônia",
+        "Amazon"
+      ],
+      "eligibility": [
+        "público-alvo, as publicações técnico-científicas, a submissão de trabalhos, o estabelecimento de cooperações institucionais, as redes de pesquisa e outras ações a serem alcançadas; h) Impactos Esperados: apresentar a estimativa de alcance do projeto de pesquisa proposto, bem como descrever suas relações com os"
+      ],
+      "funding": {
+        "amount": 800.0,
+        "currency": "BRL",
+        "raw": "R$ 800"
+      },
+      "deadline": "2026-11-07T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://capitaai.com.br/captacao/edital-chamada-publica-fapesccnpqcapes-0552026-programa-apoio-fixacao-4wxih3",
+      "official_pdf_url": "https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
+      "source_id": "capitaai-meio-ambiente",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-23T14:31:55Z",
+      "first_seen_at": "2026-10-18T13:40:08Z",
+      "last_seen_at": "2026-10-23T14:31:55Z",
+      "evidence": [
+        "evidence:capitaai-meio-ambiente:detail:ec832946bda10545"
+      ],
+      "evidence_ids": [
+        "evidence:capitaai-meio-ambiente:detail:ec832946bda10545"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capitaai-meio-ambiente:success:200",
+          "capitaai-meio-ambiente:detail:ec832946bda10545"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capitaai-meio-ambiente"
+      ],
+      "history": [
+        {
+          "at": "2026-10-18T13:40:08Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-10-23T14:31:55Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
     }
   ]
 }
