@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-40099338629",
+  "release_id": "weekly-40200166223",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:ec70d4580da1a97a"
+        "evidence:cnpq-chamadas:detail:6acf15feaf83ab26"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:ec70d4580da1a97a"
+        "evidence:cnpq-chamadas:detail:6acf15feaf83ab26"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:ec70d4580da1a97a"
+          "cnpq-chamadas:detail:6acf15feaf83ab26"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:capes-editais:detail:29ba0602b28cd3a5"
+        "evidence:capes-editais:detail:6f471bedacca9ce6"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:29ba0602b28cd3a5"
+        "evidence:capes-editais:detail:6f471bedacca9ce6"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:29ba0602b28cd3a5"
+          "capes-editais:detail:6f471bedacca9ce6"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:capes-editais:detail:a1c49995ab565cc0"
+        "evidence:capes-editais:detail:4ed3c8f03f75726e"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:a1c49995ab565cc0"
+        "evidence:capes-editais:detail:4ed3c8f03f75726e"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:a1c49995ab565cc0"
+          "capes-editais:detail:4ed3c8f03f75726e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -514,90 +514,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-61cf5b9a774d7595",
-      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "title": "TCSA Porto Sul - Chamada 10/2026",
-      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
-      "organization": "FUNBIO",
-      "type": "call",
-      "domains": [],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 4000000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.000.000,00"
-      },
-      "deadline": "2026-11-09T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
-      "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:f4e74c09b6837dba"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:f4e74c09b6837dba"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:f4e74c09b6837dba"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-60103cab02314564",
       "canonical_key": "url:https://chamadas.funbio.org.br/articulacao-institucional",
       "title": "Chamada de Projetos 11/2026 - Articulação Institucional",
@@ -648,19 +564,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:312d06f7ab48cc67"
+        "evidence:funbio-chamadas:detail:397affbf92a9470f"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:312d06f7ab48cc67"
+        "evidence:funbio-chamadas:detail:397affbf92a9470f"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:312d06f7ab48cc67"
+          "funbio-chamadas:detail:397affbf92a9470f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -683,7 +599,91 @@
         "research",
         "sustainability"
       ],
-      "lifecycle_state": "UPCOMING",
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-61cf5b9a774d7595",
+      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "title": "TCSA Porto Sul - Chamada 10/2026",
+      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
+      "organization": "FUNBIO",
+      "type": "call",
+      "domains": [],
+      "source_domains": [
+        "biodiversity",
+        "communities",
+        "conservation",
+        "sustainability",
+        "water"
+      ],
+      "territories": [
+        "Bahia"
+      ],
+      "eligibility": [
+        "Quem pode participar"
+      ],
+      "funding": {
+        "amount": 4000000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.000.000,00"
+      },
+      "deadline": "2026-11-09T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
+      "official_pdf_url": null,
+      "source_id": "funbio-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-25T14:00:16Z",
+      "first_seen_at": "2026-09-10T13:56:25Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
+      "evidence": [
+        "evidence:funbio-chamadas:detail:c9f181cd036dec5b"
+      ],
+      "evidence_ids": [
+        "evidence:funbio-chamadas:detail:c9f181cd036dec5b"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "funbio-chamadas:success:200",
+          "funbio-chamadas:detail:c9f181cd036dec5b"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "funbio-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-09-10T13:56:25Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [],
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -735,9 +735,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -841,9 +841,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -933,19 +933,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:capta-editais:detail:91c615f9806d9614"
+        "evidence:capta-editais:detail:4bed0a72041a6db2"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:91c615f9806d9614"
+        "evidence:capta-editais:detail:4bed0a72041a6db2"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:91c615f9806d9614"
+          "capta-editais:detail:4bed0a72041a6db2"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1048,110 +1048,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-2295ab6bfc16022e",
-      "canonical_key": "pdf:https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
-      "title": "Edital PROFIX‑CB 2026 da FAPESC: guia para universidades",
-      "description": "Universidades e doutorandos podem captar até R$ 800 mil no edital PROFIX‑CB da FAPESC, com inscrições até prazo não informado. Veja como garantir aprovação.",
-      "organization": "Capitaai",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "source_domains": [
-        "biodiversity",
-        "climate",
-        "conservation",
-        "financing",
-        "sustainability"
-      ],
-      "territories": [
-        "Bahia",
-        "Brasil",
-        "Amazon"
-      ],
-      "eligibility": [
-        "público-alvo, as publicações técnico-científicas, a submissão de trabalhos, o estabelecimento de cooperações institucionais, as redes de pesquisa e outras ações a serem alcançadas; h) Impactos Esperados: apresentar a estimativa de alcance do projeto de pesquisa proposto, bem como descrever suas relações com os"
-      ],
-      "funding": {
-        "amount": 800.0,
-        "currency": "BRL",
-        "raw": "R$ 800"
-      },
-      "deadline": "2026-11-07T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://capitaai.com.br/captacao/edital-chamada-publica-fapesccnpqcapes-0552026-programa-apoio-fixacao-4wxih3",
-      "official_pdf_url": "https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
-      "source_id": "capitaai-meio-ambiente",
-      "source_role": "curator",
-      "source_roles": [
-        "curator"
-      ],
-      "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
-      "first_seen_at": "2026-10-18T13:40:08Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
-      "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:ae9e4f0a8ec64b5a"
-      ],
-      "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:ae9e4f0a8ec64b5a"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:ae9e4f0a8ec64b5a"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capitaai-meio-ambiente"
-      ],
-      "history": [
-        {
-          "at": "2026-10-18T13:40:08Z",
-          "event": "first_seen",
-          "status": "CANDIDATE"
-        },
-        {
-          "at": "2026-10-23T14:31:55Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-d9604c6f19d72821",
       "canonical_key": "url:https://www.caixa.gov.br/programas-sociais/pe-de-meia/Paginas/default.aspx",
       "title": "Programa Pé-de-Meia",
@@ -1201,19 +1097,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-24T13:43:13Z",
+      "updated_at": "2026-10-25T14:00:16Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-24T13:43:13Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:193309a4f864e713"
+        "evidence:caixa-fsa-chamadas:detail:94c41d8fdc5481c6"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:193309a4f864e713"
+        "evidence:caixa-fsa-chamadas:detail:94c41d8fdc5481c6"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:193309a4f864e713"
+          "caixa-fsa-chamadas:detail:94c41d8fdc5481c6"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1321,6 +1217,110 @@
         "financing"
       ],
       "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-2295ab6bfc16022e",
+      "canonical_key": "pdf:https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
+      "title": "Edital PROFIX‑CB 2026 da FAPESC: guia para universidades",
+      "description": "Universidades e doutorandos podem captar até R$ 800 mil no edital PROFIX‑CB da FAPESC, com inscrições até prazo não informado. Veja como garantir aprovação.",
+      "organization": "Capitaai",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "source_domains": [
+        "biodiversity",
+        "climate",
+        "conservation",
+        "financing",
+        "sustainability"
+      ],
+      "territories": [
+        "Bahia",
+        "Brasil",
+        "Amazon"
+      ],
+      "eligibility": [
+        "público-alvo, as publicações técnico-científicas, a submissão de trabalhos, o estabelecimento de cooperações institucionais, as redes de pesquisa e outras ações a serem alcançadas; h) Impactos Esperados: apresentar a estimativa de alcance do projeto de pesquisa proposto, bem como descrever suas relações com os"
+      ],
+      "funding": {
+        "amount": 800.0,
+        "currency": "BRL",
+        "raw": "R$ 800"
+      },
+      "deadline": "2026-11-07T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://capitaai.com.br/captacao/edital-chamada-publica-fapesccnpqcapes-0552026-programa-apoio-fixacao-4wxih3",
+      "official_pdf_url": "https://fapesc.sc.gov.br/wp-content/uploads/2026/09/CP-55_2026-PROFIX.pdf",
+      "source_id": "capitaai-meio-ambiente",
+      "source_role": "curator",
+      "source_roles": [
+        "curator"
+      ],
+      "published_at": null,
+      "updated_at": "2026-10-25T14:00:16Z",
+      "first_seen_at": "2026-10-18T13:40:08Z",
+      "last_seen_at": "2026-10-25T14:00:16Z",
+      "evidence": [
+        "evidence:capitaai-meio-ambiente:detail:53992c78fe026ca8"
+      ],
+      "evidence_ids": [
+        "evidence:capitaai-meio-ambiente:detail:53992c78fe026ca8"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capitaai-meio-ambiente:success:200",
+          "capitaai-meio-ambiente:detail:53992c78fe026ca8"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capitaai-meio-ambiente"
+      ],
+      "history": [
+        {
+          "at": "2026-10-18T13:40:08Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-10-23T14:31:55Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
