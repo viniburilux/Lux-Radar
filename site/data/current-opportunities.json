@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-40725058020",
+  "release_id": "weekly-40912184649",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:83b1381cc9119b56"
       ],
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:capes-editais:detail:349a4ae0eaf4312c"
+        "evidence:capes-editais:detail:c542c87315111734"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:349a4ae0eaf4312c"
+        "evidence:capes-editais:detail:c542c87315111734"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:349a4ae0eaf4312c"
+          "capes-editais:detail:c542c87315111734"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:capes-editais:detail:b7ff91d317c0f1e5"
+        "evidence:capes-editais:detail:76f8d10059779832"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:b7ff91d317c0f1e5"
+        "evidence:capes-editais:detail:76f8d10059779832"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:b7ff91d317c0f1e5"
+          "capes-editais:detail:76f8d10059779832"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -564,19 +564,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:01e0917aebd3187a"
+        "evidence:funbio-chamadas:detail:7691ca38ca1d77fa"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:01e0917aebd3187a"
+        "evidence:funbio-chamadas:detail:7691ca38ca1d77fa"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:01e0917aebd3187a"
+          "funbio-chamadas:detail:7691ca38ca1d77fa"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -652,19 +652,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:6ecc2843b2cc3bac"
+        "evidence:funbio-chamadas:detail:4f9d9785d56a342f"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:6ecc2843b2cc3bac"
+        "evidence:funbio-chamadas:detail:4f9d9785d56a342f"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:6ecc2843b2cc3bac"
+          "funbio-chamadas:detail:4f9d9785d56a342f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -735,9 +735,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -841,9 +841,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -887,9 +887,9 @@
       "title": "Blog",
       "description": "Edital Acelere o Relógio da Igualdade recebe inscrições até 11 de novembro e contempla meninas, jovens mulheres, coletivos, movimentos sociais e organizações da sociedade civil",
       "organization": "Capta / ISPN",
-      "type": "grant",
+      "type": "innovation_program",
       "domains": [
-        "financing"
+        "innovation"
       ],
       "source_domains": [
         "biodiversity",
@@ -900,6 +900,7 @@
         "territory"
       ],
       "territories": [
+        "Bahia",
         "Brasil",
         "Amazônia",
         "Pantanal"
@@ -933,19 +934,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:capta-editais:detail:2a3f0fb2875ef941"
+        "evidence:capta-editais:detail:fd2486d2e264af15"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:2a3f0fb2875ef941"
+        "evidence:capta-editais:detail:fd2486d2e264af15"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:2a3f0fb2875ef941"
+          "capta-editais:detail:fd2486d2e264af15"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1039,7 +1040,7 @@
         }
       ],
       "lens_matches": [
-        "financing"
+        "innovation"
       ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
@@ -1100,19 +1101,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-10-18T13:40:08Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:6c0492cba23405cf"
+        "evidence:capitaai-meio-ambiente:detail:0a74a59011d3370a"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:6c0492cba23405cf"
+        "evidence:capitaai-meio-ambiente:detail:0a74a59011d3370a"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:6c0492cba23405cf"
+          "capitaai-meio-ambiente:detail:0a74a59011d3370a"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -1201,19 +1202,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-10-28T16:21:11Z",
+      "updated_at": "2026-10-29T16:30:29Z",
       "first_seen_at": "2026-08-26T05:01:48Z",
-      "last_seen_at": "2026-10-28T16:21:11Z",
+      "last_seen_at": "2026-10-29T16:30:29Z",
       "evidence": [
-        "evidence:caixa-fsa-chamadas:detail:187b08ed48fcfa57"
+        "evidence:caixa-fsa-chamadas:detail:82d085bca5202804"
       ],
       "evidence_ids": [
-        "evidence:caixa-fsa-chamadas:detail:187b08ed48fcfa57"
+        "evidence:caixa-fsa-chamadas:detail:82d085bca5202804"
       ],
       "provenance": {
         "observation_ids": [
           "caixa-fsa-chamadas:success:200",
-          "caixa-fsa-chamadas:detail:187b08ed48fcfa57"
+          "caixa-fsa-chamadas:detail:82d085bca5202804"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
