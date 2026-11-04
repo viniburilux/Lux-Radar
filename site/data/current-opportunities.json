@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-41684150455",
+  "release_id": "weekly-41879158292",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ec93533579908783"
       ],
@@ -121,6 +121,130 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-7f9057cba96257f6",
+      "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
+      "description": "COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR CHAMADA PÚBLICA PARA ENVIO DE PROPOSTA DE CURSO NOVO EDITAL N° 20/2026 PROCESSO Nº 23038.000631/2023-00 A PRESIDENTE DA COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR - CAPES , no uso das atribuições que lhes são conferidas pelo art. 39, do Anexo I, do Estatuto da CAPES, aprovado pelo Decreto nº 12.802, de 26 de dezembro de 2025, torna pública a submissão de propostas de curso novos, conforme a legislação vigente e as condições a seguir estabelecidas. 1 . OBJETIVO 1 . 1 . Avaliar proposta de curso novo em nível de mestrado e/ou doutorado por esta Fundação como condição para o recebimento de autorização para oferta de programa de pós-graduação stricto sensu em território nacional. 1 . 2 . Será aceita proposta de curso novo para a modalidade de programa acadêmico ou profissional. 1 . 3 . Será aceita proposta de curso novo para a modalidade de ensino presencial ou a distância. 1 . 4 . Será aceita proposta de curso novo na forma de atuação singular ou em forma associativa. 1 . 5 . Os programas de pós-graduação stricto sensu aprovados pela CAPES que tenham somente um nível e ainda não passaram por Avaliação Quadrienal poderão apresentar propostas de curso novo para o nível complementar, seja ele de mestrado ou de doutorado. 1 . 6 . A proposta de curso novo vinculada a programa de pós-graduação stricto sensu - PPG preexistente deverá ser submetida na mesma modalidade de programa e na mesma modalidade de ensino à qual se vincula. 1 . 6 . 1 . Quando a proposta apresentada for em forma associativa, a Instituiçã",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "BR"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-18T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "official_pdf_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-04T17:38:36Z",
+      "first_seen_at": "2026-08-26T03:39:09Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
+      "evidence": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:8d46773935fe64ac"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:8d46773935fe64ac"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:39:09Z",
+          "event": "first_seen",
+          "status": "CANDIDATE"
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-11-03T17:26:27Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-11-04T17:38:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "research",
+        "territory"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UPDATED"
+    },
+    {
       "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
       "title": "Programa Capes/MES-Cuba - Projetos",
@@ -161,19 +285,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
-        "evidence:capes-editais:detail:603eca5f6176dbbb"
+        "evidence:capes-editais:detail:9ebda070738d7bd0"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:603eca5f6176dbbb"
+        "evidence:capes-editais:detail:9ebda070738d7bd0"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:603eca5f6176dbbb"
+          "capes-editais:detail:9ebda070738d7bd0"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -303,19 +427,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
-        "evidence:capes-editais:detail:88d8e03e87f4a319"
+        "evidence:capes-editais:detail:3776a75d2472e1f3"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:88d8e03e87f4a319"
+        "evidence:capes-editais:detail:3776a75d2472e1f3"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:88d8e03e87f4a319"
+          "capes-editais:detail:3776a75d2472e1f3"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -455,19 +579,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:d5d283c27599f9e6"
+        "evidence:funbio-chamadas:detail:8b4246df3d681e84"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:d5d283c27599f9e6"
+        "evidence:funbio-chamadas:detail:8b4246df3d681e84"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:d5d283c27599f9e6"
+          "funbio-chamadas:detail:8b4246df3d681e84"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -543,19 +667,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:00db1c815ea7a09e"
+        "evidence:funbio-chamadas:detail:2401f40489f4ff5c"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:00db1c815ea7a09e"
+        "evidence:funbio-chamadas:detail:2401f40489f4ff5c"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:00db1c815ea7a09e"
+          "funbio-chamadas:detail:2401f40489f4ff5c"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -626,9 +750,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -732,9 +856,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -778,8 +902,10 @@
       "title": "Blog",
       "description": "Edital Acelere o Relógio da Igualdade recebe inscrições até 11 de novembro e contempla meninas, jovens mulheres, coletivos, movimentos sociais e organizações da sociedade civil",
       "organization": "Capta / ISPN",
-      "type": "award",
-      "domains": [],
+      "type": "innovation_program",
+      "domains": [
+        "innovation"
+      ],
       "source_domains": [
         "biodiversity",
         "climate",
@@ -822,19 +948,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-11-03T17:26:27Z",
+      "updated_at": "2026-11-04T17:38:36Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-03T17:26:27Z",
+      "last_seen_at": "2026-11-04T17:38:36Z",
       "evidence": [
-        "evidence:capta-editais:detail:2c780cbed75531a4"
+        "evidence:capta-editais:detail:803b83f4926b4e07"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:2c780cbed75531a4"
+        "evidence:capta-editais:detail:803b83f4926b4e07"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:2c780cbed75531a4"
+          "capta-editais:detail:803b83f4926b4e07"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -927,7 +1053,9 @@
           }
         }
       ],
-      "lens_matches": [],
+      "lens_matches": [
+        "innovation"
+      ],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
