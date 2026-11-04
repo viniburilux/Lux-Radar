@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-41879158292",
+  "release_id": "weekly-41886350816",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:ec93533579908783"
       ],
@@ -121,6 +121,290 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-eff97b8786bdf420",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
+      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
+      "organization": "CAPES",
+      "type": "grant",
+      "domains": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-11-30T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-04T18:21:48Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
+      "evidence": [
+        "evidence:capes-editais:detail:255d443c21fff147"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:255d443c21fff147"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:255d443c21fff147"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "education",
+        "financing",
+        "research"
+      ],
+      "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
+      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "title": "Programa Capes/MES-Cuba - Projetos",
+      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
+      "organization": "CAPES",
+      "type": "research_call",
+      "domains": [
+        "research"
+      ],
+      "source_domains": [
+        "education",
+        "innovation",
+        "research"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [],
+      "funding": {},
+      "deadline": "2026-12-31T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": false,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
+      "official_pdf_url": null,
+      "source_id": "capes-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-04T18:21:48Z",
+      "first_seen_at": "2026-08-26T00:12:06Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
+      "evidence": [
+        "evidence:capes-editais:detail:9097700d7d2345ec"
+      ],
+      "evidence_ids": [
+        "evidence:capes-editais:detail:9097700d7d2345ec"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "capes-editais:success:200",
+          "capes-editais:detail:9097700d7d2345ec"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "capes-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T00:12:06Z",
+          "event": "first_seen",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:23:39Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:24:29Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:28:04Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:29:47Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:30:54Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-08-26T01:32:21Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-08-26T17:48:11Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-7f9057cba96257f6",
       "canonical_key": "pdf:https://www.gov.br/capes/pt-br/centrais-de-conteudo/editais/edital_2844920.pdf/@@display-file/file",
       "title": "Chamada Pública para Envio de Proposta de Curso Novo - Edital nº 20/2026",
@@ -163,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -242,290 +526,6 @@
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
-      "change_type": "UPDATED"
-    },
-    {
-      "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "title": "Programa Capes/MES-Cuba - Projetos",
-      "description": "Informamos que a Capes passará a exigir de todos os candidatos e beneficiários dos programas de fomento da Diretoria de Relações Internacionais o registro no ORCID (orcid.org). Essa exigência será feita não só nas candidaturas a novos editais, como também de todos os beneficiários ativos.",
-      "organization": "CAPES",
-      "type": "research_call",
-      "domains": [
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-12-31T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
-      "evidence": [
-        "evidence:capes-editais:detail:9ebda070738d7bd0"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:9ebda070738d7bd0"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:9ebda070738d7bd0"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-eff97b8786bdf420",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
-      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
-      "organization": "CAPES",
-      "type": "grant",
-      "domains": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "source_domains": [
-        "education",
-        "innovation",
-        "research"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-11-30T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": false,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
-      "evidence": [
-        "evidence:capes-editais:detail:3776a75d2472e1f3"
-      ],
-      "evidence_ids": [
-        "evidence:capes-editais:detail:3776a75d2472e1f3"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:3776a75d2472e1f3"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "capes-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T00:12:06Z",
-          "event": "first_seen",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "education",
-        "financing",
-        "research"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
       "change_type": "UNCHANGED"
     },
     {
@@ -579,19 +579,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:8b4246df3d681e84"
+        "evidence:funbio-chamadas:detail:58e1d2166c01baf1"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:8b4246df3d681e84"
+        "evidence:funbio-chamadas:detail:58e1d2166c01baf1"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:8b4246df3d681e84"
+          "funbio-chamadas:detail:58e1d2166c01baf1"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -667,19 +667,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:2401f40489f4ff5c"
+        "evidence:funbio-chamadas:detail:ed0c7ddbb52fcd62"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:2401f40489f4ff5c"
+        "evidence:funbio-chamadas:detail:ed0c7ddbb52fcd62"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:2401f40489f4ff5c"
+          "funbio-chamadas:detail:ed0c7ddbb52fcd62"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -699,112 +699,6 @@
       ],
       "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-ae4c285a815b4fad",
-      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
-      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
-      "organization": "Embratur",
-      "type": "research_call",
-      "domains": [
-        "research",
-        "tourism"
-      ],
-      "source_domains": [
-        "communities",
-        "innovation",
-        "sustainability",
-        "territory",
-        "tourism"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "source_id": "embratur-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
-      "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
-      "evidence": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "evidence_ids": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "embratur-editais:success:200",
-          "embratur-editais:detail:66ad14bf9b3ecc7a"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "embratur-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        },
-        {
-          "at": "2026-10-06T16:22:56Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-10-07T17:05:10Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research",
-        "tourism"
-      ],
-      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -856,9 +750,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -884,6 +778,112 @@
           "at": "2026-09-05T13:05:59Z",
           "event": "first_seen",
           "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "research",
+        "tourism"
+      ],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ae4c285a815b4fad",
+      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
+      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
+      "organization": "Embratur",
+      "type": "research_call",
+      "domains": [
+        "research",
+        "tourism"
+      ],
+      "source_domains": [
+        "communities",
+        "innovation",
+        "sustainability",
+        "territory",
+        "tourism"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "source_id": "embratur-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-04T18:21:48Z",
+      "first_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
+      "evidence": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "embratur-editais:success:200",
+          "embratur-editais:detail:66ad14bf9b3ecc7a"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "embratur-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-09-05T13:05:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        },
+        {
+          "at": "2026-10-06T16:22:56Z",
+          "event": "updated",
+          "before": {
+            "status": "OPEN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-07T17:05:10Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
         }
       ],
       "lens_matches": [
@@ -948,19 +948,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-11-04T17:38:36Z",
+      "updated_at": "2026-11-04T18:21:48Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-04T17:38:36Z",
+      "last_seen_at": "2026-11-04T18:21:48Z",
       "evidence": [
-        "evidence:capta-editais:detail:803b83f4926b4e07"
+        "evidence:capta-editais:detail:cb230044aae404d9"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:803b83f4926b4e07"
+        "evidence:capta-editais:detail:cb230044aae404d9"
       ],
       "provenance": {
         "observation_ids": [
           "capta-editais:success:200",
-          "capta-editais:detail:803b83f4926b4e07"
+          "capta-editais:detail:cb230044aae404d9"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
