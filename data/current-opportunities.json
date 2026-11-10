@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-42691275341",
+  "release_id": "weekly-42864244492",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:3aed42bc15102ce8"
+        "evidence:cnpq-chamadas:detail:8d49d8c616f3164d"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:3aed42bc15102ce8"
+        "evidence:cnpq-chamadas:detail:8d49d8c616f3164d"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:3aed42bc15102ce8"
+          "cnpq-chamadas:detail:8d49d8c616f3164d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
-        "evidence:capes-editais:detail:cc02e0633c35b072"
+        "evidence:capes-editais:detail:d2dfd47184c6746d"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:cc02e0633c35b072"
+        "evidence:capes-editais:detail:d2dfd47184c6746d"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:cc02e0633c35b072"
+          "capes-editais:detail:d2dfd47184c6746d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -307,9 +307,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -429,19 +429,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
-        "evidence:capes-editais:detail:39de0c95b6f9f7ec"
+        "evidence:capes-editais:detail:8c2ded76e00c35e9"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:39de0c95b6f9f7ec"
+        "evidence:capes-editais:detail:8c2ded76e00c35e9"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:39de0c95b6f9f7ec"
+          "capes-editais:detail:8c2ded76e00c35e9"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -579,19 +579,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:99c8c70272fec2f5"
+        "evidence:funbio-chamadas:detail:84e49476e280aa2e"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:99c8c70272fec2f5"
+        "evidence:funbio-chamadas:detail:84e49476e280aa2e"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:99c8c70272fec2f5"
+          "funbio-chamadas:detail:84e49476e280aa2e"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -614,90 +614,6 @@
         "research",
         "sustainability"
       ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-61cf5b9a774d7595",
-      "canonical_key": "url:https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "title": "TCSA Porto Sul - Chamada 10/2026",
-      "description": "Recomposição da Vegetação Nativa e Fortalecimento da Cadeia Produtiva no Sul da Bahia",
-      "organization": "FUNBIO",
-      "type": "call",
-      "domains": [],
-      "source_domains": [
-        "biodiversity",
-        "communities",
-        "conservation",
-        "sustainability",
-        "water"
-      ],
-      "territories": [
-        "Bahia"
-      ],
-      "eligibility": [
-        "Quem pode participar"
-      ],
-      "funding": {
-        "amount": 4000000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.000.000,00"
-      },
-      "deadline": "2026-11-09T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://chamadas.funbio.org.br/tcsa-porto-sul",
-      "official_pdf_url": null,
-      "source_id": "funbio-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
-      "first_seen_at": "2026-09-10T13:56:25Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
-      "evidence": [
-        "evidence:funbio-chamadas:detail:1963f864469dcf1d"
-      ],
-      "evidence_ids": [
-        "evidence:funbio-chamadas:detail:1963f864469dcf1d"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:1963f864469dcf1d"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "funbio-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-09-10T13:56:25Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [],
       "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
@@ -750,9 +666,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -856,9 +772,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -947,22 +863,22 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-11-09T20:16:05Z",
+      "updated_at": "2026-11-10T17:22:30Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-09T20:16:05Z",
+      "last_seen_at": "2026-11-10T17:22:30Z",
       "evidence": [
-        "evidence:capta-editais:detail:fba178ae0ec89af5",
-        "evidence:observatorio-3setor-editais:detail:89f579ba97ccffab"
+        "evidence:capta-editais:detail:49421981bed3e606",
+        "evidence:observatorio-3setor-editais:detail:8d9630389f47bff3"
       ],
       "evidence_ids": [
-        "evidence:capta-editais:detail:fba178ae0ec89af5",
-        "evidence:observatorio-3setor-editais:detail:89f579ba97ccffab"
+        "evidence:capta-editais:detail:49421981bed3e606",
+        "evidence:observatorio-3setor-editais:detail:8d9630389f47bff3"
       ],
       "provenance": {
         "observation_ids": [
-          "capta-editais:detail:fba178ae0ec89af5",
+          "capta-editais:detail:49421981bed3e606",
           "capta-editais:success:200",
-          "observatorio-3setor-editais:detail:89f579ba97ccffab",
+          "observatorio-3setor-editais:detail:8d9630389f47bff3",
           "observatorio-3setor-editais:success:200"
         ],
         "method": "detail follow-up and claim-preserving extraction",
