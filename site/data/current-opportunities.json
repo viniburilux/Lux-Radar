@@ -1,6 +1,125 @@
 {
-  "release_id": "weekly-43472631744",
+  "release_id": "weekly-43614443847",
   "opportunities": [
+    {
+      "opportunity_id": "opportunity-b49d91da43e099ef",
+      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
+      "organization": "CNPq",
+      "type": "grant",
+      "domains": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "source_domains": [
+        "innovation",
+        "research",
+        "sustainability"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+      ],
+      "funding": {
+        "amount": 4925000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.925.000,00"
+      },
+      "deadline": "2026-12-15T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "source_id": "cnpq-chamadas",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-14T16:13:56Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
+      "evidence": [
+        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
+      ],
+      "evidence_ids": [
+        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "cnpq-chamadas:success:200",
+          "cnpq-chamadas:detail:3a658f662259c3ee"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "cnpq-chamadas"
+      ],
+      "history": [
+        {
+          "at": "2026-08-26T03:47:16Z",
+          "event": "first_seen",
+          "status": "VERIFIED"
+        },
+        {
+          "at": "2026-08-26T05:01:48Z",
+          "event": "updated",
+          "before": {
+            "status": "VERIFIED"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        },
+        {
+          "at": "2026-09-08T13:59:18Z",
+          "event": "not_seen_in_release",
+          "status": "UNKNOWN"
+        },
+        {
+          "at": "2026-09-09T14:01:36Z",
+          "event": "updated",
+          "before": {
+            "status": "UNKNOWN"
+          },
+          "after": {
+            "status": "OPEN"
+          }
+        }
+      ],
+      "lens_matches": [
+        "culture",
+        "education",
+        "financing",
+        "innovation",
+        "research"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
     {
       "opportunity_id": "opportunity-eff97b8786bdf420",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
@@ -44,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
+      "updated_at": "2026-11-14T16:13:56Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
       "evidence": [
-        "evidence:capes-editais:detail:4b926ebad27a6489"
+        "evidence:capes-editais:detail:4ca588a7b1939610"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:4b926ebad27a6489"
+        "evidence:capes-editais:detail:4ca588a7b1939610"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:4b926ebad27a6489"
+          "capes-editais:detail:4ca588a7b1939610"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -146,125 +265,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-b49d91da43e099ef",
-      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
-      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
-      "organization": "CNPq",
-      "type": "grant",
-      "domains": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "source_domains": [
-        "innovation",
-        "research",
-        "sustainability"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-      ],
-      "funding": {
-        "amount": 4925000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.925.000,00"
-      },
-      "deadline": "2026-12-15T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "source_id": "cnpq-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
-      "evidence": [
-        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:3a658f662259c3ee"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "cnpq-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
       "title": "Programa Capes/MES-Cuba - Projetos",
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
+      "updated_at": "2026-11-14T16:13:56Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
       "evidence": [
-        "evidence:capes-editais:detail:e5d349d83ccfd0bf"
+        "evidence:capes-editais:detail:8eed181c495e104f"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:e5d349d83ccfd0bf"
+        "evidence:capes-editais:detail:8eed181c495e104f"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:e5d349d83ccfd0bf"
+          "capes-editais:detail:8eed181c495e104f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
+      "updated_at": "2026-11-14T16:13:56Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -579,19 +579,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
+      "updated_at": "2026-11-14T16:13:56Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:ce5cc1557df5c3ac"
+        "evidence:funbio-chamadas:detail:a5920d7361a40a36"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:ce5cc1557df5c3ac"
+        "evidence:funbio-chamadas:detail:a5920d7361a40a36"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:ce5cc1557df5c3ac"
+          "funbio-chamadas:detail:a5920d7361a40a36"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -615,112 +615,6 @@
         "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-ae4c285a815b4fad",
-      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
-      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
-      "organization": "Embratur",
-      "type": "research_call",
-      "domains": [
-        "research",
-        "tourism"
-      ],
-      "source_domains": [
-        "communities",
-        "innovation",
-        "sustainability",
-        "territory",
-        "tourism"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
-      ],
-      "funding": {},
-      "deadline": "",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": false,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
-      "source_id": "embratur-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
-      "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
-      "evidence": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "evidence_ids": [
-        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "embratur-editais:success:200",
-          "embratur-editais:detail:66ad14bf9b3ecc7a"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "embratur-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-09-05T13:05:59Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        },
-        {
-          "at": "2026-10-06T16:22:56Z",
-          "event": "updated",
-          "before": {
-            "status": "OPEN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-10-07T17:05:10Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "research",
-        "tourism"
-      ],
-      "lifecycle_state": "ACTIVE",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -772,9 +666,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-13T17:25:36Z",
+      "updated_at": "2026-11-14T16:13:56Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-13T17:25:36Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -800,6 +694,112 @@
           "at": "2026-09-05T13:05:59Z",
           "event": "first_seen",
           "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "research",
+        "tourism"
+      ],
+      "lifecycle_state": "ACTIVE",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-ae4c285a815b4fad",
+      "canonical_key": "pdf:https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "title": "Edital de Chamamento Público nº 05/2026 — Feiras de multiprodutos",
+      "description": "AGÊNCIA BRASILEIRA DE PROMOÇÃO INTERNACIONAL DO TURISMO SCN Quadra 2 - Bloco G, - Bairro Asa Norte, Brasília/DF, CEP 70712-907 Telefone: 61 2023-8500 - http://www.embratur.com.br EDITAL Nº 05/2026 Processo nº 272100.001016/2026-59 Brasília, 30 de abril de 2026. EDITAL DE CHAMAMENTO PÚBLICO - 05/2026 Embratur - Agência Brasileira de Promoção Internacional do Turismo INSCRIÇÃO DE INTERESSADOS EM PARTICIPAR DAS FEIRAS DA AGENDA DE PROMOÇÃO COMERCIAL DA EMBRATUR - 2º SEMESTRE 2026 A Embratur - Agência Brasileira de Promoção Internacional do Turismo, por meio de seu Diretor-Presidente que, no uso de suas atribuições, conferidas pelo art. 5º, II da Lei nº 14.002, de 22 de maio de 2020, e pelo art. 20 da Resolução nº 4, de 28 de dezembro de 2023, aprovada pelo Conselho Deliberativo da organização, faz saber que irá realizar a seleção de interessados em participar, como coexpositores, dos estandes do Brasil nas feiras internacionais do segmento de multiprodutos que compõem a Agenda de Promoção Comercial da Agência no segundo semestre de 2026. 1. DO OBJETO 1.1. Seleção e inscrição de interessados em participar das feiras multiprodutos do segundo semestre de 2026 que compõem a Agenda de Promoção Comercial da Embratur. 1.2. A participação se dará em posto de trabalho a ser disponibilizado para cada interessado confirmado, no estande da Embratur. 2. DA ESTRATÉGIA DA EMBRATUR, NO SEGMENTO E NA FEIRA 2.1. Em maio de 2025, a Embratur lança o Plano Brasis – Plano Internacional de Marketing Turístico 2025-2027, formalmente instituído pela Portaria nº 11/2025 do Ministério do Turismo. O Plan",
+      "organization": "Embratur",
+      "type": "research_call",
+      "domains": [
+        "research",
+        "tourism"
+      ],
+      "source_domains": [
+        "communities",
+        "innovation",
+        "sustainability",
+        "territory",
+        "tourism"
+      ],
+      "territories": [
+        "Brasil"
+      ],
+      "eligibility": [
+        "PÚBLICO ALVO IDIOMA IFTM Top Resa 15 a 17/09/2026 Paris, França Trade Francês FIT América Latina26 a 29/09/2026 Buenos Aires, Argentina Trade e Público Final Espanhol (Latino- americano) TTG Travel Experience 14 a 16/10/2026 Rimini, Itália Trade Italiano FITPAR 16 a 18/10/2026Assunção, Paraguai Trade e Público"
+      ],
+      "funding": {},
+      "deadline": "",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": false,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "official_pdf_url": "https://embratur.com.br/arquivo/2026-05/Edital-de-Chamamento-Publico-05_2026.pdf",
+      "source_id": "embratur-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-14T16:13:56Z",
+      "first_seen_at": "2026-09-05T13:05:59Z",
+      "last_seen_at": "2026-11-14T16:13:56Z",
+      "evidence": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "evidence_ids": [
+        "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "embratur-editais:success:200",
+          "embratur-editais:detail:66ad14bf9b3ecc7a"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Official PDF was fetched directly and claims were extracted without republishing the complete document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "embratur-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-09-05T13:05:59Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        },
+        {
+          "at": "2026-10-06T16:22:56Z",
+          "event": "updated",
+          "before": {
+            "status": "OPEN"
+          },
+          "after": {
+            "status": "CANDIDATE"
+          }
+        },
+        {
+          "at": "2026-10-07T17:05:10Z",
+          "event": "updated",
+          "before": {
+            "status": "CANDIDATE"
+          },
+          "after": {
+            "status": "OPEN"
+          }
         }
       ],
       "lens_matches": [
