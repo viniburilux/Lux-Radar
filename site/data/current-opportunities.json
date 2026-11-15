@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-43614443847",
+  "release_id": "weekly-43736923215",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
-        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
+        "evidence:cnpq-chamadas:detail:8d49d8c616f3164d"
       ],
       "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:3a658f662259c3ee"
+        "evidence:cnpq-chamadas:detail:8d49d8c616f3164d"
       ],
       "provenance": {
         "observation_ids": [
           "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:3a658f662259c3ee"
+          "cnpq-chamadas:detail:8d49d8c616f3164d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -163,19 +163,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
-        "evidence:capes-editais:detail:4ca588a7b1939610"
+        "evidence:capes-editais:detail:e589cb15372c9e90"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:4ca588a7b1939610"
+        "evidence:capes-editais:detail:e589cb15372c9e90"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:4ca588a7b1939610"
+          "capes-editais:detail:e589cb15372c9e90"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -305,19 +305,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
-        "evidence:capes-editais:detail:8eed181c495e104f"
+        "evidence:capes-editais:detail:dee9053c95261b3f"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:8eed181c495e104f"
+        "evidence:capes-editais:detail:dee9053c95261b3f"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:8eed181c495e104f"
+          "capes-editais:detail:dee9053c95261b3f"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -447,9 +447,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -579,19 +579,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:a5920d7361a40a36"
+        "evidence:funbio-chamadas:detail:8d2e7d28a7ac38ba"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:a5920d7361a40a36"
+        "evidence:funbio-chamadas:detail:8d2e7d28a7ac38ba"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:a5920d7361a40a36"
+          "funbio-chamadas:detail:8d2e7d28a7ac38ba"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -666,9 +666,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -752,9 +752,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-14T16:13:56Z",
+      "updated_at": "2026-11-15T16:42:07Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-14T16:13:56Z",
+      "last_seen_at": "2026-11-15T16:42:07Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
