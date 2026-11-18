@@ -1,16 +1,16 @@
 {
-  "release_id": "weekly-44152336699",
+  "release_id": "weekly-44370302844",
   "demonstrations": [
     {
       "signal_id": "signal:composite:fire-territory-climate",
       "canonical_key": "composite:fire-territory-climate",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Atividade de fogo recente + território + clima",
-      "summary": "Foram observados 1156 focos no município Almeirim (PA); o sistema associou contexto meteorológico por proximidade de 2.09 km, sem afirmar causalidade.",
+      "summary": "Foram observados 1360 focos no município Prainha (PA); o sistema associou contexto meteorológico por proximidade de 136.05 km, sem afirmar causalidade.",
       "source_id": "inpe-queimadas+ibge-localidades-api+open-meteo",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-11-17T18:51:42Z",
-      "occurred_at": "2026-11-17T00:00:00Z",
+      "observed_at": "2026-11-18T18:29:53Z",
+      "occurred_at": "2026-11-18T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -28,21 +28,21 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 1156,
+        "fire_count": 1360,
         "biome": "Amazônia",
-        "territory_id": "1500503",
+        "territory_id": "1506005",
         "climate_context": {
-          "distance_km": 2.09,
-          "observed_at": "2026-11-17T00:00",
+          "distance_km": 136.05,
+          "observed_at": "2026-11-18T00:00",
           "location": {
-            "latitude": -1.0193322,
-            "longitude": -53.503937
+            "latitude": -3.3391917,
+            "longitude": -54.27646
           },
           "values": {
-            "temperature_2m": 28.1,
-            "precipitation": 0.2,
-            "relative_humidity_2m": 55,
-            "wind_speed_10m": 12.7
+            "temperature_2m": 26.2,
+            "precipitation": 0.0,
+            "relative_humidity_2m": 98,
+            "wind_speed_10m": 9.4
           },
           "units": {
             "time": "iso8601",
@@ -55,12 +55,12 @@
         }
       },
       "location": {
-        "latitude": -1.0368,
-        "longitude": -53.4969
+        "latitude": -2.248,
+        "longitude": -53.7224
       },
       "territory": {
-        "municipality_id": "1500503",
-        "municipality": "Almeirim",
+        "municipality_id": "1506005",
+        "municipality": "Prainha",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -73,12 +73,12 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:40727e739888e5c0",
+        "evidence:inpe-queimadas:environment:e66cb6534469cf8d",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3",
-        "evidence:open-meteo:environment:d2ae0407a7be86eb"
+        "evidence:open-meteo:environment:054ffaf2c2308176"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261117.csv",
+        "inpe-queimadas:success:focos_diario_br_20261118.csv",
         "ibge-localidades-api:success:200",
         "open-meteo:success:4locations"
       ],
@@ -95,11 +95,11 @@
       "canonical_key": "composite:fire-concentration-territory",
       "signal_type": "COMPOSITE_ENVIRONMENTAL",
       "title": "Concentração de fogo por território",
-      "summary": "O agrupamento do arquivo diário encontrou 1156 focos no município Almeirim (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
+      "summary": "O agrupamento do arquivo diário encontrou 1360 focos no município Prainha (PA), preservando bioma e intensidade FRP observados. O sistema chama isso de CONCENTRATION, não de anomalia.",
       "source_id": "inpe-queimadas+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-11-17T18:51:42Z",
-      "occurred_at": "2026-11-17T00:00:00Z",
+      "observed_at": "2026-11-18T18:29:53Z",
+      "occurred_at": "2026-11-18T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
       "domains": [
@@ -117,19 +117,19 @@
         }
       ],
       "observed_fields": {
-        "fire_count": 1156,
-        "territory_id": "1500503",
+        "fire_count": 1360,
+        "territory_id": "1506005",
         "biome": "Amazônia",
-        "frp_total": 63360.7,
-        "latest_occurred_at": "2026-11-17T14:40:00Z"
+        "frp_total": 54200.1,
+        "latest_occurred_at": "2026-11-18T13:30:00Z"
       },
       "location": {
-        "latitude": -1.0368,
-        "longitude": -53.4969
+        "latitude": -2.248,
+        "longitude": -53.7224
       },
       "territory": {
-        "municipality_id": "1500503",
-        "municipality": "Almeirim",
+        "municipality_id": "1506005",
+        "municipality": "Prainha",
         "state": "PA",
         "state_name": "Pará",
         "region": "N",
@@ -142,11 +142,11 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:inpe-queimadas:environment:40727e739888e5c0",
+        "evidence:inpe-queimadas:environment:e66cb6534469cf8d",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [
-        "inpe-queimadas:success:focos_diario_br_20261117.csv",
+        "inpe-queimadas:success:focos_diario_br_20261118.csv",
         "ibge-localidades-api:success:200"
       ],
       "limitations": [
@@ -165,7 +165,7 @@
       "summary": "O snapshot GBIF contém 1 ocorrência(s) associada(s) ao município Alto Caparaó; taxonomia, data, licença e proveniência permanecem nos sinais individuais.",
       "source_id": "gbif-occurrences+ibge-localidades-api",
       "source_url": "https://github.com/viniburilux/Lux-Radar",
-      "observed_at": "2026-11-17T18:51:42Z",
+      "observed_at": "2026-11-18T18:29:53Z",
       "occurred_at": "2026-01-31T00:00:00Z",
       "status": "OBSERVED",
       "change_type": "UNCHANGED",
@@ -209,7 +209,7 @@
       },
       "related_signals": [],
       "evidence_ids": [
-        "evidence:gbif-occurrences:environment:778a4cad424178a2",
+        "evidence:gbif-occurrences:environment:8be0d08650f0855e",
         "evidence:ibge-localidades-api:environment:c0a18fd74563f5e3"
       ],
       "observation_ids": [

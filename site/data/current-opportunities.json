@@ -1,29 +1,37 @@
 {
-  "release_id": "weekly-44152336699",
+  "release_id": "weekly-44370302844",
   "opportunities": [
     {
-      "opportunity_id": "opportunity-eff97b8786bdf420",
-      "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "title": "Programa CAPES/PURDUE para projetos conjuntos de pesquisa",
-      "description": "O programa CAPES/Universidade de Purdue para projetos conjuntos de pesquisa tem por objeto a seleção de projetos conjunto de pesquisa, desenvolvidos por grupos brasileiros e estadunidenses vinculados a Instituições de Ensino Superior ou de Pesquisa, com o intuito de apoiar e fomentar o intercâmbio científico entre grupos de pesquisa e desenvolvimento brasileiros e da Universidade de Purdue.",
-      "organization": "CAPES",
+      "opportunity_id": "opportunity-b49d91da43e099ef",
+      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
+      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
+      "organization": "CNPq",
       "type": "grant",
       "domains": [
+        "culture",
         "education",
         "financing",
+        "innovation",
         "research"
       ],
       "source_domains": [
-        "education",
         "innovation",
-        "research"
+        "research",
+        "sustainability"
       ],
       "territories": [
         "Brasil"
       ],
-      "eligibility": [],
-      "funding": {},
-      "deadline": "2026-11-30T23:59:59Z",
+      "eligibility": [
+        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
+      ],
+      "funding": {
+        "amount": 4925000.0,
+        "currency": "BRL",
+        "raw": "R$ 4.925.000,00"
+      },
+      "deadline": "2026-12-15T23:59:59Z",
       "status": "OPEN",
       "verification": {
         "state": "OPEN",
@@ -32,31 +40,31 @@
           "title": true,
           "organization": true,
           "deadline": true,
-          "eligibility": false,
+          "eligibility": true,
           "official_url": true
         }
       },
-      "official_url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/estados-unidos/programa-capes-purdue-para-projetos-conjuntos-de-pesquisa",
-      "official_pdf_url": null,
-      "source_id": "capes-editais",
+      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
+      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
+      "source_id": "cnpq-chamadas",
       "source_role": "primary",
       "source_roles": [
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
-      "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
+      "first_seen_at": "2026-08-26T03:47:16Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
-        "evidence:capes-editais:detail:13764d1d153b90b2"
+        "evidence:cnpq-chamadas:detail:686d96cad2975e29"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:13764d1d153b90b2"
+        "evidence:cnpq-chamadas:detail:686d96cad2975e29"
       ],
       "provenance": {
         "observation_ids": [
-          "capes-editais:success:200",
-          "capes-editais:detail:13764d1d153b90b2"
+          "cnpq-chamadas:success:200",
+          "cnpq-chamadas:detail:686d96cad2975e29"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -65,54 +73,19 @@
       },
       "confidence": 0.55,
       "sources": [
-        "capes-editais"
+        "cnpq-chamadas"
       ],
       "history": [
         {
-          "at": "2026-08-26T00:12:06Z",
+          "at": "2026-08-26T03:47:16Z",
           "event": "first_seen",
-          "status": "UNKNOWN"
+          "status": "VERIFIED"
         },
         {
-          "at": "2026-08-26T01:23:39Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:24:29Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:28:04Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:29:47Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:30:54Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-08-26T01:32:21Z",
+          "at": "2026-08-26T05:01:48Z",
           "event": "updated",
           "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "CANDIDATE"
-          }
-        },
-        {
-          "at": "2026-08-26T17:48:11Z",
-          "event": "updated",
-          "before": {
-            "status": "CANDIDATE"
+            "status": "VERIFIED"
           },
           "after": {
             "status": "OPEN"
@@ -135,8 +108,10 @@
         }
       ],
       "lens_matches": [
+        "culture",
         "education",
         "financing",
+        "innovation",
         "research"
       ],
       "lifecycle_state": "CLOSING_SOON",
@@ -188,9 +163,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -270,125 +245,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-b49d91da43e099ef",
-      "canonical_key": "pdf:https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "title": "Chamada Pública MCTI/CNPq/MIR/MMulheres/MPI Nº 20/2026 Atlânticas - Programa Beatriz Nascimento de Mulheres na Ciência",
-      "description": "Trata-se da segunda edição da Chamada, que tem por objetivo selecionar mulheres negras (pretas e pardas), mulheres quilombolas, mulheres indígenas e mulheres ciganas para a realização de parte de suas pesquisas de doutorado ou de projetos de pós-doutorado em instituições no exterior, mediante a concessão de bolsas nas modalidades Desenvolvimento Tecnológico e Inovação no Exterior Júnior (DEJ), Desenvolvimento Tecnológico e Inovação no Exterior Sênior (DES) e Pós-Doutorado no Exterior (PDE)",
-      "organization": "CNPq",
-      "type": "grant",
-      "domains": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "source_domains": [
-        "innovation",
-        "research",
-        "sustainability"
-      ],
-      "territories": [
-        "Brasil"
-      ],
-      "eligibility": [
-        "público alvo Cidadãos Empresas Órgãos e Entidades Públicas Demais segmentos (ONGs, organizações sociais, etc) Servidor Público Temas em Destaque Orçamento Nacional Redes de Atendimento da Administração Pública Federal Proteção de Dados Pessoais Serviços para Imigrantes Política e Orçamento Educacionais Educação"
-      ],
-      "funding": {
-        "amount": 4925000.0,
-        "currency": "BRL",
-        "raw": "R$ 4.925.000,00"
-      },
-      "deadline": "2026-12-15T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada-publica-cnpq-N-20-2026",
-      "official_pdf_url": "https://www.gov.br/cnpq/pt-br/chamadas/todas-as-chamadas/chamadas-2026/chamada-no-20-2026/chamada_publica_20_2026_atlanticas_2714776.pdf",
-      "source_id": "cnpq-chamadas",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
-      "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
-      "evidence": [
-        "evidence:cnpq-chamadas:detail:09ace180a73a0e51"
-      ],
-      "evidence_ids": [
-        "evidence:cnpq-chamadas:detail:09ace180a73a0e51"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "cnpq-chamadas:success:200",
-          "cnpq-chamadas:detail:09ace180a73a0e51"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "cnpq-chamadas"
-      ],
-      "history": [
-        {
-          "at": "2026-08-26T03:47:16Z",
-          "event": "first_seen",
-          "status": "VERIFIED"
-        },
-        {
-          "at": "2026-08-26T05:01:48Z",
-          "event": "updated",
-          "before": {
-            "status": "VERIFIED"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        },
-        {
-          "at": "2026-09-08T13:59:18Z",
-          "event": "not_seen_in_release",
-          "status": "UNKNOWN"
-        },
-        {
-          "at": "2026-09-09T14:01:36Z",
-          "event": "updated",
-          "before": {
-            "status": "UNKNOWN"
-          },
-          "after": {
-            "status": "OPEN"
-          }
-        }
-      ],
-      "lens_matches": [
-        "culture",
-        "education",
-        "financing",
-        "innovation",
-        "research"
-      ],
-      "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-38ffcc5c9d88ba5c",
       "canonical_key": "url:https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/cuba/mes-projetos",
       "title": "Programa Capes/MES-Cuba - Projetos",
@@ -429,19 +285,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
-        "evidence:capes-editais:detail:95469f2a4dd3099c"
+        "evidence:capes-editais:detail:8e8afc8cbe7ccaaf"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:95469f2a4dd3099c"
+        "evidence:capes-editais:detail:8e8afc8cbe7ccaaf"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:95469f2a4dd3099c"
+          "capes-editais:detail:8e8afc8cbe7ccaaf"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -529,6 +385,95 @@
       "change_type": "UNCHANGED"
     },
     {
+      "opportunity_id": "opportunity-127e91006c22ef54",
+      "canonical_key": "url:https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil",
+      "title": "Chamada emergencial vai apoiar brigadas comunitárias e voluntárias na linha de frente dos incêndios florestais no Brasil",
+      "description": "Serão apoiadas até 14 brigadas, oito delas na Amazônia, com R$ 25 mil cada . As inscrições acontecem em dois períodos: de 16 a 20 de novembro e de 23 a 26 de novembro .",
+      "organization": "Fundo Casa Socioambiental",
+      "type": "grant",
+      "domains": [
+        "financing"
+      ],
+      "source_domains": [
+        "climate",
+        "communities",
+        "conservation",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil",
+        "Amazônia"
+      ],
+      "eligibility": [
+        "podem participar, por meio de uma organização parceira"
+      ],
+      "funding": {
+        "amount": 25.0,
+        "currency": "BRL",
+        "raw": "R$ 25"
+      },
+      "deadline": "2027-03-26T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil/",
+      "official_pdf_url": null,
+      "source_id": "fundo-casa-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-18T18:29:53Z",
+      "first_seen_at": "2026-11-16T19:55:47Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
+      "evidence": [
+        "evidence:fundo-casa-editais:detail:3745dd9c08be3398"
+      ],
+      "evidence_ids": [
+        "evidence:fundo-casa-editais:detail:3745dd9c08be3398"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "fundo-casa-editais:success:200",
+          "fundo-casa-editais:detail:3745dd9c08be3398"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "fundo-casa-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-11-16T19:55:47Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "financing"
+      ],
+      "lifecycle_state": "UPCOMING",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
       "opportunity_id": "opportunity-60103cab02314564",
       "canonical_key": "url:https://chamadas.funbio.org.br/articulacao-institucional",
       "title": "Chamada de Projetos 11/2026 - Articulação Institucional",
@@ -579,19 +524,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:7810d87adb77fd9e"
+        "evidence:funbio-chamadas:detail:77e64e89a112678d"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:7810d87adb77fd9e"
+        "evidence:funbio-chamadas:detail:77e64e89a112678d"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:7810d87adb77fd9e"
+          "funbio-chamadas:detail:77e64e89a112678d"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -615,95 +560,6 @@
         "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
-      "opportunity_id": "opportunity-127e91006c22ef54",
-      "canonical_key": "url:https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil",
-      "title": "Chamada emergencial vai apoiar brigadas comunitárias e voluntárias na linha de frente dos incêndios florestais no Brasil",
-      "description": "Serão apoiadas até 14 brigadas, oito delas na Amazônia, com R$ 25 mil cada . As inscrições acontecem em dois períodos: de 16 a 20 de novembro e de 23 a 26 de novembro .",
-      "organization": "Fundo Casa Socioambiental",
-      "type": "grant",
-      "domains": [
-        "financing"
-      ],
-      "source_domains": [
-        "climate",
-        "communities",
-        "conservation",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil",
-        "Amazônia"
-      ],
-      "eligibility": [
-        "podem participar, por meio de uma organização parceira"
-      ],
-      "funding": {
-        "amount": 25.0,
-        "currency": "BRL",
-        "raw": "R$ 25"
-      },
-      "deadline": "2027-03-26T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil/",
-      "official_pdf_url": null,
-      "source_id": "fundo-casa-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
-      "first_seen_at": "2026-11-16T19:55:47Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
-      "evidence": [
-        "evidence:fundo-casa-editais:detail:f98f3782a8920ca1"
-      ],
-      "evidence_ids": [
-        "evidence:fundo-casa-editais:detail:f98f3782a8920ca1"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "fundo-casa-editais:success:200",
-          "fundo-casa-editais:detail:f98f3782a8920ca1"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "fundo-casa-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-11-16T19:55:47Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "financing"
-      ],
-      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -755,9 +611,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -861,9 +717,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-17T18:51:42Z",
+      "updated_at": "2026-11-18T18:29:53Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-17T18:51:42Z",
+      "last_seen_at": "2026-11-18T18:29:53Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
