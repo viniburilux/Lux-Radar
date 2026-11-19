@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-44370302844",
+  "release_id": "weekly-44590889133",
   "opportunities": [
     {
       "opportunity_id": "opportunity-b49d91da43e099ef",
@@ -52,9 +52,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-08-26T03:47:16Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
         "evidence:cnpq-chamadas:detail:686d96cad2975e29"
       ],
@@ -163,9 +163,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-08-26T03:39:09Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
         "evidence:capes-editais:detail:8d46773935fe64ac"
       ],
@@ -238,7 +238,7 @@
         "research",
         "territory"
       ],
-      "lifecycle_state": "UPCOMING",
+      "lifecycle_state": "CLOSING_SOON",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -285,19 +285,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-08-26T00:12:06Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
-        "evidence:capes-editais:detail:8e8afc8cbe7ccaaf"
+        "evidence:capes-editais:detail:c1afd7c8b4cc0901"
       ],
       "evidence_ids": [
-        "evidence:capes-editais:detail:8e8afc8cbe7ccaaf"
+        "evidence:capes-editais:detail:c1afd7c8b4cc0901"
       ],
       "provenance": {
         "observation_ids": [
           "capes-editais:success:200",
-          "capes-editais:detail:8e8afc8cbe7ccaaf"
+          "capes-editais:detail:c1afd7c8b4cc0901"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -385,95 +385,6 @@
       "change_type": "UNCHANGED"
     },
     {
-      "opportunity_id": "opportunity-127e91006c22ef54",
-      "canonical_key": "url:https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil",
-      "title": "Chamada emergencial vai apoiar brigadas comunitárias e voluntárias na linha de frente dos incêndios florestais no Brasil",
-      "description": "Serão apoiadas até 14 brigadas, oito delas na Amazônia, com R$ 25 mil cada . As inscrições acontecem em dois períodos: de 16 a 20 de novembro e de 23 a 26 de novembro .",
-      "organization": "Fundo Casa Socioambiental",
-      "type": "grant",
-      "domains": [
-        "financing"
-      ],
-      "source_domains": [
-        "climate",
-        "communities",
-        "conservation",
-        "sustainability",
-        "territory"
-      ],
-      "territories": [
-        "Brasil",
-        "Amazônia"
-      ],
-      "eligibility": [
-        "podem participar, por meio de uma organização parceira"
-      ],
-      "funding": {
-        "amount": 25.0,
-        "currency": "BRL",
-        "raw": "R$ 25"
-      },
-      "deadline": "2027-03-26T23:59:59Z",
-      "status": "OPEN",
-      "verification": {
-        "state": "OPEN",
-        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
-        "critical_fields": {
-          "title": true,
-          "organization": true,
-          "deadline": true,
-          "eligibility": true,
-          "official_url": true
-        }
-      },
-      "official_url": "https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil/",
-      "official_pdf_url": null,
-      "source_id": "fundo-casa-editais",
-      "source_role": "primary",
-      "source_roles": [
-        "primary"
-      ],
-      "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
-      "first_seen_at": "2026-11-16T19:55:47Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
-      "evidence": [
-        "evidence:fundo-casa-editais:detail:3745dd9c08be3398"
-      ],
-      "evidence_ids": [
-        "evidence:fundo-casa-editais:detail:3745dd9c08be3398"
-      ],
-      "provenance": {
-        "observation_ids": [
-          "fundo-casa-editais:success:200",
-          "fundo-casa-editais:detail:3745dd9c08be3398"
-        ],
-        "method": "detail follow-up and claim-preserving extraction",
-        "limitations": [
-          "Detail extraction is claim-preserving and does not publish the complete third-party document."
-        ]
-      },
-      "confidence": 0.55,
-      "sources": [
-        "fundo-casa-editais"
-      ],
-      "history": [
-        {
-          "at": "2026-11-16T19:55:47Z",
-          "event": "first_seen",
-          "status": "OPEN"
-        }
-      ],
-      "lens_matches": [
-        "financing"
-      ],
-      "lifecycle_state": "UPCOMING",
-      "experience_type": "OPPORTUNITY",
-      "current_view": true,
-      "reason_code": "current_opportunity",
-      "change_type": "UNCHANGED"
-    },
-    {
       "opportunity_id": "opportunity-60103cab02314564",
       "canonical_key": "url:https://chamadas.funbio.org.br/articulacao-institucional",
       "title": "Chamada de Projetos 11/2026 - Articulação Institucional",
@@ -524,19 +435,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:77e64e89a112678d"
+        "evidence:funbio-chamadas:detail:774a255366d090e5"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:77e64e89a112678d"
+        "evidence:funbio-chamadas:detail:774a255366d090e5"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:77e64e89a112678d"
+          "funbio-chamadas:detail:774a255366d090e5"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -560,6 +471,95 @@
         "sustainability"
       ],
       "lifecycle_state": "CLOSING_SOON",
+      "experience_type": "OPPORTUNITY",
+      "current_view": true,
+      "reason_code": "current_opportunity",
+      "change_type": "UNCHANGED"
+    },
+    {
+      "opportunity_id": "opportunity-127e91006c22ef54",
+      "canonical_key": "url:https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil",
+      "title": "Chamada emergencial vai apoiar brigadas comunitárias e voluntárias na linha de frente dos incêndios florestais no Brasil",
+      "description": "Serão apoiadas até 14 brigadas, oito delas na Amazônia, com R$ 25 mil cada . As inscrições acontecem em dois períodos: de 16 a 20 de novembro e de 23 a 26 de novembro .",
+      "organization": "Fundo Casa Socioambiental",
+      "type": "grant",
+      "domains": [
+        "financing"
+      ],
+      "source_domains": [
+        "climate",
+        "communities",
+        "conservation",
+        "sustainability",
+        "territory"
+      ],
+      "territories": [
+        "Brasil",
+        "Amazônia"
+      ],
+      "eligibility": [
+        "podem participar, por meio de uma organização parceira"
+      ],
+      "funding": {
+        "amount": 25.0,
+        "currency": "BRL",
+        "raw": "R$ 25"
+      },
+      "deadline": "2027-03-26T23:59:59Z",
+      "status": "OPEN",
+      "verification": {
+        "state": "OPEN",
+        "reason": "Official evidence establishes that the opportunity is temporally open; secondary enrichment fields may remain unknown.",
+        "critical_fields": {
+          "title": true,
+          "organization": true,
+          "deadline": true,
+          "eligibility": true,
+          "official_url": true
+        }
+      },
+      "official_url": "https://casa.org.br/chamada-emergencial-vai-apoiar-brigadas-comunitarias-e-voluntarias-na-linha-de-frente-dos-incendios-florestais-no-brasil/",
+      "official_pdf_url": null,
+      "source_id": "fundo-casa-editais",
+      "source_role": "primary",
+      "source_roles": [
+        "primary"
+      ],
+      "published_at": null,
+      "updated_at": "2026-11-19T18:44:09Z",
+      "first_seen_at": "2026-11-16T19:55:47Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
+      "evidence": [
+        "evidence:fundo-casa-editais:detail:cc1ce0ae8bfdd71d"
+      ],
+      "evidence_ids": [
+        "evidence:fundo-casa-editais:detail:cc1ce0ae8bfdd71d"
+      ],
+      "provenance": {
+        "observation_ids": [
+          "fundo-casa-editais:success:200",
+          "fundo-casa-editais:detail:cc1ce0ae8bfdd71d"
+        ],
+        "method": "detail follow-up and claim-preserving extraction",
+        "limitations": [
+          "Detail extraction is claim-preserving and does not publish the complete third-party document."
+        ]
+      },
+      "confidence": 0.55,
+      "sources": [
+        "fundo-casa-editais"
+      ],
+      "history": [
+        {
+          "at": "2026-11-16T19:55:47Z",
+          "event": "first_seen",
+          "status": "OPEN"
+        }
+      ],
+      "lens_matches": [
+        "financing"
+      ],
+      "lifecycle_state": "UPCOMING",
       "experience_type": "OPPORTUNITY",
       "current_view": true,
       "reason_code": "current_opportunity",
@@ -611,9 +611,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -717,9 +717,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-18T18:29:53Z",
+      "updated_at": "2026-11-19T18:44:09Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-18T18:29:53Z",
+      "last_seen_at": "2026-11-19T18:44:09Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
