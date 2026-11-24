@@ -1,5 +1,5 @@
 {
-  "release_id": "weekly-45273471465",
+  "release_id": "weekly-45480658058",
   "opportunities": [
     {
       "opportunity_id": "opportunity-60103cab02314564",
@@ -52,19 +52,19 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-23T21:49:11Z",
+      "updated_at": "2026-11-24T20:25:42Z",
       "first_seen_at": "2026-10-21T14:45:23Z",
-      "last_seen_at": "2026-11-23T21:49:11Z",
+      "last_seen_at": "2026-11-24T20:25:42Z",
       "evidence": [
-        "evidence:funbio-chamadas:detail:21a3d059b623c418"
+        "evidence:funbio-chamadas:detail:7f28d9f713849b60"
       ],
       "evidence_ids": [
-        "evidence:funbio-chamadas:detail:21a3d059b623c418"
+        "evidence:funbio-chamadas:detail:7f28d9f713849b60"
       ],
       "provenance": {
         "observation_ids": [
           "funbio-chamadas:success:200",
-          "funbio-chamadas:detail:21a3d059b623c418"
+          "funbio-chamadas:detail:7f28d9f713849b60"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
@@ -139,9 +139,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-23T21:49:11Z",
+      "updated_at": "2026-11-24T20:25:42Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-23T21:49:11Z",
+      "last_seen_at": "2026-11-24T20:25:42Z",
       "evidence": [
         "evidence:embratur-editais:detail:66ad14bf9b3ecc7a"
       ],
@@ -245,9 +245,9 @@
         "primary"
       ],
       "published_at": null,
-      "updated_at": "2026-11-23T21:49:11Z",
+      "updated_at": "2026-11-24T20:25:42Z",
       "first_seen_at": "2026-09-05T13:05:59Z",
-      "last_seen_at": "2026-11-23T21:49:11Z",
+      "last_seen_at": "2026-11-24T20:25:42Z",
       "evidence": [
         "evidence:embratur-editais:detail:8e7ba2570bafbba6"
       ],
@@ -334,19 +334,19 @@
         "curator"
       ],
       "published_at": null,
-      "updated_at": "2026-11-23T21:49:11Z",
+      "updated_at": "2026-11-24T20:25:42Z",
       "first_seen_at": "2026-10-28T16:21:11Z",
-      "last_seen_at": "2026-11-23T21:49:11Z",
+      "last_seen_at": "2026-11-24T20:25:42Z",
       "evidence": [
-        "evidence:capitaai-meio-ambiente:detail:2802512211a945eb"
+        "evidence:capitaai-meio-ambiente:detail:9001d1cd365af6ef"
       ],
       "evidence_ids": [
-        "evidence:capitaai-meio-ambiente:detail:2802512211a945eb"
+        "evidence:capitaai-meio-ambiente:detail:9001d1cd365af6ef"
       ],
       "provenance": {
         "observation_ids": [
           "capitaai-meio-ambiente:success:200",
-          "capitaai-meio-ambiente:detail:2802512211a945eb"
+          "capitaai-meio-ambiente:detail:9001d1cd365af6ef"
         ],
         "method": "detail follow-up and claim-preserving extraction",
         "limitations": [
